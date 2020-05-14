@@ -1,0 +1,81 @@
+{
+    "parts": [
+        {
+            "x": -1,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "minecraft:glass_pane@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "refinedstorage:machine_casing@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "tconstruct:dried_clay_slab@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "tconstruct:dried_clay@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 1,
+                "modularmachinery:blockenergyinputhatch@0"
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "tconstruct:dried_clay@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 0,
+                "modularmachinery:blockinputbus@0"
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 0,
+                "minecraft:hopper@4"
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "tconstruct:dried_clay_slab@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 0,
+                "modularmachinery:blockoutputbus@0"
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 0,
+                "uppers:upper@4"
+        }
+    ]}

@@ -1,0 +1,29 @@
+{
+    "biomes":[
+    ],
+    "blocks":[
+    ],
+    "items": {
+    },
+    "dimensions":[
+        {
+            "dimId": 142,
+            "weather": false,
+            "haze": false,
+            "aurora": false,
+            "seaLevel": 0
+        }
+    ],
+    "acoustics": {
+    },
+    "primitiveAcoustics": {
+    },
+    "footsteps":{
+    },
+    "forgeMappings":[
+    ],
+    "variators": {
+    },
+    "entities": {
+    }
+}

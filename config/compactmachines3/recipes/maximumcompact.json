@@ -1,0 +1,80 @@
+{
+  "name": "compactmachines3:maximumcompact",
+
+  "target-item": "compactmachines3:machine",
+  "target-meta": 5,
+  "target-count": 1,
+
+  "duration": 2000,
+  "symmetrical": true,
+
+  "catalyst": "minecraft:ender_pearl",
+  
+  "input-types": {
+    "a": {
+      "id": "compactmachines3:wallbreakable",
+      "meta": 0
+    },
+    "b": {
+      "id": "compactmachines3:machine",
+      "meta": 4
+    },
+    "c": {
+      "id": "modularmachinery:blockcasing",
+      "meta": 0
+    }
+  },
+  "shape": [
+    [
+      [
+        "a",
+        "a",
+        "a"
+      ],
+      [
+        "a",
+        "b:B",
+        "a"
+      ],
+      [
+        "a",
+        "a",
+        "a"
+      ]
+    ],
+    [
+      [
+        "a",
+        "b:D",
+        "a"
+      ],
+      [
+        "b:F",
+        "c:A",
+        "b:A"
+      ],
+      [
+        "a",
+        "b:C",
+        "a"
+      ]
+    ],
+    [
+      [
+        "a",
+        "a",
+        "a"
+      ],
+      [
+        "a",
+        "b:E",
+        "a"
+      ],
+      [
+        "a",
+        "a",
+        "a"
+      ]
+    ]
+  ]
+}

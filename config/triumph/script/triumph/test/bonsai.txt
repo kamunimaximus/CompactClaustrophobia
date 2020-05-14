@@ -1,0 +1,31 @@
+//Set icon item
+setIcon(<arcadialbonsaitrees:bonsai_oak_sapling>)
+
+//Set title String
+setTitle("Home grown wood")
+
+//Set description String
+setDescription("These drop rarely when tilling dirt (right click while sneaking)")
+
+//Add a parent advancement. The syntax is "modid:folder/path/to/the/advancement/then/filename"
+addParent("triumph:test/farmland")
+
+//setRequiresParent(true)
+
+//Set the position
+setPos(-194,-40)
+
+//Hide the connection lines, so I can have a pretty shape
+//hideLines()
+
+//setRequirements("any")
+
+//Adds criteria
+criteria0 = addCriteria("hasWood", "minecraft:inventory_changed")
+criteria0.addItem(<arcadialbonsaitrees:bonsai_oak_sapling>)
+
+criteria1 = addCriteria("hasWood", "minecraft:inventory_changed")
+criteria1.addItem(<arcadialbonsaitrees:bonsai_spruce_sapling>)
+
+criteria2 = addCriteria("hasWood", "minecraft:inventory_changed")
+criteria2.addItem(<arcadialbonsaitrees:bonsai_birch_sapling>)

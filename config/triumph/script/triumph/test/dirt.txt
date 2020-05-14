@@ -1,0 +1,32 @@
+
+//Set icon item
+setIcon(<minecraft:dirt>)
+
+//Set title String
+setTitle("Dirty hands")
+
+//Set description String
+setDescription("Hit the walls to look for leftovers")
+
+//Add a parent advancement. The syntax is "modid:folder/path/to/the/advancement/then/filename"
+addParent("triumph:test/root")
+//setRequiresParent(true)
+
+setFrameType("Goal")
+
+setUncompletedIconColor(8947848)
+setCompletedIconColor(6570404)
+setUncompletedTitleColor(8947848)
+setCompletedTitleColor(6570404)
+
+//Set the position
+setPos(-240,-73)
+
+//Hide the connection lines, so I can have a pretty shape
+//hideLines()
+
+//Adds criteria named "hasFlint" with the trigger type "minecraft:inventory_changed". This function returns the criteria as an object
+criteria = addCriteria("hasPlank", "minecraft:inventory_changed")
+
+//Adds the required item for the criteria. This is the item that needs to be in the player inventory.
+criteria.addItem(<minecraft:dirt>)

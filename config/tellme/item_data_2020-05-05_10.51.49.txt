@@ -1,0 +1,11 @@
+Spawn Chicken (minecraft:spawn_egg - 383:0) has NBT data
+
+{EntityTag:{id:"minecraft:chicken"}}
+
+TAG_Compound (10) ('')
+{
+    TAG_Compound (10) ('EntityTag')
+    {
+        TAG_String (8) ('id'): "minecraft:chicken"
+    }
+}

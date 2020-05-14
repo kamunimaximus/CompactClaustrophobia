@@ -1,0 +1,472 @@
+{
+	"block_pools" :
+	[
+		{
+			"name": "Pick_0",
+			"type":
+			{
+				"type": "block",
+				"name": "compactmachines3:wall"
+			},
+			"clicktype": "left",
+			"properties":
+			[
+				{
+					"type": "add_hunger",
+					"exhaustion": "true",
+					"amount": "0.1f"
+				},
+				{
+					"type": "require_left"
+				},
+				{
+					"type": "drop_items"
+				},
+				{
+					"type": "damage_item",
+					"amount": "1"
+				},
+				{
+					"type": "player_cooldown",
+					"time": "15"
+				},
+				{
+					"type": "swing_hand"
+				},
+				{
+					"type": "play_sound",
+					"name": "block.stone.hit"
+				},
+				{
+					"type": "require_item_list",
+					"items": [
+						{"name": "minecraft:wooden_pickaxe"}
+					]
+				}
+			],
+			"drops":
+			[
+				{
+					"name": "exnihilocreatio:item_pebble",
+					"meta": 3,
+					"weight": 5
+				},
+				{
+					"name": "exnihilocreatio:item_pebble",
+					"meta": 2,
+					"weight": 10
+				},
+				{
+					"name": "exnihilocreatio:item_pebble",
+					"meta": 1,
+					"weight": 20
+				},
+				{
+					"name": "exnihilocreatio:item_pebble",
+					"weight": 80
+				}
+			],
+			"messages":
+			[
+				{
+					"id": "require_tool",
+					"message": "Use a pickaxe"
+				}
+			]
+		},
+		{
+			"name": "Pick_0_1",
+			"type":
+			{
+				"type": "block",
+				"name": "compactmachines3:wall"
+			},
+			"clicktype": "left",
+			"properties":
+			[
+				{
+					"type": "add_hunger",
+					"exhaustion": "true",
+					"amount": "0.1f"
+				},
+				{
+					"type": "require_left"
+				},
+				{
+					"type": "drop_items"
+				},
+				{
+					"type": "damage_item",
+					"amount": "1"
+				},
+				{
+					"type": "player_cooldown",
+					"time": "1"
+				},
+				{
+					"type": "swing_hand"
+				},
+				{
+					"type": "play_sound",
+					"name": "block.stone.hit"
+				},
+				{
+					"type": "require_item_list",
+					"items": [
+						{"name": "minecraft:golden_pickaxe"}
+					]
+				}
+			],
+			"drops":
+			[
+				{
+					"name": "exnihilocreatio:item_pebble",
+					"meta": 3,
+					"weight": 5
+				},
+				{
+					"name": "exnihilocreatio:item_pebble",
+					"meta": 2,
+					"weight": 10
+				},
+				{
+					"name": "exnihilocreatio:item_pebble",
+					"meta": 1,
+					"weight": 20
+				},
+				{
+					"name": "exnihilocreatio:item_pebble",
+					"weight": 80
+				}
+			],
+			"messages":
+			[
+				{
+					"id": "require_tool",
+					"message": "Use a pickaxe"
+				}
+			]
+		},
+		{
+			"name": "Pick_1",
+			"type":
+			{
+				"type": "block",
+				"name": "compactmachines3:wall"
+			},
+			"clicktype": "left",
+			"properties":
+			[
+				{
+					"type": "add_hunger",
+					"exhaustion": "true",
+					"amount": "0.1f"
+				},
+				{
+					"type": "require_left"
+				},
+				{
+					"type": "drop_items"
+				},
+				{
+					"type": "damage_item",
+					"amount": "1"
+				},
+				{
+					"type": "player_cooldown",
+					"time": "12"
+				},
+				{
+					"type": "swing_hand"
+				},
+				{
+					"type": "play_sound",
+					"name": "block.stone.hit"
+				},
+				{
+					"type": "require_item_list",
+					"items": [
+						{"name": "minecraft:stone_pickaxe"}
+					]
+				}
+			],
+			"drops":
+			[
+				{
+					"name": "immersiveengineering:metal",
+					"meta": "18",
+					"weight": 50
+				},
+				{
+					"name": "immersiveengineering:metal",
+					"meta": "11",
+					"weight": 10
+				},
+				{
+					"name": "immersiveengineering:metal",
+					"meta": "9",
+					"weight": 10
+				},
+				{
+					"name": "immersiveengineering:metal",
+					"meta": "13",
+					"weight": 10
+				},
+				{
+					"name": "nuclearcraft:dust",
+					"weight": 10,
+					"meta": "1"
+				}
+			],
+			"messages":
+			[
+				{
+					"id": "require_tool",
+					"message": "Use a pickaxe"
+				}
+			]
+		},
+		{
+			"name": "Pick_2",
+			"type":
+			{
+				"type": "block",
+				"name": "compactmachines3:wall"
+			},
+			"clicktype": "left",
+			"properties":
+			[
+				{
+					"type": "add_hunger",
+					"exhaustion": "true",
+					"amount": "0.1f"
+				},
+				{
+					"type": "require_left"
+				},
+				{
+					"type": "drop_items"
+				},
+				{
+					"type": "damage_item",
+					"amount": "1"
+				},
+				{
+					"type": "player_cooldown",
+					"time": "9"
+				},
+				{
+					"type": "swing_hand"
+				},
+				{
+					"type": "play_sound",
+					"name": "block.stone.hit"
+				},
+				{
+					"type": "require_item_list",
+					"items": [
+						{"name": "minecraft:iron_pickaxe"}
+					]
+				}
+			],
+			"drops":
+			[
+				{
+					"name": "minecraft:redstone",
+					"weight": 25
+				},
+				{
+					"name": "immersiveengineering:metal",
+					"meta": "19",
+					"weight": 5
+				},
+				{
+					"name": "minecraft:flint",
+					"weight": 5
+				},
+				{
+					"name": "immersiveengineering:metal",
+					"meta": "14",
+					"weight": 10
+				},
+				{
+					"name": "nuclearcraft:dust",
+					"meta": "1",
+					"weight": 15
+				},
+				{
+					"name": "immersiveengineering:metal",
+					"meta": "12",
+					"weight": 5
+				}
+			],
+			"messages":
+			[
+				{
+					"id": "require_tool",
+					"message": "Use a pickaxe"
+				}
+			]
+		},
+		{
+			"name": "Pick_2_5",
+			"type":
+			{
+				"type": "block",
+				"name": "compactmachines3:wall"
+			},
+			"clicktype": "left",
+			"properties":
+			[
+				{
+					"type": "add_hunger",
+					"exhaustion": "true",
+					"amount": "0.1f"
+				},
+				{
+					"type": "require_left"
+				},
+				{
+					"type": "drop_items"
+				},
+				{
+					"type": "damage_item",
+					"amount": "1"
+				},
+				{
+					"type": "player_cooldown",
+					"time": "9"
+				},
+				{
+					"type": "swing_hand"
+				},
+				{
+					"type": "play_sound",
+					"name": "block.stone.hit"
+				},
+				{
+					"type": "require_item_list",
+					"items": [
+						{"name": "immersiveengineering:pickaxe_steel"},
+						{"name": "thermalfoundation:tool.pickaxe_steel"}
+					]
+				}
+			],
+			"drops":
+			[
+				{
+					"name": "minecraft:quartz",
+					"weight": 10
+				},
+				{
+					"name": "minecraft:flint",
+					"weight": 5
+				},
+				{
+					"name": "nuclearcraft:dust",
+					"meta": "6",
+					"weight": 10
+				},
+				{
+					"name": "nuclearcraft:dust",
+					"meta": "7",
+					"weight": 10
+				},
+				{
+					"name": "nuclearcraft:dust",
+					"meta": "5",
+					"weight": 10
+				},
+				{
+					"name": "nuclearcraft:dust",
+					"meta": "3",
+					"weight": 10
+				},
+				{
+					"name": "minecraft:dye",
+					"weight": 20,
+					"meta": "4"
+				}
+			],
+			"messages":
+			[
+				{
+					"id": "require_tool",
+					"message": "Use a pickaxe"
+				}
+			]
+		},
+		{
+			"name": "Pick_3",
+			"type":
+			{
+				"type": "block",
+				"name": "compactmachines3:wall"
+			},
+			"clicktype": "left",
+			"properties":
+			[
+				{
+					"type": "add_hunger",
+					"exhaustion": "true",
+					"amount": "0.1f"
+				},
+				{
+					"type": "require_left"
+				},
+				{
+					"type": "drop_items"
+				},
+				{
+					"type": "damage_item",
+					"amount": "1"
+				},
+				{
+					"type": "player_cooldown",
+					"time": "9"
+				},
+				{
+					"type": "swing_hand"
+				},
+				{
+					"type": "play_sound",
+					"name": "block.stone.hit"
+				},
+				{
+					"type": "require_item_list",
+					"items": [
+						{"name": "minecraft:diamond_pickaxe"}
+					]
+				}
+			],
+			"drops":
+			[
+				{
+					"name": "cttinycoal:tiny_coal",
+					"weight": 2000
+				},
+				{
+					"name": "thermalfoundation:material",
+					"meta": "71",
+					"weight": 100
+				},
+				{
+					"name": "thermalfoundation:material",
+					"meta": "70",
+					"weight": 125
+				},
+				{
+					"name": "bedrockminer:bedrock_chunk",
+					"weight": 1
+				}
+			],
+			"messages":
+			[
+				{
+					"id": "require_tool",
+					"message": "Use a pickaxe"
+				}
+			]
+		}   
+	]
+}

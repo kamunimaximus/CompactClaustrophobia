@@ -1,0 +1,24 @@
+//Set the icon item
+setIcon(<cropdusting:poop>)
+
+//Set the title String
+setTitle("Eat poop and DON'T die")
+
+//Set the description String
+setDescription("Poop quenches all apetite but have some side effects (sneaking and walking makes stuff grow)")
+
+//Add a parent advancement. The syntax is "modid:folder/path/to/the/advancement/then/filename"
+addParent("triumph:test/wood")
+setRequiresParent(true)
+
+//Set the position
+setPos(-281,-40)
+
+//Hide the connection lines, so I can have a pretty shape
+hideLines()
+
+//Adds criteria named "consumed" with the trigger type "minecraft:consume_item". This function returns the criteria as an object
+criteria = addCriteria("consumed", "minecraft:consume_item")
+
+//Sets the required item for the criteria. This is the item that needs to be consumed.
+criteria.setItem(<cropdusting:poop>)

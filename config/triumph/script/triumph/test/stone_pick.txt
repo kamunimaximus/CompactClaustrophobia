@@ -1,0 +1,26 @@
+
+//Set icon item
+setIcon(<minecraft:stone_pickaxe>)
+
+//Set title String
+setTitle("Hard rock")
+
+//Set description String
+setDescription("Use picks on the walls!")
+
+//Add a parent advancement. The syntax is "modid:folder/path/to/the/advancement/then/filename"
+addParent("triumph:test/cobble")
+
+//setRequiresParent(true)
+
+//Set the position
+setPos(-147,-107)
+
+//Hide the connection lines, so I can have a pretty shape
+//hideLines()
+
+//Adds criteria named "hasFlint" with the trigger type "minecraft:inventory_changed". This function returns the criteria as an object
+criteria = addCriteria("hasPlank", "minecraft:inventory_changed")
+
+//Adds the required item for the criteria. This is the item that needs to be in the player inventory.
+criteria.addItem(<minecraft:stone_pickaxe>)

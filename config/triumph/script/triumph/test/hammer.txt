@@ -1,0 +1,26 @@
+//Set icon item
+setIcon(<exnihilocreatio:hammer_wood>)
+
+//Set title String
+setTitle("HAMMER TIME!")
+
+//Set description String
+setDescription("You can hammer stuff to break it down, useful for lots of stuff")
+
+//Add a parent advancement. The syntax is "modid:folder/path/to/the/advancement/then/filename"
+addParent("triumph:test/wood")
+
+//setRequiresParent(true)
+
+//Set the position
+setPos(-194,-7)
+
+//Hide the connection lines, so I can have a pretty shape
+//hideLines()
+
+//Adds criteria
+criteria = addCriteria("hasWood", "minecraft:inventory_changed")
+
+//Adds the required item for the criteria. This is the item that needs to be in the player inventory.
+criteria.addItem(<exnihilocreatio:hammer_wood>)
+criteria.addItem(<exnihilocreatio:hammer_stone>)
