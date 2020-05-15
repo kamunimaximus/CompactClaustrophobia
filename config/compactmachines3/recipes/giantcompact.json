@@ -10,15 +10,14 @@
 
   "catalyst": "minecraft:ender_pearl",
   
-  
   "input-types": {
     "a": {
-      "id": "betterwithmods:aesthetic",
-      "meta": 8
+      "id": "compactmachines3:wallbreakable",
+      "meta": 0
     },
     "b": {
-      "id": "compactmachines3:machine",
-      "meta": 3
+      "id": "contenttweaker:glitched3",
+      "meta": 0
     },
     "c": {
       "id": "modularmachinery:blockcasing",

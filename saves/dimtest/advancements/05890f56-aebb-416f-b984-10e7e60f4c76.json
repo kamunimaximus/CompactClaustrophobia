@@ -1,11 +1,83 @@
 {
-  "minecraft:recipes/decorations/crafting_table": {
+  "minecraft:recipes/redstone/noteblock": {
+    "criteria": {
+      "has_redstone": "2020-05-15 20:19:38 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/wooden_button": {
     "criteria": {
       "has_planks": "2020-05-12 22:50:13 +0200"
     },
     "done": true
   },
-  "minecraft:recipes/redstone/wooden_button": {
+  "immersiveengineering:main/place_conveyor": {
+    "criteria": {
+      "place_conveyor": "2020-05-13 17:00:58 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/clock": {
+    "criteria": {
+      "has_redstone": "2020-05-15 20:19:38 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/compass": {
+    "criteria": {
+      "has_redstone": "2020-05-15 20:19:38 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/repeater": {
+    "criteria": {
+      "has_redstone_torch": "2020-05-15 20:18:09 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/spectral_arrow": {
+    "criteria": {
+      "has_glowstone_dust": "2020-05-15 20:18:28 +0200"
+    },
+    "done": true
+  },
+  "immersiveengineering:main/craft_pump": {
+    "criteria": {
+      "craft_hammer": "2020-05-13 17:03:40 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/oak_wooden_slab": {
+    "criteria": {
+      "has_planks": "2020-05-12 22:50:13 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/fence": {
+    "criteria": {
+      "has_planks": "2020-05-12 22:50:13 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/glowstone": {
+    "criteria": {
+      "has_glowstone_dust": "2020-05-15 20:18:28 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/piston": {
+    "criteria": {
+      "has_redstone": "2020-05-15 20:19:38 +0200"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "plains": "2020-05-12 22:33:04 +0200"
+    },
+    "done": false
+  },
+  "minecraft:recipes/decorations/crafting_table": {
     "criteria": {
       "has_planks": "2020-05-12 22:50:13 +0200"
     },
@@ -17,9 +89,9 @@
     },
     "done": true
   },
-  "immersiveengineering:main/place_conveyor": {
+  "minecraft:recipes/redstone/redstone_torch": {
     "criteria": {
-      "place_conveyor": "2020-05-13 17:00:58 +0200"
+      "has_redstone": "2020-05-15 20:19:38 +0200"
     },
     "done": true
   },
@@ -41,21 +113,9 @@
     },
     "done": true
   },
-  "immersiveengineering:main/craft_pump": {
+  "minecraft:recipes/redstone/dropper": {
     "criteria": {
-      "craft_hammer": "2020-05-13 17:03:40 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/oak_wooden_slab": {
-    "criteria": {
-      "has_planks": "2020-05-12 22:50:13 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/fence": {
-    "criteria": {
-      "has_planks": "2020-05-12 22:50:13 +0200"
+      "has_redstone": "2020-05-15 20:19:38 +0200"
     },
     "done": true
   },
@@ -95,10 +155,16 @@
     },
     "done": true
   },
-  "minecraft:adventure/adventuring_time": {
+  "nuclearcraft:radiation/radaway": {
     "criteria": {
-      "plains": "2020-05-12 22:33:04 +0200"
+      "has_item": "2020-05-15 20:16:42 +0200"
     },
-    "done": false
+    "done": true
+  },
+  "minecraft:recipes/misc/bowl": {
+    "criteria": {
+      "has_brown_mushroom": "2020-05-15 20:18:15 +0200"
+    },
+    "done": true
   }
 }
