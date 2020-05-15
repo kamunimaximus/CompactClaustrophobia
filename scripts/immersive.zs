@@ -2,6 +2,7 @@ import mods.immersiveengineering.MetalPress;
 import mods.immersiveengineering.Crusher;
 import mods.immersiveengineering.CokeOven;
 import mods.immersiveengineering.Squeezer;
+import mods.immersiveengineering.BlastFurnace;
 
 // Metal Press
 MetalPress.addRecipe(<contenttweaker:tinysmashedmachine>, <compactmachines3:machine>, <immersiveengineering:mold>, 2000);
@@ -15,6 +16,10 @@ Crusher.addRecipe(<contenttweaker:smallsmashedmachine>, <compactmachines3:machin
 CokeOven.addRecipe(<immersiveengineering:material:6>, 500, <minecraft:coal:1>, 2000);
 CokeOven.addRecipe(<immersiveengineering:stone_decoration:3>, 4500, <thermalfoundation:storage_resource>, 18000);
 
+//Blast furnace
+//BlastFurnace.removeRecipe(steel); //Remove steel
+//Coal coke 6400/8 = 800. Buff steel
+//BlastFurnace.addRecipe(steel, iron, 800);
 
 // Squeezer
 Squeezer.addRecipe(<thermalfoundation:dye:2>, <liquid:water> * 5000, <ore:treeSapling>, 1000);
