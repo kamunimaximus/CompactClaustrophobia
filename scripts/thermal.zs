@@ -1,4 +1,5 @@
 import crafttweaker.item.IItemStack;
+import mods.thermalexpansion.Factorizer;
 
 import mods.thermalexpansion.RedstoneFurnace;
 import mods.thermalexpansion.Pulverizer;
@@ -28,3 +29,7 @@ InductionSmelter.removeRecipe(<thermalfoundation:material:768>*4, <thermalfounda
 
 // Magmatic Dynamo
 mods.thermalexpansion.MagmaticDynamo.removeFuel(<liquid:pyrotheum>);
+
+// Factorizer
+Factorizer.addRecipeBoth(<minecraft:dirt>, <contenttweaker:dirtdust> * 4);
+Factorizer.addRecipeBoth(<minecraft:gravel>, <contenttweaker:graveldust> * 4);
