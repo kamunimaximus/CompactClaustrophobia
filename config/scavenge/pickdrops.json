@@ -290,11 +290,6 @@
 					"weight": 10
 				},
 				{
-					"name": "nuclearcraft:dust",
-					"meta": "1",
-					"weight": 15
-				},
-				{
 					"name": "immersiveengineering:metal",
 					"meta": "12",
 					"weight": 5

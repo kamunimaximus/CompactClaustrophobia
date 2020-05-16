@@ -19,6 +19,7 @@ VanillaFactory.createItem("PoopFuel").register();
 VanillaFactory.createItem("Prestoff").register();
 VanillaFactory.createItem("DirtDust").register();
 VanillaFactory.createItem("GravelDust").register();
+VanillaFactory.createItem("CorruptPsd").register();
 
 
 // Blocks

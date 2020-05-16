@@ -5,27 +5,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/redstone/wooden_button": {
+  "immersiveengineering:main/multiblock_blastfurnace": {
     "criteria": {
-      "has_planks": "2020-05-12 22:50:13 +0200"
-    },
-    "done": true
-  },
-  "immersiveengineering:main/place_conveyor": {
-    "criteria": {
-      "place_conveyor": "2020-05-13 17:00:58 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/tools/clock": {
-    "criteria": {
-      "has_redstone": "2020-05-15 20:19:38 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/tools/compass": {
-    "criteria": {
-      "has_redstone": "2020-05-15 20:19:38 +0200"
+      "form_blastfurnace": "2020-05-16 14:26:36 +0200"
     },
     "done": true
   },
@@ -35,15 +17,27 @@
     },
     "done": true
   },
-  "minecraft:recipes/combat/spectral_arrow": {
+  "minecraft:recipes/tools/compass": {
     "criteria": {
-      "has_glowstone_dust": "2020-05-15 20:18:28 +0200"
+      "has_redstone": "2020-05-15 20:19:38 +0200"
     },
     "done": true
   },
-  "immersiveengineering:main/craft_pump": {
+  "minecraft:recipes/decorations/iron_bars": {
     "criteria": {
-      "craft_hammer": "2020-05-13 17:03:40 +0200"
+      "has_iron_ingot": "2020-05-16 13:41:22 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/iron_sword": {
+    "criteria": {
+      "has_iron_ingot": "2020-05-16 13:41:22 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/brick_stairs": {
+    "criteria": {
+      "has_brick_block": "2020-05-16 15:10:44 +0200"
     },
     "done": true
   },
@@ -53,21 +47,21 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/fence": {
+  "minecraft:recipes/tools/iron_pickaxe": {
     "criteria": {
-      "has_planks": "2020-05-12 22:50:13 +0200"
+      "has_iron_ingot": "2020-05-16 13:41:22 +0200"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/glowstone": {
+  "minecraft:recipes/transportation/minecart": {
     "criteria": {
-      "has_glowstone_dust": "2020-05-15 20:18:28 +0200"
+      "has_iron_ingot": "2020-05-16 13:41:22 +0200"
     },
     "done": true
   },
-  "minecraft:recipes/redstone/piston": {
+  "minecraft:recipes/brewing/cauldron": {
     "criteria": {
-      "has_redstone": "2020-05-15 20:19:38 +0200"
+      "has_water_bucket": "2020-05-16 15:04:23 +0200"
     },
     "done": true
   },
@@ -77,9 +71,21 @@
     },
     "done": false
   },
+  "minecraft:recipes/redstone/iron_door": {
+    "criteria": {
+      "has_iron_ingot": "2020-05-16 13:41:22 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/crafting_table": {
     "criteria": {
       "has_planks": "2020-05-12 22:50:13 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/iron_hoe": {
+    "criteria": {
+      "has_iron_ingot": "2020-05-16 13:41:22 +0200"
     },
     "done": true
   },
@@ -95,9 +101,33 @@
     },
     "done": true
   },
+  "immersiveengineering:main/craft_hammer": {
+    "criteria": {
+      "craft_hammer": "2020-05-16 14:26:12 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_nugget": {
+    "criteria": {
+      "has_iron_ingot": "2020-05-16 13:41:22 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/chest": {
     "criteria": {
       "has_lots_of_items": "2020-05-13 16:54:24 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/birch_boat": {
+    "criteria": {
+      "entered_water": "2020-05-16 15:10:31 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/iron_block": {
+    "criteria": {
+      "has_at_least_9_iron_ingot": "2020-05-16 14:27:33 +0200"
     },
     "done": true
   },
@@ -107,15 +137,27 @@
     },
     "done": true
   },
-  "minecraft:recipes/redstone/fence_gate": {
+  "minecraft:recipes/tools/iron_shovel": {
     "criteria": {
-      "has_planks": "2020-05-12 22:50:13 +0200"
+      "has_iron_ingot": "2020-05-16 13:41:22 +0200"
     },
     "done": true
   },
-  "minecraft:recipes/redstone/dropper": {
+  "minecraft:recipes/transportation/acacia_boat": {
     "criteria": {
-      "has_redstone": "2020-05-15 20:19:38 +0200"
+      "entered_water": "2020-05-16 15:10:31 +0200"
+    },
+    "done": true
+  },
+  "nuclearcraft:fission/decay_generator": {
+    "criteria": {
+      "has_item": "2020-05-16 15:12:36 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/torch": {
+    "criteria": {
+      "has_stone_pickaxe": "2020-05-16 16:13:24 +0200"
     },
     "done": true
   },
@@ -125,15 +167,15 @@
     },
     "done": true
   },
-  "nuclearcraft:root": {
+  "minecraft:recipes/redstone/iron_trapdoor": {
     "criteria": {
-      "location": "2020-05-12 22:33:04 +0200"
+      "has_iron_ingot": "2020-05-16 13:41:22 +0200"
     },
     "done": true
   },
-  "galacticraftcore:galacticraft/root": {
+  "minecraft:recipes/tools/shears": {
     "criteria": {
-      "tick": "2020-05-12 22:33:05 +0200"
+      "has_iron_ingot": "2020-05-16 13:41:22 +0200"
     },
     "done": true
   },
@@ -143,9 +185,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/redstone/wooden_door": {
+  "minecraft:recipes/transportation/boat": {
     "criteria": {
-      "has_planks": "2020-05-12 22:50:13 +0200"
+      "entered_water": "2020-05-16 15:10:31 +0200"
     },
     "done": true
   },
@@ -161,9 +203,201 @@
     },
     "done": true
   },
+  "minecraft:recipes/transportation/jungle_boat": {
+    "criteria": {
+      "entered_water": "2020-05-16 15:10:31 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/bowl": {
     "criteria": {
       "has_brown_mushroom": "2020-05-15 20:18:15 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/spruce_boat": {
+    "criteria": {
+      "entered_water": "2020-05-16 15:10:31 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/wooden_button": {
+    "criteria": {
+      "has_planks": "2020-05-12 22:50:13 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/heavy_weighted_pressure_plate": {
+    "criteria": {
+      "has_iron_ingot": "2020-05-16 13:41:22 +0200"
+    },
+    "done": true
+  },
+  "immersiveengineering:main/place_conveyor": {
+    "criteria": {
+      "place_conveyor": "2020-05-13 17:00:58 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/clock": {
+    "criteria": {
+      "has_redstone": "2020-05-15 20:19:38 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/dark_oak_boat": {
+    "criteria": {
+      "entered_water": "2020-05-16 15:10:31 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/spectral_arrow": {
+    "criteria": {
+      "has_glowstone_dust": "2020-05-15 20:18:28 +0200"
+    },
+    "done": true
+  },
+  "immersiveengineering:main/craft_pump": {
+    "criteria": {
+      "craft_hammer": "2020-05-13 17:03:40 +0200"
+    },
+    "done": true
+  },
+  "nuclearcraft:processors/melter": {
+    "criteria": {
+      "has_item": "2020-05-16 14:32:37 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/iron_leggings": {
+    "criteria": {
+      "has_iron_ingot": "2020-05-16 13:41:22 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/fence": {
+    "criteria": {
+      "has_planks": "2020-05-12 22:50:13 +0200"
+    },
+    "done": true
+  },
+  "immersiveengineering:main/make_steel": {
+    "criteria": {
+      "craft_hammer": "2020-05-16 13:40:05 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/brick_slab": {
+    "criteria": {
+      "has_brick_block": "2020-05-16 15:10:44 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/iron_axe": {
+    "criteria": {
+      "has_iron_ingot": "2020-05-16 13:41:22 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/glowstone": {
+    "criteria": {
+      "has_glowstone_dust": "2020-05-15 20:18:28 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/piston": {
+    "criteria": {
+      "has_redstone": "2020-05-15 20:19:38 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/shield": {
+    "criteria": {
+      "has_iron_ingot": "2020-05-16 13:41:22 +0200"
+    },
+    "done": true
+  },
+  "nuclearcraft:processors/speed_upgrade": {
+    "criteria": {
+      "has_item": "2020-05-16 13:51:14 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/bucket": {
+    "criteria": {
+      "has_iron_ingot": "2020-05-16 13:41:22 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/iron_boots": {
+    "criteria": {
+      "has_iron_ingot": "2020-05-16 13:41:22 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/hopper": {
+    "criteria": {
+      "has_iron_ingot": "2020-05-16 13:41:22 +0200"
+    },
+    "done": true
+  },
+  "minecraft:story/upgrade_tools": {
+    "criteria": {
+      "stone_pickaxe": "2020-05-16 16:13:24 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/fence_gate": {
+    "criteria": {
+      "has_planks": "2020-05-12 22:50:13 +0200"
+    },
+    "done": true
+  },
+  "minecraft:story/root": {
+    "criteria": {
+      "crafting_table": "2020-05-16 15:02:08 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/dropper": {
+    "criteria": {
+      "has_redstone": "2020-05-15 20:19:38 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/iron_chestplate": {
+    "criteria": {
+      "has_iron_ingot": "2020-05-16 13:41:22 +0200"
+    },
+    "done": true
+  },
+  "nuclearcraft:root": {
+    "criteria": {
+      "location": "2020-05-12 22:33:04 +0200"
+    },
+    "done": true
+  },
+  "minecraft:story/smelt_iron": {
+    "criteria": {
+      "iron": "2020-05-16 13:41:22 +0200"
+    },
+    "done": true
+  },
+  "galacticraftcore:galacticraft/root": {
+    "criteria": {
+      "tick": "2020-05-12 22:33:05 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/wooden_door": {
+    "criteria": {
+      "has_planks": "2020-05-12 22:50:13 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/iron_helmet": {
+    "criteria": {
+      "has_iron_ingot": "2020-05-16 13:41:22 +0200"
     },
     "done": true
   }

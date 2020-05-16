@@ -34,7 +34,7 @@
 				{
 					"type": "use_command",
 					"name": "tpj",
-					"arguments": "10 -270 130 -125"
+					"arguments": "10 -313 132 143"
 				},
 				{
 					"type": "play_sound",
@@ -42,7 +42,7 @@
 				},
 				{
 					"type": "require_item",
-					"name": "compactmachines3:psd"
+					"name": "contenttweaker:corruptpsd"
 				},
 				{
 					"type": "swing_hand"

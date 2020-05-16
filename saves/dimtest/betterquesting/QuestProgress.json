@@ -158,13 +158,19 @@
     },
     "13:10": {
       "questID:3": 13,
-      "completed:9": {},
+      "completed:9": {
+        "0:10": {
+          "claimed:1": 0,
+          "uuid:8": "05890f56-aebb-416f-b984-10e7e60f4c76",
+          "timestamp:4": 1589632234847
+        }
+      },
       "tasks:9": {
         "0:10": {
           "completeUsers:9": {},
           "userProgress:9": {},
-          "index:3": 1,
-          "taskID:8": "bq_standard:interact_item"
+          "index:3": 0,
+          "taskID:8": "bq_standard:retrieval"
         }
       }
     },
@@ -245,8 +251,17 @@
       "completed:9": {},
       "tasks:9": {
         "0:10": {
-          "completeUsers:9": {},
-          "userProgress:9": {},
+          "completeUsers:9": {
+            "0:8": "05890f56-aebb-416f-b984-10e7e60f4c76"
+          },
+          "userProgress:9": {
+            "0:10": {
+              "data:9": {
+                "0:3": 1
+              },
+              "uuid:8": "05890f56-aebb-416f-b984-10e7e60f4c76"
+            }
+          },
           "index:3": 0,
           "taskID:8": "bq_standard:retrieval"
         }
@@ -1649,6 +1664,54 @@
               "uuid:8": "05890f56-aebb-416f-b984-10e7e60f4c76"
             }
           },
+          "index:3": 0,
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "138:10": {
+      "questID:3": 138,
+      "completed:9": {},
+      "tasks:9": {
+        "0:10": {
+          "completeUsers:9": {},
+          "userProgress:9": {},
+          "index:3": 0,
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "139:10": {
+      "questID:3": 139,
+      "completed:9": {},
+      "tasks:9": {
+        "0:10": {
+          "completeUsers:9": {},
+          "userProgress:9": {},
+          "index:3": 0,
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "140:10": {
+      "questID:3": 140,
+      "completed:9": {},
+      "tasks:9": {
+        "0:10": {
+          "completeUsers:9": {},
+          "userProgress:9": {},
+          "index:3": 0,
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "141:10": {
+      "questID:3": 141,
+      "completed:9": {},
+      "tasks:9": {
+        "0:10": {
+          "completeUsers:9": {},
+          "userProgress:9": {},
           "index:3": 0,
           "taskID:8": "bq_standard:retrieval"
         }

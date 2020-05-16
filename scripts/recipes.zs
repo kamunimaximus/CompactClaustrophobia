@@ -4,6 +4,8 @@
 recipes.removeShapeless(<nuclearcraft:glowing_mushroom>, [<minecraft:brown_mushroom>, <minecraft:glowstone_dust>]);
 recipes.removeShapeless(<nuclearcraft:glowing_mushroom>, [<minecraft:brown_mushroom>, <minecraft:glowstone_dust>]);
 //#Add
+recipes.addShaped(<craftingstation:crafting_station>, [[<ore:plankWood>, <ore:plankWood>, null],[<ore:plankWood>, <ore:plankWood>, null], [null, null, null]]);
+furnace.addRecipe(<compactmachines3:machine:2>, <compactmachines3:machine:2>, 0.0);
 recipes.addShapeless(<nuclearcraft:glowing_mushroom>, [<minecraft:brown_mushroom>,<minecraft:redstone>]);
 recipes.addShapeless(<questbook:itemquestbook>, [<contenttweaker:graveldust>]);
 recipes.addShapeless(<questbook:itemquestbook>, [<contenttweaker:dirtdust>]);

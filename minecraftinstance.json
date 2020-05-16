@@ -29,7 +29,7 @@
   "isUnlocked": true,
   "javaArgsOverride": null,
   "javaDirOverride": null,
-  "lastPlayed": "2020-05-15T17:43:30.8868551Z",
+  "lastPlayed": "2020-05-16T13:57:32.3528637Z",
   "manifest": {
     "minecraft": {
       "version": "1.12.2",
@@ -2399,21 +2399,6 @@
       "fileSize": 266512
     },
     {
-      "folderName": "FastWorkbench-1.12.2-1.7.3.jar",
-      "fingerprint": 2436194208,
-      "fileDateHash": 4143952652,
-      "sectionID": 8,
-      "individualFingerprints": [
-        2436194208
-      ],
-      "status": 1,
-      "timestamp": "2020-05-15T16:09:50.7006435Z",
-      "lastWriteTimeUtc": "2020-05-12T20:19:31.1094092Z",
-      "queryTimestamp": "2020-05-15T16:09:51.0706546Z",
-      "fileCount": 1,
-      "fileSize": 26515
-    },
-    {
       "folderName": "CraftingTweaks_1.12.2-8.1.9.jar",
       "fingerprint": 316910584,
       "fileDateHash": 3255079603,
@@ -2939,21 +2924,6 @@
       "fileSize": 447874
     },
     {
-      "folderName": "compactmachines3-1.12.2-3.0.18-b278.jar",
-      "fingerprint": 2656999452,
-      "fileDateHash": 3097791425,
-      "sectionID": 8,
-      "individualFingerprints": [
-        2656999452
-      ],
-      "status": 1,
-      "timestamp": "2020-05-15T16:09:48.7798022Z",
-      "lastWriteTimeUtc": "2020-05-12T20:18:49.8062396Z",
-      "queryTimestamp": "2020-05-15T16:09:48.9762989Z",
-      "fileCount": 1,
-      "fileSize": 730062
-    },
-    {
       "folderName": "BNBGamingLib-1.12.2-2.17.6.jar",
       "fingerprint": 1245112832,
       "fileDateHash": 2061664516,
@@ -2967,6 +2937,21 @@
       "queryTimestamp": "2020-05-15T16:09:47.8483147Z",
       "fileCount": 1,
       "fileSize": 132644
+    },
+    {
+      "folderName": "compactmachines3-1.12.2-3.0.18-b278.jar",
+      "fingerprint": 2656999452,
+      "fileDateHash": 3097791425,
+      "sectionID": 8,
+      "individualFingerprints": [
+        2656999452
+      ],
+      "status": 1,
+      "timestamp": "2020-05-15T16:09:48.7798022Z",
+      "lastWriteTimeUtc": "2020-05-12T20:18:49.8062396Z",
+      "queryTimestamp": "2020-05-15T16:09:48.9762989Z",
+      "fileCount": 1,
+      "fileSize": 730062
     },
     {
       "folderName": "tellme-1.12.2-0.7.0-dev.20190610.165828.jar",
@@ -9434,6 +9419,79 @@
       "installedTargets": null
     },
     {
+      "addonID": 254317,
+      "gameInstanceID": "5ba80de7-330b-4b13-85f5-7ef0f26f6223",
+      "installedFile": {
+        "id": 2932048,
+        "displayName": "justenoughdimensions-1.12.2-1.6.0-dev.20200416.184714.jar",
+        "fileName": "justenoughdimensions-1.12.2-1.6.0-dev.20200416.184714.jar",
+        "fileDate": "2020-04-16T19:46:53.573Z",
+        "fileLength": 265325,
+        "releaseType": 1,
+        "fileStatus": 4,
+        "downloadUrl": "https://edge.forgecdn.net/files/2932/48/justenoughdimensions-1.12.2-1.6.0-dev.20200416.184714.jar",
+        "isAlternate": false,
+        "alternateFileId": 0,
+        "dependencies": [],
+        "isAvailable": true,
+        "modules": [
+          {
+            "foldername": "META-INF",
+            "fingerprint": 3321029596,
+            "type": 0
+          },
+          {
+            "foldername": "assets",
+            "fingerprint": 4102812491,
+            "type": 0
+          },
+          {
+            "foldername": "fi",
+            "fingerprint": 1145650892,
+            "type": 0
+          },
+          {
+            "foldername": "mcmod.info",
+            "fingerprint": 4141574438,
+            "type": 0
+          },
+          {
+            "foldername": "pack.mcmeta",
+            "fingerprint": 3159222819,
+            "type": 0
+          }
+        ],
+        "packageFingerprint": 2413402329,
+        "gameVersion": [
+          "Forge",
+          "1.12.2"
+        ],
+        "hasInstallScript": false,
+        "isCompatibleWithClient": false,
+        "categorySectionPackageType": 0,
+        "restrictProjectFileAccess": 0,
+        "projectStatus": 0,
+        "projectId": 0,
+        "gameVersionDateReleased": "2017-09-18T05:00:00Z",
+        "gameId": 0,
+        "isServerPack": false,
+        "FileNameOnDisk": "justenoughdimensions-1.12.2-1.6.0-dev.20200416.184714.jar"
+      },
+      "dateInstalled": "2020-05-16T13:39:41.3684831Z",
+      "dateUpdated": "2020-05-16T13:39:41.37449Z",
+      "dateLastUpdateAttempted": "2020-05-16T13:39:41.37449Z",
+      "status": 4,
+      "preferenceAutoInstallUpdates": false,
+      "preferenceAlternateFile": false,
+      "preferenceIsIgnored": false,
+      "isModified": false,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "preferenceReleaseType": null,
+      "manifestName": null,
+      "installedTargets": []
+    },
+    {
       "addonID": 228702,
       "gameInstanceID": "5ba80de7-330b-4b13-85f5-7ef0f26f6223",
       "installedFile": {
@@ -9978,87 +10036,6 @@
       },
       "dateInstalled": "2020-05-15T16:09:49.3662346Z",
       "dateUpdated": "2019-05-15T16:09:49.3662346Z",
-      "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 5,
-      "preferenceAutoInstallUpdates": false,
-      "preferenceAlternateFile": false,
-      "preferenceIsIgnored": false,
-      "isModified": false,
-      "isWorkingCopy": false,
-      "isFuzzyMatch": false,
-      "preferenceReleaseType": null,
-      "manifestName": null,
-      "installedTargets": null
-    },
-    {
-      "addonID": 288885,
-      "gameInstanceID": "5ba80de7-330b-4b13-85f5-7ef0f26f6223",
-      "installedFile": {
-        "id": 2838777,
-        "displayName": "FastWorkbench-1.12.2-1.7.3.jar",
-        "fileName": "FastWorkbench-1.12.2-1.7.3.jar",
-        "fileDate": "2019-12-09T00:14:14.563Z",
-        "fileLength": 26515,
-        "releaseType": 1,
-        "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2838/777/FastWorkbench-1.12.2-1.7.3.jar",
-        "isAlternate": false,
-        "alternateFileId": 0,
-        "dependencies": [
-          {
-            "id": 34089485,
-            "addonId": 283644,
-            "type": 3,
-            "fileId": 2838777
-          }
-        ],
-        "isAvailable": true,
-        "modules": [
-          {
-            "foldername": "META-INF",
-            "fingerprint": 1014662447,
-            "type": 3
-          },
-          {
-            "foldername": "shadows",
-            "fingerprint": 857918617,
-            "type": 3
-          },
-          {
-            "foldername": "mcmod.info",
-            "fingerprint": 2617265928,
-            "type": 3
-          }
-        ],
-        "packageFingerprint": 2436194208,
-        "gameVersion": [
-          "1.12.2"
-        ],
-        "sortableGameVersion": [
-          {
-            "gameVersionPadded": "0000000001.0000000012.0000000002",
-            "gameVersion": "1.12.2",
-            "gameVersionReleaseDate": "2017-09-18T05:00:00Z",
-            "gameVersionName": "1.12.2"
-          }
-        ],
-        "hasInstallScript": false,
-        "isCompatibleWithClient": false,
-        "categorySectionPackageType": 6,
-        "restrictProjectFileAccess": 1,
-        "projectStatus": 4,
-        "renderCacheId": 1716692,
-        "projectId": 288885,
-        "packageFingerprintId": 385634989,
-        "gameVersionDateReleased": "2017-09-18T05:00:00Z",
-        "gameVersionMappingId": 2023801,
-        "gameVersionId": 6756,
-        "gameId": 432,
-        "isServerPack": false,
-        "FileNameOnDisk": "FastWorkbench-1.12.2-1.7.3.jar"
-      },
-      "dateInstalled": "2020-05-15T16:09:51.4456516Z",
-      "dateUpdated": "2019-05-15T16:09:51.4456516Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
       "status": 5,
       "preferenceAutoInstallUpdates": false,
@@ -12384,85 +12361,6 @@
       "installedTargets": null
     },
     {
-      "addonID": 242818,
-      "gameInstanceID": "5ba80de7-330b-4b13-85f5-7ef0f26f6223",
-      "installedFile": {
-        "id": 2779848,
-        "displayName": "CodeChicken Lib 1.12.2-3.2.3.358-universal",
-        "fileName": "CodeChickenLib-1.12.2-3.2.3.358-universal.jar",
-        "fileDate": "2019-09-06T23:00:03.483Z",
-        "fileLength": 704330,
-        "releaseType": 1,
-        "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2779/848/CodeChickenLib-1.12.2-3.2.3.358-universal.jar",
-        "isAlternate": false,
-        "alternateFileId": 2779849,
-        "dependencies": [],
-        "isAvailable": true,
-        "modules": [
-          {
-            "foldername": "META-INF",
-            "fingerprint": 4021114675,
-            "type": 3
-          },
-          {
-            "foldername": "assets",
-            "fingerprint": 3618322680,
-            "type": 3
-          },
-          {
-            "foldername": "codechicken",
-            "fingerprint": 3367392570,
-            "type": 3
-          },
-          {
-            "foldername": "mcmod.info",
-            "fingerprint": 2473310429,
-            "type": 3
-          }
-        ],
-        "packageFingerprint": 2940918666,
-        "gameVersion": [
-          "1.12.2"
-        ],
-        "sortableGameVersion": [
-          {
-            "gameVersionPadded": "0000000001.0000000012.0000000002",
-            "gameVersion": "1.12.2",
-            "gameVersionReleaseDate": "2017-09-18T05:00:00Z",
-            "gameVersionName": "1.12.2"
-          }
-        ],
-        "hasInstallScript": false,
-        "isCompatibleWithClient": false,
-        "categorySectionPackageType": 6,
-        "restrictProjectFileAccess": 1,
-        "projectStatus": 4,
-        "renderCacheId": 1646126,
-        "projectId": 242818,
-        "packageFingerprintId": 353801574,
-        "gameVersionDateReleased": "2008-03-01T06:00:00Z",
-        "gameVersionMappingId": 1925248,
-        "gameVersionId": 4458,
-        "gameId": 432,
-        "isServerPack": false,
-        "FileNameOnDisk": "CodeChickenLib-1.12.2-3.2.3.358-universal.jar"
-      },
-      "dateInstalled": "2020-05-15T16:09:49.3662346Z",
-      "dateUpdated": "2019-05-15T16:09:49.3662346Z",
-      "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 5,
-      "preferenceAutoInstallUpdates": false,
-      "preferenceAlternateFile": false,
-      "preferenceIsIgnored": false,
-      "isModified": false,
-      "isWorkingCopy": false,
-      "isFuzzyMatch": false,
-      "preferenceReleaseType": null,
-      "manifestName": null,
-      "installedTargets": null
-    },
-    {
       "addonID": 235577,
       "gameInstanceID": "5ba80de7-330b-4b13-85f5-7ef0f26f6223",
       "installedFile": {
@@ -12529,6 +12427,85 @@
       },
       "dateInstalled": "2020-05-15T16:09:54.3299391Z",
       "dateUpdated": "2019-05-15T16:09:54.3299391Z",
+      "dateLastUpdateAttempted": "0001-01-01T00:00:00",
+      "status": 5,
+      "preferenceAutoInstallUpdates": false,
+      "preferenceAlternateFile": false,
+      "preferenceIsIgnored": false,
+      "isModified": false,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "preferenceReleaseType": null,
+      "manifestName": null,
+      "installedTargets": null
+    },
+    {
+      "addonID": 242818,
+      "gameInstanceID": "5ba80de7-330b-4b13-85f5-7ef0f26f6223",
+      "installedFile": {
+        "id": 2779848,
+        "displayName": "CodeChicken Lib 1.12.2-3.2.3.358-universal",
+        "fileName": "CodeChickenLib-1.12.2-3.2.3.358-universal.jar",
+        "fileDate": "2019-09-06T23:00:03.483Z",
+        "fileLength": 704330,
+        "releaseType": 1,
+        "fileStatus": 4,
+        "downloadUrl": "https://edge.forgecdn.net/files/2779/848/CodeChickenLib-1.12.2-3.2.3.358-universal.jar",
+        "isAlternate": false,
+        "alternateFileId": 2779849,
+        "dependencies": [],
+        "isAvailable": true,
+        "modules": [
+          {
+            "foldername": "META-INF",
+            "fingerprint": 4021114675,
+            "type": 3
+          },
+          {
+            "foldername": "assets",
+            "fingerprint": 3618322680,
+            "type": 3
+          },
+          {
+            "foldername": "codechicken",
+            "fingerprint": 3367392570,
+            "type": 3
+          },
+          {
+            "foldername": "mcmod.info",
+            "fingerprint": 2473310429,
+            "type": 3
+          }
+        ],
+        "packageFingerprint": 2940918666,
+        "gameVersion": [
+          "1.12.2"
+        ],
+        "sortableGameVersion": [
+          {
+            "gameVersionPadded": "0000000001.0000000012.0000000002",
+            "gameVersion": "1.12.2",
+            "gameVersionReleaseDate": "2017-09-18T05:00:00Z",
+            "gameVersionName": "1.12.2"
+          }
+        ],
+        "hasInstallScript": false,
+        "isCompatibleWithClient": false,
+        "categorySectionPackageType": 6,
+        "restrictProjectFileAccess": 1,
+        "projectStatus": 4,
+        "renderCacheId": 1646126,
+        "projectId": 242818,
+        "packageFingerprintId": 353801574,
+        "gameVersionDateReleased": "2008-03-01T06:00:00Z",
+        "gameVersionMappingId": 1925248,
+        "gameVersionId": 4458,
+        "gameId": 432,
+        "isServerPack": false,
+        "FileNameOnDisk": "CodeChickenLib-1.12.2-3.2.3.358-universal.jar"
+      },
+      "dateInstalled": "2020-05-15T16:09:49.3662346Z",
+      "dateUpdated": "2019-05-15T16:09:49.3662346Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
       "status": 5,
       "preferenceAutoInstallUpdates": false,
