@@ -1,0 +1,79 @@
+{
+	"block_pools" :
+	[
+		{
+			"name": "TpSpawn",
+			"type": {
+				"type": "block",
+				"name": "contenttweaker:homeportal"
+			},
+			"clicktype": "right",
+			"properties": [
+				{
+					"type": "use_command",
+					"name": "tpj",
+					"arguments": "0"
+				},
+				{
+					"type": "play_sound",
+					"name": "item.bottle.fill_dragonbreath"
+				},
+				{
+					"type": "swing_hand"
+				}
+			]
+        },
+        {
+			"name": "Glitch0",
+			"type": {
+				"type": "block",
+				"name": "contenttweaker:glitched0"
+			},
+			"clicktype": "right",
+			"properties": [
+				{
+					"type": "use_command",
+					"name": "tpj",
+					"arguments": "10 -485 73 219"
+				},
+				{
+					"type": "play_sound",
+					"name": "item.bottle.fill_dragonbreath"
+				},
+				{
+					"type": "require_item",
+					"name": "compactmachines3:psd"
+				},
+				{
+					"type": "swing_hand"
+				}
+			]
+		},
+        {
+			"name": "Glitch1",
+			"type": {
+				"type": "block",
+				"name": "contenttweaker:glitched1"
+			},
+			"clicktype": "right",
+			"properties": [
+				{
+					"type": "use_command",
+					"name": "tpj",
+					"arguments": "11 -485 73 219"
+				},
+				{
+					"type": "play_sound",
+					"name": "item.bottle.fill_dragonbreath"
+				},
+				{
+					"type": "require_item",
+					"name": "compactmachines3:psd"
+				},
+				{
+					"type": "swing_hand"
+				}
+			]
+		}
+	]
+}

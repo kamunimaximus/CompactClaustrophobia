@@ -1,0 +1,82 @@
+{
+  "name": "compactmachines3:giantcompact",
+
+  "target-item": "compactmachines3:machine",
+  "target-meta": 4,
+  "target-count": 1,
+
+  "duration": 1000,
+  "symmetrical": true,
+
+  "catalyst": "minecraft:ender_pearl",
+  
+  
+  "input-types": {
+    "a": {
+      "id": "betterwithmods:aesthetic",
+      "meta": 8
+    },
+    "b": {
+      "id": "compactmachines3:machine",
+      "meta": 3
+    },
+    "c": {
+      "id": "modularmachinery:blockcasing",
+      "meta": 0
+    }
+  },
+  "shape": [
+    [
+      [
+        "a",
+        "a",
+        "a"
+      ],
+      [
+        "a",
+        "b:B",
+        "a"
+      ],
+      [
+        "a",
+        "a",
+        "a"
+      ]
+    ],
+    [
+      [
+        "a",
+        "b:D",
+        "a"
+      ],
+      [
+        "b:F",
+        "c:A",
+        "b:A"
+      ],
+      [
+        "a",
+        "b:C",
+        "a"
+      ]
+    ],
+    [
+      [
+        "a",
+        "a",
+        "a"
+      ],
+      [
+        "a",
+        "b:E",
+        "a"
+      ],
+      [
+        "a",
+        "a",
+        "a"
+      ]
+    ]
+  ]
+
+}

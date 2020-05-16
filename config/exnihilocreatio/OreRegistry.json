@@ -1,0 +1,67 @@
+[
+  {
+    "name": "gold",
+    "color": "ffff00",
+    "ingot": "minecraft:gold_ingot:-1",
+    "dust": "thermalfoundation:material:1"
+  },
+  {
+    "name": "iron",
+    "color": "bf8040",
+    "ingot": "minecraft:iron_ingot:-1",
+    "dust": "thermalfoundation:material:0"
+  },
+  {
+    "name": "aluminium",
+    "color": "bfbfbf",
+    "ingot": "thermalfoundation:material:132",
+    "dust": "thermalfoundation:material:68"
+  },
+  {
+    "name": "copper",
+    "color": "ff9933",
+    "ingot": "thermalfoundation:material:128",
+    "dust": "thermalfoundation:material:64"
+  },
+  {
+    "name": "lead",
+    "color": "330066",
+    "ingot": "thermalfoundation:material:131",
+    "dust": "thermalfoundation:material:67"
+  },
+  {
+    "name": "nickel",
+    "color": "ffffcc",
+    "ingot": "thermalfoundation:material:133",
+    "dust": "thermalfoundation:material:69"
+  },
+  {
+    "name": "silver",
+    "color": "f2f2f2",
+    "ingot": "thermalfoundation:material:130",
+    "dust": "thermalfoundation:material:66"
+  },
+  {
+    "name": "tin",
+    "color": "e6fff2",
+    "ingot": "thermalfoundation:material:129",
+    "dust": "thermalfoundation:material:65"
+  },
+  {
+    "name": "uranium",
+    "color": "4e5b43",
+    "ingot": "immersiveengineering:metal:5",
+    "dust": "immersiveengineering:metal:14"
+  },
+  {
+    "name": "yellorium",
+    "color": "dcf400",
+    "ingot": "bigreactors:ingotyellorium:-1",
+    "dust": "bigreactors:dustyellorium:-1"
+  },
+  {
+    "name": "platinum",
+    "color": "d7dfe7",
+    "ingot": "thermalfoundation:material:134"
+  }
+]

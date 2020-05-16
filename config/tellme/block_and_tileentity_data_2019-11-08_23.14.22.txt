@@ -1,0 +1,6 @@
+Torch (minecraft:torch - 50:1) no TileEntity
+Full block state: minecraft:torch[facing=east]
+Hardness: 0.0000, Explosion resistance: 0.0000, Material: CIRCUITS
+Block class: net.minecraft.block.BlockTorch
+IBlockState properties, including getActualState():
+PropertyDirection{name=facing, clazz=class net.minecraft.util.EnumFacing, values=[up, north, south, west, east]}: east

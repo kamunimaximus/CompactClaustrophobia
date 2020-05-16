@@ -1,0 +1,26 @@
+item.contenttweaker.ModulariumBlend.name=Modularium Blend
+item.contenttweaker.TinySmashedMachine.name=Tiny Machine Piece
+item.contenttweaker.SmallSmashedMachine.name=Small Machine Piece
+item.contenttweaker.NormalSmashedMachine.name=Normal Machine Piece
+item.contenttweaker.LargeSmashedMachine.name=Large Machine Piece
+item.contenttweaker.GiantSmashedMachine.name=Giant Machine Piece
+item.contenttweaker.MaximumSmashedMachine.name=Maximum Machine Piece
+item.contenttweaker.PoopFuel.name=Poop Fuel
+item.contenttweaker.Prestoff.name=Prestoff
+item.contenttweaker.DirtDust.name=Dirt Dust
+item.contenttweaker.GravelDust.name=Gravel Dust
+
+
+tile.contenttweaker.glitched0.name=Glitched Tiny Machine
+tile.contenttweaker.glitched1.name=Glitched Small Machine
+tile.contenttweaker.glitched2.name=Glitched Medium Machine
+tile.contenttweaker.glitched3.name=Glitched Large Machine
+tile.contenttweaker.glitched4.name=Glitched Giant Machine
+tile.contenttweaker.glitched5.name=Glitched Maximum Machine
+tile.contenttweaker.HomePortal.name=Home Portal
+
+
+tile.contenttweaker.HardGlass.name=Hard Glass
+
+fluid.CompactFluid=Compact Fluid
+fluid.SewageFluid=Sewage
