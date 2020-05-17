@@ -1,0 +1,42 @@
+
+//This is a root advancement. It is the base advancement for a page. As such, it has no parent and has to set a background.
+
+//Set icon item
+setIcon(<minecraft:map>)
+
+//Set title String
+setTitle("Claustrophobia Craft")
+
+//Set description String
+setDescription("Welcome to Claustrophobia Craft, a mod by juicy_/YOUR_HAMST3R")
+
+//Set background String. This is a path to any texture in a resource pack, so you can set it to fun things.
+setBackground("minecraft:textures/gui/advancements/backgrounds/adventure.png")
+
+//Set the toast notification in the top right corner of the screen to not show up when this advancement is achieved.
+setShowToast(false)
+
+setFrameType("challenge")
+
+setUncompletedIconColor(8947848)
+setCompletedIconColor(6570404)
+setUncompletedTitleColor(8947848)
+setCompletedTitleColor(6570404)
+
+//Set the advancement to not send a chat message when it is achieved.
+setAnnounceToChat(false)
+
+//setRequiresParent(true)
+
+//Set the position
+setPos(-281,-73)
+
+//Set the frame type to Challenge
+setFrameType("CHALLENGE")
+
+//Adds a single location criteria. Since this has nothing specific set, it will be completed the instant the player is added to the world, thus unlocking the page instantly.
+//addCriteria("location", "minecraft:location")
+//addCriteria("dimension", "minecraft:location")
+
+//criteria = addCriteria("entered_nether", "minecraft:changed_dimension")
+//criteria.setDimensionDestination("Moon")

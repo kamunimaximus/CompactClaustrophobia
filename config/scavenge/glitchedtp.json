@@ -1,0 +1,53 @@
+{
+	"block_pools" :
+	[
+		{
+			"name": "TpSpawn",
+			"type": {
+				"type": "block",
+				"name": "contenttweaker:homeportal"
+			},
+			"clicktype": "right",
+			"properties": [
+				{
+					"type": "use_command",
+					"name": "tpj",
+					"arguments": "0"
+				},
+				{
+					"type": "play_sound",
+					"name": "item.bottle.fill_dragonbreath"
+				},
+				{
+					"type": "swing_hand"
+				}
+			]
+        },
+        {
+			"name": "Glitch0",
+			"type": {
+				"type": "block",
+				"name": "contenttweaker:glitched0"
+			},
+			"clicktype": "right",
+			"properties": [
+				{
+					"type": "use_command",
+					"name": "tpj",
+					"arguments": "10 -313 132 143"
+				},
+				{
+					"type": "play_sound",
+					"name": "item.bottle.fill_dragonbreath"
+				},
+				{
+					"type": "require_item",
+					"name": "contenttweaker:corruptpsd"
+				},
+				{
+					"type": "swing_hand"
+				}
+			]
+		}
+	]
+}

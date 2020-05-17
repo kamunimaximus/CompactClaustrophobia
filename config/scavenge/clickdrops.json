@@ -1,0 +1,153 @@
+{
+	"block_pools" :
+	[
+		{
+			"name": "WoodDrops",
+			"type": {
+				"type": "ore",
+				"name": "logWood"
+			},
+			"clicktype": "left",
+			"properties": [
+				{
+					"type": "require_left"
+				},
+				{
+					"type": "drop_items"
+				},
+				{
+					"type": "play_sound",
+					"name": "block.wood.hit"
+				},
+				{
+					"type": "consume_block",
+					"chance": 10,
+					"dropBlock": true
+				},
+				{
+					"type": "swing_hand"
+				},
+				{
+					"type": "damage_item",
+					"amount": "1"
+				},
+				{
+					"type": "add_hunger",
+					"exhaustion": "true",
+					"amount": "0.1f"
+				},
+				{
+					"type": "require_item_list",
+					"items": [
+						{"name": "nuclearcraft:spaxelhoe_boron"}
+					]
+				}
+			],
+			"drops": [
+				{
+					"name": "thermalfoundation:material",
+					"chance": 5,
+					"meta": 800
+				}
+			]
+		},
+		{
+			"name": "LeavesDrops",
+			"type": {
+				"type": "ore",
+				"name": "treeLeaves"
+			},
+			"clicktype": "left",
+			"properties": [
+				{
+					"type": "require_left"
+				},
+				{
+					"type": "drop_items"
+				},
+				{
+					"type": "play_sound",
+					"name": "block.grass.hit"
+				},
+				{
+					"type": "consume_block",
+					"chance": 25,
+					"dropBlock": true
+				},
+				{
+					"type": "damage_item",
+					"amount": "1"
+				},
+				{
+					"type": "swing_hand"
+				},
+				{
+					"type": "add_hunger",
+					"exhaustion": "true",
+					"amount": "0.1f"
+				},
+				{
+					"type": "require_item_list",
+					"items": [
+						{"name": "nuclearcraft:spaxelhoe_boron"}
+					]
+				}
+			],
+			"drops": [
+				{
+					"name": "minecraft:apple",
+					"chance": 5
+				}
+			]
+		},
+		{
+			"name": "StoneDrops",
+			"type": {
+				"type": "ore",
+				"name": "cobblestone"
+			},
+			"clicktype": "left",
+			"properties": [
+				{
+					"type": "require_left"
+				},
+				{
+					"type": "drop_items"
+				},
+				{
+					"type": "play_sound",
+					"name": "block.stone.hit"
+				},
+				{
+					"type": "damage_item",
+					"amount": "1"
+				},
+				{
+					"type": "consume_block",
+					"chance": 10,
+					"dropBlock": true
+				},
+				{
+					"type": "swing_hand"
+				},
+				{
+					"type": "add_hunger",
+					"exhaustion": "true",
+					"amount": "0.1f"
+				},
+				{
+					"type": "require_item_list",
+					"items": [
+						{"name": "nuclearcraft:spaxelhoe_boron"}
+					]
+				}
+			],
+			"drops": [
+				{
+					"name": "exnihilocreatio:item_pebble",
+					"chance": 5
+				}
+			]
+		}
+	]
+}

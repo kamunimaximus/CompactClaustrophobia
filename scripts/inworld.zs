@@ -16,13 +16,14 @@ FluidToItem.transform(<thermalfoundation:dye>, <liquid:water>, <thermalfoundatio
 FluidToItem.transform(<minecraft:chorus_flower>, <liquid:ender>, <minecraft:melon_block>, true);
 FluidToItem.transform(<integrateddynamics:menril_sapling>, <liquid:ender>, <minecraft:sapling>, true);
 FluidToItem.transform(<contenttweaker:prestoff>, <liquid:sewagefluid>, <minecraft:paper>, true);
+FluidToItem.transform(<contenttweaker:glitched0>, <liquid:sewagefluid>, <compactmachines3:machine>, true);
+FluidToItem.transform(<contenttweaker:glitched1>, <liquid:sewagefluid>, <compactmachines3:machine:1>, true);
+FluidToItem.transform(<contenttweaker:glitched2>, <liquid:sewagefluid>, <compactmachines3:machine:2>, true);
+FluidToItem.transform(<contenttweaker:glitched3>, <liquid:sewagefluid>, <compactmachines3:machine:3>, true);
+FluidToItem.transform(<contenttweaker:glitched4>, <liquid:sewagefluid>, <compactmachines3:machine:4>, true);
+FluidToItem.transform(<contenttweaker:glitched5>, <liquid:sewagefluid>, <compactmachines3:machine:5>, true);
+FluidToItem.transform(<contenttweaker:corruptpsd>, <liquid:sewagefluid>, <compactmachines3:psd>, true);
 FluidToItem.transform(<cropdusting:poop>*2, <liquid:sewagefluid>, <thermalfoundation:material:818>, true);
-
-// Loop should do exactly this:
-//FluidToItem.transform(<minecraft:sapling>, <liquid:water>, <arcadialbonsaitrees:bonsai_oak_sapling>, true);
-//FluidToItem.transform(<minecraft:sapling:1>, <liquid:water>, <arcadialbonsaitrees:bonsai_spruce_sapling>, true);
-//FluidToItem.transform(<minecraft:sapling:2>, <liquid:water>, <arcadialbonsaitrees:bonsai_birch_sapling>, true);
-
 
 // Fluid to Fluid
 FluidToFluid.transform(<liquid:sewagefluid>, <liquid:water>, <cropdusting:poop>);

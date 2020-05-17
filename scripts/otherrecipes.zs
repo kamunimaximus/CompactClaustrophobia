@@ -22,9 +22,9 @@ recipes.replaceAllOccurences(<ore:gemDiamond>, <ore:nuggetDiamond>, <refinedstor
 recipes.replaceAllOccurences(<ore:gemDiamond>, <ore:nuggetDiamond>, <compactmachines3:fieldprojector>);
 recipes.replaceAllOccurences(<ore:gemDiamond>, <ore:nuggetDiamond>, <exnihilocreatio:item_mesh:4>);
 recipes.replaceAllOccurences(<ore:gemDiamond>, <ore:gemLapis>, <integrateddynamics:mechanical_squeezer>);
-recipes.replaceAllOccurences(<ore:dustGlowstone>, <ore:nuggetDiamond>, <refinedstorage:core>);
 recipes.replaceAllOccurences(<ore:plateLumium>, <ore:plateSignalum>, <thermalexpansion:augment:323>);
 recipes.replaceAllOccurences(<ore:dustGlowstone>, <ore:dustRedstone>, <nuclearcraft:chemical_reactor_idle>);
+recipes.replaceAllOccurences(<ore:dustGlowstone>, <ore:nuggetDiamond>, <refinedstorage:core>);
 
 // Add Shapeless
 recipes.addShapeless(<minecraft:gunpowder>*3, [<ore:dustSaltpeter>,<ore:dustSaltpeter>,<ore:dustSaltpeter>,<ore:dustSaltpeter>,<ore:dustSulfur>,<ore:dustWood>]);

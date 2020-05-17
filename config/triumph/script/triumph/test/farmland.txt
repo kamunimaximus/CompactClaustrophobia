@@ -1,0 +1,25 @@
+//Set icon item
+setIcon(<minecraft:farmland>)
+
+//Set title String
+setTitle("You're the hoe")
+
+//Set description String
+setDescription("Till the dirt (right click)")
+
+//Add a parent advancement. The syntax is "modid:folder/path/to/the/advancement/then/filename"
+addParent("triumph:test/dirt")
+
+//setRequiresParent(true)
+
+//Set the position
+setPos(-240,-40)
+
+//Hide the connection lines, so I can have a pretty shape
+//hideLines()
+
+//Adds criteria named "clickedBlock" with the trigger type "triumph:right_click_block". This function returns the criteria as an object
+criteria = addCriteria("clickedBlock", "triumph:right_click_block")
+
+//Sets the required block for the criteria. This is the block that needs to be right clicked by the player.
+criteria.setBlock(<minecraft:farmland>)

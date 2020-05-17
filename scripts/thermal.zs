@@ -18,6 +18,9 @@ RedstoneFurnace.removePyrolysisRecipe(<thermalfoundation:material:801>);
 // Pulverizer
 Pulverizer.addRecipe(<exnihilocreatio:block_dust>, <minecraft:sand>, 4000);
 
+// Factorizer
+Factorizer.removeRecipeCombine(<thermalfoundation:material:16>*9);
+
 // Induction Smelter
 InductionSmelter.removeRecipe(<minecraft:iron_ingot>, <immersiveengineering:material:6>);
 InductionSmelter.removeRecipe(<immersiveengineering:material:6>, <thermalfoundation:material>);
@@ -30,3 +33,4 @@ mods.thermalexpansion.MagmaticDynamo.removeFuel(<liquid:pyrotheum>);
 Factorizer.addRecipeBoth(<minecraft:dirt>, <contenttweaker:dirtdust> * 4);
 Factorizer.addRecipeBoth(<minecraft:gravel>, <contenttweaker:graveldust> * 4);
 Factorizer.removeRecipeCombine(<thermalfoundation:material:16>*9);
+mods.thermalexpansion.MagmaticDynamo.removeFuel(<liquid:pyrotheum>);

@@ -1,0 +1,36 @@
+
+//Set icon item
+setIcon(<compactmachines3:machine>)
+
+//Set title String
+setTitle("Infinite space!")
+
+//Set description String
+setDescription("Although a tiny compact machine is still kinda cramped")
+
+//Add a parent advancement. The syntax is "modid:folder/path/to/the/advancement/then/filename"
+addParent("triumph:test/iron_ingot")
+
+//setRequiresParent(true)
+
+setFrameType("challenge")
+
+setUncompletedIconColor(8947848)
+setCompletedIconColor(6570404)
+setUncompletedTitleColor(8947848)
+setCompletedTitleColor(6570404)
+
+//Set the position
+setPos(-26,-73)
+
+//Hide the connection lines, so I can have a pretty shape
+//hideLines()
+
+//Adds criteria named "hasFlint" with the trigger type "minecraft:inventory_changed". This function returns the criteria as an object
+criteria = addCriteria("hasPlank", "minecraft:inventory_changed")
+
+//Adds the required item for the criteria. This is the item that needs to be in the player inventory.
+criteria.addItem(<compactmachines3:machine>)
+
+setRewardFunction("triumph:stage-0_trigger")
+setRewardExperience(4)
