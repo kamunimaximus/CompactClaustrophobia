@@ -13,6 +13,9 @@ recipes.remove(<thermalexpansion:augment:258>);
 recipes.remove(<exnihilocreatio:block_crucible_wood>);
 recipes.remove(<refinedstorage:processor_binding>);
 recipes.remove(<mob_grinding_utils:tank_sink>);
+recipes.remove(<ore:blockSilicon>);
+recipes.remove(<nuclearcraft:glowing_mushroom>);
+recipes.remove(<minecraft:crafting_table>);
 
 recipes.removeShaped(<minecraft:chorus_flower>, [[<minecraft:stone:4>, <minecraft:stone:4>, <minecraft:stone:4>],[<minecraft:stone:4>, <minecraft:chorus_flower>, <minecraft:stone:4>], [<minecraft:stone:4>, <minecraft:redstone_block>, <minecraft:stone:4>]]);
 recipes.removeShaped(<minecraft:diamond>, [[<ore:nuggetDiamond>, <ore:nuggetDiamond>, <ore:nuggetDiamond>],[<ore:nuggetDiamond>, <ore:nuggetDiamond>, <ore:nuggetDiamond>], [<ore:nuggetDiamond>, <ore:nuggetDiamond>, <ore:nuggetDiamond>]]);
@@ -33,6 +36,7 @@ recipes.addShapeless(<minecraft:grass>, [<minecraft:wheat_seeds>,<minecraft:dirt
 recipes.addShapeless(<exnihilocreatio:item_material:1>, [<minecraft:dye:15>, <minecraft:clay_ball>]);
 recipes.addShapeless(<minecraft:gravel>, [<contenttweaker:graveldust>,<contenttweaker:graveldust>,<contenttweaker:graveldust>,<contenttweaker:graveldust>]);
 recipes.addShapeless(<minecraft:dirt>, [<contenttweaker:dirtdust>,<contenttweaker:dirtdust>,<contenttweaker:dirtdust>,<contenttweaker:dirtdust>]);
+recipes.addShapeless(<minecraft:crafting_table>, [<craftingstation:crafting_station>]);
 
 // Add Shaped
 recipes.addShaped(<modularmachinery:blockcontroller>, [[null, null, null],[<minecraft:redstone>, <thermalfoundation:material:513>, <minecraft:redstone>], [<nuclearcraft:part:4>, <modularmachinery:blockcasing>, <nuclearcraft:part:4>]]);
@@ -63,6 +67,8 @@ recipes.addShaped(<thermalexpansion:augment:258>,
 recipes.addShaped(<exnihilocreatio:block_crucible_wood>, [[<ore:plankWood>, null, <ore:plankWood>],[<ore:plankWood>, null, <ore:plankWood>], [<minecraft:stick>, <ore:slabWood>, <minecraft:stick>]]);
 recipes.addShaped(<elevatorid:elevator_white>, [[<minecraft:wool>, <minecraft:wool>, <minecraft:wool>],[<minecraft:wool>, <modularmachinery:blockcasing>, <minecraft:wool>], [<minecraft:wool>, <minecraft:wool>, <minecraft:wool>]]);
 recipes.addShaped(<mob_grinding_utils:tank_sink>, [[null, <minecraft:iron_bars>, null],[null, <minecraft:hopper>, null], [null, <mob_grinding_utils:tank>, null]]);
+recipes.addShaped(<galacticraftcore:basic_block_core:13>, [[<ore:ingotSiliconCarbide>, <ore:itemSilicon>, <ore:ingotSiliconCarbide>], [<ore:itemSilicon>, <ore:ingotSiliconCarbide>, <ore:itemSilicon>], [<ore:ingotSiliconCarbide>, <ore:itemSilicon>, <ore:ingotSiliconCarbide>]]);
+recipes.addShaped(<craftingstation:crafting_station>, [[<ore:plankWood>, <ore:plankWood>, null],[<ore:plankWood>, <ore:plankWood>, null], [null, null, null]]);
 
 // Furnace
 furnace.addRecipe(<modularmachinery:itemmodularium>, <contenttweaker:modulariumblend>, 0.0);
