@@ -34,7 +34,7 @@
 				{
 					"type": "use_command",
 					"name": "tpj",
-					"arguments": "10 -313 132 143"
+					"arguments": "10 324 148 410"
 				},
 				{
 					"type": "play_sound",
