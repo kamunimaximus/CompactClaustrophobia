@@ -1,7 +1,7 @@
 version:1343
 invertYMouse:false
-mouseSensitivity:0.40140846
-fov:0.525
+mouseSensitivity:0.20422535
+fov:0.5
 gamma:1.0
 saturation:0.0
 renderDistance:17
@@ -61,8 +61,8 @@ key_key.right:32
 key_key.jump:57
 key_key.sneak:42
 key_key.sprint:19
-key_key.drop:16
-key_key.inventory:18
+key_key.drop:18
+key_key.inventory:16
 key_key.chat:20
 key_key.playerlist:15
 key_key.pickItem:-98

@@ -29,6 +29,8 @@ recipes.replaceAllOccurences(<ore:plateLumium>, <ore:plateSignalum>, <thermalexp
 recipes.replaceAllOccurences(<ore:dustGlowstone>, <ore:dustRedstone>, <nuclearcraft:chemical_reactor_idle>);
 recipes.replaceAllOccurences(<ore:dustGlowstone>, <ore:nuggetDiamond>, <refinedstorage:core>);
 
+
+
 // Add Shapeless
 recipes.addShapeless(<minecraft:gunpowder>*3, [<ore:dustSaltpeter>,<ore:dustSaltpeter>,<ore:dustSaltpeter>,<ore:dustSaltpeter>,<ore:dustSulfur>,<ore:dustWood>]);
 recipes.addShapeless(<contenttweaker:poopfuel>, [<minecraft:wheat>,<cropdusting:poop>]);
@@ -37,8 +39,13 @@ recipes.addShapeless(<exnihilocreatio:item_material:1>, [<minecraft:dye:15>, <mi
 recipes.addShapeless(<minecraft:gravel>, [<contenttweaker:graveldust>,<contenttweaker:graveldust>,<contenttweaker:graveldust>,<contenttweaker:graveldust>]);
 recipes.addShapeless(<minecraft:dirt>, [<contenttweaker:dirtdust>,<contenttweaker:dirtdust>,<contenttweaker:dirtdust>,<contenttweaker:dirtdust>]);
 recipes.addShapeless(<minecraft:crafting_table>, [<craftingstation:crafting_station>]);
+recipes.addShapeless(<questbook:itemquestbook>, [<contenttweaker:graveldust>]);
+recipes.addShapeless(<questbook:itemquestbook>, [<contenttweaker:dirtdust>]);
+
+recipes.removeShapeless(<nuclearcraft:glowing_mushroom>, [<minecraft:brown_mushroom>, <minecraft:glowstone_dust>]);
 
 // Add Shaped
+recipes.addShaped(<craftingstation:crafting_station>, [[<ore:plankWood>, <ore:plankWood>, null],[<ore:plankWood>, <ore:plankWood>, null], [null, null, null]]);
 recipes.addShaped(<modularmachinery:blockcontroller>, [[null, null, null],[<minecraft:redstone>, <thermalfoundation:material:513>, <minecraft:redstone>], [<nuclearcraft:part:4>, <modularmachinery:blockcasing>, <nuclearcraft:part:4>]]);
 recipes.addShaped(<immersiveengineering:material:2> * 4, [[null, <ore:ingotSteel>],[null, <ore:ingotSteel>]]);
 recipes.addShaped(<contenttweaker:modulariumblend>, [[<ore:dustIron>, <immersiveengineering:metal:14>, <ore:dustIron>],[<immersiveengineering:metal:14>, <minecraft:redstone>, <immersiveengineering:metal:14>], [<ore:dustIron>, <immersiveengineering:metal:14>, <ore:dustIron>]]);

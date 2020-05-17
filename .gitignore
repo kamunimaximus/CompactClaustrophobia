@@ -1,0 +1,6 @@
+﻿config/jei
+.mixin.out
+logs
+options.txt
+minecraftinstance.json
+usercache.json
