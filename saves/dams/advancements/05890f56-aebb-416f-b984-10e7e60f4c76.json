@@ -1,4 +1,10 @@
 {
+  "minecraft:recipes/tools/flint_and_steel": {
+    "criteria": {
+      "has_flint": "2020-05-17 22:55:27 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/tools/stone_shovel": {
     "criteria": {
       "has_cobblestone": "2020-05-17 19:20:03 +0200"
@@ -47,6 +53,12 @@
     },
     "done": true
   },
+  "nuclearcraft:radiation/rad_shielding": {
+    "criteria": {
+      "has_item": "2020-05-17 22:33:03 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/stone_stairs": {
     "criteria": {
       "has_cobblestone": "2020-05-17 19:20:03 +0200"
@@ -59,15 +71,21 @@
     },
     "done": false
   },
-  "minecraft:recipes/decorations/chest": {
+  "minecraft:story/lava_bucket": {
     "criteria": {
-      "has_lots_of_items": "2020-05-17 19:24:17 +0200"
+      "lava_bucket": "2020-05-18 18:29:06 +0200"
     },
     "done": true
   },
   "minecraft:recipes/transportation/birch_boat": {
     "criteria": {
       "entered_water": "2020-05-17 19:16:27 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/chest": {
+    "criteria": {
+      "has_lots_of_items": "2020-05-17 19:24:17 +0200"
     },
     "done": true
   },
@@ -83,15 +101,15 @@
     },
     "done": true
   },
-  "minecraft:recipes/transportation/acacia_boat": {
-    "criteria": {
-      "entered_water": "2020-05-17 19:16:27 +0200"
-    },
-    "done": true
-  },
   "minecraft:recipes/redstone/stone_button": {
     "criteria": {
       "has_stone": "2020-05-17 19:16:21 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/acacia_boat": {
+    "criteria": {
+      "entered_water": "2020-05-17 19:16:27 +0200"
     },
     "done": true
   },
@@ -107,21 +125,27 @@
     },
     "done": true
   },
-  "minecraft:recipes/tools/stone_axe": {
-    "criteria": {
-      "has_cobblestone": "2020-05-17 19:20:03 +0200"
-    },
-    "done": true
-  },
   "galacticraftcore:galacticraft/root": {
     "criteria": {
       "tick": "2020-05-17 19:12:40 +0200"
     },
     "done": true
   },
+  "minecraft:recipes/tools/stone_axe": {
+    "criteria": {
+      "has_cobblestone": "2020-05-17 19:20:03 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/stone_slab": {
     "criteria": {
       "has_stone": "2020-05-17 19:16:21 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/arrow": {
+    "criteria": {
+      "has_flint": "2020-05-17 22:55:27 +0200"
     },
     "done": true
   },

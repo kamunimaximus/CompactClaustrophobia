@@ -1,0 +1,42 @@
+[18:23:12] [ERROR] Error parsing Ingredient String: Invalid Item: exnihilocreatio:block_skystone_crushed:0
+[18:23:12] [ERROR] Error parsing JSON: Invalid Item: {"name":"appliedenergistics2:crystal_seed","meta":0,"nbt":"{progress:0.0f}"}
+[18:23:12] [ERROR] This may result in crashing or other undefined behavior
+[18:23:12] [ERROR] Error parsing JSON: Invalid Item: {"name":"appliedenergistics2:crystal_seed","meta":0,"nbt":"{progress:0.0f}"}
+[18:23:12] [ERROR] This may result in crashing or other undefined behavior
+[18:23:12] [ERROR] Error parsing JSON: Invalid Item: {"name":"appliedenergistics2:crystal_seed","meta":0,"nbt":"{progress:0.0f}"}
+[18:23:12] [ERROR] This may result in crashing or other undefined behavior
+[18:23:12] [ERROR] Error parsing JSON: Invalid Item: {"item":"exnihilocreatio:block_skystone_crushed:0","amount":1,"miningLevel":3,"chance":1.0,"fortuneChance":0.0}
+[18:23:12] [ERROR] Error parsing Ingredient String: Invalid Item: appliedenergistics2:sky_stone_block:0
+[18:23:12] [ERROR] Error parsing Ingredient String: Invalid Item: appliedenergistics2:material:45
+[18:23:14] [INFO] Enabled support for The One Probe
+[18:23:17] [INFO] ModConfig Loaded: true
+[18:23:17] [INFO] JEI: Compost Recipe Pages Loaded:         2
+[18:23:17] [INFO] JEI: Fluid Item Transform Recipes Loaded:       23
+[18:23:17] [INFO] JEI: Fluid On Top Recipes Loaded:       2
+[18:23:17] [INFO] JEI: Fluid Transform Recipes Loaded:    1
+[18:23:17] [INFO] JEI: Hammer Recipes Loaded:             44
+[18:23:17] [INFO] JEI: Crook Recipes Loaded:              1
+[18:23:17] [INFO] JEI: Heat Sources Loaded:             18
+[18:23:17] [INFO] JEI: Sieve Recipes Loaded:              47
+[18:23:17] [INFO] JEI: Stone Crucible Recipes Loaded:       1
+[18:23:17] [INFO] JEI: Wood Crucible Recipes Loaded:        1
+[18:23:17] [INFO] Registered Hammer Catalyst: exnihilocreatio:hammer_wood
+[18:23:17] [INFO] Registered Hammer Catalyst: exnihilocreatio:hammer_stone
+[18:23:17] [INFO] Registered Hammer Catalyst: exnihilocreatio:hammer_iron
+[18:23:17] [INFO] Registered Hammer Catalyst: exnihilocreatio:hammer_diamond
+[18:23:17] [INFO] Registered Hammer Catalyst: exnihilocreatio:hammer_gold
+[18:23:17] [INFO] Registered Crook Catalyst: exnihilocreatio:crook_wood
+[18:23:17] [INFO] Registered Crook Catalyst: exnihilocreatio:crook_stone
+[18:23:17] [INFO] Registered Crook Catalyst: exnihilocreatio:crook_andesite
+[18:23:17] [INFO] Registered Crook Catalyst: exnihilocreatio:crook_granite
+[18:23:17] [INFO] Registered Crook Catalyst: exnihilocreatio:crook_diorite
+[18:23:17] [INFO] Registered Crook Catalyst: exnihilocreatio:crook_gold
+[18:23:17] [INFO] Registered Crook Catalyst: exnihilocreatio:crook_iron
+[18:23:17] [INFO] Registered Crook Catalyst: exnihilocreatio:crook_diamond
+[18:23:17] [INFO] Registered Crook Catalyst: exnihilocreatio:crook_bone
+[18:23:17] [INFO] Registered Crook Catalyst: exnihilocreatio:crook_clay_uncooked
+[18:23:17] [INFO] Registered Crook Catalyst: exnihilocreatio:crook_clay
+[18:23:17] [INFO] Registered Crook Catalyst: exnihilocreatio:crook_prismarine
+[18:23:17] [INFO] Registered Crook Catalyst: exnihilocreatio:crook_netherrack
+[18:23:17] [INFO] Registered Crook Catalyst: exnihilocreatio:crook_purpur
+[18:23:17] [INFO] Registered Crook Catalyst: exnihilocreatio:crook_blaze

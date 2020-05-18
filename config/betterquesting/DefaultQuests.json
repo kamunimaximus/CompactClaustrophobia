@@ -3874,7 +3874,9 @@
     },
     "68:10": {
       "questID:3": 68,
-      "preRequisites:11": [],
+      "preRequisites:11": [
+        142
+      ],
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -7797,6 +7799,391 @@
         }
       },
       "rewards:9": {}
+    },
+    "142:10": {
+      "questID:3": 142,
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": 3600,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "minecraft:nether_star",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Stuck in a hole",
+          "desc:8": "Oh no! You\u0027ve been trapped! Here take this handy personal shrinking device and click on the block in the floor. That should get you going. P.S you can pickup this device every 3 minutes from here, just in case you ever lose it.."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "compactmachines3:psd",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "143:10": {
+      "questID:3": 143,
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "contenttweaker:glitched0",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "glitch_0",
+          "desc:8": "What is this place? Seems to be some corrupted version of another world?"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "visible:1": 0,
+          "invert:1": 0,
+          "range:3": -1,
+          "index:3": 0,
+          "structure:8": "",
+          "hideInfo:1": 0,
+          "posX:3": 0,
+          "posY:3": 0,
+          "posZ:3": 0,
+          "biome:8": "",
+          "name:8": "glitch_0",
+          "dimension:3": 10,
+          "taxiCabDist:1": 0,
+          "taskID:8": "bq_standard:location"
+        }
+      },
+      "rewards:9": {}
+    },
+    "144:10": {
+      "questID:3": 144,
+      "preRequisites:11": [
+        143
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "chisel:futura",
+            "Count:3": 1,
+            "Damage:2": 5,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "glitch_0 BETA",
+          "desc:8": "These blocks seem to indicate instabilities in the fabric of these glitched dimensions"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "visible:1": 1,
+          "invert:1": 0,
+          "range:3": 1,
+          "index:3": 0,
+          "structure:8": "",
+          "hideInfo:1": 0,
+          "posX:3": 324,
+          "posY:3": 149,
+          "posZ:3": 407,
+          "biome:8": "",
+          "name:8": "glitch_0_home",
+          "dimension:3": 10,
+          "taxiCabDist:1": 0,
+          "taskID:8": "bq_standard:location"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:choice",
+          "index:3": 0,
+          "choices:9": {
+            "0:10": {
+              "id:8": "modularmachinery:itemmodularium",
+              "Count:3": 8,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "minecraft:leather_boots",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "145:10": {
+      "questID:3": 145,
+      "preRequisites:11": [
+        143
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "chisel:futura",
+            "Count:3": 1,
+            "Damage:2": 5,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "glitch_0 GAMMA",
+          "desc:8": "These blocks seem to indicate instabilities in the fabric of these glitched dimensions"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "visible:1": 1,
+          "invert:1": 0,
+          "range:3": 1,
+          "index:3": 0,
+          "structure:8": "",
+          "hideInfo:1": 0,
+          "posX:3": 393,
+          "posY:3": 157,
+          "posZ:3": 395,
+          "biome:8": "",
+          "name:8": "glitch_0 ALPHA",
+          "dimension:3": 10,
+          "taxiCabDist:1": 0,
+          "taskID:8": "bq_standard:location"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:choice",
+          "index:3": 0,
+          "choices:9": {
+            "0:10": {
+              "id:8": "modularmachinery:itemmodularium",
+              "Count:3": 10,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "thermalexpansion:satchel",
+              "Count:3": 1,
+              "tag:10": {
+                "Accessible:1": 1
+              },
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "146:10": {
+      "questID:3": 146,
+      "preRequisites:11": [
+        143
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "chisel:futura",
+            "Count:3": 1,
+            "Damage:2": 5,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "glitch_0 ALPHA",
+          "desc:8": "These blocks seem to indicate instabilities in the fabric of these glitched dimensions"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "visible:1": 1,
+          "invert:1": 0,
+          "range:3": 1,
+          "index:3": 0,
+          "structure:8": "",
+          "hideInfo:1": 0,
+          "posX:3": 302,
+          "posY:3": 170,
+          "posZ:3": 428,
+          "biome:8": "",
+          "name:8": "glitch_0_island",
+          "dimension:3": 10,
+          "taxiCabDist:1": 0,
+          "taskID:8": "bq_standard:location"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:choice",
+          "index:3": 0,
+          "choices:9": {
+            "0:10": {
+              "id:8": "modularmachinery:itemmodularium",
+              "Count:3": 20,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "bedrockminer:bedrock_leggings",
+              "Count:3": 1,
+              "tag:10": {
+                "ncRadiationResistance:6": 1.0
+              },
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "147:10": {
+      "questID:3": 147,
+      "preRequisites:11": [
+        143
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "contenttweaker:homeportal",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "glitch_0 OMEGA",
+          "desc:8": "These blocks seem to indicate instabilities in the fabric of these glitched dimensions. This should be near a way to return...."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "visible:1": 1,
+          "invert:1": 0,
+          "range:3": 1,
+          "index:3": 0,
+          "structure:8": "",
+          "hideInfo:1": 0,
+          "posX:3": 386,
+          "posY:3": 152,
+          "posZ:3": 400,
+          "biome:8": "",
+          "name:8": "glitch_0 ALPHA",
+          "dimension:3": 10,
+          "taxiCabDist:1": 0,
+          "taskID:8": "bq_standard:location"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:choice",
+          "index:3": 0,
+          "choices:9": {
+            "0:10": {
+              "id:8": "contenttweaker:poopfuel",
+              "Count:3": 16,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "contenttweaker:tinysmashedmachine",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "2:10": {
+              "id:8": "minecraft:beef",
+              "Count:3": 32,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
     }
   },
   "questLines:9": {
@@ -8164,6 +8551,13 @@
           "x:3": -8,
           "y:3": 44,
           "id:3": 141,
+          "sizeY:3": 24
+        },
+        "41:10": {
+          "sizeX:3": 24,
+          "x:3": 84,
+          "y:3": -52,
+          "id:3": 142,
           "sizeY:3": 24
         }
       },
@@ -8891,6 +9285,62 @@
         }
       },
       "order:3": 2
+    },
+    "5:10": {
+      "quests:9": {
+        "0:10": {
+          "sizeX:3": 24,
+          "x:3": -72,
+          "y:3": -44,
+          "id:3": 143,
+          "sizeY:3": 24
+        },
+        "1:10": {
+          "sizeX:3": 20,
+          "x:3": -52,
+          "y:3": -12,
+          "id:3": 144,
+          "sizeY:3": 20
+        },
+        "2:10": {
+          "sizeX:3": 20,
+          "x:3": -80,
+          "y:3": -12,
+          "id:3": 145,
+          "sizeY:3": 20
+        },
+        "3:10": {
+          "sizeX:3": 20,
+          "x:3": -24,
+          "y:3": -12,
+          "id:3": 146,
+          "sizeY:3": 20
+        },
+        "4:10": {
+          "sizeX:3": 28,
+          "x:3": -112,
+          "y:3": -16,
+          "id:3": 147,
+          "sizeY:3": 28
+        }
+      },
+      "lineID:3": 5,
+      "properties:10": {
+        "betterquesting:10": {
+          "visibility:8": "NORMAL",
+          "name:8": "Glitched Adventures",
+          "icon:10": {
+            "id:8": "contenttweaker:corruptpsd",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "bg_image:8": "",
+          "bg_size:3": 256,
+          "desc:8": "Specific locations seems to resonnate with your questbook strongly. Perhaps this glitch can be abused somehow?"
+        }
+      },
+      "order:3": 5
     }
   },
   "questSettings:10": {

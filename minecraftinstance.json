@@ -29,7 +29,7 @@
   "isUnlocked": true,
   "javaArgsOverride": null,
   "javaDirOverride": null,
-  "lastPlayed": "2020-05-17T17:02:51.0986886Z",
+  "lastPlayed": "2020-05-18T16:18:48.361212Z",
   "manifest": {
     "minecraft": {
       "version": "1.12.2",
@@ -7362,7 +7362,7 @@
       "dateInstalled": "2020-05-15T16:09:54.3299391Z",
       "dateUpdated": "2019-05-15T16:09:54.3299391Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 5,
+      "status": 3,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -9495,7 +9495,7 @@
       "dateInstalled": "2020-05-16T13:39:41.3684831Z",
       "dateUpdated": "2020-05-16T13:39:41.37449Z",
       "dateLastUpdateAttempted": "2020-05-16T13:39:41.37449Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -12604,78 +12604,61 @@
       "addonID": 382079,
       "gameInstanceID": "d010337f-3108-4706-89c7-6f5929a8779e",
       "installedFile": {
-        "id": 2952186,
-        "displayName": "Scavenge Timing Addon Beta 1.0",
-        "fileName": "Scavenge-Timing-b1.0.jar",
-        "fileDate": "2020-05-09T09:20:43.56Z",
-        "fileLength": 5726,
+        "id": 2956124,
+        "displayName": "Scavenge Timing Addon Beta 1.1",
+        "fileName": "Scavenge-Timing-b1.1.jar",
+        "fileDate": "2020-05-13T20:16:16.18Z",
+        "fileLength": 8243,
         "releaseType": 2,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2952/186/Scavenge-Timing-b1.0.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/2956/124/Scavenge-Timing-b1.1.jar",
         "isAlternate": false,
         "alternateFileId": 0,
         "dependencies": [
           {
-            "id": 41850344,
+            "id": 0,
             "addonId": 282988,
             "type": 3,
-            "fileId": 2952186
+            "fileId": 0
           }
         ],
         "isAvailable": true,
         "modules": [
           {
             "foldername": "META-INF",
-            "fingerprint": 1192745147,
-            "type": 3
+            "fingerprint": 3136316367,
+            "type": 0
           },
           {
             "foldername": "marilatte",
-            "fingerprint": 2580263286,
-            "type": 3
-          },
-          {
-            "foldername": "mcmod.info",
-            "fingerprint": 1979373361,
-            "type": 3
+            "fingerprint": 4093868686,
+            "type": 0
           },
           {
             "foldername": "pack.mcmeta",
             "fingerprint": 542031569,
-            "type": 3
+            "type": 0
           }
         ],
-        "packageFingerprint": 1762296959,
+        "packageFingerprint": 346516946,
         "gameVersion": [
           "1.12.2"
         ],
-        "sortableGameVersion": [
-          {
-            "gameVersionPadded": "0000000001.0000000012.0000000002",
-            "gameVersion": "1.12.2",
-            "gameVersionReleaseDate": "2017-09-18T05:00:00Z",
-            "gameVersionName": "1.12.2"
-          }
-        ],
         "hasInstallScript": false,
         "isCompatibleWithClient": false,
-        "categorySectionPackageType": 6,
-        "restrictProjectFileAccess": 1,
-        "projectStatus": 4,
-        "renderCacheId": 1856952,
-        "projectId": 382079,
-        "packageFingerprintId": 454532452,
+        "categorySectionPackageType": 0,
+        "restrictProjectFileAccess": 0,
+        "projectStatus": 0,
+        "projectId": 0,
         "gameVersionDateReleased": "2008-03-01T06:00:00Z",
-        "gameVersionMappingId": 2219198,
-        "gameVersionId": 4458,
-        "gameId": 432,
+        "gameId": 0,
         "isServerPack": false,
-        "FileNameOnDisk": "Scavenge-Timing-b1.0.jar"
+        "FileNameOnDisk": "Scavenge-Timing-b1.1.jar"
       },
       "dateInstalled": "2020-05-15T16:09:54.3319338Z",
-      "dateUpdated": "2019-05-15T16:09:54.3319338Z",
-      "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 3,
+      "dateUpdated": "2020-05-18T16:18:35.4327157Z",
+      "dateLastUpdateAttempted": "2020-05-18T16:18:35.4327157Z",
+      "status": 4,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,

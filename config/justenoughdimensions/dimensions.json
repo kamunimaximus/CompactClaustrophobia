@@ -14,7 +14,8 @@
           "require_exact_match": true
       },
       "spawn_structure": {
-        "name": "glitch0adventure.schematic"
+        "name": "glitch0questv3.schematic",
+        "offset": [-3, 7, -8]
       },
       "chunkgenerator": "fi.dy.masa.justenoughdimensions.world.gen.ChunkGeneratorFlatJED",
       "worldinfo_onetime": {

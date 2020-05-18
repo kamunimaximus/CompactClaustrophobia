@@ -33,6 +33,11 @@
 			"properties": [
 				{
 					"type": "use_command",
+					"name": "effect",
+					"arguments": "@p minecraft:nausea 10"
+				},
+				{
+					"type": "use_command",
 					"name": "tpj",
 					"arguments": "10 324 148 410"
 				},
