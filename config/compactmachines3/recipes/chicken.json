@@ -8,7 +8,7 @@
   "target-nbt": "{EntityTag:{id:\"minecraft:chicken\"}}",
 
   "duration": 200,
-  "symmetrical": true,
+  "symmetrical": false,
 
   "catalyst": "minecraft:ender_pearl",
 

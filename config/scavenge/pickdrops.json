@@ -282,7 +282,7 @@
 				},
 				{
 					"name": "minecraft:flint",
-					"weight": 5
+					"weight": 1
 				},
 				{
 					"name": "immersiveengineering:metal",
@@ -438,7 +438,7 @@
 			[
 				{
 					"name": "cttinycoal:tiny_coal",
-					"weight": 2000
+					"weight": 1500
 				},
 				{
 					"name": "thermalfoundation:material",
@@ -449,6 +449,11 @@
 					"name": "thermalfoundation:material",
 					"meta": "70",
 					"weight": 125
+				},
+				{
+					"name": "thermalfoundation:material",
+					"meta": "16",
+					"weight": 9
 				},
 				{
 					"name": "bedrockminer:bedrock_chunk",
