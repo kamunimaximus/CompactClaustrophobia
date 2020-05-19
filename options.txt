@@ -90,11 +90,6 @@ key_key.death_history:22
 key_[GC] Galaxy Map:50
 key_[GC] Open Spaceship Inventory:33
 key_[GC] Toggle Sensor Goggles Mode:37
-key_Open Menu:25
-key_Toggle Freeze Effect:0
-key_Enable/Disable:0
-key_Kill Particles:0
-key_Blacklist Block:45
 key_key.moreoverlays.lightoverlay.desc:65
 key_key.moreoverlays.chunkbounds.desc:67
 key_neat.keybind.toggle:0
@@ -152,7 +147,7 @@ key_key.trashslot.delete:211
 key_key.trashslot.deleteAll:211:SHIFT
 key_key.control:29
 soundCategory_master:1.0
-soundCategory_music:1.0
+soundCategory_music:0.23239437
 soundCategory_record:1.0
 soundCategory_weather:1.0
 soundCategory_block:1.0

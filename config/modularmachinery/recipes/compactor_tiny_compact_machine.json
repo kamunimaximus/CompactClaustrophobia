@@ -1,7 +1,7 @@
 {
     "machine": "compactor",
     "registryName": "compactor_tiny_compact_machine",
-    "recipeTime": 180,
+    "recipeTime": 100,
     "requirements": [
         {
             "type": "modularmachinery:energy",

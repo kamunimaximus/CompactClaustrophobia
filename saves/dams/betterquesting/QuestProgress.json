@@ -1717,7 +1717,7 @@
         "0:10": {
           "claimed:1": 0,
           "uuid:8": "05890f56-aebb-416f-b984-10e7e60f4c76",
-          "timestamp:4": 1589738580247
+          "timestamp:4": 1589914953821
         }
       },
       "tasks:9": {
@@ -1754,13 +1754,7 @@
     },
     "147:10": {
       "questID:3": 147,
-      "completed:9": {
-        "0:10": {
-          "claimed:1": 0,
-          "uuid:8": "05890f56-aebb-416f-b984-10e7e60f4c76",
-          "timestamp:4": 1589738345447
-        }
-      },
+      "completed:9": {},
       "tasks:9": {
         "0:10": {
           "completeUsers:9": {},
@@ -1771,6 +1765,65 @@
     },
     "148:10": {
       "questID:3": 148,
+      "completed:9": {},
+      "tasks:9": {
+        "0:10": {
+          "completeUsers:9": {},
+          "userProgress:9": {},
+          "index:3": 0,
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "149:10": {
+      "questID:3": 149,
+      "completed:9": {},
+      "tasks:9": {
+        "0:10": {
+          "completeUsers:9": {},
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        }
+      }
+    },
+    "150:10": {
+      "questID:3": 150,
+      "completed:9": {},
+      "tasks:9": {
+        "0:10": {
+          "completeUsers:9": {},
+          "userProgress:9": {},
+          "index:3": 0,
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "151:10": {
+      "questID:3": 151,
+      "completed:9": {},
+      "tasks:9": {
+        "0:10": {
+          "completeUsers:9": {},
+          "userProgress:9": {},
+          "index:3": 0,
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "152:10": {
+      "questID:3": 152,
+      "completed:9": {},
+      "tasks:9": {
+        "0:10": {
+          "completeUsers:9": {},
+          "userProgress:9": {},
+          "index:3": 0,
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "153:10": {
+      "questID:3": 153,
       "completed:9": {},
       "tasks:9": {
         "0:10": {

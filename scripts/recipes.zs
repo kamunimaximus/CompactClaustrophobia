@@ -1,9 +1,15 @@
 //This file was created via CT-GUI! Editing it is not advised!
 //Don't touch me!
 //#Remove
+recipes.removeShaped(<integrateddynamics:mechanical_squeezer>, [[null, <minecraft:diamond>, null],[<integrateddynamics:energy_battery>, <integrateddynamics:squeezer>, <integrateddynamics:energy_battery>], [null, <ore:obsidian>, null]]);
+recipes.removeShaped(<integrateddynamics:logic_director>, [[<integrateddynamics:crystalized_chorus_chunk>, <integrateddynamics:crystalized_menril_chunk>, <integrateddynamics:crystalized_chorus_chunk>],[<integrateddynamics:crystalized_chorus_chunk>, <minecraft:diamond>, <integrateddynamics:crystalized_chorus_chunk>], [<integrateddynamics:crystalized_chorus_chunk>, <integrateddynamics:crystalized_menril_chunk>, <integrateddynamics:crystalized_chorus_chunk>]]);
+recipes.removeShaped(<minecraft:enchanting_table>, [[null, <minecraft:book>, null],[<minecraft:diamond>, <minecraft:obsidian>, <minecraft:diamond>], [<minecraft:obsidian>, <minecraft:obsidian>, <minecraft:obsidian>]]);
 recipes.removeShapeless(<nuclearcraft:glowing_mushroom>, [<minecraft:brown_mushroom>, <minecraft:glowstone_dust>]);
 recipes.removeShapeless(<nuclearcraft:glowing_mushroom>, [<minecraft:brown_mushroom>, <minecraft:glowstone_dust>]);
 //#Add
+recipes.addShaped(<integrateddynamics:mechanical_squeezer>, [[null, <thermalfoundation:material:16>, null],[<integrateddynamics:energy_battery>, <integrateddynamics:squeezer>, <integrateddynamics:energy_battery>], [null, <ore:obsidian>, null]]);
+recipes.addShaped(<integrateddynamics:logic_director>, [[<integrateddynamics:crystalized_chorus_chunk>, <integrateddynamics:crystalized_menril_chunk>, <integrateddynamics:crystalized_chorus_chunk>],[<integrateddynamics:crystalized_chorus_chunk>, <thermalfoundation:material:16>, <integrateddynamics:crystalized_chorus_chunk>], [<integrateddynamics:crystalized_chorus_chunk>, <integrateddynamics:crystalized_menril_chunk>, <integrateddynamics:crystalized_chorus_chunk>]]);
+recipes.addShaped(<minecraft:enchanting_table>, [[null, <minecraft:book>, null],[<thermalfoundation:material:16>, <minecraft:obsidian>, <thermalfoundation:material:16>], [<minecraft:obsidian>, <minecraft:obsidian>, <minecraft:obsidian>]]);
 recipes.addShaped(<modularmachinery:blockenergyinputhatch:7>, [[<minecraft:slime_ball>, <thermaldynamics:duct_0:9>, <minecraft:slime_ball>],[<minecraft:redstone_block>, <modularmachinery:blockenergyinputhatch:6>, <minecraft:redstone_block>], [<minecraft:slime_ball>, <minecraft:redstone_block>, <minecraft:slime_ball>]]);
 recipes.addShaped(<modularmachinery:blockenergyinputhatch:6>, [[<minecraft:slime_ball>, <minecraft:repeater>, <minecraft:slime_ball>],[<minecraft:redstone_block>, <modularmachinery:blockenergyinputhatch:5>, <minecraft:redstone_block>], [<minecraft:slime_ball>, <minecraft:redstone_block>, <minecraft:slime_ball>]]);
 recipes.addShaped(<modularmachinery:blockenergyinputhatch:5>, [[<minecraft:slime_ball>, <minecraft:repeater>, <minecraft:slime_ball>],[<minecraft:redstone_block>, <modularmachinery:blockenergyinputhatch:4>, <minecraft:redstone_block>], [<minecraft:slime_ball>, <minecraft:redstone_block>, <minecraft:slime_ball>]]);

@@ -23,5 +23,5 @@ for i, cutting in bonsaiCuttings
 	// Bonsai to real Sapling
 	mods.inworldcrafting.FluidToItem.transform(<minecraft:sapling>.withDamage(i), <liquid:water>, bonsaiSaplings[i], true);
 	// Add Bonsai Cutting to plankWood Ore-Dict
-	<ore:plankWood>.add(cutting);
+	//<ore:plankWood>.add(cutting); Causes crafting conflicts
 }
