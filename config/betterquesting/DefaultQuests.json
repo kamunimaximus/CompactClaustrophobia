@@ -704,27 +704,20 @@
       "tasks:9": {
         "0:10": {
           "partialMatch:1": 1,
-          "item:10": {
-            "id:8": "minecraft:air",
-            "Count:3": 1,
-            "Damage:2": 0,
-            "OreDict:8": ""
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "contenttweaker:dirtdust",
+              "Count:3": 4,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
           },
-          "requiredUses:3": 1,
-          "ignoreNbt:1": 0,
-          "index:3": 1,
-          "block:10": {
-            "blockID:8": "compactmachines3:wall",
-            "nbt:10": {},
-            "amount:3": 1,
-            "oreDict:8": "",
-            "meta:3": -1
-          },
-          "onHit:1": 1,
-          "onInteract:1": 0,
-          "allowOffHand:1": 1,
-          "taskID:8": "bq_standard:interact_item",
-          "allowMainHand:1": 1
+          "taskID:8": "bq_standard:retrieval"
         }
       },
       "rewards:9": {}
@@ -1120,7 +1113,7 @@
           "repeat_relative:1": 1,
           "ismain:1": 0,
           "name:8": "Getting your hands dirty",
-          "desc:8": "Right click to rummage!"
+          "desc:8": "Right click to rummage! Right click the dirt to see if there are any useful things hidden. If you do it enough you\u0027ll also prepare it for planting!"
         }
       },
       "tasks:9": {
@@ -1362,7 +1355,8 @@
     "24:10": {
       "questID:3": 24,
       "preRequisites:11": [
-        17
+        17,
+        14
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -1392,27 +1386,20 @@
       "tasks:9": {
         "0:10": {
           "partialMatch:1": 1,
-          "item:10": {
-            "id:8": "clickmachine:auto_clicker",
-            "Count:3": 1,
-            "Damage:2": 0,
-            "OreDict:8": ""
-          },
-          "requiredUses:3": 1,
-          "ignoreNbt:1": 0,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
           "index:3": 0,
-          "block:10": {
-            "blockID:8": "minecraft:air",
-            "nbt:10": {},
-            "amount:3": 1,
-            "oreDict:8": "",
-            "meta:3": -1
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "clickmachine:auto_clicker",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
           },
-          "onHit:1": 0,
-          "onInteract:1": 1,
-          "allowOffHand:1": 1,
-          "taskID:8": "bq_standard:interact_item",
-          "allowMainHand:1": 1
+          "taskID:8": "bq_standard:retrieval"
         }
       },
       "rewards:9": {
@@ -1484,8 +1471,7 @@
     "26:10": {
       "questID:3": 26,
       "preRequisites:11": [
-        17,
-        127
+        17
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -1497,13 +1483,13 @@
           "visibility:8": "NORMAL",
           "simultaneous:1": 0,
           "icon:10": {
-            "id:8": "base:wrench",
+            "id:8": "thermalfoundation:wrench",
             "Count:3": 1,
             "Damage:2": 0,
             "OreDict:8": ""
           },
           "globalshare:1": 0,
-          "questlogic:8": "OR",
+          "questlogic:8": "AND",
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "repeat_relative:1": 1,
@@ -1522,12 +1508,6 @@
           "consume:1": 0,
           "requiredItems:9": {
             "0:10": {
-              "id:8": "base:wrench",
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": ""
-            },
-            "1:10": {
               "id:8": "thermalfoundation:wrench",
               "Count:3": 1,
               "Damage:2": 0,
@@ -1834,7 +1814,7 @@
           "repeat_relative:1": 1,
           "ismain:1": 0,
           "name:8": "Home grown wood",
-          "desc:8": "Right click the dirt to see if there are any useful things hidden. If you do it enough you\u0027ll also prepare it for planting! Things grow faster if you sneak around on top (hold shift and walk on crops)"
+          "desc:8": "Things grow faster if you sneak around on top (hold shift and walk on crops). Btw these delicate bonsai saplings needs prepared dirt for them to grow."
         }
       },
       "tasks:9": {
@@ -2501,7 +2481,6 @@
     "45:10": {
       "questID:3": 45,
       "preRequisites:11": [
-        57,
         97
       ],
       "properties:10": {
@@ -2530,7 +2509,7 @@
           "repeat_relative:1": 1,
           "ismain:1": 0,
           "name:8": "Compacted Squared",
-          "desc:8": "Melting a compact machine is no easy feat and requires quite a substantial amount of energy"
+          "desc:8": "Melting a compact machine is no easy feat and requires quite a substantial amount of energy. However an already used machine cannot be used for this. Try frying the machine and the delicate data stored will be removed."
         }
       },
       "tasks:9": {
@@ -3534,8 +3513,7 @@
     "62:10": {
       "questID:3": 62,
       "preRequisites:11": [
-        80,
-        34
+        80
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -3890,7 +3868,9 @@
     },
     "68:10": {
       "questID:3": 68,
-      "preRequisites:11": [],
+      "preRequisites:11": [
+        142
+      ],
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -3913,7 +3893,7 @@
           "repeat_relative:1": 1,
           "ismain:1": 0,
           "name:8": "The beginning?",
-          "desc:8": "In case you wonder, why you have an IPhone Y in your inventory, just right-click it on that strange-looking block at the bottom"
+          "desc:8": "In case you wonder, why you have an IPhone Y in your inventory, just right-click it on that strange-looking block at the bottom of this dark and tiny room"
         }
       },
       "tasks:9": {
@@ -5106,7 +5086,8 @@
     "91:10": {
       "questID:3": 91,
       "preRequisites:11": [
-        10
+        10,
+        140
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -5412,7 +5393,7 @@
     "97:10": {
       "questID:3": 97,
       "preRequisites:11": [
-        34
+        57
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -6298,7 +6279,8 @@
     "114:10": {
       "questID:3": 114,
       "preRequisites:11": [
-        102
+        102,
+        101
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -7481,7 +7463,7 @@
     "136:10": {
       "questID:3": 136,
       "preRequisites:11": [
-        63
+        88
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -7493,7 +7475,61 @@
           "visibility:8": "NORMAL",
           "simultaneous:1": 0,
           "icon:10": {
-            "id:8": "nuclearcraft:spaxelhoe_boron",
+            "id:8": "microblockcbe:microblock",
+            "Count:3": 1,
+            "tag:10": {
+              "mat:8": "minecraft:obsidian"
+            },
+            "Damage:2": 258,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "To hell and back?",
+          "desc:8": "You really thought I\u0027d give you vacation in hell? Think again, and have this cake while you\u0027re at it!"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "minecraft:cake",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "137:10": {
+      "questID:3": 137,
+      "preRequisites:11": [
+        13
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "questbook:itemquestbook",
             "Count:3": 1,
             "Damage:2": 0,
             "OreDict:8": ""
@@ -7504,8 +7540,8 @@
           "autoclaim:1": 0,
           "repeat_relative:1": 1,
           "ismain:1": 0,
-          "name:8": "What\u0027s so special about this?",
-          "desc:8": "This very special tool has a shape that makes auto clickers able to use it well. With this equipped they can mine leaves, wood and cobblestone!"
+          "name:8": "Another quest?",
+          "desc:8": "Your questbook will help you a whole bunch on the journey, but it could be lost. Luckily it\u0027s quite easy to make another :) P.S. You can also delete them after doing this, no reason to keep them all around"
         }
       },
       "tasks:9": {
@@ -7518,7 +7554,127 @@
           "consume:1": 0,
           "requiredItems:9": {
             "0:10": {
-              "id:8": "nuclearcraft:spaxelhoe_boron",
+              "id:8": "questbook:itemquestbook",
+              "Count:3": 5,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "138:10": {
+      "questID:3": 138,
+      "preRequisites:11": [
+        97
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "nuclearcraft:upgrade",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Speeding it up!",
+          "desc:8": "Unless you got 33 minutes to spare - I\u0027d recommend taking a look at these!"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "nuclearcraft:upgrade",
+              "Count:3": 64,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "139:10": {
+      "questID:3": 139,
+      "preRequisites:11": [
+        15
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "nuclearcraft:radaway",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Preventing radiation!",
+          "desc:8": "There are some things you can do to keep the nasty consequences of radioactive material at bay"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "nuclearcraft:radaway",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "nuclearcraft:radaway_slow",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "2:10": {
+              "id:8": "minecraft:golden_apple",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "3:10": {
+              "id:8": "minecraft:golden_carrot",
               "Count:3": 1,
               "Damage:2": 0,
               "OreDict:8": ""
@@ -7529,11 +7685,505 @@
       },
       "rewards:9": {}
     },
-    "137:10": {
-      "questID:3": 137,
+    "140:10": {
+      "questID:3": 140,
       "preRequisites:11": [
-        106,
-        54
+        10
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "contenttweaker:corruptpsd",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Corrupt PSD",
+          "desc:8": "Turns out sewage and electronics don\u0027t mix well.."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "contenttweaker:corruptpsd",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "141:10": {
+      "questID:3": 141,
+      "preRequisites:11": [
+        28
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "thermalcultivation:watering_can",
+            "Count:3": 1,
+            "tag:10": {
+              "Water:3": 3250,
+              "Mode:3": 0
+            },
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Watering Can",
+          "desc:8": "This handy garden tool makes waiting less of a chore. Hydrate!"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "thermalcultivation:watering_can",
+              "Count:3": 1,
+              "tag:10": {
+                "Water:3": 4000,
+                "Mode:3": 0
+              },
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "142:10": {
+      "questID:3": 142,
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": 3600,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "minecraft:nether_star",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Stuck in a hole",
+          "desc:8": "Oh no! You\u0027ve been trapped! Here take this handy personal shrinking device and click on the block in the floor. That should get you going. P.S you can pickup this device every 3 minutes from here, just in case you ever lose it.."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "compactmachines3:psd",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "143:10": {
+      "questID:3": 143,
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "contenttweaker:glitched0",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "glitch_0",
+          "desc:8": "What is this place? Seems to be some corrupted version of another world?"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "visible:1": 0,
+          "invert:1": 0,
+          "range:3": -1,
+          "index:3": 0,
+          "structure:8": "",
+          "hideInfo:1": 0,
+          "posX:3": 0,
+          "posY:3": 0,
+          "posZ:3": 0,
+          "biome:8": "",
+          "name:8": "glitch_0",
+          "dimension:3": 10,
+          "taxiCabDist:1": 0,
+          "taskID:8": "bq_standard:location"
+        }
+      },
+      "rewards:9": {}
+    },
+    "144:10": {
+      "questID:3": 144,
+      "preRequisites:11": [
+        143
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "chisel:futura",
+            "Count:3": 1,
+            "Damage:2": 5,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "glitch_0 BETA",
+          "desc:8": "These blocks seem to indicate instabilities in the fabric of these glitched dimensions"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "visible:1": 1,
+          "invert:1": 0,
+          "range:3": 1,
+          "index:3": 0,
+          "structure:8": "",
+          "hideInfo:1": 0,
+          "posX:3": 324,
+          "posY:3": 149,
+          "posZ:3": 407,
+          "biome:8": "",
+          "name:8": "glitch_0_home",
+          "dimension:3": 10,
+          "taxiCabDist:1": 0,
+          "taskID:8": "bq_standard:location"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:choice",
+          "index:3": 0,
+          "choices:9": {
+            "0:10": {
+              "id:8": "modularmachinery:itemmodularium",
+              "Count:3": 8,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "minecraft:leather_boots",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "145:10": {
+      "questID:3": 145,
+      "preRequisites:11": [
+        143
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "chisel:futura",
+            "Count:3": 1,
+            "Damage:2": 5,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "glitch_0 GAMMA",
+          "desc:8": "These blocks seem to indicate instabilities in the fabric of these glitched dimensions"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "visible:1": 1,
+          "invert:1": 0,
+          "range:3": 1,
+          "index:3": 0,
+          "structure:8": "",
+          "hideInfo:1": 0,
+          "posX:3": 393,
+          "posY:3": 157,
+          "posZ:3": 395,
+          "biome:8": "",
+          "name:8": "glitch_0 ALPHA",
+          "dimension:3": 10,
+          "taxiCabDist:1": 0,
+          "taskID:8": "bq_standard:location"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:choice",
+          "index:3": 0,
+          "choices:9": {
+            "0:10": {
+              "id:8": "modularmachinery:itemmodularium",
+              "Count:3": 10,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "thermalexpansion:satchel",
+              "Count:3": 1,
+              "tag:10": {
+                "Accessible:1": 1
+              },
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "146:10": {
+      "questID:3": 146,
+      "preRequisites:11": [
+        143
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "chisel:futura",
+            "Count:3": 1,
+            "Damage:2": 5,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "glitch_0 ALPHA",
+          "desc:8": "These blocks seem to indicate instabilities in the fabric of these glitched dimensions"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "visible:1": 1,
+          "invert:1": 0,
+          "range:3": 1,
+          "index:3": 0,
+          "structure:8": "",
+          "hideInfo:1": 0,
+          "posX:3": 302,
+          "posY:3": 170,
+          "posZ:3": 428,
+          "biome:8": "",
+          "name:8": "glitch_0_island",
+          "dimension:3": 10,
+          "taxiCabDist:1": 0,
+          "taskID:8": "bq_standard:location"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:choice",
+          "index:3": 0,
+          "choices:9": {
+            "0:10": {
+              "id:8": "modularmachinery:itemmodularium",
+              "Count:3": 20,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "bedrockminer:bedrock_leggings",
+              "Count:3": 1,
+              "tag:10": {
+                "ncRadiationResistance:6": 1.0
+              },
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "147:10": {
+      "questID:3": 147,
+      "preRequisites:11": [
+        143
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "contenttweaker:homeportal",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "glitch_0 OMEGA",
+          "desc:8": "These blocks seem to indicate instabilities in the fabric of these glitched dimensions. This should be near a way to return...."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "visible:1": 1,
+          "invert:1": 0,
+          "range:3": 1,
+          "index:3": 0,
+          "structure:8": "",
+          "hideInfo:1": 0,
+          "posX:3": 386,
+          "posY:3": 152,
+          "posZ:3": 400,
+          "biome:8": "",
+          "name:8": "glitch_0 ALPHA",
+          "dimension:3": 10,
+          "taxiCabDist:1": 0,
+          "taskID:8": "bq_standard:location"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:choice",
+          "index:3": 0,
+          "choices:9": {
+            "0:10": {
+              "id:8": "contenttweaker:poopfuel",
+              "Count:3": 16,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "contenttweaker:tinysmashedmachine",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "2:10": {
+              "id:8": "minecraft:beef",
+              "Count:3": 32,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "148:10": {
+      "questID:3": 148,
+      "preRequisites:11": [
+        106
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -7556,7 +8206,7 @@
           "autoclaim:1": 0,
           "repeat_relative:1": 1,
           "ismain:1": 0,
-          "name:8": "Scientfically accurate",
+          "name:8": "Scientifically accurate",
           "desc:8": "This is how emeralds are formed in nature.. perhaps"
         }
       },
@@ -7706,8 +8356,8 @@
         },
         "6:10": {
           "sizeX:3": 24,
-          "x:3": 116,
-          "y:3": 140,
+          "x:3": 120,
+          "y:3": 172,
           "id:3": 14,
           "sizeY:3": 24
         },
@@ -7720,7 +8370,7 @@
         },
         "8:10": {
           "sizeX:3": 24,
-          "x:3": -12,
+          "x:3": -28,
           "y:3": 140,
           "id:3": 16,
           "sizeY:3": 24
@@ -7776,8 +8426,8 @@
         },
         "16:10": {
           "sizeX:3": 32,
-          "x:3": -16,
-          "y:3": 104,
+          "x:3": 16,
+          "y:3": 168,
           "id:3": 24,
           "sizeY:3": 32
         },
@@ -7790,7 +8440,7 @@
         },
         "18:10": {
           "sizeX:3": 24,
-          "x:3": -12,
+          "x:3": -28,
           "y:3": 76,
           "id:3": 26,
           "sizeY:3": 24
@@ -7853,8 +8503,8 @@
         },
         "27:10": {
           "sizeX:3": 24,
-          "x:3": 20,
-          "y:3": 140,
+          "x:3": -28,
+          "y:3": 108,
           "id:3": 49,
           "sizeY:3": 24
         },
@@ -7909,23 +8559,51 @@
         },
         "35:10": {
           "sizeX:3": 24,
-          "x:3": 224,
+          "x:3": 204,
           "y:3": 104,
           "id:3": 91,
           "sizeY:3": 24
         },
         "36:10": {
           "sizeX:3": 24,
-          "x:3": -12,
+          "x:3": -28,
           "y:3": 12,
           "id:3": 127,
           "sizeY:3": 24
         },
         "37:10": {
           "sizeX:3": 24,
-          "x:3": 184,
+          "x:3": 20,
+          "y:3": -52,
+          "id:3": 137,
+          "sizeY:3": 24
+        },
+        "38:10": {
+          "sizeX:3": 24,
+          "x:3": 112,
+          "y:3": 140,
+          "id:3": 139,
+          "sizeY:3": 24
+        },
+        "39:10": {
+          "sizeX:3": 24,
+          "x:3": 240,
           "y:3": 104,
-          "id:3": 135,
+          "id:3": 140,
+          "sizeY:3": 24
+        },
+        "40:10": {
+          "sizeX:3": 24,
+          "x:3": -8,
+          "y:3": 44,
+          "id:3": 141,
+          "sizeY:3": 24
+        },
+        "41:10": {
+          "sizeX:3": 24,
+          "x:3": 84,
+          "y:3": -52,
+          "id:3": 142,
           "sizeY:3": 24
         }
       },
@@ -7951,15 +8629,15 @@
       "quests:9": {
         "0:10": {
           "sizeX:3": 24,
-          "x:3": 108,
-          "y:3": 116,
+          "x:3": -20,
+          "y:3": 112,
           "id:3": 34,
           "sizeY:3": 24
         },
         "1:10": {
           "sizeX:3": 32,
           "x:3": 40,
-          "y:3": 112,
+          "y:3": 108,
           "id:3": 35,
           "sizeY:3": 32
         },
@@ -7979,275 +8657,331 @@
         },
         "4:10": {
           "sizeX:3": 24,
-          "x:3": 76,
-          "y:3": 180,
-          "id:3": 40,
+          "x:3": -20,
+          "y:3": 248,
+          "id:3": 38,
           "sizeY:3": 24
         },
         "5:10": {
           "sizeX:3": 24,
-          "x:3": 76,
+          "x:3": 80,
+          "y:3": 244,
+          "id:3": 39,
+          "sizeY:3": 24
+        },
+        "6:10": {
+          "sizeX:3": 24,
+          "x:3": 64,
+          "y:3": 180,
+          "id:3": 40,
+          "sizeY:3": 24
+        },
+        "7:10": {
+          "sizeX:3": 24,
+          "x:3": 64,
           "y:3": 148,
           "id:3": 41,
           "sizeY:3": 24
         },
-        "6:10": {
+        "8:10": {
           "sizeX:3": 24,
           "x:3": 172,
           "y:3": 180,
           "id:3": 42,
           "sizeY:3": 24
         },
-        "7:10": {
-          "sizeX:3": 24,
-          "x:3": 204,
-          "y:3": 180,
-          "id:3": 43,
-          "sizeY:3": 24
-        },
-        "8:10": {
-          "sizeX:3": 24,
-          "x:3": 172,
-          "y:3": 44,
-          "id:3": 44,
-          "sizeY:3": 24
-        },
         "9:10": {
           "sizeX:3": 24,
           "x:3": 172,
-          "y:3": 80,
-          "id:3": 45,
+          "y:3": 148,
+          "id:3": 43,
           "sizeY:3": 24
         },
         "10:10": {
           "sizeX:3": 24,
-          "x:3": 276,
-          "y:3": 80,
-          "id:3": 46,
+          "x:3": 144,
+          "y:3": 44,
+          "id:3": 44,
           "sizeY:3": 24
         },
         "11:10": {
+          "sizeX:3": 24,
+          "x:3": 144,
+          "y:3": 76,
+          "id:3": 45,
+          "sizeY:3": 24
+        },
+        "12:10": {
+          "sizeX:3": 24,
+          "x:3": 236,
+          "y:3": 148,
+          "id:3": 46,
+          "sizeY:3": 24
+        },
+        "13:10": {
           "sizeX:3": 32,
-          "x:3": 272,
+          "x:3": 232,
           "y:3": 208,
           "id:3": 47,
           "sizeY:3": 32
         },
-        "12:10": {
+        "14:10": {
           "sizeX:3": 24,
           "x:3": 12,
-          "y:3": 116,
+          "y:3": 76,
           "id:3": 50,
           "sizeY:3": 24
         },
-        "13:10": {
+        "15:10": {
           "sizeX:3": 24,
           "x:3": 12,
           "y:3": 44,
           "id:3": 51,
           "sizeY:3": 24
         },
-        "14:10": {
+        "16:10": {
           "sizeX:3": 24,
-          "x:3": 236,
-          "y:3": 180,
+          "x:3": 104,
+          "y:3": 276,
+          "id:3": 52,
+          "sizeY:3": 24
+        },
+        "17:10": {
+          "sizeX:3": 24,
+          "x:3": 204,
+          "y:3": 148,
           "id:3": 53,
           "sizeY:3": 24
         },
-        "15:10": {
+        "18:10": {
           "sizeX:3": 24,
-          "x:3": 236,
-          "y:3": 116,
+          "x:3": 304,
+          "y:3": 188,
+          "id:3": 54,
+          "sizeY:3": 24
+        },
+        "19:10": {
+          "sizeX:3": 24,
+          "x:3": 304,
+          "y:3": 160,
           "id:3": 55,
           "sizeY:3": 24
         },
-        "16:10": {
+        "20:10": {
           "sizeX:3": 32,
-          "x:3": 200,
-          "y:3": 40,
+          "x:3": 232,
+          "y:3": 36,
           "id:3": 56,
           "sizeY:3": 32
         },
-        "17:10": {
+        "21:10": {
           "sizeX:3": 32,
-          "x:3": 200,
-          "y:3": 76,
+          "x:3": 232,
+          "y:3": 72,
           "id:3": 57,
           "sizeY:3": 32
         },
-        "18:10": {
+        "22:10": {
           "sizeX:3": 24,
-          "x:3": 44,
+          "x:3": 32,
           "y:3": 212,
           "id:3": 58,
           "sizeY:3": 24
         },
-        "19:10": {
+        "23:10": {
           "sizeX:3": 32,
-          "x:3": 40,
+          "x:3": 28,
           "y:3": 176,
           "id:3": 59,
           "sizeY:3": 32
         },
-        "20:10": {
+        "24:10": {
           "sizeX:3": 24,
           "x:3": 140,
           "y:3": 148,
           "id:3": 60,
           "sizeY:3": 24
         },
-        "21:10": {
+        "25:10": {
           "sizeX:3": 24,
           "x:3": 108,
           "y:3": 148,
           "id:3": 61,
           "sizeY:3": 24
         },
-        "22:10": {
+        "26:10": {
           "sizeX:3": 24,
           "x:3": 140,
           "y:3": 116,
           "id:3": 62,
           "sizeY:3": 24
         },
-        "23:10": {
+        "27:10": {
           "sizeX:3": 24,
-          "x:3": 172,
-          "y:3": 148,
+          "x:3": 304,
+          "y:3": 76,
           "id:3": 63,
           "sizeY:3": 24
         },
-        "24:10": {
+        "28:10": {
           "sizeX:3": 24,
-          "x:3": 172,
-          "y:3": 116,
+          "x:3": 268,
+          "y:3": 76,
           "id:3": 64,
           "sizeY:3": 24
         },
-        "25:10": {
+        "29:10": {
           "sizeX:3": 24,
           "x:3": 108,
           "y:3": 212,
           "id:3": 65,
           "sizeY:3": 24
         },
-        "26:10": {
+        "30:10": {
           "sizeX:3": 32,
           "x:3": 136,
           "y:3": 176,
           "id:3": 66,
           "sizeY:3": 32
         },
-        "27:10": {
+        "31:10": {
           "sizeX:3": 24,
           "x:3": 76,
           "y:3": 80,
           "id:3": 67,
           "sizeY:3": 24
         },
-        "28:10": {
+        "32:10": {
           "sizeX:3": 24,
           "x:3": 108,
           "y:3": 180,
           "id:3": 73,
           "sizeY:3": 24
         },
-        "29:10": {
+        "33:10": {
+          "sizeX:3": 24,
+          "x:3": 304,
+          "y:3": 216,
+          "id:3": 74,
+          "sizeY:3": 24
+        },
+        "34:10": {
           "sizeX:3": 32,
-          "x:3": 8,
-          "y:3": 76,
+          "x:3": -28,
+          "y:3": 40,
           "id:3": 75,
           "sizeY:3": 32
         },
-        "30:10": {
+        "35:10": {
           "sizeX:3": 24,
-          "x:3": 236,
-          "y:3": 44,
+          "x:3": 268,
+          "y:3": 40,
           "id:3": 76,
           "sizeY:3": 24
         },
-        "31:10": {
+        "36:10": {
+          "sizeX:3": 24,
+          "x:3": 132,
+          "y:3": 244,
+          "id:3": 79,
+          "sizeY:3": 24
+        },
+        "37:10": {
           "sizeX:3": 24,
           "x:3": 108,
           "y:3": 80,
           "id:3": 80,
           "sizeY:3": 24
         },
-        "32:10": {
+        "38:10": {
           "sizeX:3": 24,
-          "x:3": 236,
-          "y:3": 148,
+          "x:3": 304,
+          "y:3": 132,
           "id:3": 81,
           "sizeY:3": 24
         },
-        "33:10": {
+        "39:10": {
           "sizeX:3": 24,
-          "x:3": 12,
+          "x:3": 0,
           "y:3": 212,
           "id:3": 82,
           "sizeY:3": 24
         },
-        "34:10": {
+        "40:10": {
           "sizeX:3": 24,
-          "x:3": 204,
-          "y:3": 148,
+          "x:3": 304,
+          "y:3": 104,
           "id:3": 83,
           "sizeY:3": 24
         },
-        "35:10": {
+        "41:10": {
+          "sizeX:3": 32,
+          "x:3": 268,
+          "y:3": 252,
+          "id:3": 84,
+          "sizeY:3": 32
+        },
+        "42:10": {
           "sizeX:3": 24,
           "x:3": 44,
           "y:3": 44,
           "id:3": 85,
           "sizeY:3": 24
         },
-        "36:10": {
+        "43:10": {
           "sizeX:3": 24,
-          "x:3": 12,
+          "x:3": 0,
           "y:3": 180,
           "id:3": 86,
           "sizeY:3": 24
         },
-        "37:10": {
+        "44:10": {
           "sizeX:3": 32,
-          "x:3": 72,
+          "x:3": 60,
           "y:3": 208,
           "id:3": 87,
           "sizeY:3": 32
         },
-        "38:10": {
+        "45:10": {
           "sizeX:3": 24,
-          "x:3": 44,
+          "x:3": 32,
           "y:3": 148,
           "id:3": 88,
           "sizeY:3": 24
         },
-        "39:10": {
+        "46:10": {
           "sizeX:3": 24,
           "x:3": 44,
           "y:3": 80,
           "id:3": 89,
           "sizeY:3": 24
         },
-        "40:10": {
+        "47:10": {
           "sizeX:3": 32,
-          "x:3": 136,
-          "y:3": 40,
+          "x:3": 140,
+          "y:3": 4,
           "id:3": 90,
           "sizeY:3": 32
         },
-        "41:10": {
+        "48:10": {
           "sizeX:3": 24,
-          "x:3": 140,
-          "y:3": 80,
+          "x:3": 176,
+          "y:3": 44,
           "id:3": 97,
           "sizeY:3": 24
         },
-        "42:10": {
+        "49:10": {
           "sizeX:3": 24,
-          "x:3": 204,
-          "y:3": 116,
+          "x:3": 0,
+          "y:3": 148,
           "id:3": 136,
+          "sizeY:3": 24
+        },
+        "50:10": {
+          "sizeX:3": 24,
+          "x:3": 176,
+          "y:3": 76,
+          "id:3": 138,
           "sizeY:3": 24
         }
       },
@@ -8343,296 +9077,247 @@
         },
         "1:10": {
           "sizeX:3": 24,
-          "x:3": -12,
-          "y:3": 72,
-          "id:3": 38,
-          "sizeY:3": 24
-        },
-        "2:10": {
-          "sizeX:3": 24,
-          "x:3": -12,
-          "y:3": 40,
-          "id:3": 39,
-          "sizeY:3": 24
-        },
-        "3:10": {
-          "sizeX:3": 24,
-          "x:3": 20,
-          "y:3": 40,
-          "id:3": 52,
-          "sizeY:3": 24
-        },
-        "4:10": {
-          "sizeX:3": 24,
-          "x:3": 92,
-          "y:3": 8,
-          "id:3": 54,
-          "sizeY:3": 24
-        },
-        "5:10": {
-          "sizeX:3": 24,
-          "x:3": 56,
-          "y:3": 8,
-          "id:3": 74,
-          "sizeY:3": 24
-        },
-        "6:10": {
-          "sizeX:3": 24,
-          "x:3": -12,
-          "y:3": 8,
-          "id:3": 79,
-          "sizeY:3": 24
-        },
-        "7:10": {
-          "sizeX:3": 32,
-          "x:3": 16,
-          "y:3": 4,
-          "id:3": 84,
-          "sizeY:3": 32
-        },
-        "8:10": {
-          "sizeX:3": 24,
           "x:3": 56,
           "y:3": 136,
           "id:3": 94,
           "sizeY:3": 24
         },
-        "9:10": {
+        "2:10": {
           "sizeX:3": 24,
           "x:3": 56,
           "y:3": 104,
           "id:3": 95,
           "sizeY:3": 24
         },
-        "10:10": {
+        "3:10": {
           "sizeX:3": 24,
           "x:3": -16,
           "y:3": 136,
           "id:3": 96,
           "sizeY:3": 24
         },
-        "11:10": {
+        "4:10": {
           "sizeX:3": 24,
           "x:3": 92,
-          "y:3": 136,
+          "y:3": 104,
           "id:3": 98,
           "sizeY:3": 24
         },
-        "12:10": {
+        "5:10": {
           "sizeX:3": 24,
           "x:3": 196,
-          "y:3": 72,
+          "y:3": 8,
           "id:3": 99,
           "sizeY:3": 24
         },
-        "13:10": {
+        "6:10": {
           "sizeX:3": 24,
           "x:3": 164,
-          "y:3": 72,
+          "y:3": 8,
           "id:3": 100,
           "sizeY:3": 24
         },
-        "14:10": {
+        "7:10": {
           "sizeX:3": 24,
           "x:3": 56,
           "y:3": 40,
           "id:3": 101,
           "sizeY:3": 24
         },
-        "15:10": {
+        "8:10": {
           "sizeX:3": 24,
           "x:3": 56,
           "y:3": 72,
           "id:3": 102,
           "sizeY:3": 24
         },
-        "16:10": {
+        "9:10": {
           "sizeX:3": 32,
           "x:3": -20,
           "y:3": 100,
           "id:3": 103,
           "sizeY:3": 32
         },
-        "17:10": {
+        "10:10": {
           "sizeX:3": 24,
           "x:3": 164,
           "y:3": 136,
           "id:3": 104,
           "sizeY:3": 24
         },
-        "18:10": {
+        "11:10": {
           "sizeX:3": 24,
           "x:3": 20,
           "y:3": 72,
           "id:3": 105,
           "sizeY:3": 24
         },
-        "19:10": {
+        "12:10": {
           "sizeX:3": 24,
           "x:3": 228,
-          "y:3": 8,
+          "y:3": 72,
           "id:3": 106,
           "sizeY:3": 24
         },
-        "20:10": {
+        "13:10": {
           "sizeX:3": 24,
           "x:3": 228,
           "y:3": 40,
           "id:3": 107,
           "sizeY:3": 24
         },
-        "21:10": {
+        "14:10": {
           "sizeX:3": 32,
           "x:3": 16,
           "y:3": 100,
           "id:3": 108,
           "sizeY:3": 32
         },
-        "22:10": {
+        "15:10": {
           "sizeX:3": 24,
           "x:3": 196,
           "y:3": 40,
           "id:3": 109,
           "sizeY:3": 24
         },
-        "23:10": {
+        "16:10": {
           "sizeX:3": 24,
           "x:3": 164,
           "y:3": 40,
           "id:3": 110,
           "sizeY:3": 24
         },
-        "24:10": {
-          "sizeX:3": 32,
-          "x:3": 88,
-          "y:3": 36,
+        "17:10": {
+          "sizeX:3": 24,
+          "x:3": 92,
+          "y:3": 40,
           "id:3": 111,
-          "sizeY:3": 32
+          "sizeY:3": 24
         },
-        "25:10": {
+        "18:10": {
           "sizeX:3": 24,
           "x:3": 132,
           "y:3": 40,
           "id:3": 112,
           "sizeY:3": 24
         },
-        "26:10": {
+        "19:10": {
           "sizeX:3": 24,
           "x:3": 132,
           "y:3": 104,
           "id:3": 113,
           "sizeY:3": 24
         },
-        "27:10": {
+        "20:10": {
           "sizeX:3": 24,
           "x:3": 92,
-          "y:3": 104,
+          "y:3": 72,
           "id:3": 114,
           "sizeY:3": 24
         },
-        "28:10": {
+        "21:10": {
           "sizeX:3": 24,
           "x:3": 132,
           "y:3": 136,
           "id:3": 115,
           "sizeY:3": 24
         },
-        "29:10": {
+        "22:10": {
           "sizeX:3": 32,
           "x:3": 128,
           "y:3": 68,
           "id:3": 116,
           "sizeY:3": 32
         },
-        "30:10": {
+        "23:10": {
           "sizeX:3": 32,
           "x:3": 88,
-          "y:3": 164,
+          "y:3": 136,
           "id:3": 117,
           "sizeY:3": 32
         },
-        "31:10": {
+        "24:10": {
           "sizeX:3": 24,
           "x:3": 56,
           "y:3": 164,
           "id:3": 118,
           "sizeY:3": 24
         },
-        "32:10": {
+        "25:10": {
           "sizeX:3": 24,
           "x:3": 32,
           "y:3": 192,
           "id:3": 119,
           "sizeY:3": 24
         },
-        "33:10": {
+        "26:10": {
           "sizeX:3": 24,
           "x:3": -44,
           "y:3": 192,
           "id:3": 120,
           "sizeY:3": 24
         },
-        "34:10": {
+        "27:10": {
           "sizeX:3": 24,
           "x:3": -16,
           "y:3": 220,
           "id:3": 121,
           "sizeY:3": 24
         },
-        "35:10": {
+        "28:10": {
           "sizeX:3": 24,
           "x:3": -16,
           "y:3": 164,
           "id:3": 122,
           "sizeY:3": 24
         },
-        "36:10": {
+        "29:10": {
           "sizeX:3": 24,
           "x:3": 56,
           "y:3": 220,
           "id:3": 123,
           "sizeY:3": 24
         },
-        "37:10": {
+        "30:10": {
           "sizeX:3": 24,
           "x:3": -16,
           "y:3": 192,
           "id:3": 124,
           "sizeY:3": 24
         },
-        "38:10": {
+        "31:10": {
           "sizeX:3": 24,
           "x:3": 84,
           "y:3": 220,
           "id:3": 125,
           "sizeY:3": 24
         },
-        "39:10": {
+        "32:10": {
           "sizeX:3": 24,
           "x:3": 20,
           "y:3": 136,
           "id:3": 126,
           "sizeY:3": 24
         },
-        "40:10": {
+        "33:10": {
           "sizeX:3": 24,
           "x:3": -48,
           "y:3": 104,
           "id:3": 132,
           "sizeY:3": 24
         },
-        "41:10": {
+        "34:10": {
           "sizeX:3": 24,
-          "x:3": 92,
-          "y:3": 72,
+          "x:3": 20,
+          "y:3": 40,
           "id:3": 133,
           "sizeY:3": 24
         },
-        "42:10": {
+        "35:10": {
           "sizeX:3": 24,
-          "x:3": 164,
-          "y:3": 8,
-          "id:3": 137,
+          "x:3": 196,
+          "y:3": 72,
+          "id:3": 148,
           "sizeY:3": 24
         }
       },
@@ -8653,6 +9338,62 @@
         }
       },
       "order:3": 2
+    },
+    "5:10": {
+      "quests:9": {
+        "0:10": {
+          "sizeX:3": 24,
+          "x:3": -72,
+          "y:3": -44,
+          "id:3": 143,
+          "sizeY:3": 24
+        },
+        "1:10": {
+          "sizeX:3": 20,
+          "x:3": -52,
+          "y:3": -12,
+          "id:3": 144,
+          "sizeY:3": 20
+        },
+        "2:10": {
+          "sizeX:3": 20,
+          "x:3": -80,
+          "y:3": -12,
+          "id:3": 145,
+          "sizeY:3": 20
+        },
+        "3:10": {
+          "sizeX:3": 20,
+          "x:3": -24,
+          "y:3": -12,
+          "id:3": 146,
+          "sizeY:3": 20
+        },
+        "4:10": {
+          "sizeX:3": 28,
+          "x:3": -112,
+          "y:3": -16,
+          "id:3": 147,
+          "sizeY:3": 28
+        }
+      },
+      "lineID:3": 5,
+      "properties:10": {
+        "betterquesting:10": {
+          "visibility:8": "NORMAL",
+          "name:8": "Glitched Adventures",
+          "icon:10": {
+            "id:8": "contenttweaker:corruptpsd",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "bg_image:8": "",
+          "bg_size:3": 256,
+          "desc:8": "Specific locations seems to resonnate with your questbook strongly. Perhaps this glitch can be abused somehow?"
+        }
+      },
+      "order:3": 5
     }
   },
   "questSettings:10": {

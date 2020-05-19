@@ -1768,6 +1768,18 @@
           "taskID:8": "bq_standard:location"
         }
       }
+    },
+    "148:10": {
+      "questID:3": 148,
+      "completed:9": {},
+      "tasks:9": {
+        "0:10": {
+          "completeUsers:9": {},
+          "userProgress:9": {},
+          "index:3": 0,
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
     }
   }
 }
