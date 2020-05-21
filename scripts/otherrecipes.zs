@@ -16,6 +16,7 @@ recipes.remove(<mob_grinding_utils:tank_sink>);
 
 recipes.removeShaped(<minecraft:chorus_flower>, [[<minecraft:stone:4>, <minecraft:stone:4>, <minecraft:stone:4>],[<minecraft:stone:4>, <minecraft:chorus_flower>, <minecraft:stone:4>], [<minecraft:stone:4>, <minecraft:redstone_block>, <minecraft:stone:4>]]);
 recipes.removeShaped(<minecraft:diamond>, [[<ore:nuggetDiamond>, <ore:nuggetDiamond>, <ore:nuggetDiamond>],[<ore:nuggetDiamond>, <ore:nuggetDiamond>, <ore:nuggetDiamond>], [<ore:nuggetDiamond>, <ore:nuggetDiamond>, <ore:nuggetDiamond>]]);
+recipes.removeShaped(<compactmachines3:fieldprojector> * 4, [[null, <minecraft:ender_eye>, null],[null, <minecraft:redstone_torch>, null], [<thermalfoundation:material:16>, <compactmachines3:psd>, <thermalfoundation:material:16>]]);
 
 // Replace
 recipes.replaceAllOccurences(<ore:gemDiamond>, <ore:nuggetDiamond>, <refinedstorage:processor:2>);
@@ -44,6 +45,7 @@ recipes.addShaped(<compactmachines3:machine:1>, [[<compactmachines3:wallbreakabl
 recipes.addShaped(<compactmachines3:machine>, [[<compactmachines3:wallbreakable>, <ore:plankWood>, <compactmachines3:wallbreakable>],[<ore:plankWood>, <modularmachinery:blockcasing>, <ore:plankWood>], [<compactmachines3:wallbreakable>, <ore:plankWood>, <compactmachines3:wallbreakable>]]);
 recipes.addShaped(<clickmachine:auto_clicker>, [[<minecraft:stone:*>, <minecraft:stone:*>, <minecraft:stone:*>],[<minecraft:stone:*>, <minecraft:redstone>, <minecraft:stone:*>], [<minecraft:stone:*>, <modularmachinery:blockcasing>, <minecraft:stone:*>]]);
 recipes.addShaped(<compactmachines3:psd>, [[<modularmachinery:itemmodularium>, <minecraft:glass_pane>, <modularmachinery:itemmodularium>],[<modularmachinery:itemmodularium>, <minecraft:iron_ingot>, <modularmachinery:itemmodularium>], [<modularmachinery:itemmodularium>, <modularmachinery:itemmodularium>, <modularmachinery:itemmodularium>]]);
+recipes.addShaped(<compactmachines3:fieldprojector> * 4, [[null, <compactmachines3:psd>, null],[null, <minecraft:redstone_torch>, null], [<thermalfoundation:material:16>, <compactmachines3:wallbreakable>, <thermalfoundation:material:16>]]);
 recipes.addShaped(<minecraft:leather>, 
 [
 	[null, <contenttweaker:prestoff>, null],

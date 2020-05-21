@@ -21,6 +21,10 @@
 					"amount": "1f"
 				},
 				{
+					"type": "require_health",
+					"value": 1
+				},
+				{
 					"type": "player_cooldown",
 					"time": "8"
 				},
@@ -54,6 +58,12 @@
 				{
 					"name": "contenttweaker:dirtdust",
 					"weight": 70
+				}
+			],
+			"messages": [
+				{
+					"id": "require_health",
+					"message": "You are too bruised up to hit the wall any further ;C"
 				}
 			]
 		},

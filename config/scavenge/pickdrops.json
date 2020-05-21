@@ -273,7 +273,7 @@
 			[
 				{
 					"name": "minecraft:redstone",
-					"weight": 25
+					"weight": 15
 				},
 				{
 					"name": "immersiveengineering:metal",
@@ -584,6 +584,197 @@
 					"message": "Use a pickaxe"
 				}
 			]
-		}      
+		},
+		{
+			"name": "Pick_tough",
+			"type":
+			{
+				"type": "block",
+				"name": "compactmachines3:wall"
+			},
+			"clicktype": "left",
+			"properties":
+			[
+				{
+					"type": "add_hunger",
+					"exhaustion": "true",
+					"amount": "0.1f"
+				},
+				{
+					"type": "require_left"
+				},
+				{
+					"type": "drop_items"
+				},
+				{
+					"type": "damage_item",
+					"amount": "1"
+				},
+				{
+					"type": "player_cooldown",
+					"time": "10"
+				},
+				{
+					"type": "swing_hand"
+				},
+				{
+					"type": "play_sound",
+					"name": "block.stone.hit"
+				},
+				{
+					"type": "require_item_list",
+					"items": [
+						{"name": "nuclearcraft:pickaxe_tough"}
+					]
+				}
+			],
+			"drops":
+			[
+				{
+					"name": "immersiveengineering:metal",
+					"meta": "14",
+					"weight": 1500
+				}
+			],
+			"messages":
+			[
+				{
+					"id": "require_tool",
+					"message": "Use a pickaxe"
+				}
+			]
+		},
+		{
+			"name": "Pick_bronze",
+			"type":
+			{
+				"type": "block",
+				"name": "compactmachines3:wall"
+			},
+			"clicktype": "left",
+			"properties":
+			[
+				{
+					"type": "add_hunger",
+					"exhaustion": "true",
+					"amount": "0.1f"
+				},
+				{
+					"type": "require_left"
+				},
+				{
+					"type": "drop_items"
+				},
+				{
+					"type": "damage_item",
+					"amount": "1"
+				},
+				{
+					"type": "player_cooldown",
+					"time": "10"
+				},
+				{
+					"type": "swing_hand"
+				},
+				{
+					"type": "play_sound",
+					"name": "block.stone.hit"
+				},
+				{
+					"type": "require_item_list",
+					"items": [
+						{"name": "thermalfoundation:tool.pickaxe_bronze"}
+					]
+				}
+			],
+			"drops":
+			[
+				{
+					"name": "immersiveengineering:metal",
+					"meta": "9",
+					"weight": 1500
+				}
+			],
+			"messages":
+			[
+				{
+					"id": "require_tool",
+					"message": "Use a pickaxe"
+				}
+			]
+		},
+		{
+			"name": "Pick_boron",
+			"type":
+			{
+				"type": "block",
+				"name": "compactmachines3:wall"
+			},
+			"clicktype": "left",
+			"properties":
+			[
+				{
+					"type": "add_hunger",
+					"exhaustion": "true",
+					"amount": "0.1f"
+				},
+				{
+					"type": "require_left"
+				},
+				{
+					"type": "drop_items"
+				},
+				{
+					"type": "damage_item",
+					"amount": "1"
+				},
+				{
+					"type": "player_cooldown",
+					"time": "10"
+				},
+				{
+					"type": "swing_hand"
+				},
+				{
+					"type": "play_sound",
+					"name": "block.stone.hit"
+				},
+				{
+					"type": "require_item_list",
+					"items": [
+						{"name": "nuclearcraft:pickaxe_boron_nitride"}
+					]
+				}
+			],
+			"drops":
+			[
+				{
+					"name": "cttinycoal:tiny_coal",
+					"weight": 1500
+				},
+				{
+					"name": "thermalfoundation:material",
+					"meta": "71",
+					"weight": 100
+				},
+				{
+					"name": "thermalfoundation:material",
+					"meta": "70",
+					"weight": 125
+				},
+				{
+					"name": "thermalfoundation:material",
+					"meta": "16",
+					"weight": 30
+				}
+			],
+			"messages":
+			[
+				{
+					"id": "require_tool",
+					"message": "Use a pickaxe"
+				}
+			]
+		}           
 	]
 }

@@ -29,7 +29,7 @@
   "isUnlocked": true,
   "javaArgsOverride": null,
   "javaDirOverride": null,
-  "lastPlayed": "2020-05-19T18:46:54.7751215Z",
+  "lastPlayed": "2020-05-21T10:03:31.4906657Z",
   "manifest": {
     "minecraft": {
       "version": "1.12.2",
@@ -11173,7 +11173,7 @@
       "dateInstalled": "2020-05-19T18:45:22.1515567Z",
       "dateUpdated": "2020-05-19T18:45:22.1565706Z",
       "dateLastUpdateAttempted": "2020-05-19T18:45:22.1565706Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -11182,7 +11182,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 253861,
