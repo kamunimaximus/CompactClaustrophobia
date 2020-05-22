@@ -750,22 +750,22 @@
 			[
 				{
 					"name": "cttinycoal:tiny_coal",
-					"weight": 1500
+					"weight": 1200
 				},
 				{
 					"name": "thermalfoundation:material",
 					"meta": "71",
-					"weight": 100
+					"weight": 300
 				},
 				{
 					"name": "thermalfoundation:material",
 					"meta": "70",
-					"weight": 125
+					"weight": 400
 				},
 				{
-					"name": "thermalfoundation:material",
-					"meta": "16",
-					"weight": 30
+					"name": "immersiveengineering:material",
+					"meta": "18",
+					"weight": 200
 				}
 			],
 			"messages":
