@@ -19,7 +19,7 @@ key_key.smoothCamera:0:NONE
 key_key.fullscreen:87:NONE
 key_key.spectatorOutlines:0:NONE
 key_key.swapHands:33:NONE
-key_key.saveToolbarActivator:46:NONE
+key_key.saveToolbarActivator:NONE:NONE
 key_key.loadToolbarActivator:45:NONE
 key_key.advancements:38:NONE
 key_key.hotbar.1:2:NONE
@@ -51,7 +51,7 @@ key_key.jei.previousPage:201:NONE
 key_key.jei.nextPage:209:NONE
 key_key.jei.bookmark:30:NONE
 key_key.jei.toggleBookmarkOverlay:0:NONE
-key_key.carry.desc:42:NONE
+key_key.carry.desc:46:NONE
 key_key.cofh.multimode:47:NONE
 key_key.refinedstorage.focusSearchBar:15:NONE
 key_key.refinedstorage.clearGridCraftingMatrix:45:CONTROL
@@ -82,8 +82,8 @@ key_key.integrateddynamics.logic_programmer_focus_search:33:ALT
 key_key.integrateddynamics.logic_programmer_open_rename:19:ALT
 key_key.integratedterminals.terminal.tab.next:15:NONE
 key_key.integratedterminals.terminal.tab.previous:15:SHIFT
-key_key.integratedterminals.terminal.craftinggrid.clearplayer:46:NONE
-key_key.integratedterminals.terminal.craftinggrid.clearstorage:46:SHIFT
+key_key.integratedterminals.terminal.craftinggrid.clearplayer:NONE:NONE
+key_key.integratedterminals.terminal.craftinggrid.clearstorage:NONE:NONE
 key_key.integratedterminals.terminal.craftinggrid.balance:48:NONE
 key_invtweaks.key.sort:19:NONE
 key_key.clipboardPaste:210:NONE
