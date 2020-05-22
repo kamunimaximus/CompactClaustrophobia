@@ -1,14 +1,14 @@
 //This file was created via CT-GUI! Editing it is not advised!
 //Don't touch me!
 //#Remove
-recipes.removeShaped(<immersiveengineering:metal_device1:13>, [[<ore:blockGlassColorless>, <immersiveengineering:material:26>, <ore:blockGlassColorless>],[<ore:blockGlassColorless>, null, <ore:blockGlassColorless>], [<ore:plankTreatedWood>, <immersiveengineering:material:8>, <ore:plankTreatedWood>]]);
+recipes.removeShaped(<thermalfoundation:tome_experience>, [[null, <minecraft:dye:4>, null],[<minecraft:emerald>, <minecraft:book>, <minecraft:emerald>], [null, <minecraft:dye:4>, null]]);
 recipes.removeShaped(<integrateddynamics:mechanical_squeezer>, [[null, <minecraft:diamond>, null],[<integrateddynamics:energy_battery>, <integrateddynamics:squeezer>, <integrateddynamics:energy_battery>], [null, <ore:obsidian>, null]]);
 recipes.removeShaped(<integrateddynamics:logic_director>, [[<integrateddynamics:crystalized_chorus_chunk>, <integrateddynamics:crystalized_menril_chunk>, <integrateddynamics:crystalized_chorus_chunk>],[<integrateddynamics:crystalized_chorus_chunk>, <minecraft:diamond>, <integrateddynamics:crystalized_chorus_chunk>], [<integrateddynamics:crystalized_chorus_chunk>, <integrateddynamics:crystalized_menril_chunk>, <integrateddynamics:crystalized_chorus_chunk>]]);
 recipes.removeShaped(<minecraft:enchanting_table>, [[null, <minecraft:book>, null],[<minecraft:diamond>, <minecraft:obsidian>, <minecraft:diamond>], [<minecraft:obsidian>, <minecraft:obsidian>, <minecraft:obsidian>]]);
 recipes.removeShapeless(<nuclearcraft:glowing_mushroom>, [<minecraft:brown_mushroom>, <minecraft:glowstone_dust>]);
 recipes.removeShapeless(<nuclearcraft:glowing_mushroom>, [<minecraft:brown_mushroom>, <minecraft:glowstone_dust>]);
 //#Add
-recipes.addShaped(<immersiveengineering:metal_device1:13>, [[<ore:blockGlassColorless>, <immersiveengineering:material:26>, <ore:blockGlassColorless>],[<ore:blockGlassColorless>, <immersiveengineering:graphite_electrode>, <ore:blockGlassColorless>], [<ore:plankTreatedWood>, <immersiveengineering:material:8>, <ore:plankTreatedWood>]]);
+recipes.addShaped(<thermalfoundation:tome_experience>, [[null, <minecraft:dye:4>, null],[<minecraft:ender_pearl>, <minecraft:book>, <minecraft:ender_pearl>], [null, <minecraft:dye:4>, null]]);
 recipes.addShaped(<integrateddynamics:mechanical_squeezer>, [[null, <thermalfoundation:material:16>, null],[<integrateddynamics:energy_battery>, <integrateddynamics:squeezer>, <integrateddynamics:energy_battery>], [null, <ore:obsidian>, null]]);
 recipes.addShaped(<integrateddynamics:logic_director>, [[<integrateddynamics:crystalized_chorus_chunk>, <integrateddynamics:crystalized_menril_chunk>, <integrateddynamics:crystalized_chorus_chunk>],[<integrateddynamics:crystalized_chorus_chunk>, <thermalfoundation:material:16>, <integrateddynamics:crystalized_chorus_chunk>], [<integrateddynamics:crystalized_chorus_chunk>, <integrateddynamics:crystalized_menril_chunk>, <integrateddynamics:crystalized_chorus_chunk>]]);
 recipes.addShaped(<minecraft:enchanting_table>, [[null, <minecraft:book>, null],[<thermalfoundation:material:16>, <minecraft:obsidian>, <thermalfoundation:material:16>], [<minecraft:obsidian>, <minecraft:obsidian>, <minecraft:obsidian>]]);

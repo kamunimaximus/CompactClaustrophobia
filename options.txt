@@ -1,6 +1,6 @@
 version:1343
 invertYMouse:false
-mouseSensitivity:0.5
+mouseSensitivity:0.17605634
 fov:0.5
 gamma:1.0
 saturation:0.0
@@ -11,7 +11,7 @@ bobView:true
 anaglyph3d:false
 maxFps:80
 fboEnable:true
-difficulty:0
+difficulty:2
 fancyGraphics:true
 ao:2
 renderClouds:true
@@ -61,8 +61,8 @@ key_key.right:32
 key_key.jump:57
 key_key.sneak:42
 key_key.sprint:29
-key_key.drop:16
-key_key.inventory:18
+key_key.drop:18
+key_key.inventory:16
 key_key.chat:20
 key_key.playerlist:15
 key_key.pickItem:-98

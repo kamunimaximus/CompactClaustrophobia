@@ -1925,6 +1925,11 @@
           "taskID:8": "bq_standard:checkbox"
         }
       }
+    },
+    "160:10": {
+      "questID:3": 160,
+      "completed:9": {},
+      "tasks:9": {}
     }
   }
 }
