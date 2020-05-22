@@ -85,6 +85,7 @@ key_key.hotbar.6:7
 key_key.hotbar.7:8
 key_key.hotbar.8:9
 key_key.hotbar.9:10
+key_autoverse.key.togglemode:35
 key_key.betterquesting.quests:41
 key_key.death_history:22
 key_[GC] Galaxy Map:50
