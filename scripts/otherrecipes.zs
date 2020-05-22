@@ -12,7 +12,6 @@ recipes.remove(<exnihilocreatio:block_crucible>);
 recipes.remove(<thermalexpansion:augment:258>);
 recipes.remove(<exnihilocreatio:block_crucible_wood>);
 recipes.remove(<refinedstorage:processor_binding>);
-recipes.remove(<mob_grinding_utils:tank_sink>);
 
 recipes.removeShaped(<minecraft:chorus_flower>, [[<minecraft:stone:4>, <minecraft:stone:4>, <minecraft:stone:4>],[<minecraft:stone:4>, <minecraft:chorus_flower>, <minecraft:stone:4>], [<minecraft:stone:4>, <minecraft:redstone_block>, <minecraft:stone:4>]]);
 recipes.removeShaped(<minecraft:diamond>, [[<ore:nuggetDiamond>, <ore:nuggetDiamond>, <ore:nuggetDiamond>],[<ore:nuggetDiamond>, <ore:nuggetDiamond>, <ore:nuggetDiamond>], [<ore:nuggetDiamond>, <ore:nuggetDiamond>, <ore:nuggetDiamond>]]);
@@ -63,7 +62,6 @@ recipes.addShaped(<thermalexpansion:augment:258>,
 ]);
 recipes.addShaped(<exnihilocreatio:block_crucible_wood>, [[<ore:plankWood>, null, <ore:plankWood>],[<ore:plankWood>, null, <ore:plankWood>], [<minecraft:stick>, <ore:slabWood>, <minecraft:stick>]]);
 recipes.addShaped(<elevatorid:elevator_white>, [[<minecraft:wool>, <minecraft:wool>, <minecraft:wool>],[<minecraft:wool>, <modularmachinery:blockcasing>, <minecraft:wool>], [<minecraft:wool>, <minecraft:wool>, <minecraft:wool>]]);
-recipes.addShaped(<mob_grinding_utils:tank_sink>, [[null, <minecraft:iron_bars>, null],[null, <minecraft:hopper>, null], [null, <mob_grinding_utils:tank>, null]]);
 
 // Furnace
 furnace.addRecipe(<modularmachinery:itemmodularium>, <contenttweaker:modulariumblend>, 0.0);
