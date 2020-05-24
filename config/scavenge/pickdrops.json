@@ -704,7 +704,7 @@
 			]
 		},
 		{
-			"name": "Pick_boron",
+			"name": "Pick_desh",
 			"type":
 			{
 				"type": "block",
@@ -742,7 +742,7 @@
 				{
 					"type": "require_item_list",
 					"items": [
-						{"name": "nuclearcraft:pickaxe_boron_nitride"}
+						{"name": "galacticraftplanets:desh_pick"}
 					]
 				}
 			],
@@ -777,7 +777,7 @@
 			]
 		},
 		{
-			"name": "Pick_boron",
+			"name": "Pick_alu",
 			"type":
 			{
 				"type": "block",
@@ -825,6 +825,70 @@
 					"name": "exnihilocreatio:item_ore_aluminium",
 					"weight": 1200
 				}
+			],
+			"messages":
+			[
+				{
+					"id": "require_tool",
+					"message": "Use a pickaxe"
+				}
+			]
+		},
+		{
+			"name": "Pick_hardcarbon",
+			"type":
+			{
+				"type": "block",
+				"name": "compactmachines3:wall"
+			},
+			"clicktype": "left",
+			"properties":
+			[
+				{
+					"type": "add_hunger",
+					"exhaustion": "true",
+					"amount": "0.1f"
+				},
+				{
+					"type": "require_left"
+				},
+				{
+					"type": "drop_items"
+				},
+				{
+					"type": "damage_item",
+					"amount": "1"
+				},
+				{
+					"type": "player_cooldown",
+					"time": "10"
+				},
+				{
+					"type": "swing_hand"
+				},
+				{
+					"type": "play_sound",
+					"name": "block.stone.hit"
+				},
+				{
+					"type": "require_item_list",
+					"items": [
+						{"name": "nuclearcraft:pickaxe_hard_carbon"}
+					]
+				}
+			],
+			"drops":
+			[
+				{
+					"name": "nuclearcraft:dust",
+					"meta": "6",
+					"weight": 4
+				},
+				{
+					"name": "nuclearcraft:dust",
+					"meta": "5",
+					"weight": 5
+				},
 			],
 			"messages":
 			[

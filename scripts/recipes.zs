@@ -1,6 +1,7 @@
 //This file was created via CT-GUI! Editing it is not advised!
 //Don't touch me!
 //#Remove
+recipes.removeShapeless(<integratedtunnels:part_importer_world_block_item>, [<integratedtunnels:part_importer_item_item>, <integrateddynamics:logic_director>, <minecraft:diamond_pickaxe>]);
 recipes.removeShaped(<thermalfoundation:tome_experience>, [[null, <minecraft:dye:4>, null],[<minecraft:emerald>, <minecraft:book>, <minecraft:emerald>], [null, <minecraft:dye:4>, null]]);
 recipes.removeShaped(<integrateddynamics:mechanical_squeezer>, [[null, <minecraft:diamond>, null],[<integrateddynamics:energy_battery>, <integrateddynamics:squeezer>, <integrateddynamics:energy_battery>], [null, <ore:obsidian>, null]]);
 recipes.removeShaped(<integrateddynamics:logic_director>, [[<integrateddynamics:crystalized_chorus_chunk>, <integrateddynamics:crystalized_menril_chunk>, <integrateddynamics:crystalized_chorus_chunk>],[<integrateddynamics:crystalized_chorus_chunk>, <minecraft:diamond>, <integrateddynamics:crystalized_chorus_chunk>], [<integrateddynamics:crystalized_chorus_chunk>, <integrateddynamics:crystalized_menril_chunk>, <integrateddynamics:crystalized_chorus_chunk>]]);
@@ -8,7 +9,7 @@ recipes.removeShaped(<minecraft:enchanting_table>, [[null, <minecraft:book>, nul
 recipes.removeShapeless(<nuclearcraft:glowing_mushroom>, [<minecraft:brown_mushroom>, <minecraft:glowstone_dust>]);
 recipes.removeShapeless(<nuclearcraft:glowing_mushroom>, [<minecraft:brown_mushroom>, <minecraft:glowstone_dust>]);
 //#Add
-recipes.addShapeless(<galacticraftplanets:item_basic_mars>, [<nuclearcraft:gem_dust:4>,<immersiveengineering:material:18>,<nuclearcraft:dust:3>]);
+recipes.addShapeless(<integratedtunnels:part_importer_world_block_item>, [<integratedtunnels:part_importer_item_item>,<integrateddynamics:logic_director>,<bedrockminer:bedrock_pickaxe>]);
 recipes.addShaped(<thermalfoundation:tome_experience>, [[null, <minecraft:dye:4>, null],[<minecraft:ender_pearl>, <minecraft:book>, <minecraft:ender_pearl>], [null, <minecraft:dye:4>, null]]);
 recipes.addShaped(<integrateddynamics:mechanical_squeezer>, [[null, <thermalfoundation:material:16>, null],[<integrateddynamics:energy_battery>, <integrateddynamics:squeezer>, <integrateddynamics:energy_battery>], [null, <ore:obsidian>, null]]);
 recipes.addShaped(<integrateddynamics:logic_director>, [[<integrateddynamics:crystalized_chorus_chunk>, <integrateddynamics:crystalized_menril_chunk>, <integrateddynamics:crystalized_chorus_chunk>],[<integrateddynamics:crystalized_chorus_chunk>, <thermalfoundation:material:16>, <integrateddynamics:crystalized_chorus_chunk>], [<integrateddynamics:crystalized_chorus_chunk>, <integrateddynamics:crystalized_menril_chunk>, <integrateddynamics:crystalized_chorus_chunk>]]);

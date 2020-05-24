@@ -9,8 +9,9 @@ import mods.nuclearcraft.infuser;
 // Alloy Furnace
 alloy_furnace.removeRecipeWithOutput(<immersiveengineering:metal:8>);
 alloy_furnace.removeRecipeWithOutput(<immersiveengineering:metal:8>*2);
-alloy_furnace.removeRecipeWithOutput(<nuclearcraft:alloy:2>);
-alloy_furnace.addRecipe(<ore:dustHOPGraphite>*2, <thermalfoundation:material:16>, <nuclearcraft:alloy:2>);
+alloy_furnace.removeRecipeWithOutput(<nuclearcraft:alloy:2>*2);
+alloy_furnace.addRecipe(<nuclearcraft:dust:8>*2, <thermalfoundation:material:16>, <nuclearcraft:alloy:2>);
+alloy_furnace.addRecipe(<immersiveengineering:material:18>*2, <nuclearcraft:gem:1>, <galacticraftplanets:item_basic_mars>);
 
 // Manufactory
 manufactory.removeRecipeWithOutput(<ore:dustHOPGraphite>);
