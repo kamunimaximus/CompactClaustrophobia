@@ -8,6 +8,7 @@ recipes.removeShaped(<minecraft:enchanting_table>, [[null, <minecraft:book>, nul
 recipes.removeShapeless(<nuclearcraft:glowing_mushroom>, [<minecraft:brown_mushroom>, <minecraft:glowstone_dust>]);
 recipes.removeShapeless(<nuclearcraft:glowing_mushroom>, [<minecraft:brown_mushroom>, <minecraft:glowstone_dust>]);
 //#Add
+recipes.addShapeless(<galacticraftplanets:item_basic_mars>, [<nuclearcraft:gem_dust:4>,<immersiveengineering:material:18>,<nuclearcraft:dust:3>]);
 recipes.addShaped(<thermalfoundation:tome_experience>, [[null, <minecraft:dye:4>, null],[<minecraft:ender_pearl>, <minecraft:book>, <minecraft:ender_pearl>], [null, <minecraft:dye:4>, null]]);
 recipes.addShaped(<integrateddynamics:mechanical_squeezer>, [[null, <thermalfoundation:material:16>, null],[<integrateddynamics:energy_battery>, <integrateddynamics:squeezer>, <integrateddynamics:energy_battery>], [null, <ore:obsidian>, null]]);
 recipes.addShaped(<integrateddynamics:logic_director>, [[<integrateddynamics:crystalized_chorus_chunk>, <integrateddynamics:crystalized_menril_chunk>, <integrateddynamics:crystalized_chorus_chunk>],[<integrateddynamics:crystalized_chorus_chunk>, <thermalfoundation:material:16>, <integrateddynamics:crystalized_chorus_chunk>], [<integrateddynamics:crystalized_chorus_chunk>, <integrateddynamics:crystalized_menril_chunk>, <integrateddynamics:crystalized_chorus_chunk>]]);

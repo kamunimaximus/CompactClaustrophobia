@@ -14,7 +14,7 @@ Crusher.addRecipe(<contenttweaker:smallsmashedmachine>, <compactmachines3:machin
 
 // Coke Oven
 CokeOven.addRecipe(<immersiveengineering:material:6>, 500, <minecraft:coal:1>, 2000);
-CokeOven.addRecipe(<immersiveengineering:stone_decoration:3>, 4500, <thermalfoundation:storage_resource>, 18000);
+CokeOven.addRecipe(<immersiveengineering:stone_decoration:3>, 4500, <ore:blockCharcoal>, 18000);
 
 //Blast furnace
 BlastFurnace.removeRecipe(<immersiveengineering:metal:8>); //Remove steel

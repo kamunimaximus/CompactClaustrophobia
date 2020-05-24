@@ -365,7 +365,7 @@
 				{
 					"name": "nuclearcraft:dust",
 					"meta": "7",
-					"weight": 10
+					"weight": 3
 				},
 				{
 					"name": "nuclearcraft:dust",
@@ -375,7 +375,7 @@
 				{
 					"name": "nuclearcraft:dust",
 					"meta": "3",
-					"weight": 10
+					"weight": 5
 				},
 				{
 					"name": "minecraft:dye",
@@ -775,6 +775,64 @@
 					"message": "Use a pickaxe"
 				}
 			]
-		}           
+		},
+		{
+			"name": "Pick_boron",
+			"type":
+			{
+				"type": "block",
+				"name": "compactmachines3:wall"
+			},
+			"clicktype": "left",
+			"properties":
+			[
+				{
+					"type": "add_hunger",
+					"exhaustion": "true",
+					"amount": "0.1f"
+				},
+				{
+					"type": "require_left"
+				},
+				{
+					"type": "drop_items"
+				},
+				{
+					"type": "damage_item",
+					"amount": "1"
+				},
+				{
+					"type": "player_cooldown",
+					"time": "10"
+				},
+				{
+					"type": "swing_hand"
+				},
+				{
+					"type": "play_sound",
+					"name": "block.stone.hit"
+				},
+				{
+					"type": "require_item_list",
+					"items": [
+						{"name": "thermalfoundation:tool.pickaxe_aluminum"}
+					]
+				}
+			],
+			"drops":
+			[
+				{
+					"name": "exnihilocreatio:item_ore_aluminium",
+					"weight": 1200
+				}
+			],
+			"messages":
+			[
+				{
+					"id": "require_tool",
+					"message": "Use a pickaxe"
+				}
+			]
+		}		
 	]
 }

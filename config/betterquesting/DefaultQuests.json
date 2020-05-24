@@ -2045,7 +2045,8 @@
     "37:10": {
       "questID:3": 37,
       "preRequisites:11": [
-        28
+        28,
+        75
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -4354,7 +4355,7 @@
           "repeat_relative:1": 1,
           "ismain:1": 0,
           "name:8": "What did you sieve kid?",
-          "desc:8": "Sieving things can separate smaller things, usually requires a mesh filter of sorts"
+          "desc:8": "Sieving things can separate smaller things, usually requires a mesh filter of sorts. If you get tired of doing this manually, a clicker might help"
         }
       },
       "tasks:9": {
@@ -8536,7 +8537,7 @@
     "154:10": {
       "questID:3": 154,
       "preRequisites:11": [
-        80
+        9
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -8548,9 +8549,9 @@
           "visibility:8": "NORMAL",
           "simultaneous:1": 0,
           "icon:10": {
-            "id:8": "immersiveengineering:metal_device1",
+            "id:8": "minecraft:wooden_shovel",
             "Count:3": 1,
-            "Damage:2": 13,
+            "Damage:2": 0,
             "OreDict:8": ""
           },
           "globalshare:1": 0,
@@ -8559,8 +8560,8 @@
           "autoclaim:1": 0,
           "repeat_relative:1": 1,
           "ismain:1": 0,
-          "name:8": "The Cloche of Gardening",
-          "desc:8": "This extremely potent compact greenhouse can help you grow things in crop form. Dang, wish there were a small plant that provided wood, perhaps one in bonsai size..."
+          "name:8": "Better this than my hands",
+          "desc:8": "I wish there was a tool to save my hands"
         }
       },
       "tasks:9": {
@@ -8573,9 +8574,9 @@
           "consume:1": 0,
           "requiredItems:9": {
             "0:10": {
-              "id:8": "immersiveengineering:metal_device1",
+              "id:8": "minecraft:wooden_shovel",
               "Count:3": 1,
-              "Damage:2": 13,
+              "Damage:2": 0,
               "OreDict:8": ""
             }
           },
@@ -8638,7 +8639,7 @@
     "156:10": {
       "questID:3": 156,
       "preRequisites:11": [
-        113
+        81
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -8650,9 +8651,9 @@
           "visibility:8": "NORMAL",
           "simultaneous:1": 0,
           "icon:10": {
-            "id:8": "nuclearcraft:gem",
+            "id:8": "galacticraftplanets:desh_pick",
             "Count:3": 1,
-            "Damage:2": 1,
+            "Damage:2": 0,
             "OreDict:8": ""
           },
           "globalshare:1": 0,
@@ -8662,7 +8663,7 @@
           "repeat_relative:1": 1,
           "ismain:1": 0,
           "name:8": "Discount diamonds!",
-          "desc:8": "This pick is made from hard gems as well. But they are not quite enough to extract the hardest materials unfortunately. On the bright side it seems able to extract nano-diamonds at an better pace than any other pick! 6 machines."
+          "desc:8": "This pick is made from boron-hop alloy called desh, which has similar properties to diamond! But they are not quite enough to extract the hardest materials unfortunately. On the bright side it seems able to extract high purity graphite."
         }
       },
       "tasks:9": {
@@ -8675,7 +8676,7 @@
           "consume:1": 0,
           "requiredItems:9": {
             "0:10": {
-              "id:8": "nuclearcraft:pickaxe_boron_nitride",
+              "id:8": "galacticraftplanets:desh_pick",
               "Count:3": 1,
               "Damage:2": 0,
               "OreDict:8": ""
@@ -8689,7 +8690,7 @@
     "157:10": {
       "questID:3": 157,
       "preRequisites:11": [
-        91
+        10
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -8713,7 +8714,7 @@
           "repeat_relative:1": 1,
           "ismain:1": 0,
           "name:8": "Pick your frequency",
-          "desc:8": "Some picks are more attuned to certain material frequencies resulting in more precise extraction. Try them if you\u0027d like!"
+          "desc:8": "Aluminum pick is not the only one. Some picks are more attuned to certain material frequencies resulting in more precise extraction. Try them if you\u0027d like!"
         }
       },
       "tasks:9": {
@@ -8745,6 +8746,12 @@
             },
             "3:10": {
               "id:8": "thermalfoundation:tool.pickaxe_bronze",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "4:10": {
+              "id:8": "thermalfoundation:tool.pickaxe_aluminum",
               "Count:3": 1,
               "Damage:2": 0,
               "OreDict:8": ""
@@ -8893,6 +8900,159 @@
       },
       "tasks:9": {},
       "rewards:9": {}
+    },
+    "161:10": {
+      "questID:3": 161,
+      "preRequisites:11": [
+        21
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "exnihilocreatio:item_ore_aluminium",
+            "Count:3": 1,
+            "Damage:2": 1,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Aluminum",
+          "desc:8": "Getting it from sand is such a chore, I wonder what a pick made from it would do?"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "exnihilocreatio:item_ore_aluminium",
+              "Count:3": 1,
+              "Damage:2": 1,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "162:10": {
+      "questID:3": 162,
+      "preRequisites:11": [
+        161
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "thermalfoundation:tool.pickaxe_aluminum",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Pick and choose",
+          "desc:8": "Some picks have more specific drops, having one in handy for aluminum is pretty nice"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "thermalfoundation:tool.pickaxe_aluminum",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "163:10": {
+      "questID:3": 163,
+      "preRequisites:11": [
+        80
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "immersiveengineering:metal_device1",
+            "Count:3": 64,
+            "Damage:2": 13,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Garden Cloche",
+          "desc:8": "This very powerful, compact green house is an amazing thing to grow almost anything in, as long as it\u0027s small enough. Sadly they are quite big, so count your blocks!"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "immersiveengineering:metal_device1",
+              "Count:3": 1,
+              "Damage:2": 13,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
     }
   },
   "questLines:9": {
@@ -8968,7 +9128,7 @@
           },
           "bg_image:8": "",
           "bg_size:3": 256,
-          "desc:8": "No description"
+          "desc:8": "If just pooping a little is too easy"
         }
       },
       "order:3": 4
@@ -8990,7 +9150,7 @@
           "sizeY:3": 24
         },
         "2:10": {
-          "sizeX:3": 32,
+          "sizeX:3": 36,
           "x:3": 220,
           "y:3": 136,
           "id:3": 10,
@@ -9012,7 +9172,7 @@
         },
         "5:10": {
           "sizeX:3": 32,
-          "x:3": 48,
+          "x:3": 16,
           "y:3": -24,
           "id:3": 13,
           "sizeY:3": 32
@@ -9061,7 +9221,7 @@
         },
         "12:10": {
           "sizeX:3": 24,
-          "x:3": 52,
+          "x:3": 20,
           "y:3": 12,
           "id:3": 20,
           "sizeY:3": 24
@@ -9124,14 +9284,14 @@
         },
         "21:10": {
           "sizeX:3": 24,
-          "x:3": 20,
+          "x:3": -12,
           "y:3": -20,
           "id:3": 29,
           "sizeY:3": 24
         },
         "22:10": {
           "sizeX:3": 24,
-          "x:3": -12,
+          "x:3": -44,
           "y:3": -20,
           "id:3": 30,
           "sizeY:3": 24
@@ -9145,7 +9305,7 @@
         },
         "24:10": {
           "sizeX:3": 24,
-          "x:3": 84,
+          "x:3": 52,
           "y:3": 12,
           "id:3": 32,
           "sizeY:3": 24
@@ -9173,7 +9333,7 @@
         },
         "28:10": {
           "sizeX:3": 24,
-          "x:3": 52,
+          "x:3": 20,
           "y:3": -52,
           "id:3": 68,
           "sizeY:3": 24
@@ -9181,27 +9341,27 @@
         "29:10": {
           "sizeX:3": 24,
           "x:3": 148,
-          "y:3": 44,
+          "y:3": 12,
           "id:3": 69,
           "sizeY:3": 24
         },
         "30:10": {
           "sizeX:3": 24,
           "x:3": 148,
-          "y:3": 12,
+          "y:3": -20,
           "id:3": 70,
           "sizeY:3": 24
         },
         "31:10": {
           "sizeX:3": 24,
-          "x:3": 116,
+          "x:3": 84,
           "y:3": -20,
           "id:3": 71,
           "sizeY:3": 24
         },
         "32:10": {
           "sizeX:3": 24,
-          "x:3": 84,
+          "x:3": 52,
           "y:3": -20,
           "id:3": 72,
           "sizeY:3": 24
@@ -9215,7 +9375,7 @@
         },
         "34:10": {
           "sizeX:3": 24,
-          "x:3": 148,
+          "x:3": 116,
           "y:3": -20,
           "id:3": 78,
           "sizeY:3": 24
@@ -9229,14 +9389,14 @@
         },
         "36:10": {
           "sizeX:3": 24,
-          "x:3": -28,
+          "x:3": -12,
           "y:3": 12,
           "id:3": 127,
           "sizeY:3": 24
         },
         "37:10": {
           "sizeX:3": 24,
-          "x:3": 20,
+          "x:3": -12,
           "y:3": -52,
           "id:3": 137,
           "sizeY:3": 24
@@ -9250,21 +9410,21 @@
         },
         "39:10": {
           "sizeX:3": 24,
-          "x:3": 240,
+          "x:3": 248,
           "y:3": 104,
           "id:3": 140,
           "sizeY:3": 24
         },
         "40:10": {
           "sizeX:3": 24,
-          "x:3": -8,
+          "x:3": -12,
           "y:3": 44,
           "id:3": 141,
           "sizeY:3": 24
         },
         "41:10": {
           "sizeX:3": 24,
-          "x:3": 84,
+          "x:3": 52,
           "y:3": -52,
           "id:3": 142,
           "sizeY:3": 24
@@ -9285,23 +9445,44 @@
         },
         "44:10": {
           "sizeX:3": 24,
-          "x:3": 204,
-          "y:3": 68,
-          "id:3": 157,
+          "x:3": 84,
+          "y:3": 12,
+          "id:3": 154,
           "sizeY:3": 24
         },
         "45:10": {
+          "sizeX:3": 24,
+          "x:3": 228,
+          "y:3": 180,
+          "id:3": 157,
+          "sizeY:3": 24
+        },
+        "46:10": {
           "sizeX:3": 24,
           "x:3": -28,
           "y:3": 172,
           "id:3": 158,
           "sizeY:3": 24
         },
-        "46:10": {
+        "47:10": {
           "sizeX:3": 24,
-          "x:3": 116,
+          "x:3": 84,
           "y:3": -52,
           "id:3": 159,
+          "sizeY:3": 24
+        },
+        "48:10": {
+          "sizeX:3": 24,
+          "x:3": 148,
+          "y:3": 44,
+          "id:3": 161,
+          "sizeY:3": 24
+        },
+        "49:10": {
+          "sizeX:3": 24,
+          "x:3": 180,
+          "y:3": 44,
+          "id:3": 162,
           "sizeY:3": 24
         }
       },
@@ -9318,7 +9499,7 @@
           },
           "bg_image:8": "",
           "bg_size:3": 256,
-          "desc:8": "No description"
+          "desc:8": "Stuck inside this inter-dimensional prison. You might as well get the best of it, getting what material possible from these unbreakable walls.."
         }
       },
       "order:3": 0
@@ -9341,15 +9522,15 @@
         },
         "2:10": {
           "sizeX:3": 24,
-          "x:3": 108,
-          "y:3": 44,
+          "x:3": -56,
+          "y:3": 8,
           "id:3": 36,
           "sizeY:3": 24
         },
         "3:10": {
           "sizeX:3": 24,
-          "x:3": 76,
-          "y:3": 44,
+          "x:3": -24,
+          "y:3": 8,
           "id:3": 37,
           "sizeY:3": 24
         },
@@ -9621,8 +9802,8 @@
         },
         "42:10": {
           "sizeX:3": 24,
-          "x:3": 44,
-          "y:3": 44,
+          "x:3": 12,
+          "y:3": 8,
           "id:3": 85,
           "sizeY:3": 24
         },
@@ -9704,18 +9885,25 @@
           "sizeY:3": 24
         },
         "54:10": {
-          "sizeX:3": 24,
-          "x:3": 140,
-          "y:3": 80,
-          "id:3": 154,
-          "sizeY:3": 24
-        },
-        "55:10": {
           "sizeX:3": 32,
           "x:3": 264,
           "y:3": 104,
           "id:3": 155,
           "sizeY:3": 32
+        },
+        "55:10": {
+          "sizeX:3": 24,
+          "x:3": 336,
+          "y:3": 160,
+          "id:3": 156,
+          "sizeY:3": 24
+        },
+        "56:10": {
+          "sizeX:3": 24,
+          "x:3": 140,
+          "y:3": 80,
+          "id:3": 163,
+          "sizeY:3": 24
         }
       },
       "lineID:3": 2,
@@ -9731,7 +9919,7 @@
           },
           "bg_image:8": "",
           "bg_size:3": 256,
-          "desc:8": "No description"
+          "desc:8": "Maybe this place is not so bad after all? With more space comes more possibilities, it\u0027s even beginning to feel a bit like home"
         }
       },
       "order:3": 1
@@ -9785,7 +9973,7 @@
       "properties:10": {
         "betterquesting:10": {
           "visibility:8": "NORMAL",
-          "name:8": "Overworld",
+          "name:8": "Extreme Agoraphobia",
           "icon:10": {
             "id:8": "galacticraftcore:rocket_t1",
             "Count:3": 1,
@@ -9794,7 +9982,7 @@
           },
           "bg_image:8": "",
           "bg_size:3": 256,
-          "desc:8": "No description"
+          "desc:8": "Maybe I should go back to the safety of my 4 walls? Though I\u0027m certain this world holds many secrets.."
         }
       },
       "order:3": 3
@@ -10052,13 +10240,6 @@
           "y:3": 72,
           "id:3": 148,
           "sizeY:3": 24
-        },
-        "36:10": {
-          "sizeX:3": 24,
-          "x:3": 164,
-          "y:3": 104,
-          "id:3": 156,
-          "sizeY:3": 24
         }
       },
       "lineID:3": 4,
@@ -10074,7 +10255,7 @@
           },
           "bg_image:8": "",
           "bg_size:3": 256,
-          "desc:8": "No description"
+          "desc:8": "This is your place now. You create the rules and the items. These walls will not hold me much longer"
         }
       },
       "order:3": 2

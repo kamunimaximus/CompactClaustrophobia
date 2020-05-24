@@ -147,7 +147,7 @@ key_key.trashslot.toggle:20
 key_key.trashslot.delete:211
 key_key.trashslot.deleteAll:211:SHIFT
 key_key.control:29
-soundCategory_master:0.5
+soundCategory_master:0.0
 soundCategory_music:0.2535211
 soundCategory_record:1.0
 soundCategory_weather:1.0

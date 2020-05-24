@@ -68,6 +68,49 @@
 			]
 		},
 		{
+			"name": "CompactDropsEmptyHand",
+			"type": {
+				"type": "block",
+				"name": "compactmachines3:wall"
+			},
+			"clicktype": "left",
+			"properties": [
+				{
+					"type": "require_left"
+				},
+				{
+					"type": "drop_items"
+				},
+				{
+					"type": "player_cooldown",
+					"time": "8"
+				},
+				{
+					"type": "play_sound",
+					"name": "block.stone.hit"
+				},
+				{
+					"type": "swing_hand"
+				},
+				{
+					"type": "require_item_list",
+					"items": [
+						{"name": "minecraft:wooden_shovel"}
+					]
+				}
+			],
+			"drops": [
+				{
+					"name": "contenttweaker:graveldust",
+					"weight": 20
+				},
+				{
+					"name": "contenttweaker:dirtdust",
+					"weight": 70
+				}
+			]
+		},
+		{
 			"name": "DirtDropsEmptyHandRight",
 			"type": {
 				"type": "ore",
