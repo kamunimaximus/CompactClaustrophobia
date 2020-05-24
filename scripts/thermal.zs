@@ -28,3 +28,18 @@ InductionSmelter.removeRecipe(<thermalfoundation:material:768>*4, <thermalfounda
 
 // Magmatic Dynamo
 mods.thermalexpansion.MagmaticDynamo.removeFuel(<liquid:pyrotheum>);
+
+// EnervationDynamo
+mods.thermalexpansion.EnervationDynamo.removeFuel(<minecraft:redstone>);
+mods.thermalexpansion.EnervationDynamo.removeFuel(<minecraft:redstone_block>);
+mods.thermalexpansion.EnervationDynamo.removeFuel(<thermalexpansion:cell>);
+mods.thermalexpansion.EnervationDynamo.removeFuel(<thermalexpansion:capacitor>);
+mods.thermalexpansion.EnervationDynamo.removeFuel(<thermalexpansion:capacitor:1>);
+mods.thermalexpansion.EnervationDynamo.removeFuel(<thermalexpansion:capacitor:2>);
+mods.thermalexpansion.EnervationDynamo.removeFuel(<thermalexpansion:capacitor:3>);
+mods.thermalexpansion.EnervationDynamo.removeFuel(<galacticraftcore:battery:100>);
+mods.thermalexpansion.EnervationDynamo.removeFuel(<galacticraftcore:battery>);
+
+mods.thermalexpansion.EnervationDynamo.addFuel(<minecraft:redstone>, 500);
+mods.thermalexpansion.EnervationDynamo.addFuel(<minecraft:redstone_block>, 5000);
+mods.thermalexpansion.EnervationDynamo.addFuel(<refinedstorage:pattern>, 25000);
