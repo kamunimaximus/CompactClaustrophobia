@@ -23,13 +23,13 @@
         "discord":
         {
             "text" : "",
-            "posX" : -235,
-            "posY" : 68,
+            "posX" : 50,
+            "posY" : -68,
             "width" : 60,
             "height" : 20,
 			"imageWidth" : 800,
 			"imageHeight" : 272,
-            "alignment" : "center",
+            "alignment" : "bottom_left",
             "texture" : "mainmenu:textures/discord.png",
             "normalTextColor" : 6579300,
             "hoverTextColor" : 16777215,
@@ -100,8 +100,8 @@
         "language":
         {
             "text" : "",
-            "posX" : -200,
-            "posY" : 160,
+            "posX" : 129,
+            "posY" : 155,
             "width" : 20,
             "height" : 20,
             "action" : 
@@ -114,10 +114,11 @@
         "refresh":
         {
             "text" : "",
-            "posX" : -230,
-            "posY" : 160,
+            "posX" : -20,
+            "posY" : 0,
             "width" : 20,
             "height" : 20,
+            "alignment" : "top_right",
             "texture" : "custommainmenu:textures/gui/buttons.png",
             "action" : 
             {
@@ -130,8 +131,33 @@
     {        
         "background":
         {
-            "image" : "mainmenu:textures/background.png",
-            "mode" : "fill"
+            "image" : "",
+            "slideshow":
+            {
+                "images" : [
+                    "mainmenu:textures/0000.png",
+                    "mainmenu:textures/0002.png",
+                    "mainmenu:textures/0004.png",
+                    "mainmenu:textures/0006.png",
+                    "mainmenu:textures/0008.png",
+                    "mainmenu:textures/0010.png",
+                    "mainmenu:textures/0012.png",
+                    "mainmenu:textures/0014.png",
+                    "mainmenu:textures/0016.png",
+                    "mainmenu:textures/0018.png",
+                    "mainmenu:textures/0019.png",
+                    "mainmenu:textures/0017.png",
+                    "mainmenu:textures/0015.png",
+                    "mainmenu:textures/0013.png",
+                    "mainmenu:textures/0011.png",
+                    "mainmenu:textures/0009.png",
+                    "mainmenu:textures/0007.png",
+                    "mainmenu:textures/0005.png",
+                    "mainmenu:textures/0003.png",
+                    "mainmenu:textures/0001.png"],
+                    "displayDuration": 1,
+                    "fadeDurtation": 0
+            }
         }
     }
 }

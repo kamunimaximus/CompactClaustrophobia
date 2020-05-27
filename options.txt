@@ -11,7 +11,7 @@ bobView:true
 anaglyph3d:false
 maxFps:80
 fboEnable:true
-difficulty:2
+difficulty:0
 fancyGraphics:true
 ao:2
 renderClouds:true
@@ -106,6 +106,14 @@ key_key.jei.previousPage:201
 key_key.jei.nextPage:209
 key_key.jei.bookmark:30
 key_key.jei.toggleBookmarkOverlay:0
+key_key.settings_menu:34
+key_key.range:19
+key_key.undo:22
+key_key.anchor:35
+key_key.fuzzy:0
+key_key.connected_area:0
+key_key.rotate_mirror:0
+key_key.material_list:50
 key_key.carry.desc:42
 key_key.cofh.multimode:47
 key_key.refinedstorage.focusSearchBar:15
@@ -147,7 +155,7 @@ key_key.trashslot.toggle:20
 key_key.trashslot.delete:211
 key_key.trashslot.deleteAll:211:SHIFT
 key_key.control:29
-soundCategory_master:0.0
+soundCategory_master:0.410596
 soundCategory_music:0.2535211
 soundCategory_record:1.0
 soundCategory_weather:1.0
