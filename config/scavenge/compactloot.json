@@ -353,6 +353,43 @@
 					"type": "swing_hand"
 				}
 			]
+		},
+		{
+			"name": "SpawnOcelot",
+			"type": {
+				"type": "block",
+				"name": "minecraft:redstone_block"
+			},
+			"clicktype": "right",
+			"properties": [
+				{
+					"type": "use_command",
+					"name": "summon",
+					"arguments": "ocelot ~ ~ ~ {CustomName:compcat,Age:-25000}"
+				},
+				{
+					"type": "play_sound",
+					"name": "item.bottle.fill_dragonbreath"
+				},
+				{
+					"type": "consume_block",
+					"name": "minecraft:air"
+				},
+				{
+					"type": "require_item",
+					"name": "minecraft:fish",
+					"meta": 3
+				},
+				{
+					"type": "consume_item",
+					"amount": 1,
+					"name": "minecraft:fish",
+					"meta": 3
+				},
+				{
+					"type": "swing_hand"
+				}
+			]
 		}
 	]
 }

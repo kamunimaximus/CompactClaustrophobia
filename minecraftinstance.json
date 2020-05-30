@@ -29,7 +29,7 @@
   "isUnlocked": true,
   "javaArgsOverride": null,
   "javaDirOverride": null,
-  "lastPlayed": "2020-05-30T10:51:08.0787635Z",
+  "lastPlayed": "2020-05-30T15:07:55.3784056Z",
   "manifest": {
     "minecraft": {
       "version": "1.12.2",
@@ -3429,21 +3429,6 @@
       "fileSize": 534420
     },
     {
-      "folderName": "voidislandcontrol-1.5.3.jar",
-      "fingerprint": 3961336375,
-      "fileDateHash": 3973531142,
-      "sectionID": 8,
-      "individualFingerprints": [
-        3961336375
-      ],
-      "status": 1,
-      "timestamp": "2020-05-28T18:28:44.478789Z",
-      "lastWriteTimeUtc": "2020-05-25T17:00:31.9776671Z",
-      "queryTimestamp": "2020-05-28T18:28:46.8302789Z",
-      "fileCount": 1,
-      "fileSize": 101036
-    },
-    {
       "folderName": "ThermalDynamics-1.12.2-2.5.6.1-universal.jar",
       "fingerprint": 2554678431,
       "fileDateHash": 4150032420,
@@ -4305,22 +4290,22 @@
       "addonID": 237903,
       "gameInstanceID": "d010337f-3108-4706-89c7-6f5929a8779e",
       "installedFile": {
-        "id": 2926584,
-        "displayName": "RebornCore-1.12.2-3.19.3.524-universal.jar",
-        "fileName": "RebornCore-1.12.2-3.19.3.524-universal.jar",
-        "fileDate": "2020-04-10T21:22:43.73Z",
-        "fileLength": 2429628,
+        "id": 2966845,
+        "displayName": "RebornCore-1.12.2-3.19.4.529-universal.jar",
+        "fileName": "RebornCore-1.12.2-3.19.4.529-universal.jar",
+        "fileDate": "2020-05-27T15:53:42.54Z",
+        "fileLength": 2429780,
         "releaseType": 1,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2926/584/RebornCore-1.12.2-3.19.3.524-universal.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/2966/845/RebornCore-1.12.2-3.19.4.529-universal.jar",
         "isAlternate": false,
-        "alternateFileId": 2926585,
+        "alternateFileId": 2966846,
         "dependencies": [],
         "isAvailable": true,
         "modules": [
           {
             "foldername": "META-INF",
-            "fingerprint": 2883968079,
+            "fingerprint": 2417228293,
             "type": 0
           },
           {
@@ -4350,7 +4335,7 @@
           },
           {
             "foldername": "mcmod.info",
-            "fingerprint": 2573281659,
+            "fingerprint": 1420752229,
             "type": 0
           },
           {
@@ -4380,11 +4365,11 @@
           },
           {
             "foldername": "reborncore",
-            "fingerprint": 770699067,
+            "fingerprint": 675198216,
             "type": 0
           }
         ],
-        "packageFingerprint": 2796074046,
+        "packageFingerprint": 4053697309,
         "gameVersion": [
           "1.12",
           "1.12.1",
@@ -4399,12 +4384,12 @@
         "gameVersionDateReleased": "2017-06-07T05:00:00Z",
         "gameId": 0,
         "isServerPack": false,
-        "FileNameOnDisk": "RebornCore-1.12.2-3.19.3.524-universal.jar"
+        "FileNameOnDisk": "RebornCore-1.12.2-3.19.4.529-universal.jar"
       },
       "dateInstalled": "2020-05-15T16:09:53.2119287Z",
-      "dateUpdated": "2020-05-27T14:10:35.3030695Z",
-      "dateLastUpdateAttempted": "2020-05-27T14:10:35.3030695Z",
-      "status": 3,
+      "dateUpdated": "2020-05-30T12:16:35.075957Z",
+      "dateLastUpdateAttempted": "2020-05-30T12:16:35.075957Z",
+      "status": 4,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -9884,91 +9869,6 @@
       "installedTargets": null
     },
     {
-      "addonID": 257655,
-      "gameInstanceID": "d010337f-3108-4706-89c7-6f5929a8779e",
-      "installedFile": {
-        "id": 2666967,
-        "displayName": "voidislandcontrol-1.5.3.jar",
-        "fileName": "voidislandcontrol-1.5.3.jar",
-        "fileDate": "2019-01-30T21:53:48.443Z",
-        "fileLength": 101036,
-        "releaseType": 1,
-        "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2666/967/voidislandcontrol-1.5.3.jar",
-        "isAlternate": false,
-        "alternateFileId": 0,
-        "dependencies": [
-          {
-            "id": 0,
-            "addonId": 232502,
-            "type": 2,
-            "fileId": 0
-          },
-          {
-            "id": 0,
-            "addonId": 225643,
-            "type": 2,
-            "fileId": 0
-          }
-        ],
-        "isAvailable": true,
-        "modules": [
-          {
-            "foldername": "META-INF",
-            "fingerprint": 1310931850,
-            "type": 0
-          },
-          {
-            "foldername": "com",
-            "fingerprint": 48036966,
-            "type": 0
-          },
-          {
-            "foldername": "assets",
-            "fingerprint": 3369013490,
-            "type": 0
-          },
-          {
-            "foldername": "mcmod.info",
-            "fingerprint": 893397759,
-            "type": 0
-          },
-          {
-            "foldername": "pack.mcmeta",
-            "fingerprint": 3510687952,
-            "type": 0
-          }
-        ],
-        "packageFingerprint": 3961336375,
-        "gameVersion": [
-          "1.12.2"
-        ],
-        "hasInstallScript": false,
-        "isCompatibleWithClient": false,
-        "categorySectionPackageType": 0,
-        "restrictProjectFileAccess": 0,
-        "projectStatus": 0,
-        "projectId": 0,
-        "gameVersionDateReleased": "2008-03-01T06:00:00Z",
-        "gameId": 0,
-        "isServerPack": false,
-        "FileNameOnDisk": "voidislandcontrol-1.5.3.jar"
-      },
-      "dateInstalled": "2020-05-25T17:00:31.9836778Z",
-      "dateUpdated": "2020-05-25T17:00:31.9876683Z",
-      "dateLastUpdateAttempted": "2020-05-25T17:00:31.9876683Z",
-      "status": 5,
-      "preferenceAutoInstallUpdates": false,
-      "preferenceAlternateFile": false,
-      "preferenceIsIgnored": false,
-      "isModified": false,
-      "isWorkingCopy": false,
-      "isFuzzyMatch": false,
-      "preferenceReleaseType": null,
-      "manifestName": null,
-      "installedTargets": null
-    },
-    {
       "addonID": 254317,
       "gameInstanceID": "d010337f-3108-4706-89c7-6f5929a8779e",
       "installedFile": {
@@ -11040,6 +10940,97 @@
       "installedTargets": null
     },
     {
+      "addonID": 237102,
+      "gameInstanceID": "d010337f-3108-4706-89c7-6f5929a8779e",
+      "installedFile": {
+        "id": 2835289,
+        "displayName": "FTBUtilities-5.4.0.124.jar",
+        "fileName": "FTBUtilities-5.4.0.124.jar",
+        "fileDate": "2019-12-01T13:00:13Z",
+        "fileLength": 424109,
+        "releaseType": 1,
+        "fileStatus": 4,
+        "downloadUrl": "https://edge.forgecdn.net/files/2835/289/FTBUtilities-5.4.0.124.jar",
+        "isAlternate": false,
+        "alternateFileId": 2835290,
+        "dependencies": [
+          {
+            "id": 0,
+            "addonId": 32274,
+            "type": 2,
+            "fileId": 0
+          },
+          {
+            "id": 0,
+            "addonId": 237167,
+            "type": 3,
+            "fileId": 0
+          },
+          {
+            "id": 0,
+            "addonId": 314904,
+            "type": 3,
+            "fileId": 0
+          }
+        ],
+        "isAvailable": true,
+        "modules": [
+          {
+            "foldername": "META-INF",
+            "fingerprint": 1909782853,
+            "type": 0
+          },
+          {
+            "foldername": "com",
+            "fingerprint": 1918873826,
+            "type": 0
+          },
+          {
+            "foldername": "assets",
+            "fingerprint": 328449044,
+            "type": 0
+          },
+          {
+            "foldername": "pack.mcmeta",
+            "fingerprint": 2315989403,
+            "type": 0
+          },
+          {
+            "foldername": "mcmod.info",
+            "fingerprint": 1865709965,
+            "type": 0
+          }
+        ],
+        "packageFingerprint": 1650828278,
+        "gameVersion": [
+          "1.12.2"
+        ],
+        "hasInstallScript": false,
+        "isCompatibleWithClient": false,
+        "categorySectionPackageType": 0,
+        "restrictProjectFileAccess": 0,
+        "projectStatus": 0,
+        "projectId": 0,
+        "gameVersionDateReleased": "2008-03-01T06:00:00Z",
+        "gameId": 0,
+        "isServerPack": false,
+        "FileNameOnDisk": "FTBUtilities-5.4.0.124.jar"
+      },
+      "dateInstalled": "2020-05-30T12:27:08.1927187Z",
+      "dateUpdated": "2020-05-30T12:27:08.1947131Z",
+      "dateLastUpdateAttempted": "2020-05-30T12:27:08.1947131Z",
+      "status": 4,
+      "preferenceAutoInstallUpdates": false,
+      "preferenceAlternateFile": false,
+      "preferenceIsIgnored": false,
+      "isModified": false,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "preferenceReleaseType": null,
+      "manifestName": null,
+      "installedTargets": []
+    },
+    {
       "addonID": 230976,
       "gameInstanceID": "d010337f-3108-4706-89c7-6f5929a8779e",
       "installedFile": {
@@ -11848,6 +11839,79 @@
       "preferenceReleaseType": null,
       "manifestName": null,
       "installedTargets": null
+    },
+    {
+      "addonID": 237167,
+      "gameInstanceID": "d010337f-3108-4706-89c7-6f5929a8779e",
+      "installedFile": {
+        "id": 2891572,
+        "displayName": "FTBLib-5.4.7.0.jar",
+        "fileName": "FTBLib-5.4.7.0.jar",
+        "fileDate": "2020-02-28T23:29:29.903Z",
+        "fileLength": 934566,
+        "releaseType": 1,
+        "fileStatus": 4,
+        "downloadUrl": "https://edge.forgecdn.net/files/2891/572/FTBLib-5.4.7.0.jar",
+        "isAlternate": false,
+        "alternateFileId": 0,
+        "dependencies": [],
+        "isAvailable": true,
+        "modules": [
+          {
+            "foldername": "META-INF",
+            "fingerprint": 2712236318,
+            "type": 0
+          },
+          {
+            "foldername": "com",
+            "fingerprint": 1845115150,
+            "type": 0
+          },
+          {
+            "foldername": "assets",
+            "fingerprint": 2120759837,
+            "type": 0
+          },
+          {
+            "foldername": "mcmod.info",
+            "fingerprint": 4118649540,
+            "type": 0
+          },
+          {
+            "foldername": "pack.mcmeta",
+            "fingerprint": 1468686229,
+            "type": 0
+          }
+        ],
+        "packageFingerprint": 2660314712,
+        "gameVersion": [
+          "Forge",
+          "1.12.2"
+        ],
+        "hasInstallScript": false,
+        "isCompatibleWithClient": false,
+        "categorySectionPackageType": 0,
+        "restrictProjectFileAccess": 0,
+        "projectStatus": 0,
+        "projectId": 0,
+        "gameVersionDateReleased": "2017-09-18T05:00:00Z",
+        "gameId": 0,
+        "isServerPack": false,
+        "FileNameOnDisk": "FTBLib-5.4.7.0.jar"
+      },
+      "dateInstalled": "2020-05-30T12:16:25.0584659Z",
+      "dateUpdated": "2020-05-30T12:16:25.0624553Z",
+      "dateLastUpdateAttempted": "2020-05-30T12:16:25.0624553Z",
+      "status": 4,
+      "preferenceAutoInstallUpdates": false,
+      "preferenceAlternateFile": false,
+      "preferenceIsIgnored": false,
+      "isModified": false,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "preferenceReleaseType": null,
+      "manifestName": null,
+      "installedTargets": []
     },
     {
       "addonID": 256662,
@@ -12697,6 +12761,91 @@
       "preferenceReleaseType": null,
       "manifestName": null,
       "installedTargets": null
+    },
+    {
+      "addonID": 284563,
+      "gameInstanceID": "d010337f-3108-4706-89c7-6f5929a8779e",
+      "installedFile": {
+        "id": 2782080,
+        "displayName": "TeamIslands-1.1.0.26.jar",
+        "fileName": "TeamIslands-1.1.0.26.jar",
+        "fileDate": "2019-09-09T23:37:39.547Z",
+        "fileLength": 339312,
+        "releaseType": 1,
+        "fileStatus": 4,
+        "downloadUrl": "https://edge.forgecdn.net/files/2782/80/TeamIslands-1.1.0.26.jar",
+        "isAlternate": false,
+        "alternateFileId": 2782081,
+        "dependencies": [
+          {
+            "id": 0,
+            "addonId": 237167,
+            "type": 3,
+            "fileId": 0
+          },
+          {
+            "id": 0,
+            "addonId": 237102,
+            "type": 2,
+            "fileId": 0
+          }
+        ],
+        "isAvailable": true,
+        "modules": [
+          {
+            "foldername": "META-INF",
+            "fingerprint": 2630458121,
+            "type": 0
+          },
+          {
+            "foldername": "com",
+            "fingerprint": 1193739388,
+            "type": 0
+          },
+          {
+            "foldername": "assets",
+            "fingerprint": 2580267601,
+            "type": 0
+          },
+          {
+            "foldername": "pack.mcmeta",
+            "fingerprint": 3685930954,
+            "type": 0
+          },
+          {
+            "foldername": "mcmod.info",
+            "fingerprint": 3945559289,
+            "type": 0
+          }
+        ],
+        "packageFingerprint": 1795741719,
+        "gameVersion": [
+          "1.12.2"
+        ],
+        "hasInstallScript": false,
+        "isCompatibleWithClient": false,
+        "categorySectionPackageType": 0,
+        "restrictProjectFileAccess": 0,
+        "projectStatus": 0,
+        "projectId": 0,
+        "gameVersionDateReleased": "2008-03-01T06:00:00Z",
+        "gameId": 0,
+        "isServerPack": false,
+        "FileNameOnDisk": "TeamIslands-1.1.0.26.jar"
+      },
+      "dateInstalled": "2020-05-30T12:16:26.0575893Z",
+      "dateUpdated": "2020-05-30T12:16:26.0596115Z",
+      "dateLastUpdateAttempted": "2020-05-30T12:16:26.0596115Z",
+      "status": 4,
+      "preferenceAutoInstallUpdates": false,
+      "preferenceAlternateFile": false,
+      "preferenceIsIgnored": false,
+      "isModified": false,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "preferenceReleaseType": null,
+      "manifestName": null,
+      "installedTargets": []
     },
     {
       "addonID": 238891,

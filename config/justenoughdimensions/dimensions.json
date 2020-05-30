@@ -76,6 +76,26 @@
       "jed": {
         "ForceGameMode": true
       }
+    },
+    {
+      "dim": 0,
+      "dimensiontype": {
+        "existing_dimensiontype": "overworld"
+      },
+      "spawn_structure": {
+        "name": "lobby.schematic",
+        "offset": [0, -3, 0],
+        "centered": true
+      },
+      "worldinfo_onetime": {
+        "SpawnX": 0,
+        "SpawnY": 3,
+        "SpawnZ": 0,
+      "GameRules": 
+      {
+          "spawnRadius": "0"
+      }
+      }
     }
   ]
 }

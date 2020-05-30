@@ -4973,7 +4973,7 @@
           "repeat_relative:1": 1,
           "ismain:1": 0,
           "name:8": "Give it a squeeze!",
-          "desc:8": "This item can squeeze things when jumped on. It can even squeeze lava from blaze powder!"
+          "desc:8": "This item can squeeze things when jumped on. It can even squeeze lava from blaze powder! You need more room vertical space than just 3, maybe that dark bedrock room you started in is perfect. Notice the 2 channels on the squeezer - they need to point to the crucible"
         }
       },
       "tasks:9": {
@@ -7856,7 +7856,7 @@
           "repeat_relative:1": 1,
           "ismain:1": 0,
           "name:8": "Stuck in a hole",
-          "desc:8": "Oh no! You\u0027ve been trapped! Here take this handy personal shrinking device and click on the block in the floor. That should get you going. P.S you can pickup this device every 3 minutes from here, just in case you ever lose it.."
+          "desc:8": "Oh no! You\u0027ve been trapped! Here take this handy personal shrinking device and click on the block in the floor. That should get you going. P.S you can pickup this device every 3 minutes from here, just in case you ever lose it.. If you got any friends check out /teamislands"
         }
       },
       "tasks:9": {
@@ -7877,6 +7877,16 @@
               "OreDict:8": ""
             }
           }
+        },
+        "1:10": {
+          "hideBlockIcon:1": 1,
+          "rewardID:8": "bq_standard:command",
+          "asScript:1": 1,
+          "description:8": "Run a command script",
+          "viaPlayer:1": 1,
+          "index:3": 1,
+          "title:8": "bq_standard.reward.command",
+          "command:8": "/teamislands"
         }
       }
     },
@@ -9452,7 +9462,7 @@
           "snd_complete:8": "minecraft:entity.player.levelup",
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
-          "repeattime:3": 0,
+          "repeattime:3": 1,
           "visibility:8": "NORMAL",
           "simultaneous:1": 0,
           "icon:10": {
@@ -9567,8 +9577,11 @@
           "visibility:8": "NORMAL",
           "simultaneous:1": 0,
           "icon:10": {
-            "id:8": "minecraft:nether_star",
+            "id:8": "buildinggadgets:template",
             "Count:3": 1,
+            "tag:10": {
+              "UUID:8": "cf84e723-490e-420b-b353-865f870c5158"
+            },
             "Damage:2": 0,
             "OreDict:8": ""
           },
@@ -9755,6 +9768,157 @@
           "requiredItems:9": {
             "0:10": {
               "id:8": "clipboard:clipboard",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "177:10": {
+      "questID:3": 177,
+      "preRequisites:11": [
+        141
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "minecraft:fish",
+            "Count:3": 1,
+            "Damage:2": 3,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "The Pufferfish \u0026 The Redstone Block",
+          "desc:8": "Ask your mom and dad how cats are made and they are sure to say right click on a block of redstone with a pufferfish"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "minecraft:fish",
+              "Count:3": 1,
+              "Damage:2": 3,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "178:10": {
+      "questID:3": 178,
+      "preRequisites:11": [
+        56
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "minecraft:nether_star",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Simulating science!",
+          "desc:8": "This is a link to a tool that can help you build reactors, pretty useful"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "hideBlockIcon:1": 0,
+          "rewardID:8": "bq_standard:command",
+          "asScript:1": 1,
+          "description:8": "Nuclear Craft Simulator",
+          "viaPlayer:1": 1,
+          "index:3": 0,
+          "title:8": "bq_standard.reward.command",
+          "command:8": "/tellraw @p [\"\",{\"text\":\"Press me to get the super secret link\",\"color\":\"red\",\"bold\":true,\"underlined\":false,\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://github.com/hellrage/NC-Reactor-Planner/releases/tag/v1.2.24\"}}]"
+        }
+      }
+    },
+    "179:10": {
+      "questID:3": 179,
+      "preRequisites:11": [
+        88
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "capabilityproxy:capability_proxy",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "A proxy",
+          "desc:8": "Is 6 sides to a cube not quite enough? Now there are more"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "capabilityproxy:capability_proxy",
               "Count:3": 1,
               "Damage:2": 0,
               "OreDict:8": ""
@@ -10202,6 +10366,13 @@
           "y:3": 12,
           "id:3": 176,
           "sizeY:3": 24
+        },
+        "51:10": {
+          "sizeX:3": 24,
+          "x:3": -44,
+          "y:3": 44,
+          "id:3": 177,
+          "sizeY:3": 24
         }
       },
       "lineID:3": 1,
@@ -10226,7 +10397,7 @@
       "quests:9": {
         "0:10": {
           "sizeX:3": 24,
-          "x:3": -20,
+          "x:3": -40,
           "y:3": 112,
           "id:3": 34,
           "sizeY:3": 24
@@ -10254,29 +10425,29 @@
         },
         "4:10": {
           "sizeX:3": 24,
-          "x:3": -20,
-          "y:3": 248,
+          "x:3": -40,
+          "y:3": 264,
           "id:3": 38,
           "sizeY:3": 24
         },
         "5:10": {
           "sizeX:3": 24,
-          "x:3": 80,
-          "y:3": 244,
+          "x:3": 76,
+          "y:3": 256,
           "id:3": 39,
           "sizeY:3": 24
         },
         "6:10": {
           "sizeX:3": 24,
-          "x:3": 64,
-          "y:3": 180,
+          "x:3": 44,
+          "y:3": 196,
           "id:3": 40,
           "sizeY:3": 24
         },
         "7:10": {
           "sizeX:3": 24,
-          "x:3": 64,
-          "y:3": 148,
+          "x:3": 44,
+          "y:3": 164,
           "id:3": 41,
           "sizeY:3": 24
         },
@@ -10338,8 +10509,8 @@
         },
         "16:10": {
           "sizeX:3": 24,
-          "x:3": 104,
-          "y:3": 276,
+          "x:3": 64,
+          "y:3": 284,
           "id:3": 52,
           "sizeY:3": 24
         },
@@ -10380,15 +10551,15 @@
         },
         "22:10": {
           "sizeX:3": 24,
-          "x:3": 32,
-          "y:3": 212,
+          "x:3": 12,
+          "y:3": 228,
           "id:3": 58,
           "sizeY:3": 24
         },
         "23:10": {
           "sizeX:3": 32,
-          "x:3": 28,
-          "y:3": 176,
+          "x:3": 8,
+          "y:3": 192,
           "id:3": 59,
           "sizeY:3": 32
         },
@@ -10499,8 +10670,8 @@
         },
         "39:10": {
           "sizeX:3": 24,
-          "x:3": 0,
-          "y:3": 212,
+          "x:3": -20,
+          "y:3": 228,
           "id:3": 82,
           "sizeY:3": 24
         },
@@ -10527,22 +10698,22 @@
         },
         "43:10": {
           "sizeX:3": 24,
-          "x:3": 0,
-          "y:3": 180,
+          "x:3": -20,
+          "y:3": 196,
           "id:3": 86,
           "sizeY:3": 24
         },
         "44:10": {
           "sizeX:3": 32,
-          "x:3": 60,
-          "y:3": 208,
+          "x:3": 40,
+          "y:3": 224,
           "id:3": 87,
           "sizeY:3": 32
         },
         "45:10": {
           "sizeX:3": 24,
-          "x:3": 32,
-          "y:3": 148,
+          "x:3": 12,
+          "y:3": 164,
           "id:3": 88,
           "sizeY:3": 24
         },
@@ -10569,8 +10740,8 @@
         },
         "49:10": {
           "sizeX:3": 24,
-          "x:3": 0,
-          "y:3": 148,
+          "x:3": -20,
+          "y:3": 164,
           "id:3": 136,
           "sizeY:3": 24
         },
@@ -10677,6 +10848,20 @@
           "x:3": 236,
           "y:3": 4,
           "id:3": 175,
+          "sizeY:3": 24
+        },
+        "65:10": {
+          "sizeX:3": 24,
+          "x:3": 268,
+          "y:3": 4,
+          "id:3": 178,
+          "sizeY:3": 24
+        },
+        "66:10": {
+          "sizeX:3": 24,
+          "x:3": 12,
+          "y:3": 132,
+          "id:3": 179,
           "sizeY:3": 24
         }
       },
