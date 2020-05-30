@@ -1,0 +1,91 @@
+{
+	"block_pools" :
+	[
+        {
+			"name": "StoneNDirt",
+			"type": {
+				"type": "block_list", "blocks": [ { "name": "minecraft:stone"}, { "name": "minecraft:dirt"}, { "name": "minecraft:grass"}, { "name": "minecraft:sand" }, { "name": "minecraft:gravel" } ]
+			},
+			"clicktype": "left",
+			"properties": [
+				{
+					"type": "change_health",
+					"increase": "false",
+					"amount": "1f"
+				},
+				{
+					"type": "require_left"
+				},
+				{
+					"type": "player_cooldown",
+					"time": "8"
+				},
+				{
+					"type": "player_has_items",
+					"itmes": {"name": "Primitive Quest Book"}
+				},
+				{
+					"type": "play_sound",
+					"name": "block.stone.hit"
+				},
+				{
+					"type": "play_sound",
+					"name": "entity.player.big_fall",
+					"pitch": "0.65f",
+					"volume": "0.5f"
+				},
+				{
+					"type": "swing_hand"
+				},
+				{
+					"type": "add_hunger",
+					"exhaustion": "true",
+					"amount": "0.6f"
+				}
+			]
+		},
+		{
+			"name": "OreLog",
+			"type": {
+				"type": "ore", "name": "logWood" 
+			},
+			"clicktype": "left",
+			"properties": [
+				{
+					"type": "change_health",
+					"increase": "false",
+					"amount": "1f"
+				},
+				{
+					"type": "require_left"
+				},
+				{
+					"type": "player_cooldown",
+					"time": "8"
+				},
+				{
+					"type": "require_dimension",
+					"dimension": {"dim": "11", "required": "true", "default": "false"}
+				},
+				{
+					"type": "play_sound",
+					"name": "block.stone.hit"
+				},
+				{
+					"type": "play_sound",
+					"name": "entity.player.big_fall",
+					"pitch": "0.65f",
+					"volume": "0.5f"
+				},
+				{
+					"type": "swing_hand"
+				},
+				{
+					"type": "add_hunger",
+					"exhaustion": "true",
+					"amount": "0.6f"
+				}
+			]
+		}
+	]
+}

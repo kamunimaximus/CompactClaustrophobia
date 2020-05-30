@@ -20,6 +20,7 @@ VanillaFactory.createItem("Prestoff").register();
 VanillaFactory.createItem("DirtDust").register();
 VanillaFactory.createItem("GravelDust").register();
 VanillaFactory.createItem("CorruptPsd").register();
+VanillaFactory.createItem("hopstitutecarbonfiber").register();
 
 
 // Blocks
@@ -35,7 +36,7 @@ VanillaFactory.createBlock("glitched5", <blockmaterial:iron>).register();
 var hardGlass = VanillaFactory.createBlock("HardGlass", <blockmaterial:glass>);
 hardGlass.setLightOpacity(3);
 hardGlass.setLightValue(0);
-hardGlass.setBlockHardness(5.0);
+hardGlass.setBlockHardness(-1);
 hardGlass.setBlockResistance(200.0);
 hardGlass.setToolClass("pickaxe");
 hardGlass.setToolLevel(10);

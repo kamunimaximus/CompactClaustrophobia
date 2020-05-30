@@ -763,9 +763,8 @@
 					"weight": 400
 				},
 				{
-					"name": "immersiveengineering:material",
-					"meta": "18",
-					"weight": 200
+					"name": "contenttweaker:hopstitutecarbonfiber",
+					"weight": 250
 				}
 			],
 			"messages":

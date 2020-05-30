@@ -3,6 +3,7 @@ import mods.immersiveengineering.Crusher;
 import mods.immersiveengineering.CokeOven;
 import mods.immersiveengineering.Squeezer;
 import mods.immersiveengineering.BlastFurnace;
+import mods.immersiveengineering.ArcFurnace;
 
 // Metal Press
 MetalPress.addRecipe(<contenttweaker:tinysmashedmachine>, <compactmachines3:machine>, <immersiveengineering:mold>, 2000);
@@ -20,5 +21,9 @@ CokeOven.addRecipe(<immersiveengineering:stone_decoration:3>, 4500, <ore:blockCh
 BlastFurnace.removeRecipe(<immersiveengineering:metal:8>); //Remove steel
 BlastFurnace.addRecipe(<immersiveengineering:metal:8>, <minecraft:iron_ingot>, 150, <immersiveengineering:material:7>);
 
+//Arc furnace
+ArcFurnace.addRecipe(<immersiveengineering:material:19>*9, <immersiveengineering:material:18>, <immersiveengineering:material:17>, 40, 1024, [<contenttweaker:hopstitutecarbonfiber>*9], "Alloying");
+
 // Squeezer
 Squeezer.addRecipe(<thermalfoundation:dye:2>, <liquid:water> * 5000, <ore:treeSapling>, 1000);
+//Squeezer.addRecipe([<contenttweaker:hopstitutecarbonfiber>*7, <immersiveengineering:material:17>], <liquid:water> * 5000, <immersiveengineering:material:18>*8, 1000);

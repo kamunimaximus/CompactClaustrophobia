@@ -53,6 +53,37 @@
 					"type": "swing_hand"
 				}
 			]
+		},
+        {
+			"name": "Glitch1",
+			"type": {
+				"type": "block",
+				"name": "contenttweaker:glitched1"
+			},
+			"clicktype": "right",
+			"properties": [
+				{
+					"type": "use_command",
+					"name": "effect",
+					"arguments": "@p minecraft:nausea 10"
+				},
+				{
+					"type": "use_command",
+					"name": "tpj",
+					"arguments": "11"
+				},
+				{
+					"type": "play_sound",
+					"name": "item.bottle.fill_dragonbreath"
+				},
+				{
+					"type": "require_item",
+					"name": "contenttweaker:corruptpsd"
+				},
+				{
+					"type": "swing_hand"
+				}
+			]
 		}
 	]
 }

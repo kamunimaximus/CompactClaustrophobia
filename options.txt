@@ -11,7 +11,7 @@ bobView:true
 anaglyph3d:false
 maxFps:80
 fboEnable:true
-difficulty:0
+difficulty:2
 fancyGraphics:true
 ao:2
 renderClouds:true
@@ -149,6 +149,8 @@ key_key.integratedterminals.terminal.craftinggrid.clearplayer:46
 key_key.integratedterminals.terminal.craftinggrid.clearstorage:46:SHIFT
 key_key.integratedterminals.terminal.craftinggrid.balance:48
 key_invtweaks.key.sort:19
+key_jecalculation.key.gui_craft:0
+key_jecalculation.key.gui_math:0
 key_key.clipboardPaste:210
 key_key.refinedstorageaddons.openWirelessCraftingGrid:34:CONTROL
 key_key.trashslot.toggle:20

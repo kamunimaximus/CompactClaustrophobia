@@ -1,5 +1,5 @@
 {
-  "build:8": "3.5.327",
+  "build:8": "3.5.329",
   "format:8": "2.0.0",
   "questDatabase:9": {
     "0:10": {
@@ -14,7 +14,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "nuclearcraft:foursmore",
@@ -65,7 +65,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "bedrockminer:bedrock_pickaxe",
@@ -129,7 +129,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "minecraft:diamond_block",
@@ -180,7 +180,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "minecraft:water_bucket",
@@ -228,7 +228,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "minecraft:iron_block",
@@ -279,7 +279,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "bedrockminer:bedrock_pickaxe",
@@ -330,7 +330,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "minecraft:lava_bucket",
@@ -378,7 +378,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "minecraft:bedrock",
@@ -429,7 +429,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "minecraft:wooden_pickaxe",
@@ -480,7 +480,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "minecraft:planks",
@@ -531,7 +531,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "compactmachines3:machine",
@@ -582,7 +582,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "compactmachines3:wallbreakable",
@@ -633,7 +633,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "exnihilocreatio:block_barrel0",
@@ -684,7 +684,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "compactmachines3:wallbreakable",
@@ -735,7 +735,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "nuclearcraft:decay_generator",
@@ -786,7 +786,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "immersiveengineering:storage",
@@ -880,7 +880,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "minecraft:hopper",
@@ -944,7 +944,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "minecraft:iron_ingot",
@@ -996,7 +996,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "minecraft:clay",
@@ -1048,7 +1048,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "minecraft:water_bucket",
@@ -1099,7 +1099,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "minecraft:dirt",
@@ -1150,7 +1150,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "minecraft:sand",
@@ -1213,7 +1213,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "exnihilocreatio:hammer_wood",
@@ -1266,7 +1266,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "modularmachinery:blockcontroller",
@@ -1366,7 +1366,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "clickmachine:auto_clicker",
@@ -1430,7 +1430,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "minecraft:cobblestone",
@@ -1481,7 +1481,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "thermalfoundation:wrench",
@@ -1532,7 +1532,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "exnihilocreatio:block_crucible_wood",
@@ -1583,7 +1583,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "minecraft:stone_pickaxe",
@@ -1634,7 +1634,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "cropdusting:poop",
@@ -1698,7 +1698,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "contenttweaker:poopfuel",
@@ -1749,7 +1749,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "minecraft:glass_pane",
@@ -1800,7 +1800,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "arcadialbonsaitrees:bonsai_oak_sapling",
@@ -1851,7 +1851,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "minecraft:iron_pickaxe",
@@ -1902,7 +1902,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "thermalfoundation:tool.pickaxe_steel",
@@ -1953,7 +1953,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "immersiveengineering:metal",
@@ -2004,7 +2004,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "thermalfoundation:material",
@@ -2056,7 +2056,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "thermalexpansion:machine",
@@ -2135,7 +2135,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "minecraft:quartz",
@@ -2186,7 +2186,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "refinedstorage:quartz_enriched_iron",
@@ -2237,7 +2237,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "minecraft:shulker_shell",
@@ -2288,7 +2288,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "minecraft:blaze_rod",
@@ -2339,7 +2339,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "minecraft:leather",
@@ -2390,7 +2390,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "contenttweaker:prestoff",
@@ -2441,7 +2441,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "contenttweaker:normalsmashedmachine",
@@ -2492,7 +2492,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "forge:bucketfilled",
@@ -2553,7 +2553,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "contenttweaker:smallsmashedmachine",
@@ -2604,7 +2604,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "immersivepetroleum:schematic",
@@ -2682,7 +2682,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "minecraft:brick",
@@ -2733,7 +2733,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "thermalexpansion:machine",
@@ -2812,7 +2812,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "minecraft:tnt",
@@ -2866,7 +2866,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "minecraft:gunpowder",
@@ -2917,7 +2917,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "refinedstorage:silicon",
@@ -2968,7 +2968,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "exnihilocreatio:item_seed_sugarcane",
@@ -3019,7 +3019,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "thermalfoundation:material",
@@ -3070,7 +3070,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "immersiveengineering:material",
@@ -3121,7 +3121,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "nuclearcraft:fission_controller_new_fixed",
@@ -3221,7 +3221,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "compactmachines3:machine",
@@ -3272,7 +3272,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "minecraft:netherbrick",
@@ -3325,7 +3325,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "minecraft:netherrack",
@@ -3378,7 +3378,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "immersiveengineering:metal_decoration0",
@@ -3469,7 +3469,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "immersiveengineering:metal_device1",
@@ -3538,7 +3538,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "immersiveengineering:mold",
@@ -3598,7 +3598,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "minecraft:log",
@@ -3649,7 +3649,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "minecraft:sapling",
@@ -3700,7 +3700,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "compactmachines3:machine",
@@ -3751,7 +3751,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "compactmachines3:tunneltool",
@@ -3835,7 +3835,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "forge:bucketfilled",
@@ -3894,7 +3894,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "compactmachines3:psd",
@@ -3944,7 +3944,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "thermalfoundation:material",
@@ -4002,7 +4002,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "exnihilocreatio:item_mesh",
@@ -4053,7 +4053,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "immersiveengineering:material",
@@ -4104,7 +4104,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "immersiveengineering:seed",
@@ -4155,7 +4155,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "contenttweaker:tinysmashedmachine",
@@ -4206,7 +4206,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "refinedstorage:processor",
@@ -4257,7 +4257,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "compactmachines3:machine",
@@ -4290,7 +4290,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "nuclearcraft:fuel_uranium",
@@ -4341,7 +4341,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "exnihilocreatio:block_sieve",
@@ -4392,7 +4392,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "minecraft:string",
@@ -4443,7 +4443,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "refinedstorage:machine_casing",
@@ -4494,7 +4494,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "immersiveengineering:treated_wood",
@@ -4546,7 +4546,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "thermalfoundation:material",
@@ -4597,7 +4597,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "thermalexpansion:machine",
@@ -4676,7 +4676,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "thermalfoundation:material",
@@ -4735,7 +4735,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "refinedstorage:controller",
@@ -4804,7 +4804,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "thermalfoundation:material",
@@ -4855,7 +4855,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "exnihilocreatio:block_barrel1",
@@ -4907,7 +4907,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "immersiveengineering:stone_decoration",
@@ -4958,7 +4958,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "integrateddynamics:squeezer",
@@ -5009,7 +5009,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "thermalfoundation:material",
@@ -5060,7 +5060,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "compactmachines3:machine",
@@ -5112,7 +5112,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "contenttweaker:glitched0",
@@ -5164,7 +5164,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "minecraft:log",
@@ -5211,7 +5211,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "bedrockminer:bedrock_pickaxe",
@@ -5264,7 +5264,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "minecraft:glowstone_dust",
@@ -5316,7 +5316,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "minecraft:end_stone",
@@ -5367,7 +5367,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "nuclearcraft:irradiator_idle",
@@ -5418,7 +5418,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "nuclearcraft:melter_idle",
@@ -5471,7 +5471,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "integrateddynamics:logic_director",
@@ -5522,7 +5522,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "minecraft:dye",
@@ -5573,7 +5573,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "minecraft:sapling",
@@ -5624,7 +5624,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "compactmachines3:machine",
@@ -5675,7 +5675,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "minecraft:ender_pearl",
@@ -5740,7 +5740,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "nuclearcraft:fusion_core",
@@ -5791,7 +5791,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "bedrockminer:bedrock_chunk",
@@ -5842,7 +5842,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "compactmachines3:fieldprojector",
@@ -5893,7 +5893,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "minecraft:slime",
@@ -5944,7 +5944,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "minecraft:milk_bucket",
@@ -5995,7 +5995,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "compactmachines3:machine",
@@ -6047,7 +6047,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "minecraft:spawn_egg",
@@ -6108,7 +6108,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "minecraft:egg",
@@ -6159,7 +6159,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "compactmachines3:machine",
@@ -6210,7 +6210,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "minecraft:spawn_egg",
@@ -6271,7 +6271,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "minecraft:diamond",
@@ -6323,7 +6323,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "integrateddynamics:menril_sapling",
@@ -6374,7 +6374,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "minecraft:diamond_pickaxe",
@@ -6425,7 +6425,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "modularmachinery:blockcontroller",
@@ -6458,7 +6458,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "integrateddynamics:on_the_dynamics_of_integration",
@@ -6509,7 +6509,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "thermalfoundation:material",
@@ -6562,7 +6562,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "thermalfoundation:material",
@@ -6613,7 +6613,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "thermalexpansion:machine",
@@ -6692,7 +6692,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "thermalfoundation:tome_experience",
@@ -6745,7 +6745,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "thermalexpansion:machine",
@@ -6824,7 +6824,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "nuclearcraft:infuser_idle",
@@ -6875,7 +6875,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "minecraft:snowball",
@@ -6926,7 +6926,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "thermalfoundation:material",
@@ -6977,7 +6977,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "forge:bucketfilled",
@@ -7036,7 +7036,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "minecraft:beetroot",
@@ -7087,7 +7087,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "galacticraftcore:basic_block_moon",
@@ -7138,7 +7138,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "galacticraftplanets:venus",
@@ -7189,7 +7189,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "galacticraftplanets:mars",
@@ -7240,7 +7240,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "galacticraftcore:rocket_workbench",
@@ -7291,7 +7291,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "elevatorid:elevator_white",
@@ -7342,7 +7342,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "integratedtunnels:part_exporter_world_item_item",
@@ -7393,7 +7393,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "cropdusting:poop",
@@ -7444,7 +7444,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "minecraft:potato",
@@ -7508,7 +7508,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "microblockcbe:microblock",
@@ -7562,7 +7562,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "questbook:itemquestbook",
@@ -7613,7 +7613,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "nuclearcraft:upgrade",
@@ -7664,7 +7664,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "nuclearcraft:radaway",
@@ -7733,7 +7733,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "contenttweaker:corruptpsd",
@@ -7784,7 +7784,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "thermalcultivation:watering_can",
@@ -7841,7 +7841,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": 3600,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "minecraft:nether_star",
@@ -7890,7 +7890,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "contenttweaker:glitched0",
@@ -7940,7 +7940,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "chisel:futura",
@@ -8009,7 +8009,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "chisel:futura",
@@ -8081,7 +8081,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "chisel:futura",
@@ -8153,7 +8153,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "contenttweaker:homeportal",
@@ -8228,7 +8228,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "minecraft:emerald_block",
@@ -8279,7 +8279,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "compactmachines3:psd",
@@ -8317,7 +8317,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "immersiveengineering:tool",
@@ -8368,7 +8368,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "thermalexpansion:augment",
@@ -8419,7 +8419,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "thermalexpansion:device",
@@ -8496,7 +8496,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "minecraft:enchanting_table",
@@ -8547,7 +8547,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "minecraft:wooden_shovel",
@@ -8598,7 +8598,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "nuclearcraft:spaxelhoe_boron",
@@ -8650,7 +8650,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "galacticraftplanets:desh_pick",
@@ -8701,7 +8701,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "thermalfoundation:material",
@@ -8776,7 +8776,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "thermalexpansion:cache",
@@ -8835,7 +8835,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "minecraft:skull",
@@ -8882,7 +8882,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "minecraft:nether_star",
@@ -8915,7 +8915,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "exnihilocreatio:item_ore_aluminium",
@@ -8966,7 +8966,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "thermalfoundation:tool.pickaxe_aluminum",
@@ -9017,7 +9017,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "immersiveengineering:metal_device1",
@@ -9068,7 +9068,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "nuclearcraft:gem",
@@ -9119,7 +9119,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "nuclearcraft:pickaxe_hard_carbon",
@@ -9156,6 +9156,400 @@
           "taskID:8": "bq_standard:retrieval"
         }
       },
+      "rewards:9": {}
+    },
+    "166:10": {
+      "questID:3": 166,
+      "preRequisites:11": [
+        156
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "ALWAYS",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "immersivepetroleum:schematic",
+            "Count:3": 1,
+            "tag:10": {
+              "multiblock:8": "IE:ArcFurnace"
+            },
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Arc Furnace",
+          "desc:8": "What\u0027s all this HOPStitute good for? With extreme temperatures it\u0027s an efficient way to create HOP Ingots!"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "immersiveengineering:stone_decoration",
+              "Count:3": 27,
+              "Damage:2": 2,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "immersiveengineering:sheetmetal_slab",
+              "Count:3": 14,
+              "Damage:2": 8,
+              "OreDict:8": ""
+            },
+            "2:10": {
+              "id:8": "immersiveengineering:metal_decoration0",
+              "Count:3": 10,
+              "Damage:2": 4,
+              "OreDict:8": ""
+            },
+            "3:10": {
+              "id:8": "immersiveengineering:sheetmetal",
+              "Count:3": 8,
+              "Damage:2": 8,
+              "OreDict:8": ""
+            },
+            "4:10": {
+              "id:8": "immersiveengineering:storage",
+              "Count:3": 6,
+              "Damage:2": 8,
+              "OreDict:8": ""
+            },
+            "5:10": {
+              "id:8": "immersiveengineering:metal_decoration1",
+              "Count:3": 5,
+              "Damage:2": 1,
+              "OreDict:8": ""
+            },
+            "6:10": {
+              "id:8": "immersiveengineering:metal_decoration0",
+              "Count:3": 5,
+              "Damage:2": 5,
+              "OreDict:8": ""
+            },
+            "7:10": {
+              "id:8": "minecraft:cauldron",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "8:10": {
+              "id:8": "immersiveengineering:metal_decoration0",
+              "Count:3": 1,
+              "Damage:2": 3,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "167:10": {
+      "questID:3": 167,
+      "preRequisites:11": [
+        102
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "ALWAYS",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "exnihilocreatio:block_crucible",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Was it always that hard to get?",
+          "desc:8": "By transporting solid material to glitch_0 you\u0027ve managed to use the hot climate to your advantage! Turns out it still needs a little push to really work. Place something hot under and watch the magic unfold!"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "exnihilocreatio:block_crucible",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "168:10": {
+      "questID:3": 168,
+      "preRequisites:11": [
+        63
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "ALWAYS",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "opencomputers:case1",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "New Quest",
+          "desc:8": "No Description"
+        }
+      },
+      "tasks:9": {},
+      "rewards:9": {}
+    },
+    "169:10": {
+      "questID:3": 169,
+      "preRequisites:11": [
+        168
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "ALWAYS",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "minecraft:nether_star",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "New Quest",
+          "desc:8": "No Description"
+        }
+      },
+      "tasks:9": {},
+      "rewards:9": {}
+    },
+    "170:10": {
+      "questID:3": 170,
+      "preRequisites:11": [
+        169
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "ALWAYS",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "minecraft:nether_star",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "New Quest",
+          "desc:8": "No Description"
+        }
+      },
+      "tasks:9": {},
+      "rewards:9": {}
+    },
+    "171:10": {
+      "questID:3": 171,
+      "preRequisites:11": [
+        170
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "ALWAYS",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "minecraft:nether_star",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "New Quest",
+          "desc:8": "No Description"
+        }
+      },
+      "tasks:9": {},
+      "rewards:9": {}
+    },
+    "172:10": {
+      "questID:3": 172,
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": 0,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "questbook:itemquestbook",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Just updated!",
+          "desc:8": "Use this command to load in the new quests!"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "hideBlockIcon:1": 0,
+          "rewardID:8": "bq_standard:command",
+          "asScript:1": 1,
+          "description:8": "Run a command script",
+          "viaPlayer:1": 1,
+          "index:3": 0,
+          "title:8": "bq_standard.reward.command",
+          "command:8": "/bq_admin default load DefaultQuests"
+        }
+      }
+    },
+    "173:10": {
+      "questID:3": 173,
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": 0,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "compactmachines3:machine",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Machine Retrieval",
+          "desc:8": "Did you somehow lose a machine and want it back? Use this - remember no cheating!                        /compactmachines3 machines view"
+        }
+      },
+      "tasks:9": {},
+      "rewards:9": {}
+    },
+    "174:10": {
+      "questID:3": 174,
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "minecraft:skull",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Stealing from death",
+          "desc:8": "Did you somehow lose your corpse and want your items back? Use this command - remember! No cheating!                                               /deathhistory @p"
+        }
+      },
+      "tasks:9": {},
       "rewards:9": {}
     }
   },
@@ -9222,7 +9616,7 @@
       "lineID:3": 0,
       "properties:10": {
         "betterquesting:10": {
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "name:8": "Challenges",
           "icon:10": {
             "id:8": "minecraft:book",
@@ -9593,7 +9987,7 @@
       "lineID:3": 1,
       "properties:10": {
         "betterquesting:10": {
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "name:8": "Compact Claustrophobia",
           "icon:10": {
             "id:8": "compactmachines3:machine",
@@ -10022,12 +10416,47 @@
           "y:3": 188,
           "id:3": 165,
           "sizeY:3": 24
+        },
+        "59:10": {
+          "sizeX:3": 24,
+          "x:3": 364,
+          "y:3": 160,
+          "id:3": 166,
+          "sizeY:3": 24
+        },
+        "60:10": {
+          "sizeX:3": 24,
+          "x:3": 336,
+          "y:3": 76,
+          "id:3": 168,
+          "sizeY:3": 24
+        },
+        "61:10": {
+          "sizeX:3": 24,
+          "x:3": 368,
+          "y:3": 76,
+          "id:3": 169,
+          "sizeY:3": 24
+        },
+        "62:10": {
+          "sizeX:3": 24,
+          "x:3": 368,
+          "y:3": 40,
+          "id:3": 170,
+          "sizeY:3": 24
+        },
+        "63:10": {
+          "sizeX:3": 32,
+          "x:3": 332,
+          "y:3": 36,
+          "id:3": 171,
+          "sizeY:3": 32
         }
       },
       "lineID:3": 2,
       "properties:10": {
         "betterquesting:10": {
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "name:8": "Infinite tiny space",
           "icon:10": {
             "id:8": "compactmachines3:machine",
@@ -10090,7 +10519,7 @@
       "lineID:3": 3,
       "properties:10": {
         "betterquesting:10": {
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "name:8": "Extreme Agoraphobia",
           "icon:10": {
             "id:8": "galacticraftcore:rocket_t1",
@@ -10347,23 +10776,23 @@
         },
         "34:10": {
           "sizeX:3": 24,
-          "x:3": 20,
-          "y:3": 40,
-          "id:3": 133,
+          "x:3": 196,
+          "y:3": 72,
+          "id:3": 148,
           "sizeY:3": 24
         },
         "35:10": {
           "sizeX:3": 24,
-          "x:3": 196,
-          "y:3": 72,
-          "id:3": 148,
+          "x:3": 20,
+          "y:3": 40,
+          "id:3": 167,
           "sizeY:3": 24
         }
       },
       "lineID:3": 4,
       "properties:10": {
         "betterquesting:10": {
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "name:8": "Unlimited Dimensions",
           "icon:10": {
             "id:8": "compactmachines3:machine",
@@ -10419,7 +10848,7 @@
       "lineID:3": 5,
       "properties:10": {
         "betterquesting:10": {
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "name:8": "Glitched Adventures",
           "icon:10": {
             "id:8": "contenttweaker:corruptpsd",
@@ -10433,6 +10862,48 @@
         }
       },
       "order:3": 5
+    },
+    "6:10": {
+      "quests:9": {
+        "0:10": {
+          "sizeX:3": 24,
+          "x:3": -132,
+          "y:3": -72,
+          "id:3": 172,
+          "sizeY:3": 24
+        },
+        "1:10": {
+          "sizeX:3": 24,
+          "x:3": -132,
+          "y:3": -108,
+          "id:3": 173,
+          "sizeY:3": 24
+        },
+        "2:10": {
+          "sizeX:3": 24,
+          "x:3": -132,
+          "y:3": -144,
+          "id:3": 174,
+          "sizeY:3": 24
+        }
+      },
+      "lineID:3": 6,
+      "properties:10": {
+        "betterquesting:10": {
+          "visibility:8": "NORMAL",
+          "name:8": "Compact Tech Support",
+          "icon:10": {
+            "id:8": "minecraft:book",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "bg_image:8": "",
+          "bg_size:3": 256,
+          "desc:8": "A place for useful commands that you might need at times!"
+        }
+      },
+      "order:3": 6
     }
   },
   "questSettings:10": {

@@ -1,6 +1,8 @@
 //This file was created via CT-GUI! Editing it is not advised!
 //Don't touch me!
 //#Remove
+recipes.removeShaped(<buildinggadgets:copypastetool>, [[<minecraft:iron_ingot>, <minecraft:redstone>, <minecraft:iron_ingot>],[<minecraft:emerald:*>, <minecraft:redstone>, <minecraft:emerald:*>], [<minecraft:iron_ingot>, <minecraft:dye:4>, <minecraft:iron_ingot>]]);
+recipes.removeShaped(<buildinggadgets:templatemanager>, [[<minecraft:gold_ingot>, <minecraft:redstone>, <minecraft:gold_ingot>],[<minecraft:emerald>, <minecraft:redstone>, <minecraft:emerald>], [<minecraft:gold_ingot>, <minecraft:dye:4>, <minecraft:gold_ingot>]]);
 recipes.removeShapeless(<integratedtunnels:part_importer_world_block_item>, [<integratedtunnels:part_importer_item_item>, <integrateddynamics:logic_director>, <minecraft:diamond_pickaxe>]);
 recipes.removeShaped(<thermalfoundation:tome_experience>, [[null, <minecraft:dye:4>, null],[<minecraft:emerald>, <minecraft:book>, <minecraft:emerald>], [null, <minecraft:dye:4>, null]]);
 recipes.removeShaped(<integrateddynamics:mechanical_squeezer>, [[null, <minecraft:diamond>, null],[<integrateddynamics:energy_battery>, <integrateddynamics:squeezer>, <integrateddynamics:energy_battery>], [null, <ore:obsidian>, null]]);
@@ -9,6 +11,11 @@ recipes.removeShaped(<minecraft:enchanting_table>, [[null, <minecraft:book>, nul
 recipes.removeShapeless(<nuclearcraft:glowing_mushroom>, [<minecraft:brown_mushroom>, <minecraft:glowstone_dust>]);
 recipes.removeShapeless(<nuclearcraft:glowing_mushroom>, [<minecraft:brown_mushroom>, <minecraft:glowstone_dust>]);
 //#Add
+recipes.addShapeless(<clipboard:clipboard>, [<cropdusting:poop>,<minecraft:stick>,<minecraft:paper>,<minecraft:wooden_pressure_plate>]);
+recipes.addShaped(<buildinggadgets:buildingtool>, [[<minecraft:iron_ingot>, <minecraft:redstone>, <minecraft:iron_ingot>],[<thermalfoundation:material:16>, <minecraft:redstone>, <thermalfoundation:material:16>], [<minecraft:iron_ingot>, <minecraft:dye:4>, <minecraft:iron_ingot>]]);
+recipes.addShaped(<buildinggadgets:copypastetool>, [[<minecraft:iron_ingot>, <minecraft:redstone>, <minecraft:iron_ingot>],[<clipboard:clipboard:*>, <minecraft:redstone>, <clipboard:clipboard:*>], [<minecraft:iron_ingot>, <minecraft:dye:4>, <minecraft:iron_ingot>]]);
+recipes.addShaped(<buildinggadgets:templatemanager>, [[<minecraft:gold_ingot>, <minecraft:redstone>, <minecraft:gold_ingot>],[<clipboard:clipboard:*>, <minecraft:redstone>, <clipboard:clipboard:*>], [<minecraft:gold_ingot>, <minecraft:dye:4>, <minecraft:gold_ingot>]]);
+recipes.addShaped(<exnihilocreatio:block_crucible>, [[<exnihilocreatio:item_material:1>, <minecraft:ender_pearl>, <exnihilocreatio:item_material:1>],[<exnihilocreatio:item_material:1>, <contenttweaker:glitched0>, <exnihilocreatio:item_material:1>], [<exnihilocreatio:item_material:1>, <exnihilocreatio:item_material:1>, <exnihilocreatio:item_material:1>]]);
 recipes.addShapeless(<integratedtunnels:part_importer_world_block_item>, [<integratedtunnels:part_importer_item_item>,<integrateddynamics:logic_director>,<bedrockminer:bedrock_pickaxe>]);
 recipes.addShaped(<thermalfoundation:tome_experience>, [[null, <minecraft:dye:4>, null],[<minecraft:ender_pearl>, <minecraft:book>, <minecraft:ender_pearl>], [null, <minecraft:dye:4>, null]]);
 recipes.addShaped(<integrateddynamics:mechanical_squeezer>, [[null, <thermalfoundation:material:16>, null],[<integrateddynamics:energy_battery>, <integrateddynamics:squeezer>, <integrateddynamics:energy_battery>], [null, <ore:obsidian>, null]]);
