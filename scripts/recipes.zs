@@ -1,6 +1,7 @@
 //This file was created via CT-GUI! Editing it is not advised!
 //Don't touch me!
 //#Remove
+recipes.removeShaped(<thermaldynamics:retriever> * 2, [[null, null, null],[<ore:nuggetIron>, <ore:blockGlass>, <ore:nuggetIron>], [<minecraft:iron_ingot>, <minecraft:ender_eye>, <minecraft:iron_ingot>]]);
 recipes.removeShaped(<buildinggadgets:copypastetool>, [[<minecraft:iron_ingot>, <minecraft:redstone>, <minecraft:iron_ingot>],[<minecraft:emerald:*>, <minecraft:redstone>, <minecraft:emerald:*>], [<minecraft:iron_ingot>, <minecraft:dye:4>, <minecraft:iron_ingot>]]);
 recipes.removeShaped(<buildinggadgets:templatemanager>, [[<minecraft:gold_ingot>, <minecraft:redstone>, <minecraft:gold_ingot>],[<minecraft:emerald>, <minecraft:redstone>, <minecraft:emerald>], [<minecraft:gold_ingot>, <minecraft:dye:4>, <minecraft:gold_ingot>]]);
 recipes.removeShapeless(<integratedtunnels:part_importer_world_block_item>, [<integratedtunnels:part_importer_item_item>, <integrateddynamics:logic_director>, <minecraft:diamond_pickaxe>]);
@@ -11,6 +12,10 @@ recipes.removeShaped(<minecraft:enchanting_table>, [[null, <minecraft:book>, nul
 recipes.removeShapeless(<nuclearcraft:glowing_mushroom>, [<minecraft:brown_mushroom>, <minecraft:glowstone_dust>]);
 recipes.removeShapeless(<nuclearcraft:glowing_mushroom>, [<minecraft:brown_mushroom>, <minecraft:glowstone_dust>]);
 //#Add
+recipes.addShaped(<galacticraftcore:steel_pickaxe>.withTag({display: {Name: "Only Right-click Me!"}}), [[<minecraft:flint>, <minecraft:flint>, <minecraft:flint>],[<immersiveengineering:wirecoil:3>, <minecraft:stick>, <immersiveengineering:wirecoil:3>], [null, <minecraft:stick>, null]]);
+recipes.addShaped(<galacticraftcore:steel_axe>.withTag({display: {Name: "Only Right-click Me!"}}), [[<minecraft:stick>, <minecraft:flint>, null],[<minecraft:stick>, <immersiveengineering:wirecoil:3>, null], [null, null, null]]);
+recipes.addShapeless(<refinedstorage:cutting_tool>, [<minecraft:flint>,<minecraft:stick>]);
+recipes.addShaped(<thermaldynamics:retriever> * 2, [[null, null, null],[<ore:nuggetIron>, <ore:blockGlass>, <ore:nuggetIron>], [<minecraft:iron_ingot>, <minecraft:blaze_powder>, <minecraft:iron_ingot>]]);
 recipes.addShapeless(<clipboard:clipboard>, [<cropdusting:poop>,<minecraft:stick>,<minecraft:paper>,<minecraft:wooden_pressure_plate>]);
 recipes.addShaped(<buildinggadgets:buildingtool>, [[<minecraft:iron_ingot>, <minecraft:redstone>, <minecraft:iron_ingot>],[<thermalfoundation:material:16>, <minecraft:redstone>, <thermalfoundation:material:16>], [<minecraft:iron_ingot>, <minecraft:dye:4>, <minecraft:iron_ingot>]]);
 recipes.addShaped(<buildinggadgets:copypastetool>, [[<minecraft:iron_ingot>, <minecraft:redstone>, <minecraft:iron_ingot>],[<clipboard:clipboard:*>, <minecraft:redstone>, <clipboard:clipboard:*>], [<minecraft:iron_ingot>, <minecraft:dye:4>, <minecraft:iron_ingot>]]);

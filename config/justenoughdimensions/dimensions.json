@@ -64,17 +64,13 @@
       "GameRules": 
       {
           "spawnRadius": "10000",
-          "doDaylightCycle": "false",
-          "doWeatherCycle": "false",
-					"doMobSpawning": "false",
 					"keepInventory": "false",
-          "fallDamage": "true",
-          "doFireTick": "false",
-          "doMobLoot": "false"
+          "fallDamage": "true"
       }
       },
       "jed": {
-        "ForceGameMode": true
+        "ForceGameMode": true,
+        "PlayerInventoryGroup": "stoneage"
       }
     },
     {

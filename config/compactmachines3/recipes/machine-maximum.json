@@ -10,7 +10,10 @@
 
   "input-types": {
     "w": { "id": "compactmachines3:wallbreakable" },
-    "e": { "id": "minecraft:emerald_block"}
+    "e": {
+      "id": "contenttweaker:glitched4",
+      "meta": 0
+    }
   },
 
   "symmetrical": true,

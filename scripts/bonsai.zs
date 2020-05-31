@@ -21,7 +21,7 @@ for i, cutting in bonsaiCuttings
 	// Sawmill
 	mods.thermalexpansion.Sawmill.addRecipe(<minecraft:planks>.withDamage(i)*2, cutting, 1000, <thermalfoundation:material:800>, 100);
 	// Bonsai to real Sapling
-	mods.inworldcrafting.FluidToItem.transform(<minecraft:sapling>.withDamage(i), <liquid:water>, bonsaiSaplings[i], true);
+	mods.inworldcrafting.FluidToItem.transform(<minecraft:sapling>.withDamage(i), <liquid:water>, [bonsaiSaplings[i]], true);
 	// Add Bonsai Cutting to plankWood Ore-Dict
 	//<ore:plankWood>.add(cutting); Causes crafting conflicts
 }

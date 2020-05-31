@@ -896,6 +896,123 @@
 					"message": "Use a pickaxe"
 				}
 			]
-		}		
+		},
+		{
+			"name": "Pick_nickel",
+			"type":
+			{
+				"type": "block",
+				"name": "compactmachines3:wall"
+			},
+			"clicktype": "left",
+			"properties":
+			[
+				{
+					"type": "add_hunger",
+					"exhaustion": "true",
+					"amount": "0.1f"
+				},
+				{
+					"type": "require_left"
+				},
+				{
+					"type": "drop_items"
+				},
+				{
+					"type": "damage_item",
+					"amount": "1"
+				},
+				{
+					"type": "player_cooldown",
+					"time": "10"
+				},
+				{
+					"type": "swing_hand"
+				},
+				{
+					"type": "play_sound",
+					"name": "block.stone.hit"
+				},
+				{
+					"type": "require_item_list",
+					"items": [
+						{"name": "thermalfoundation:tool.pickaxe_nickel"}
+					]
+				}
+			],
+			"drops":
+			[
+				{
+					"name": "nuclearcraft:dust",
+					"meta": "1",
+					"weight": 4
+				}
+			],
+			"messages":
+			[
+				{
+					"id": "require_tool",
+					"message": "Use a pickaxe"
+				}
+			]
+		},
+		{
+			"name": "Pick_boron",
+			"type":
+			{
+				"type": "block",
+				"name": "compactmachines3:wall"
+			},
+			"clicktype": "left",
+			"properties":
+			[
+				{
+					"type": "add_hunger",
+					"exhaustion": "true",
+					"amount": "0.1f"
+				},
+				{
+					"type": "require_left"
+				},
+				{
+					"type": "drop_items"
+				},
+				{
+					"type": "damage_item",
+					"amount": "1"
+				},
+				{
+					"type": "player_cooldown",
+					"time": "10"
+				},
+				{
+					"type": "swing_hand"
+				},
+				{
+					"type": "play_sound",
+					"name": "block.stone.hit"
+				},
+				{
+					"type": "require_item_list",
+					"items": [
+						{"name": "nuclearcraft:pickaxe_boron"}
+					]
+				}
+			],
+			"drops":
+			[
+				{
+					"name": "minecraft:quartz",
+					"weight": 4
+				}
+			],
+			"messages":
+			[
+				{
+					"id": "require_tool",
+					"message": "Use a pickaxe"
+				}
+			]
+		}			
 	]
 }

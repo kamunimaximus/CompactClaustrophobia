@@ -428,6 +428,7 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "deep_ocean": "2020-05-31 12:20:12 +0200",
       "savanna": "2020-05-17 19:12:38 +0200"
     },
     "done": false

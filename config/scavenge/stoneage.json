@@ -21,8 +21,9 @@
 					"time": "8"
 				},
 				{
-					"type": "player_has_items",
-					"itmes": {"name": "Primitive Quest Book"}
+					"type": "require_stage",
+					"name": "stoneage",
+					"required": "true"
 				},
 				{
 					"type": "play_sound",
@@ -64,8 +65,9 @@
 					"time": "8"
 				},
 				{
-					"type": "require_dimension",
-					"dimension": {"dim": "11", "required": "true", "default": "false"}
+					"type": "require_stage",
+					"name": "stoneage",
+					"required": "true"
 				},
 				{
 					"type": "play_sound",
@@ -84,6 +86,593 @@
 					"type": "add_hunger",
 					"exhaustion": "true",
 					"amount": "0.6f"
+				},
+				{
+					"type": "require_item_list",
+					"items": [
+						{"name": "galacticraftcore:steel_axe"}
+					]
+				}
+			]
+		},
+		{
+			"name": "OreLeaves",
+			"type": {
+				"type": "ore", "name": "treeLeaves" 
+			},
+			"clicktype": "both",
+			"properties": [
+				{
+					"type": "player_cooldown",
+					"time": "8"
+				},
+				{
+					"type": "require_stage",
+					"name": "stoneage",
+					"required": "true"
+				},
+				{
+					"type": "consume_block",
+					"chance": 30,
+					"dropBlock": false
+				},
+				{
+					"type": "play_sound",
+					"name": "block.grass.break"
+				},
+				{
+					"type": "swing_hand"
+				},
+				{
+					"type": "add_hunger",
+					"exhaustion": "true",
+					"amount": "0.6f"
+				},
+				{
+					"type": "require_empty_hand"
+				}
+			],
+			"drops":
+			[
+				{
+					"name": "minecraft:stick",
+					"chance": 50
+				}
+			]
+		},
+		{
+			"name": "Gravel",
+			"type": {
+				"type": "block", "name": "minecraft:gravel" 
+			},
+			"clicktype": "both",
+			"properties": [
+				{
+					"type": "player_cooldown",
+					"time": "8"
+				},
+				{
+					"type": "require_stage",
+					"name": "stoneage",
+					"required": "true"
+				},
+				{
+					"type": "consume_block",
+					"chance": 10,
+					"dropBlock": false
+				},
+				{
+					"type": "play_sound",
+					"name": "block.gravel.break"
+				},
+				{
+					"type": "swing_hand"
+				},
+				{
+					"type": "add_hunger",
+					"exhaustion": "true",
+					"amount": "0.6f"
+				},
+				{
+					"type": "consume_item",
+					"amount": 1,
+					"chance": 20,
+					"name": "minecraft:stick",
+					"meta": 3
+				},
+				{
+					"type": "require_item_list",
+					"items": [
+						{"name": "minecraft:stick"}
+					]
+				}
+			],
+			"drops":
+			[
+				{
+					"name": "minecraft:flint",
+					"chance": 50
+				}
+			]
+		},
+		{
+			"name": "HempFiber",
+			"type": {
+				"type": "block_list", "blocks": [{ "name": "minecraft:tallgrass", "meta": 1}, { "name": "minecraft:tallgrass", "meta": 2}, { "name": "minecraft:double_plant", "meta": 3}, { "name": "minecraft:double_plant", "meta": 10} ]
+			},
+			"clicktype": "right",
+			"properties": [
+				{
+					"type": "player_cooldown",
+					"time": "8"
+				},
+				{
+					"type": "require_stage",
+					"name": "stoneage",
+					"required": "true"
+				},
+				{
+					"type": "consume_block",
+					"chance": 50,
+					"dropBlock": false
+				},
+				{
+					"type": "play_sound",
+					"name": "block.grass.break"
+				},
+				{
+					"type": "swing_hand"
+				},
+				{
+					"type": "damage_item",
+					"amount": "10"
+				},
+				{
+					"type": "add_hunger",
+					"exhaustion": "true",
+					"amount": "0.6f"
+				},
+				{
+					"type": "require_item_list",
+					"items": [
+						{"name": "refinedstorage:cutting_tool"}
+					]
+				}
+			],
+			"drops":
+			[
+				{
+					"name": "immersiveengineering:material",
+					"meta": 4,
+					"chance": 50
+				}
+			]
+		},
+		{
+			"name": "Log2Stripped",
+			"type": {
+				"type": "ore", "name": "logWood" 
+			},
+			"clicktype": "right",
+			"properties": [
+				{
+					"type": "player_cooldown",
+					"time": "20"
+				},
+				{
+					"type": "require_stage",
+					"name": "stoneage",
+					"required": "true"
+				},
+				{
+					"type": "consume_block",
+					"chance": "50.0",
+					"name": "chisel:planks-birch",
+					"meta": 9
+				},
+				{
+					"type": "play_sound",
+					"name": "block.wood.hit"
+				},
+				{
+					"type": "swing_hand"
+				},
+				{
+					"type": "damage_item",
+					"amount": "10"
+				},
+				{
+					"type": "add_hunger",
+					"exhaustion": "true",
+					"amount": "0.1f"
+				},
+				{
+					"type": "require_item_list",
+					"items": [
+						{"name": "galacticraftcore:steel_axe"}
+					]
+				}
+			]
+		},
+		{
+			"name": "Plank2Fence",
+			"type": {
+				"type": "block", "name": "chisel:planks-birch",	"meta": 9
+			},
+			"clicktype": "right",
+			"properties": [
+				{
+					"type": "player_cooldown",
+					"time": "20"
+				},
+				{
+					"type": "require_stage",
+					"name": "stoneage",
+					"required": "true"
+				},
+				{
+					"type": "consume_block",
+					"chance": "50.0",
+					"name": "minecraft:fence"
+				},
+				{
+					"type": "play_sound",
+					"name": "block.wood.hit"
+				},
+				{
+					"type": "swing_hand"
+				},
+				{
+					"type": "damage_item",
+					"amount": "10"
+				},
+				{
+					"type": "add_hunger",
+					"exhaustion": "true",
+					"amount": "0.1f"
+				},
+				{
+					"type": "require_item_list",
+					"items": [
+						{"name": "galacticraftcore:steel_axe"}
+					]
+				}
+			]
+		},
+		{
+			"name": "Fence2Planks",
+			"type": {
+				"type": "block", "name": "minecraft:fence"
+			},
+			"clicktype": "right",
+			"properties": [
+				{
+					"type": "player_cooldown",
+					"time": "20"
+				},
+				{
+					"type": "spawn_particles",
+					"name": "blockdust",
+					"amount": 10
+				},
+				{
+					"type": "require_stage",
+					"name": "stoneage",
+					"required": "true"
+				},
+				{
+					"type": "consume_block",
+					"chance": "100.0",
+					"name": "minecraft:air"
+				},
+				{
+					"type": "play_sound",
+					"name": "block.wood.hit"
+				},
+				{
+					"type": "swing_hand"
+				},
+				{
+					"type": "damage_item",
+					"amount": "10"
+				},
+				{
+					"type": "drop_items"
+				},
+				{
+					"type": "add_hunger",
+					"exhaustion": "true",
+					"amount": "0.1f"
+				},
+				{
+					"type": "require_item_list",
+					"items": [
+						{"name": "galacticraftcore:steel_axe"}
+					]
+				}
+			],
+			"drops":
+			[
+				{
+					"name": "minecraft:planks",
+					"chance": 100
+				}
+			]
+		},
+		{
+			"name": "Stone2Cobble",
+			"type": {
+				"type": "block", "name": "minecraft:stone"
+			},
+			"clicktype": "right",
+			"properties": [
+				{
+					"type": "player_cooldown",
+					"time": "10"
+				},
+				{
+					"type": "require_stage",
+					"name": "stoneage",
+					"required": "true"
+				},
+				{
+					"type": "consume_block",
+					"chance": "50.0",
+					"name": "minecraft:cobblestone"
+				},
+				{
+					"type": "play_sound",
+					"name": "block.stone.hit"
+				},
+				{
+					"type": "swing_hand"
+				},
+				{
+					"type": "damage_item",
+					"amount": "10"
+				},
+				{
+					"type": "drop_items"
+				},
+				{
+					"type": "add_hunger",
+					"exhaustion": "true",
+					"amount": "0.1f"
+				},
+				{
+					"type": "require_item_list",
+					"items": [
+						{"name": "galacticraftcore:steel_pickaxe"}
+					]
+				}
+			],
+			"drops":
+			[
+				{
+					"name": "exnihilocreatio:item_pebble",
+					"chance": 10
+				}
+			]
+		},
+		{
+			"name": "Cobble2Air",
+			"type": {
+				"type": "block", "name": "minecraft:cobblestone"
+			},
+			"clicktype": "right",
+			"properties": [
+				{
+					"type": "player_cooldown",
+					"time": "10"
+				},
+				{
+					"type": "require_stage",
+					"name": "stoneage",
+					"required": "true"
+				},
+				{
+					"type": "consume_block",
+					"chance": "50.0",
+					"name": "minecraft:air"
+				},
+				{
+					"type": "drop_items"
+				},
+				{
+					"type": "play_sound",
+					"name": "block.stone.hit"
+				},
+				{
+					"type": "swing_hand"
+				},
+				{
+					"type": "damage_item",
+					"amount": "10"
+				},
+				{
+					"type": "add_hunger",
+					"exhaustion": "true",
+					"amount": "0.1f"
+				},
+				{
+					"type": "require_item_list",
+					"items": [
+						{"name": "galacticraftcore:steel_pickaxe"}
+					]
+				}
+			],
+			"drops":
+			[
+				{
+					"name": "exnihilocreatio:item_pebble",
+					"chance": 50
+				}
+			]
+		},
+		{
+			"name": "Redstone2Stone",
+			"type": {
+				"type": "block", "name": "minecraft:redstone_ore"
+			},
+			"clicktype": "right",
+			"properties": [
+				{
+					"type": "player_cooldown",
+					"time": "10"
+				},
+				{
+					"type": "drop_items"
+				},
+				{
+					"type": "require_stage",
+					"name": "stoneage",
+					"required": "true"
+				},
+				{
+					"type": "consume_block",
+					"chance": "100.0",
+					"name": "minecraft:stone"
+				},
+				{
+					"type": "play_sound",
+					"name": "block.stone.hit"
+				},
+				{
+					"type": "swing_hand"
+				},
+				{
+					"type": "damage_item",
+					"amount": "10"
+				},
+				{
+					"type": "add_hunger",
+					"exhaustion": "true",
+					"amount": "0.1f"
+				},
+				{
+					"type": "require_item_list",
+					"items": [
+						{"name": "minecraft:stone_pickaxe"}
+					]
+				}
+			],
+			"drops":
+			[
+				{
+					"name": "minecraft:redstone",
+					"chance": 100
+				}
+			]
+		},
+		{
+			"name": "Gold2Stone",
+			"type": {
+				"type": "block", "name": "minecraft:gold_ore"
+			},
+			"clicktype": "right",
+			"properties": [
+				{
+					"type": "player_cooldown",
+					"time": "10"
+				},
+				{
+					"type": "require_stage",
+					"name": "stoneage",
+					"required": "true"
+				},
+				{
+					"type": "drop_items"
+				},
+				{
+					"type": "consume_block",
+					"chance": "100.0",
+					"name": "minecraft:stone"
+				},
+				{
+					"type": "play_sound",
+					"name": "block.stone.hit"
+				},
+				{
+					"type": "swing_hand"
+				},
+				{
+					"type": "damage_item",
+					"amount": "10"
+				},
+				{
+					"type": "add_hunger",
+					"exhaustion": "true",
+					"amount": "0.1f"
+				},
+				{
+					"type": "require_item_list",
+					"items": [
+						{"name": "minecraft:stone_pickaxe"}
+					]
+				}
+			],
+			"drops":
+			[
+				{
+					"name": "exnihilocreatio:item_ore_gold",
+					"meta": 1,
+					"chance": 100
+				}
+			]
+		},
+		{
+			"name": "Iron2Stone",
+			"type": {
+				"type": "block", "name": "minecraft:iron_ore"
+			},
+			"clicktype": "right",
+			"properties": [
+				{
+					"type": "player_cooldown",
+					"time": "10"
+				},
+				{
+					"type": "require_stage",
+					"name": "stoneage",
+					"required": "true"
+				},
+				{
+					"type": "drop_items"
+				},
+				{
+					"type": "consume_block",
+					"chance": "100.0",
+					"name": "minecraft:stone"
+				},
+				{
+					"type": "play_sound",
+					"name": "block.stone.hit"
+				},
+				{
+					"type": "swing_hand"
+				},
+				{
+					"type": "damage_item",
+					"amount": "10"
+				},
+				{
+					"type": "add_hunger",
+					"exhaustion": "true",
+					"amount": "0.1f"
+				},
+				{
+					"type": "require_item_list",
+					"items": [
+						{"name": "minecraft:stone_pickaxe"}
+					]
+				}
+			],
+			"drops":
+			[
+				{
+					"name": "exnihilocreatio:item_ore_iron",
+					"meta": 1,
+					"chance": 100
 				}
 			]
 		}
