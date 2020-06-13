@@ -17,7 +17,7 @@ ao:2
 renderClouds:true
 resourcePacks:[]
 incompatibleResourcePacks:[]
-lastServer:
+lastServer:69.25.207.181:45309
 lang:en_us
 chatVisibility:0
 chatColors:true
@@ -85,16 +85,18 @@ key_key.hotbar.6:7
 key_key.hotbar.7:8
 key_key.hotbar.8:9
 key_key.hotbar.9:10
-key_autoverse.key.togglemode:35
 key_key.betterquesting.quests:41
 key_key.death_history:22
 key_[GC] Galaxy Map:50
 key_[GC] Open Spaceship Inventory:33
 key_[GC] Toggle Sensor Goggles Mode:37
+key_key.ftbutilities.nbt:49:ALT
+key_key.ftbutilities.trash:211
 key_key.moreoverlays.lightoverlay.desc:65
 key_key.moreoverlays.chunkbounds.desc:67
 key_neat.keybind.toggle:0
 key_key.toastcontrol.clear:36
+key_veinminer.key.enable:41
 key_key.jei.toggleOverlay:24:CONTROL
 key_key.jei.focusSearch:33:CONTROL
 key_key.jei.toggleCheatMode:0
@@ -114,7 +116,7 @@ key_key.fuzzy:0
 key_key.connected_area:0
 key_key.rotate_mirror:0
 key_key.material_list:50
-key_key.carry.desc:42
+key_key.carry.desc:46
 key_key.cofh.multimode:47
 key_key.refinedstorage.focusSearchBar:15
 key_key.refinedstorage.clearGridCraftingMatrix:45:CONTROL
@@ -137,6 +139,7 @@ key_key.craftingtweaks.decompressStack:0
 key_key.craftingtweaks.decompressAll:0
 key_key.craftingtweaks.refill_last:15
 key_key.craftingtweaks.refill_last_stack:15
+key_key.clipboardPaste:210
 key_key.toggleLiquids:38
 key_key.toggleVisible:0
 key_key.immersiveengineering.magnetEquip:31
@@ -151,13 +154,27 @@ key_key.integratedterminals.terminal.craftinggrid.balance:48
 key_invtweaks.key.sort:19
 key_jecalculation.key.gui_craft:0
 key_jecalculation.key.gui_math:0
-key_key.clipboardPaste:210
 key_key.refinedstorageaddons.openWirelessCraftingGrid:34:CONTROL
-key_key.trashslot.toggle:20
-key_key.trashslot.delete:211
-key_key.trashslot.deleteAll:211:SHIFT
 key_key.control:29
-soundCategory_master:0.410596
+key_enderio.keybind.inventory:23
+key_enderio.keybind.dsu:0
+key_enderio.keybind.glidertoggle:34
+key_enderio.keybind.soundlocator:0
+key_enderio.keybind.nightvision:25
+key_enderio.keybind.gogglesofrevealing:0
+key_enderio.keybind.stepassist:0
+key_enderio.keybind.speed:0
+key_enderio.keybind.jump:0
+key_enderio.keybind.top:0
+key_enderio.keybind.tnt:0
+key_enderio.keybind.yetawrenchmode:21
+key_enderio.keybind.magnet:0
+key_enderio.keybind.fovreset:0
+key_enderio.keybind.fovplus:0
+key_enderio.keybind.fovminus:0
+key_enderio.keybind.fovplusfast:0
+key_enderio.keybind.fovminusfast:0
+soundCategory_master:0.5
 soundCategory_music:0.2535211
 soundCategory_record:1.0
 soundCategory_weather:1.0

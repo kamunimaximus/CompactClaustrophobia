@@ -71,6 +71,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/transportation/furnace_minecart": {
+    "criteria": {
+      "has_minecart": "2020-06-07 09:38:07 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/gray_stained_glass": {
     "criteria": {
       "has_glass": "2020-05-26 11:42:37 +0200"
@@ -152,6 +158,12 @@
   "minecraft:recipes/combat/golden_sword": {
     "criteria": {
       "has_gold_ingot": "2020-05-30 12:10:50 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/hopper_minecart": {
+    "criteria": {
+      "has_minecart": "2020-06-07 09:38:07 +0200"
     },
     "done": true
   },
@@ -266,6 +278,18 @@
   "minecraft:recipes/building_blocks/cyan_stained_glass": {
     "criteria": {
       "has_glass": "2020-05-26 11:42:37 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/detector_rail": {
+    "criteria": {
+      "has_rail": "2020-06-07 09:38:04 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/golden_rail": {
+    "criteria": {
+      "has_rail": "2020-06-07 09:38:04 +0200"
     },
     "done": true
   },
@@ -563,6 +587,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/transportation/chest_minecart": {
+    "criteria": {
+      "has_minecart": "2020-06-07 09:38:07 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/gray_stained_glass_pane": {
     "criteria": {
       "has_glass": "2020-05-26 11:42:37 +0200"
@@ -719,6 +749,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/transportation/activator_rail": {
+    "criteria": {
+      "has_rail": "2020-06-07 09:38:04 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/red_stained_glass_pane": {
     "criteria": {
       "has_glass": "2020-05-26 11:42:37 +0200"
@@ -743,6 +779,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/transportation/tnt_minecart": {
+    "criteria": {
+      "has_minecart": "2020-06-07 09:38:07 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/piston": {
     "criteria": {
       "has_redstone": "2020-05-18 23:56:24 +0200"
@@ -752,6 +794,12 @@
   "minecraft:recipes/combat/golden_leggings": {
     "criteria": {
       "has_gold_ingot": "2020-05-30 12:10:50 +0200"
+    },
+    "done": true
+  },
+  "enderio:root": {
+    "criteria": {
+      "location": "2020-06-05 21:06:02 +0200"
     },
     "done": true
   },
@@ -770,6 +818,12 @@
   "minecraft:recipes/decorations/pink_stained_glass_pane": {
     "criteria": {
       "has_glass": "2020-05-26 11:42:37 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/rail": {
+    "criteria": {
+      "has_minecart": "2020-06-07 09:38:07 +0200"
     },
     "done": true
   },

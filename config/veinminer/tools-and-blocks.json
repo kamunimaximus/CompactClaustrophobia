@@ -1,0 +1,192 @@
+{
+  "tools": {
+    "axe": {
+      "name": "Axe",
+      "icon": "minecraft:diamond_axe",
+      "toollist": [
+        "immersiveengineering:axe_steel",
+        "minecraft:diamond_axe",
+        "thermalfoundation:tool.axe_steel"
+      ],
+      "blocklist": [
+        "integrateddynamics:menril_leaves/0",
+        "integrateddynamics:menril_log/0",
+        "integrateddynamics:menril_log_filled/0",
+        "minecraft:fence",
+        "minecraft:leaves",
+        "minecraft:leaves2",
+        "minecraft:log",
+        "minecraft:log2"
+      ]
+    },
+    "hammer": {
+      "name": "Hammer",
+      "icon": "exnihilocreatio:hammer_diamond",
+      "toollist": [
+        "exnihilocreatio:hammer_diamond",
+        "exnihilocreatio:hammer_iron"
+      ],
+      "blocklist": [
+        "exnihilocreatio:block_andesite_crushed",
+        "exnihilocreatio:block_diorite_crushed",
+        "exnihilocreatio:block_granite_crushed",
+        "minecraft:cobblestone",
+        "minecraft:gravel",
+        "minecraft:sand",
+        "minecraft:sand/1",
+        "minecraft:stone"
+      ]
+    },
+    "hoe": {
+      "name": "Hoe",
+      "icon": "minecraft:diamond_hoe",
+      "toollist": [
+        "minecraft:diamond_hoe",
+        "minecraft:golden_hoe"
+      ],
+      "blocklist": [
+        "minecraft:carrots",
+        "minecraft:melon_block",
+        "minecraft:potatoes",
+        "minecraft:pumpkin",
+        "minecraft:wheat"
+      ]
+    },
+    "pickaxe": {
+      "name": "Pickaxe",
+      "icon": "minecraft:diamond_pickaxe",
+      "toollist": [
+        "immersiveengineering:drill",
+        "minecraft:diamond_pickaxe",
+        "minecraft:golden_pickaxe"
+      ],
+      "blocklist": [
+        "galacticraftcore:basic_block_core/5",
+        "galacticraftcore:basic_block_core/6",
+        "galacticraftcore:basic_block_core/7",
+        "galacticraftcore:basic_block_core/8",
+        "galacticraftcore:basic_block_moon/0",
+        "galacticraftcore:basic_block_moon/1",
+        "galacticraftcore:basic_block_moon/2",
+        "galacticraftplanets:asteroids_block/3",
+        "galacticraftplanets:asteroids_block/4",
+        "galacticraftplanets:asteroids_block/5",
+        "galacticraftplanets:mars/0",
+        "galacticraftplanets:mars/1",
+        "galacticraftplanets:mars/2",
+        "galacticraftplanets:mars/3",
+        "galacticraftplanets:venus/6",
+        "galacticraftplanets:venus/7",
+        "galacticraftplanets:venus/8",
+        "galacticraftplanets:venus/9",
+        "galacticraftplanets:venus/10",
+        "galacticraftplanets:venus/11",
+        "galacticraftplanets:venus/13",
+        "immersiveengineering:ore/0",
+        "immersiveengineering:ore/1",
+        "immersiveengineering:ore/2",
+        "immersiveengineering:ore/3",
+        "immersiveengineering:ore/4",
+        "immersiveengineering:ore/5",
+        "minecraft:coal_ore",
+        "minecraft:cobblestone_wall",
+        "minecraft:diamond_ore",
+        "minecraft:emerald_ore",
+        "minecraft:glowstone",
+        "minecraft:gold_ore",
+        "minecraft:iron_ore",
+        "minecraft:lapis_ore",
+        "minecraft:lit_redstone_ore",
+        "minecraft:mossy_cobblestone",
+        "minecraft:nether_brick_fence",
+        "minecraft:obsidian",
+        "minecraft:quartz_ore",
+        "minecraft:redstone_ore",
+        "nuclearcraft:ore/0",
+        "nuclearcraft:ore/1",
+        "nuclearcraft:ore/2",
+        "nuclearcraft:ore/3",
+        "nuclearcraft:ore/4",
+        "nuclearcraft:ore/5",
+        "nuclearcraft:ore/6",
+        "nuclearcraft:ore/7",
+        "thermalfoundation:ore/0",
+        "thermalfoundation:ore/1",
+        "thermalfoundation:ore/2",
+        "thermalfoundation:ore/3",
+        "thermalfoundation:ore/4",
+        "thermalfoundation:ore/5",
+        "thermalfoundation:ore/6",
+        "thermalfoundation:ore/7",
+        "thermalfoundation:ore/8",
+        "thermalfoundation:ore_fluid/0",
+        "thermalfoundation:ore_fluid/1",
+        "thermalfoundation:ore_fluid/2",
+        "thermalfoundation:ore_fluid/3",
+        "thermalfoundation:ore_fluid/4",
+        "thermalfoundation:ore_fluid/5"
+      ]
+    },
+    "shears": {
+      "name": "Shears",
+      "icon": "minecraft:shears",
+      "toollist": [
+        "minecraft:shears",
+        "thermalfoundation:tool.shears_aluminum",
+        "thermalfoundation:tool.shears_bronze",
+        "thermalfoundation:tool.shears_constantan",
+        "thermalfoundation:tool.shears_copper",
+        "thermalfoundation:tool.shears_diamond",
+        "thermalfoundation:tool.shears_electrum",
+        "thermalfoundation:tool.shears_gold",
+        "thermalfoundation:tool.shears_invar",
+        "thermalfoundation:tool.shears_lead",
+        "thermalfoundation:tool.shears_nickel",
+        "thermalfoundation:tool.shears_platinum",
+        "thermalfoundation:tool.shears_silver",
+        "thermalfoundation:tool.shears_steel",
+        "thermalfoundation:tool.shears_stone",
+        "thermalfoundation:tool.shears_tin",
+        "thermalfoundation:tool.shears_wood"
+      ],
+      "blocklist": [
+        "integrateddynamics:menril_leaves/0",
+        "minecraft:deadbush",
+        "minecraft:leaves",
+        "minecraft:leaves2",
+        "minecraft:tallgrass",
+        "minecraft:vine",
+        "minecraft:web",
+        "minecraft:wool"
+      ]
+    },
+    "shovel": {
+      "name": "Shovel",
+      "icon": "minecraft:diamond_shovel",
+      "toollist": [
+        "immersiveengineering:drill",
+        "minecraft:diamond_shovel",
+        "minecraft:golden_shovel",
+        "minecraft:iron_shovel",
+        "minecraft:stone_shovel",
+        "minecraft:wooden_shovel",
+        "thermalfoundation:tool.shovel_aluminum",
+        "thermalfoundation:tool.shovel_bronze",
+        "thermalfoundation:tool.shovel_constantan",
+        "thermalfoundation:tool.shovel_copper",
+        "thermalfoundation:tool.shovel_electrum",
+        "thermalfoundation:tool.shovel_invar",
+        "thermalfoundation:tool.shovel_lead",
+        "thermalfoundation:tool.shovel_nickel",
+        "thermalfoundation:tool.shovel_platinum",
+        "thermalfoundation:tool.shovel_silver",
+        "thermalfoundation:tool.shovel_steel",
+        "thermalfoundation:tool.shovel_tin"
+      ],
+      "blocklist": [
+        "minecraft:clay",
+        "minecraft:gravel"
+      ]
+    }
+  }
+}

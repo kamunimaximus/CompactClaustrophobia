@@ -887,7 +887,7 @@
 					"name": "nuclearcraft:dust",
 					"meta": "5",
 					"weight": 5
-				},
+				}
 			],
 			"messages":
 			[
@@ -1013,6 +1013,195 @@
 					"message": "Use a pickaxe"
 				}
 			]
-		}			
+		},
+		{
+			"name": "Pick_tin",
+			"type":
+			{
+				"type": "block",
+				"name": "compactmachines3:wall"
+			},
+			"clicktype": "left",
+			"properties":
+			[
+				{
+					"type": "add_hunger",
+					"exhaustion": "true",
+					"amount": "0.1f"
+				},
+				{
+					"type": "require_left"
+				},
+				{
+					"type": "drop_items"
+				},
+				{
+					"type": "damage_item",
+					"amount": "1"
+				},
+				{
+					"type": "player_cooldown",
+					"time": "10"
+				},
+				{
+					"type": "swing_hand"
+				},
+				{
+					"type": "play_sound",
+					"name": "block.stone.hit"
+				},
+				{
+					"type": "require_item_list",
+					"items": [
+						{"name": "thermalfoundation:tool.pickaxe_tin"}
+					]
+				}
+			],
+			"drops":
+			[
+				{
+					"name": "immersiveengineering:metal",
+					"meta": 11,
+					"weight": 4
+				}
+			],
+			"messages":
+			[
+				{
+					"id": "require_tool",
+					"message": "Use a pickaxe"
+				}
+			]
+		},
+		{
+			"name": "Pick_nic",
+			"type":
+			{
+				"type": "block",
+				"name": "compactmachines3:wall"
+			},
+			"clicktype": "left",
+			"properties":
+			[
+				{
+					"type": "add_hunger",
+					"exhaustion": "true",
+					"amount": "0.1f"
+				},
+				{
+					"type": "require_left"
+				},
+				{
+					"type": "drop_items"
+				},
+				{
+					"type": "damage_item",
+					"amount": "1"
+				},
+				{
+					"type": "player_cooldown",
+					"time": "10"
+				},
+				{
+					"type": "swing_hand"
+				},
+				{
+					"type": "play_sound",
+					"name": "block.stone.hit"
+				},
+				{
+					"type": "require_item_list",
+					"items": [
+						{"name": "thermalfoundation:tool.pickaxe_lead"}
+					]
+				}
+			],
+			"drops":
+			[
+				{
+					"name": "immersiveengineering:metal",
+					"meta": 13,
+					"weight": 4
+				}
+			],
+			"messages":
+			[
+				{
+					"id": "require_tool",
+					"message": "Use a pickaxe"
+				}
+			]
+		},
+		{
+			"name": "Pick_platinum",
+			"type":
+			{
+				"type": "block",
+				"name": "compactmachines3:wall"
+			},
+			"clicktype": "left",
+			"properties":
+			[
+				{
+					"type": "add_hunger",
+					"exhaustion": "true",
+					"amount": "0.1f"
+				},
+				{
+					"type": "require_left"
+				},
+				{
+					"type": "drop_items"
+				},
+				{
+					"type": "damage_item",
+					"amount": "1"
+				},
+				{
+					"type": "player_cooldown",
+					"time": "10"
+				},
+				{
+					"type": "swing_hand"
+				},
+				{
+					"type": "play_sound",
+					"name": "block.stone.hit"
+				},
+				{
+					"type": "require_item_list",
+					"items": [
+						{"name": "thermalfoundation:tool.pickaxe_platinum"}
+					]
+				}
+			],
+			"drops":
+			[
+				{
+					"name": "minecraft:gold_ingot",
+					"weight": 1000
+				},
+				{
+					"name": "minecraft:golden_apple",
+					"meta": "1",
+					"weight": 1
+				},
+				{
+					"name": "minecraft:golden_leggings",
+					"weight": 1
+				},
+				{
+					"name": "minecraft:golden_horse_armor",
+					"weight": 1
+				}
+			],
+			"messages":
+			[
+				{
+					"id": "require_tool",
+					"message": "Use a pickaxe"
+				}
+			]
+		}				
 	]
 }

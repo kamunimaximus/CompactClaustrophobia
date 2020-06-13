@@ -5,17 +5,37 @@
     },
     "done": true
   },
+  "minecraft:husbandry/balanced_diet": {
+    "criteria": {
+      "enchanted_golden_apple": "2020-05-31 21:24:39 +0200"
+    },
+    "done": false
+  },
   "galacticraftcore:galacticraft/root": {
     "criteria": {
       "tick": "2020-05-31 17:38:21 +0200"
     },
     "done": true
   },
+  "minecraft:husbandry/root": {
+    "criteria": {
+      "consumed_item": "2020-05-31 21:24:39 +0200"
+    },
+    "done": true
+  },
+  "enderio:root": {
+    "criteria": {
+      "location": "2020-05-31 21:37:29 +0200"
+    },
+    "done": true
+  },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "forest": "2020-05-31 22:29:40 +0200",
       "extreme_hills_with_trees": "2020-05-31 17:38:27 +0200",
       "taiga": "2020-05-31 17:38:29 +0200",
-      "taiga_hills": "2020-05-31 17:38:19 +0200"
+      "taiga_hills": "2020-05-31 17:38:19 +0200",
+      "river": "2020-05-31 21:37:29 +0200"
     },
     "done": false
   }

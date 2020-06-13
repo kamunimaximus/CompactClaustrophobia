@@ -9,7 +9,7 @@
             "energyPerTick": 10000
         },
         {
-            "type": "modularmachinery:item",
+            "type": "modularaugment:deferred-item",
             "io-type": "input",
             "item": "ore:nuggetDiamond",
             "amount": 9

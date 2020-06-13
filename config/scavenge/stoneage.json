@@ -2,9 +2,10 @@
 	"block_pools" :
 	[
         {
+			"disableJEI": "true",
 			"name": "StoneNDirt",
 			"type": {
-				"type": "block_list", "blocks": [ { "name": "minecraft:stone"}, { "name": "minecraft:dirt"}, { "name": "minecraft:grass"}, { "name": "minecraft:sand" }, { "name": "minecraft:gravel" } ]
+				"type": "block_list", "blocks": [ { "name": "chisel:marble"}, { "name": "chisel:marble2"}, { "name": "minecraft:stone"}, { "name": "minecraft:dirt"}, { "name": "minecraft:grass"}, { "name": "minecraft:sand" }, { "name": "minecraft:gravel" } ]
 			},
 			"clicktype": "left",
 			"properties": [
@@ -46,6 +47,7 @@
 			]
 		},
 		{
+			"disableJEI": "true",
 			"name": "OreLog",
 			"type": {
 				"type": "ore", "name": "logWood" 
@@ -86,16 +88,11 @@
 					"type": "add_hunger",
 					"exhaustion": "true",
 					"amount": "0.6f"
-				},
-				{
-					"type": "require_item_list",
-					"items": [
-						{"name": "galacticraftcore:steel_axe"}
-					]
 				}
 			]
 		},
 		{
+			"disableJEI": "true",
 			"name": "OreLeaves",
 			"type": {
 				"type": "ore", "name": "treeLeaves" 
@@ -141,6 +138,7 @@
 			]
 		},
 		{
+			"disableJEI": "true",
 			"name": "Gravel",
 			"type": {
 				"type": "block", "name": "minecraft:gravel" 
@@ -196,6 +194,7 @@
 			]
 		},
 		{
+			"disableJEI": "true",
 			"name": "HempFiber",
 			"type": {
 				"type": "block_list", "blocks": [{ "name": "minecraft:tallgrass", "meta": 1}, { "name": "minecraft:tallgrass", "meta": 2}, { "name": "minecraft:double_plant", "meta": 3}, { "name": "minecraft:double_plant", "meta": 10} ]
@@ -249,6 +248,7 @@
 			]
 		},
 		{
+			"disableJEI": "true",
 			"name": "Log2Stripped",
 			"type": {
 				"type": "ore", "name": "logWood" 
@@ -295,6 +295,7 @@
 			]
 		},
 		{
+			"disableJEI": "true",
 			"name": "Plank2Fence",
 			"type": {
 				"type": "block", "name": "chisel:planks-birch",	"meta": 9
@@ -340,6 +341,7 @@
 			]
 		},
 		{
+			"disableJEI": "true",
 			"name": "Fence2Planks",
 			"type": {
 				"type": "block", "name": "minecraft:fence"
@@ -400,6 +402,7 @@
 			]
 		},
 		{
+			"disableJEI": "true",
 			"name": "Stone2Cobble",
 			"type": {
 				"type": "block", "name": "minecraft:stone"
@@ -455,6 +458,56 @@
 			]
 		},
 		{
+			"disableJEI": "true",
+			"name": "Dirt2Air",
+			"type": {
+				"type": "block_list", "blocks": [{ "name": "minecraft:dirt"}, { "name": "minecraft:grass"}, { "name": "minecraft:sand" }]
+			},
+			"clicktype": "right",
+			"properties": [
+				{
+					"type": "player_cooldown",
+					"time": "10"
+				},
+				{
+					"type": "require_stage",
+					"name": "stoneage",
+					"required": "true"
+				},
+				{
+					"type": "consume_block",
+					"chance": "50.0",
+					"name": "minecraft:air"
+				},
+				{
+					"type": "play_sound",
+					"name": "block.grass.hit"
+				},
+				{
+					"type": "swing_hand"
+				},
+				{
+					"type": "add_hunger",
+					"exhaustion": "true",
+					"amount": "0.6f"
+				},
+				{
+					"type": "consume_item",
+					"amount": 1,
+					"chance": 20,
+					"name": "minecraft:stick",
+					"meta": 3
+				},
+				{
+					"type": "require_item_list",
+					"items": [
+						{"name": "minecraft:stick"}
+					]
+				}
+			]
+		},
+		{
+			"disableJEI": "true",
 			"name": "Cobble2Air",
 			"type": {
 				"type": "block", "name": "minecraft:cobblestone"
@@ -510,6 +563,7 @@
 			]
 		},
 		{
+			"disableJEI": "true",
 			"name": "Redstone2Stone",
 			"type": {
 				"type": "block", "name": "minecraft:redstone_ore"
@@ -565,6 +619,7 @@
 			]
 		},
 		{
+			"disableJEI": "true",
 			"name": "Gold2Stone",
 			"type": {
 				"type": "block", "name": "minecraft:gold_ore"
@@ -621,6 +676,7 @@
 			]
 		},
 		{
+			"disableJEI": "true",
 			"name": "Iron2Stone",
 			"type": {
 				"type": "block", "name": "minecraft:iron_ore"

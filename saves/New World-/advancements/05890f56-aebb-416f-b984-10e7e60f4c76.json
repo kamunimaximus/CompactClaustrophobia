@@ -1,0 +1,81 @@
+{
+  "minecraft:recipes/transportation/rail": {
+    "criteria": {
+      "has_minecart": "2020-06-07 10:30:52 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/hopper_minecart": {
+    "criteria": {
+      "has_minecart": "2020-06-07 10:30:52 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/activator_rail": {
+    "criteria": {
+      "has_rail": "2020-06-07 10:31:04 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/lapis_lazuli": {
+    "criteria": {
+      "has_lapis_block": "2020-06-07 10:30:58 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/detector_rail": {
+    "criteria": {
+      "has_rail": "2020-06-07 10:31:04 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/golden_rail": {
+    "criteria": {
+      "has_rail": "2020-06-07 10:31:04 +0200"
+    },
+    "done": true
+  },
+  "nuclearcraft:root": {
+    "criteria": {
+      "location": "2020-06-07 10:29:29 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/tnt_minecart": {
+    "criteria": {
+      "has_minecart": "2020-06-07 10:30:52 +0200"
+    },
+    "done": true
+  },
+  "galacticraftcore:galacticraft/root": {
+    "criteria": {
+      "tick": "2020-06-07 10:29:29 +0200"
+    },
+    "done": true
+  },
+  "enderio:root": {
+    "criteria": {
+      "location": "2020-06-07 10:31:22 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/furnace_minecart": {
+    "criteria": {
+      "has_minecart": "2020-06-07 10:30:52 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/chest_minecart": {
+    "criteria": {
+      "has_minecart": "2020-06-07 10:30:52 +0200"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "deep_ocean": "2020-06-07 10:31:28 +0200",
+      "forest_hills": "2020-06-07 10:29:29 +0200"
+    },
+    "done": false
+  }
+}

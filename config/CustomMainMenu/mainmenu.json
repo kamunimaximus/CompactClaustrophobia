@@ -11,7 +11,7 @@
             "text" : "menu.singleplayer",
             "posX" : 0,
             "posY" : 48,
-            "width" : 150,
+            "width" : 180,
             "height" : 20,
             "action" : 
             {
@@ -41,13 +41,46 @@
             },
             "shadow" : false
         },
+
+        "coffee":
+        {
+            "text" : "Buy me an icecream",
+            "posX" : 50,
+            "posY" : -35,
+            "width" : 60,
+            "height" : 20,
+            "alignment" : "bottom_left",
+            "texture" : "mainmenu:textures/transparent.png",
+            "tooltip" : "If you like - you don't need to at all <3",
+            "action" : 
+            {
+                "type": "openLink",
+                "link" : "https://www.buymeacoffee.com/hamster"
+            }
+        },
+
+        "akliz":
+        {
+            "text" : "Get your own server",
+            "normalTextColor" : 1234644,
+            "hoverTextColor" : 456734,
+            "posX" : 0,
+            "posY" : 72,
+            "width" : 180,
+            "height" : 20,
+            "action" :
+            {
+                "type" : "openLink",
+                "link" : "https://www.akliz.net/claustrophobia"      
+			}
+        },
         
         "multiplayer":
         {
             "text" : "menu.multiplayer",
             "posX" : 0,
-            "posY" : 72,
-            "width" : 150,
+            "posY" : 96,
+            "width" : 180,
             "height" : 20,
             "action" : 
             {
@@ -60,8 +93,8 @@
         {
             "text" : "fml.menu.mods",
             "posX" : 0,
-            "posY" : 96,
-            "width" : 150,
+            "posY" : 120,
+            "width" : 180,
             "height" : 20,
             "action" : 
             {
@@ -74,8 +107,8 @@
         {
             "text" : "menu.options",
             "posX" : 0,
-            "posY" : 132,
-            "width" : 73,
+            "posY" : 150,
+            "width" : 80,
             "height" : 20,
             "action" : 
             {
@@ -87,9 +120,9 @@
         "quit":
         {
             "text" : "menu.quit",
-            "posX" : 77,
-            "posY" : 132,
-            "width" : 73,
+            "posX" : 100,
+            "posY" : 150,
+            "width" : 80,
             "height" : 20,
             "action" : 
             {
@@ -100,8 +133,8 @@
         "language":
         {
             "text" : "",
-            "posX" : 129,
-            "posY" : 155,
+            "posX" : 160,
+            "posY" : 180,
             "width" : 20,
             "height" : 20,
             "action" : 
@@ -145,37 +178,15 @@
                     "mainmenu:textures/0008.png",
                     "mainmenu:textures/0009.png",
                     "mainmenu:textures/0010.png",
-                    "mainmenu:textures/0011.png",
-                    "mainmenu:textures/0012.png",
-                    "mainmenu:textures/0013.png",
-                    "mainmenu:textures/0014.png",
-                    "mainmenu:textures/0015.png",
-                    "mainmenu:textures/0016.png",
-                    "mainmenu:textures/0017.png",
-                    "mainmenu:textures/0018.png",
-                    "mainmenu:textures/0019.png",
-                    "mainmenu:textures/0020.png",
-                    "mainmenu:textures/0021.png",
-                    "mainmenu:textures/0022.png",
-                    "mainmenu:textures/0023.png",
-                    "mainmenu:textures/0024.png",
-                    "mainmenu:textures/0025.png",
-                    "mainmenu:textures/0026.png",
-                    "mainmenu:textures/0027.png",
-                    "mainmenu:textures/0028.png",
-                    "mainmenu:textures/0029.png",
-                    "mainmenu:textures/0030.png",
-                    "mainmenu:textures/0031.png",
-                    "mainmenu:textures/0032.png",
-                    "mainmenu:textures/0033.png",
-                    "mainmenu:textures/0034.png",
-                    "mainmenu:textures/0035.png",
-                    "mainmenu:textures/0036.png",
-                    "mainmenu:textures/0037.png",
-                    "mainmenu:textures/0038.png",
-                    "mainmenu:textures/0039.png",
-                    "mainmenu:textures/0040.png"],
-                    "displayDuration": 15,
+                    "mainmenu:textures/0009.png",
+                    "mainmenu:textures/0008.png",
+                    "mainmenu:textures/0007.png",
+                    "mainmenu:textures/0006.png",
+                    "mainmenu:textures/0005.png",
+                    "mainmenu:textures/0004.png",
+                    "mainmenu:textures/0003.png",
+                    "mainmenu:textures/0002.png"],
+                    "displayDuration": 5,
                     "fadeDurtation": 0
             }
         }

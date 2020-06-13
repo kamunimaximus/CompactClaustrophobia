@@ -12,5 +12,12 @@
 		"index": 2,
 		"success": true,
 		"size": 32797898
+	},
+	{
+		"time": 1591039401714,
+		"file": "2020-06-01-21-23-21.zip",
+		"index": 3,
+		"success": true,
+		"size": 30329181
 	}
 ]

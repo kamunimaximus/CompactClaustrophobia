@@ -1,0 +1,97 @@
+{
+  "config_version": {
+    "id": "__default",
+    "version": 0
+  },
+  "dimensions": [
+    {
+      "dim": 10,
+      "dimensiontype": {
+          "id": 10,
+          "name": "Tiny Glitch Dimension",
+          "keeploaded": false,
+          "worldprovider": "WorldProviderSurfaceJED",
+          "require_exact_match": true
+      },
+      "spawn_structure": {
+        "name": "glitch0questv3.schematic",
+        "offset": [-3, 7, -8]
+      },
+      "chunkgenerator": "fi.dy.masa.justenoughdimensions.world.gen.ChunkGeneratorFlatJED",
+      "worldinfo_onetime": {
+          "GameType": 2,
+          "generatorName": "flat",
+          "generatorOptions": "3;minecraft:air;8",
+          "SpawnX": 290,
+          "SpawnY": 90,
+          "SpawnZ": 333,
+      "GameRules": 
+      {
+          "spawnRadius": "0",
+          "doDaylightCycle": "false",
+          "doWeatherCycle": "false",
+					"doMobSpawning": "false",
+					"keepInventory": "true",
+          "fallDamage": "false",
+          "doFireTick": "false",
+          "doMobLoot": "false"
+      }
+      },
+      "jed": {
+        "ForceGameMode": true,
+        "CloudColor": "415747",
+        "FogColor": "540B07",
+        "SkyColor": "260503",
+        "void_teleport": {
+          "dimension": 0,
+          "trigger_y": -1,
+          "teleport_type": "spawn",
+          "remove_fall_damage": true
+        }
+      }
+    },
+    {
+      "dim": 11,
+      "dimensiontype": {
+          "id": 11,
+          "name": "Small Glitch Dimension",
+          "keeploaded": false,
+          "worldprovider": "WorldProviderSurfaceJED",
+          "require_exact_match": true
+      },
+      "worldinfo_onetime": {
+          "GameType": 0,
+      "GameRules": 
+      {
+          "spawnRadius": "10000",
+					"keepInventory": "false",
+          "fallDamage": "true"
+      }
+      },
+      "jed": {
+        "ForceGameMode": true,
+        "PlayerInventoryGroup": "stoneage"
+      }
+    },
+    {
+      "dim": 0,
+      "dimensiontype": {
+        "existing_dimensiontype": "overworld"
+      },
+      "spawn_structure": {
+        "name": "lobby.schematic",
+        "offset": [0, -3, 0],
+        "centered": true
+      },
+      "worldinfo_onetime": {
+        "SpawnX": 0,
+        "SpawnY": 3,
+        "SpawnZ": 0,
+      "GameRules": 
+      {
+          "spawnRadius": "0"
+      }
+      }
+    }
+  ]
+}

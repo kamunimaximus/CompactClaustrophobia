@@ -21,7 +21,7 @@
 				},
 				{
 					"type": "consume_block",
-					"chance": 10,
+					"chance": 60,
 					"dropBlock": true
 				},
 				{
@@ -71,7 +71,7 @@
 				},
 				{
 					"type": "consume_block",
-					"chance": 25,
+					"chance": 90,
 					"dropBlock": true
 				},
 				{
@@ -124,7 +124,7 @@
 				},
 				{
 					"type": "consume_block",
-					"chance": 10,
+					"chance": 50,
 					"dropBlock": true
 				},
 				{

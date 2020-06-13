@@ -1,0 +1,27 @@
+{
+  "nuclearcraft:root": {
+    "criteria": {
+      "location": "2020-06-01 11:16:18 +0200"
+    },
+    "done": true
+  },
+  "galacticraftcore:galacticraft/root": {
+    "criteria": {
+      "tick": "2020-06-01 11:16:20 +0200"
+    },
+    "done": true
+  },
+  "enderio:root": {
+    "criteria": {
+      "location": "2020-06-01 11:16:27 +0200"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "deep_ocean": "2020-06-01 11:16:27 +0200",
+      "extreme_hills": "2020-06-01 11:16:18 +0200"
+    },
+    "done": false
+  }
+}

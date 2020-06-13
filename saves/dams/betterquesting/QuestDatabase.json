@@ -316,7 +316,18 @@
           "taskID:8": "bq_standard:retrieval"
         }
       },
-      "rewards:9": {}
+      "rewards:9": {
+        "0:10": {
+          "hideBlockIcon:1": 0,
+          "rewardID:8": "bq_standard:command",
+          "asScript:1": 1,
+          "description:8": "Earn Freedom",
+          "viaPlayer:1": 1,
+          "index:3": 0,
+          "title:8": "bq_standard.reward.command",
+          "command:8": "/gamestage add @s freedom"
+        }
+      }
     },
     "6:10": {
       "questID:3": 6,
@@ -1165,7 +1176,7 @@
           "repeat_relative:1": 1,
           "ismain:1": 0,
           "name:8": "Coarse\u0027n\u0027Everywhere",
-          "desc:8": "No Description"
+          "desc:8": "Bringing balance to the skyblock"
         }
       },
       "tasks:9": {
@@ -1649,7 +1660,7 @@
           "repeat_relative:1": 1,
           "ismain:1": 0,
           "name:8": "Eat poop and DON\u0027T die",
-          "desc:8": "Poop is not very tasty. You poop when you sneak around"
+          "desc:8": "Poop is not very tasty. You poop when you sneak around. If you have a weak pinky check out the Auto Sneak \u0026 Sprint (Forge) mod."
         }
       },
       "tasks:9": {
@@ -3263,7 +3274,7 @@
     "58:10": {
       "questID:3": 58,
       "preRequisites:11": [
-        59
+        83
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -3503,19 +3514,13 @@
               "OreDict:8": ""
             },
             "1:10": {
-              "id:8": "minecraft:lava_bucket",
+              "id:8": "immersiveengineering:storage",
               "Count:3": 1,
-              "Damage:2": 0,
+              "Damage:2": 5,
               "OreDict:8": ""
             },
             "2:10": {
-              "id:8": "immersiveengineering:connector",
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": ""
-            },
-            "3:10": {
-              "id:8": "immersiveengineering:wirecoil",
+              "id:8": "minecraft:water_bucket",
               "Count:3": 1,
               "Damage:2": 0,
               "OreDict:8": ""
@@ -4305,7 +4310,7 @@
           "repeat_relative:1": 1,
           "ismain:1": 0,
           "name:8": "Refined nuclear fuel",
-          "desc:8": "There\u0027s a lot of fuels, but this one is easy to make and control"
+          "desc:8": "There\u0027s a lot of fuels, but this one is easy to make and control. Place some uranium grit in an isotope separator"
         }
       },
       "tasks:9": {
@@ -4897,7 +4902,6 @@
     "87:10": {
       "questID:3": 87,
       "preRequisites:11": [
-        65,
         58
       ],
       "properties:10": {
@@ -4973,7 +4977,7 @@
           "repeat_relative:1": 1,
           "ismain:1": 0,
           "name:8": "Give it a squeeze!",
-          "desc:8": "This item can squeeze things when jumped on. It can even squeeze lava from blaze powder! You need more room vertical space than just 3, maybe that dark bedrock room you started in is perfect. Notice the 2 channels on the squeezer - they need to point to the crucible"
+          "desc:8": "This item can squeeze things when jumped on. It can even squeeze lava from blaze powder! You need more room vertical space than just 3, maybe that dark bedrock room you started in is perfect. Notice the 2 channels on the squeezer - they need to point to the crucible. Use a redstone signal, for example a lever, to reset the squeezer"
         }
       },
       "tasks:9": {
@@ -5690,7 +5694,7 @@
           "repeat_relative:1": 1,
           "ismain:1": 0,
           "name:8": "Ender Pearl",
-          "desc:8": "How 2 automate though?"
+          "desc:8": "How 2 automate though? A few hints: if you are fond of programming Open Computers has a lot of tools to help. There\u0027s also the copy-paste gadget which can be linked to an inventory with shift+right clicking. Now if we only had something to simulate a player..."
         }
       },
       "tasks:9": {
@@ -5712,20 +5716,7 @@
           "taskID:8": "bq_standard:retrieval"
         }
       },
-      "rewards:9": {
-        "0:10": {
-          "rewardID:8": "bq_standard:choice",
-          "index:3": 0,
-          "choices:9": {
-            "0:10": {
-              "id:8": "thermaldynamics:servo",
-              "Count:3": 1,
-              "Damage:2": 2,
-              "OreDict:8": ""
-            }
-          }
-        }
-      }
+      "rewards:9": {}
     },
     "103:10": {
       "questID:3": 103,
@@ -7596,7 +7587,7 @@
           "repeat_relative:1": 1,
           "ismain:1": 0,
           "name:8": "Another quest?",
-          "desc:8": "Your questbook will help you a whole bunch on the journey, but it could be lost. Luckily it\u0027s quite easy to make another :) P.S. You can also delete them after doing this, no reason to keep them all around"
+          "desc:8": "Your questbook will help you a whole bunch on the journey, but it could be lost. Luckily it\u0027s quite easy to make another :) P.S. You can also delete them after doing this, no reason to keep them all around. There\u0027s also a keybind for checking out the book if you\u0027re more that kind of person"
         }
       },
       "tasks:9": {
@@ -7647,7 +7638,7 @@
           "repeat_relative:1": 1,
           "ismain:1": 0,
           "name:8": "Speeding it up!",
-          "desc:8": "Unless you got 33 minutes to spare - I\u0027d recommend taking a look at these!"
+          "desc:8": "Unless you got 500 seconds to spare - I\u0027d recommend taking a look at these!"
         }
       },
       "tasks:9": {
@@ -7911,7 +7902,9 @@
     },
     "143:10": {
       "questID:3": 143,
-      "preRequisites:11": [],
+      "preRequisites:11": [
+        10
+      ],
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -7969,7 +7962,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "ALWAYS",
+          "visibility:8": "UNLOCKED",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "chisel:futura",
@@ -8038,7 +8031,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "ALWAYS",
+          "visibility:8": "UNLOCKED",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "chisel:futura",
@@ -8110,7 +8103,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "ALWAYS",
+          "visibility:8": "UNLOCKED",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "chisel:futura",
@@ -8182,7 +8175,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "ALWAYS",
+          "visibility:8": "UNLOCKED",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "contenttweaker:homeportal",
@@ -8230,7 +8223,7 @@
               "OreDict:8": ""
             },
             "1:10": {
-              "id:8": "contenttweaker:tinysmashedmachine",
+              "id:8": "compactmachines3:machine",
               "Count:3": 1,
               "Damage:2": 0,
               "OreDict:8": ""
@@ -8299,7 +8292,8 @@
     "149:10": {
       "questID:3": 149,
       "preRequisites:11": [
-        75
+        75,
+        29
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -8323,7 +8317,7 @@
           "repeat_relative:1": 1,
           "ismain:1": 0,
           "name:8": "Setting a spawn!",
-          "desc:8": "Shift + right click with the PSD inside a compact machine to set your spawn! Swear that you got it working before clicking the checkbox! I\u0027m watching you!"
+          "desc:8": "as you build in your compact machine, remember to reset your spawn point so you have a new place to land when you come back later. Shift + right click with the PSD inside a compact machine to set your spawn! Swear that you got it working before clicking the checkbox! I\u0027m watching you!"
         }
       },
       "tasks:9": {
@@ -8669,7 +8663,6 @@
     "156:10": {
       "questID:3": 156,
       "preRequisites:11": [
-        81,
         164
       ],
       "properties:10": {
@@ -8795,6 +8788,18 @@
             },
             "6:10": {
               "id:8": "nuclearcraft:pickaxe_boron",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "7:10": {
+              "id:8": "thermalfoundation:tool.pickaxe_lead",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "8:10": {
+              "id:8": "thermalfoundation:tool.pickaxe_tin",
               "Count:3": 1,
               "Damage:2": 0,
               "OreDict:8": ""
@@ -8971,7 +8976,7 @@
           "repeat_relative:1": 1,
           "ismain:1": 0,
           "name:8": "Aluminum",
-          "desc:8": "Getting it from sand is such a chore, I wonder what a pick made from it would do?"
+          "desc:8": "Getting it from sand is such a chore, I wonder what a pick made from it would do? Remember, sometimes tasks are better to do later. If you go the way of science you\u0027ll be able to get these annoying chunks completely automatically!"
         }
       },
       "tasks:9": {
@@ -9100,7 +9105,7 @@
     "164:10": {
       "questID:3": 164,
       "preRequisites:11": [
-        81
+        216
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -9202,7 +9207,8 @@
     "166:10": {
       "questID:3": 166,
       "preRequisites:11": [
-        156
+        156,
+        55
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -9387,7 +9393,7 @@
           "partialMatch:1": 1,
           "autoConsume:1": 0,
           "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
+          "ignoreNBT:1": 1,
           "index:3": 0,
           "consume:1": 0,
           "requiredItems:9": {
@@ -11244,7 +11250,7 @@
           "repeat_relative:1": 1,
           "ismain:1": 0,
           "name:8": "Stuff to build and maintain it",
-          "desc:8": "If you want a robot you gotta know how to keep it alive. Put openOS into the disk drive to make the computer work"
+          "desc:8": "If you want a robot, you gotta know how to build it first. It\u0027s not that difficult, stuff all the items from the previous quest into the assembler and supply a hefty amount of RF. Then hit the assemble button and wait for a minute or two.\n\nThe robot needs power to operate. To keep it charged, put it in front of a charger. For the charger to function, it needs power and needs to be turned on. You can turn it on either using a redstone signal or by hitting it with a scrench."
         }
       },
       "tasks:9": {
@@ -11507,171 +11513,6 @@
       "rewards:9": {}
     },
     "175:10": {
-      "questID:3": 175,
-      "preRequisites:11": [
-        56
-      ],
-      "properties:10": {
-        "betterquesting:10": {
-          "issilent:1": 0,
-          "snd_complete:8": "minecraft:entity.player.levelup",
-          "lockedprogress:1": 0,
-          "tasklogic:8": "AND",
-          "repeattime:3": -1,
-          "visibility:8": "NORMAL",
-          "simultaneous:1": 0,
-          "icon:10": {
-            "id:8": "buildinggadgets:template",
-            "Count:3": 1,
-            "tag:10": {
-              "UUID:8": "cf84e723-490e-420b-b353-865f870c5158"
-            },
-            "Damage:2": 0,
-            "OreDict:8": ""
-          },
-          "globalshare:1": 0,
-          "questlogic:8": "AND",
-          "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 0,
-          "repeat_relative:1": 1,
-          "ismain:1": 0,
-          "name:8": "Designed by the Creator",
-          "desc:8": "If all this fission, fusion and funcitonality is making your head spin I got just the deal for you. For just a single tiny glitched machine 6760 rf/t with room to spare in a normal machine is yours! Only thing you need after placing the machine is a lever to turn it on and plenty of LEU-235. There are two pages of requirements on this one"
-        }
-      },
-      "tasks:9": {
-        "0:10": {
-          "partialMatch:1": 1,
-          "autoConsume:1": 0,
-          "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
-          "index:3": 0,
-          "consume:1": 1,
-          "requiredItems:9": {
-            "0:10": {
-              "id:8": "contenttweaker:glitched0",
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": ""
-            }
-          },
-          "taskID:8": "bq_standard:retrieval"
-        },
-        "1:10": {
-          "partialMatch:1": 1,
-          "autoConsume:1": 0,
-          "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
-          "index:3": 1,
-          "consume:1": 0,
-          "requiredItems:9": {
-            "0:10": {
-              "id:8": "buildinggadgets:copypastetool",
-              "Count:3": 1,
-              "tag:10": {
-                "mode:8": "Copy"
-              },
-              "Damage:2": 0,
-              "OreDict:8": ""
-            },
-            "1:10": {
-              "id:8": "buildinggadgets:templatemanager",
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": ""
-            }
-          },
-          "taskID:8": "bq_standard:retrieval"
-        }
-      },
-      "rewards:9": {
-        "0:10": {
-          "rewardID:8": "bq_standard:item",
-          "index:3": 0,
-          "rewards:9": {
-            "0:10": {
-              "id:8": "buildinggadgets:template",
-              "Count:3": 1,
-              "tag:10": {
-                "copycounter:3": 3,
-                "TemplateName:8": "My first reactor",
-                "UUID:8": "71bb16a3-ab33-4e60-a4c1-27fa7b9aa19d",
-                "startPos:10": {
-                  "X:3": 53,
-                  "Y:3": 4,
-                  "Z:3": 1062
-                },
-                "itemcountmap:9": {
-                  "0:10": {
-                    "item:3": 4382,
-                    "meta:3": 0,
-                    "count:3": 90
-                  },
-                  "1:10": {
-                    "item:3": 4385,
-                    "meta:3": 14,
-                    "count:3": 18
-                  },
-                  "2:10": {
-                    "item:3": 4383,
-                    "meta:3": 0,
-                    "count:3": 17
-                  },
-                  "3:10": {
-                    "item:3": 4443,
-                    "meta:3": 0,
-                    "count:3": 2
-                  },
-                  "4:10": {
-                    "item:3": 4384,
-                    "meta:3": 0,
-                    "count:3": 15
-                  },
-                  "5:10": {
-                    "item:3": 4442,
-                    "meta:3": 0,
-                    "count:3": 1
-                  },
-                  "6:10": {
-                    "item:3": 4381,
-                    "meta:3": 8,
-                    "count:3": 13
-                  },
-                  "7:10": {
-                    "item:3": 4385,
-                    "meta:3": 3,
-                    "count:3": 4
-                  },
-                  "8:10": {
-                    "item:3": 4385,
-                    "meta:3": 6,
-                    "count:3": 23
-                  },
-                  "9:10": {
-                    "item:3": 4865,
-                    "meta:3": 9,
-                    "count:3": 60
-                  },
-                  "10:10": {
-                    "item:3": 4385,
-                    "meta:3": 2,
-                    "count:3": 2
-                  }
-                },
-                "endPos:10": {
-                  "X:3": 59,
-                  "Y:3": 10,
-                  "Z:3": 1058
-                }
-              },
-              "Damage:2": 0,
-              "OreDict:8": ""
-            }
-          }
-        }
-      }
-    },
-    "176:10": {
       "questID:3": 176,
       "preRequisites:11": [
         29
@@ -11722,7 +11563,7 @@
       },
       "rewards:9": {}
     },
-    "177:10": {
+    "176:10": {
       "questID:3": 177,
       "preRequisites:11": [
         141
@@ -11749,7 +11590,7 @@
           "repeat_relative:1": 1,
           "ismain:1": 0,
           "name:8": "The Pufferfish \u0026 The Redstone Block",
-          "desc:8": "Ask your mom and dad how cats are made and they are sure to say right click on a block of redstone with a pufferfish"
+          "desc:8": "Ask your mom and dad how cats are made and they are sure to say right click on a block of redstone with a pufferfish. You should do this quest if you\u0027re feeling lonely in here. Otherwise I\u0027d wait a bit"
         }
       },
       "tasks:9": {
@@ -11773,7 +11614,7 @@
       },
       "rewards:9": {}
     },
-    "178:10": {
+    "177:10": {
       "questID:3": 178,
       "preRequisites:11": [
         56
@@ -11822,7 +11663,7 @@
         }
       }
     },
-    "179:10": {
+    "178:10": {
       "questID:3": 179,
       "preRequisites:11": [
         88
@@ -11873,7 +11714,7 @@
       },
       "rewards:9": {}
     },
-    "180:10": {
+    "179:10": {
       "questID:3": 180,
       "preRequisites:11": [
         171
@@ -11937,7 +11778,7 @@
         }
       }
     },
-    "181:10": {
+    "180:10": {
       "questID:3": 181,
       "preRequisites:11": [
         94,
@@ -11989,7 +11830,7 @@
       },
       "rewards:9": {}
     },
-    "182:10": {
+    "181:10": {
       "questID:3": 182,
       "preRequisites:11": [
         181
@@ -12040,7 +11881,7 @@
       },
       "rewards:9": {}
     },
-    "183:10": {
+    "182:10": {
       "questID:3": 183,
       "preRequisites:11": [
         182
@@ -12073,7 +11914,7 @@
       "tasks:9": {},
       "rewards:9": {}
     },
-    "184:10": {
+    "183:10": {
       "questID:3": 184,
       "preRequisites:11": [
         10
@@ -12100,63 +11941,18 @@
           "repeat_relative:1": 1,
           "ismain:1": 0,
           "name:8": "Thermoelectric Array",
-          "desc:8": "It\u0027s possible to fit 12 Thermoelectric Generators inside a single tiny machine. Here\u0027s a corrupted blueprint of how it could be done. You don\u0027t expect me to hand everything on a silver platter do you? (replace reeds with thermoelectric generators, the ice can also be replaced with water)"
+          "desc:8": "It\u0027s possible to fit 12 Thermoelectric Generators inside a single tiny machine. If you place fluxducts in the center, water and uranium in all corners and thermolectric generators along the edges you should be golden!"
         }
       },
-      "tasks:9": {},
-      "rewards:9": {
+      "tasks:9": {
         "0:10": {
-          "rewardID:8": "bq_standard:item",
           "index:3": 0,
-          "rewards:9": {
-            "0:10": {
-              "id:8": "buildinggadgets:template",
-              "Count:3": 1,
-              "tag:10": {
-                "copycounter:3": 8,
-                "TemplateName:8": "Thermoelectric Array",
-                "UUID:8": "71bb16a3-ab33-4e60-a4c1-27fa7b9aa19d",
-                "startPos:10": {
-                  "X:3": 92,
-                  "Y:3": 4,
-                  "Z:3": 1006
-                },
-                "itemcountmap:9": {
-                  "0:10": {
-                    "item:3": 5376,
-                    "meta:3": 5,
-                    "count:3": 6
-                  },
-                  "1:10": {
-                    "item:3": 79,
-                    "meta:3": 0,
-                    "count:3": 6
-                  },
-                  "2:10": {
-                    "item:3": 338,
-                    "meta:3": 0,
-                    "count:3": 12
-                  },
-                  "3:10": {
-                    "item:3": 4814,
-                    "meta:3": 0,
-                    "count:3": 3
-                  }
-                },
-                "endPos:10": {
-                  "X:3": 90,
-                  "Y:3": 6,
-                  "Z:3": 1008
-                }
-              },
-              "Damage:2": 0,
-              "OreDict:8": ""
-            }
-          }
+          "taskID:8": "bq_standard:checkbox"
         }
-      }
+      },
+      "rewards:9": {}
     },
-    "185:10": {
+    "184:10": {
       "questID:3": 185,
       "preRequisites:11": [
         23
@@ -12194,7 +11990,7 @@
           "partialMatch:1": 1,
           "autoConsume:1": 0,
           "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
+          "ignoreNBT:1": 1,
           "index:3": 0,
           "consume:1": 0,
           "requiredItems:9": {
@@ -12214,6 +12010,1914 @@
                 "jecalculation:10": {}
               },
               "Damage:2": 1,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "185:10": {
+      "questID:3": 186,
+      "preRequisites:11": [
+        65
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "ALWAYS",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "contenttweaker:glitched1",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "glitch_1",
+          "desc:8": "Transported back in time before crafting was fully developed. Complete the tasks before the unstable dimension collapses!"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "visible:1": 0,
+          "invert:1": 0,
+          "range:3": -1,
+          "index:3": 0,
+          "structure:8": "",
+          "hideInfo:1": 0,
+          "posX:3": 0,
+          "posY:3": 0,
+          "posZ:3": 0,
+          "biome:8": "",
+          "name:8": "The Stoneage",
+          "dimension:3": 11,
+          "taxiCabDist:1": 0,
+          "taskID:8": "bq_standard:location"
+        }
+      },
+      "rewards:9": {}
+    },
+    "186:10": {
+      "questID:3": 187,
+      "preRequisites:11": [
+        188
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 1,
+          "icon:10": {
+            "id:8": "refinedstorage:cutting_tool",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 1,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Flint on a stick",
+          "desc:8": "Putting it on a stick makes it way easier to get fibers from plantlife"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 1,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "refinedstorage:cutting_tool",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        },
+        "1:10": {
+          "visible:1": 0,
+          "invert:1": 0,
+          "range:3": -1,
+          "index:3": 1,
+          "structure:8": "",
+          "hideInfo:1": 1,
+          "posX:3": 0,
+          "posY:3": 0,
+          "posZ:3": 0,
+          "biome:8": "",
+          "name:8": "New Location",
+          "dimension:3": 11,
+          "taxiCabDist:1": 0,
+          "taskID:8": "bq_standard:location"
+        }
+      },
+      "rewards:9": {}
+    },
+    "187:10": {
+      "questID:3": 188,
+      "preRequisites:11": [
+        189
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 1,
+          "icon:10": {
+            "id:8": "minecraft:flint",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 1,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Flint",
+          "desc:8": "With your trusty stick in hand you should be able to dig in gravel for flint!"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 1,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "minecraft:flint",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        },
+        "1:10": {
+          "visible:1": 0,
+          "invert:1": 0,
+          "range:3": -1,
+          "index:3": 1,
+          "structure:8": "",
+          "hideInfo:1": 1,
+          "posX:3": 0,
+          "posY:3": 0,
+          "posZ:3": 0,
+          "biome:8": "",
+          "name:8": "New Location",
+          "dimension:3": 11,
+          "taxiCabDist:1": 0,
+          "taskID:8": "bq_standard:location"
+        }
+      },
+      "rewards:9": {}
+    },
+    "188:10": {
+      "questID:3": 189,
+      "preRequisites:11": [
+        186
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 1,
+          "icon:10": {
+            "id:8": "minecraft:stick",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 1,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Stick of Truth",
+          "desc:8": "Ouch! Hitting all these hard surfaces hurt my hands. I need some tool to dig. Perhaps a branch could work?"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "minecraft:stick",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        },
+        "1:10": {
+          "visible:1": 0,
+          "invert:1": 0,
+          "range:3": -1,
+          "index:3": 1,
+          "structure:8": "",
+          "hideInfo:1": 1,
+          "posX:3": 0,
+          "posY:3": 0,
+          "posZ:3": 0,
+          "biome:8": "",
+          "name:8": "New Location",
+          "dimension:3": 11,
+          "taxiCabDist:1": 0,
+          "taskID:8": "bq_standard:location"
+        }
+      },
+      "rewards:9": {}
+    },
+    "189:10": {
+      "questID:3": 190,
+      "preRequisites:11": [
+        191
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 1,
+          "icon:10": {
+            "id:8": "minecraft:stone_pickaxe",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 1,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "A better pick",
+          "desc:8": "Cobble pick can extract ores! Right click an ore to get it out!"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 1,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "minecraft:stone_pickaxe",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        },
+        "1:10": {
+          "visible:1": 0,
+          "invert:1": 0,
+          "range:3": -1,
+          "index:3": 1,
+          "structure:8": "",
+          "hideInfo:1": 1,
+          "posX:3": 0,
+          "posY:3": 0,
+          "posZ:3": 0,
+          "biome:8": "",
+          "name:8": "New Location",
+          "dimension:3": 11,
+          "taxiCabDist:1": 0,
+          "taskID:8": "bq_standard:location"
+        }
+      },
+      "rewards:9": {}
+    },
+    "190:10": {
+      "questID:3": 191,
+      "preRequisites:11": [
+        192
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 1,
+          "icon:10": {
+            "id:8": "minecraft:cobblestone",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 1,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Real Stones",
+          "desc:8": "Cobbling things together"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 1,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "minecraft:cobblestone",
+              "Count:3": 3,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        },
+        "1:10": {
+          "visible:1": 0,
+          "invert:1": 0,
+          "range:3": -1,
+          "index:3": 1,
+          "structure:8": "",
+          "hideInfo:1": 1,
+          "posX:3": 0,
+          "posY:3": 0,
+          "posZ:3": 0,
+          "biome:8": "",
+          "name:8": "New Location",
+          "dimension:3": 11,
+          "taxiCabDist:1": 0,
+          "taskID:8": "bq_standard:location"
+        }
+      },
+      "rewards:9": {}
+    },
+    "191:10": {
+      "questID:3": 192,
+      "preRequisites:11": [
+        200
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 1,
+          "icon:10": {
+            "id:8": "galacticraftcore:steel_pickaxe",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 1,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Heavy Pick",
+          "desc:8": "Surely stone will be an upgrade! Right click with me!"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 1,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "galacticraftcore:steel_pickaxe",
+              "Count:3": 1,
+              "tag:10": {
+                "display:10": {
+                  "Name:8": "Only Right-click Me!"
+                }
+              },
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        },
+        "1:10": {
+          "visible:1": 0,
+          "invert:1": 0,
+          "range:3": -1,
+          "index:3": 1,
+          "structure:8": "",
+          "hideInfo:1": 1,
+          "posX:3": 0,
+          "posY:3": 0,
+          "posZ:3": 0,
+          "biome:8": "",
+          "name:8": "New Location",
+          "dimension:3": 11,
+          "taxiCabDist:1": 0,
+          "taskID:8": "bq_standard:location"
+        }
+      },
+      "rewards:9": {}
+    },
+    "192:10": {
+      "questID:3": 193,
+      "preRequisites:11": [
+        196
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 1,
+          "icon:10": {
+            "id:8": "immersiveengineering:wirecoil",
+            "Count:3": 1,
+            "Damage:2": 3,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 1,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Spool\u0027s Cool",
+          "desc:8": "String it up properly so it can be used"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 1,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "immersiveengineering:wirecoil",
+              "Count:3": 1,
+              "Damage:2": 3,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        },
+        "1:10": {
+          "visible:1": 0,
+          "invert:1": 0,
+          "range:3": -1,
+          "index:3": 1,
+          "structure:8": "",
+          "hideInfo:1": 1,
+          "posX:3": 0,
+          "posY:3": 0,
+          "posZ:3": 0,
+          "biome:8": "",
+          "name:8": "New Location",
+          "dimension:3": 11,
+          "taxiCabDist:1": 0,
+          "taskID:8": "bq_standard:location"
+        }
+      },
+      "rewards:9": {}
+    },
+    "193:10": {
+      "questID:3": 194,
+      "preRequisites:11": [
+        195
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 1,
+          "icon:10": {
+            "id:8": "minecraft:planks",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 1,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Good Wood",
+          "desc:8": "Finally some proper wood!"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 1,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "minecraft:planks",
+              "Count:3": 4,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        },
+        "1:10": {
+          "visible:1": 0,
+          "invert:1": 0,
+          "range:3": -1,
+          "index:3": 1,
+          "structure:8": "",
+          "hideInfo:1": 1,
+          "posX:3": 0,
+          "posY:3": 0,
+          "posZ:3": 0,
+          "biome:8": "",
+          "name:8": "New Location",
+          "dimension:3": 11,
+          "taxiCabDist:1": 0,
+          "taskID:8": "bq_standard:location"
+        }
+      },
+      "rewards:9": {}
+    },
+    "194:10": {
+      "questID:3": 195,
+      "preRequisites:11": [
+        193,
+        188
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 1,
+          "icon:10": {
+            "id:8": "galacticraftcore:steel_axe",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 1,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Primitive axe",
+          "desc:8": "Time to punish trees! By right clicking!"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 1,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "galacticraftcore:steel_axe",
+              "Count:3": 1,
+              "tag:10": {
+                "display:10": {
+                  "Name:8": "Only Right-click Me!"
+                }
+              },
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        },
+        "1:10": {
+          "visible:1": 0,
+          "invert:1": 0,
+          "range:3": -1,
+          "index:3": 1,
+          "structure:8": "",
+          "hideInfo:1": 1,
+          "posX:3": 0,
+          "posY:3": 0,
+          "posZ:3": 0,
+          "biome:8": "",
+          "name:8": "New Location",
+          "dimension:3": 11,
+          "taxiCabDist:1": 0,
+          "taskID:8": "bq_standard:location"
+        }
+      },
+      "rewards:9": {}
+    },
+    "195:10": {
+      "questID:3": 196,
+      "preRequisites:11": [
+        187
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 1,
+          "icon:10": {
+            "id:8": "immersiveengineering:material",
+            "Count:3": 1,
+            "Damage:2": 4,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 1,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Fiberous Diet",
+          "desc:8": "Ah, fibers are always good. This can make fancier tools by tying things together! Get these from grass with your new cutting tool!"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 1,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "immersiveengineering:material",
+              "Count:3": 1,
+              "Damage:2": 4,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        },
+        "1:10": {
+          "visible:1": 0,
+          "invert:1": 0,
+          "range:3": -1,
+          "index:3": 1,
+          "structure:8": "",
+          "hideInfo:1": 1,
+          "posX:3": 0,
+          "posY:3": 0,
+          "posZ:3": 0,
+          "biome:8": "",
+          "name:8": "New Location",
+          "dimension:3": 11,
+          "taxiCabDist:1": 0,
+          "taskID:8": "bq_standard:location"
+        }
+      },
+      "rewards:9": {}
+    },
+    "196:10": {
+      "questID:3": 197,
+      "preRequisites:11": [
+        190
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 1,
+          "icon:10": {
+            "id:8": "minecraft:gold_ingot",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Gold",
+          "desc:8": "Right click gold ore with stone pick, throw result into lava. Profit"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 1,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "minecraft:gold_ingot",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        },
+        "1:10": {
+          "visible:1": 0,
+          "invert:1": 0,
+          "range:3": -1,
+          "index:3": 1,
+          "structure:8": "",
+          "hideInfo:1": 1,
+          "posX:3": 0,
+          "posY:3": 0,
+          "posZ:3": 0,
+          "biome:8": "",
+          "name:8": "New Location",
+          "dimension:3": 11,
+          "taxiCabDist:1": 0,
+          "taskID:8": "bq_standard:location"
+        }
+      },
+      "rewards:9": {}
+    },
+    "197:10": {
+      "questID:3": 198,
+      "preRequisites:11": [
+        190
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 1,
+          "icon:10": {
+            "id:8": "minecraft:iron_ingot",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Iron",
+          "desc:8": "Right click iron ore with stone pick, throw result into lava. Profit"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 1,
+          "groupDetect:1": 1,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "minecraft:iron_ingot",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        },
+        "1:10": {
+          "visible:1": 0,
+          "invert:1": 0,
+          "range:3": -1,
+          "index:3": 1,
+          "structure:8": "",
+          "hideInfo:1": 1,
+          "posX:3": 0,
+          "posY:3": 0,
+          "posZ:3": 0,
+          "biome:8": "",
+          "name:8": "New Location",
+          "dimension:3": 11,
+          "taxiCabDist:1": 0,
+          "taskID:8": "bq_standard:location"
+        }
+      },
+      "rewards:9": {}
+    },
+    "198:10": {
+      "questID:3": 199,
+      "preRequisites:11": [
+        190
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 1,
+          "icon:10": {
+            "id:8": "minecraft:redstone",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 1,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Redstone",
+          "desc:8": "Right Click to get!"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "minecraft:redstone",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        },
+        "1:10": {
+          "visible:1": 0,
+          "invert:1": 0,
+          "range:3": -1,
+          "index:3": 1,
+          "structure:8": "",
+          "hideInfo:1": 1,
+          "posX:3": 0,
+          "posY:3": 0,
+          "posZ:3": 0,
+          "biome:8": "",
+          "name:8": "New Location",
+          "dimension:3": 11,
+          "taxiCabDist:1": 0,
+          "taskID:8": "bq_standard:location"
+        }
+      },
+      "rewards:9": {}
+    },
+    "199:10": {
+      "questID:3": 200,
+      "preRequisites:11": [
+        194
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 1,
+          "icon:10": {
+            "id:8": "minecraft:crafting_table",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Crafting like normal",
+          "desc:8": "Time to craft a pick! However a heavy flint pick can only give chunks of stone"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 1,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "minecraft:crafting_table",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        },
+        "1:10": {
+          "visible:1": 0,
+          "invert:1": 0,
+          "range:3": -1,
+          "index:3": 1,
+          "structure:8": "",
+          "hideInfo:1": 1,
+          "posX:3": 0,
+          "posY:3": 0,
+          "posZ:3": 0,
+          "biome:8": "",
+          "name:8": "New Location",
+          "dimension:3": 11,
+          "taxiCabDist:1": 0,
+          "taskID:8": "bq_standard:location"
+        }
+      },
+      "rewards:9": {}
+    },
+    "200:10": {
+      "questID:3": 201,
+      "preRequisites:11": [
+        198
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "chisel:futura",
+            "Count:3": 1,
+            "Damage:2": 5,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "reward ALPHA",
+          "desc:8": "You earned it"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "visible:1": 0,
+          "invert:1": 0,
+          "range:3": -1,
+          "index:3": 0,
+          "structure:8": "",
+          "hideInfo:1": 0,
+          "posX:3": 0,
+          "posY:3": 0,
+          "posZ:3": 0,
+          "biome:8": "",
+          "name:8": "Compact Dimension",
+          "dimension:3": 144,
+          "taxiCabDist:1": 0,
+          "taskID:8": "bq_standard:location"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:choice",
+          "index:3": 0,
+          "choices:9": {
+            "0:10": {
+              "id:8": "compactmachines3:machine",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "201:10": {
+      "questID:3": 202,
+      "preRequisites:11": [
+        197
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "chisel:futura",
+            "Count:3": 1,
+            "Damage:2": 5,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "reward GAMMA",
+          "desc:8": "You earned it"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "visible:1": 0,
+          "invert:1": 0,
+          "range:3": -1,
+          "index:3": 0,
+          "structure:8": "",
+          "hideInfo:1": 0,
+          "posX:3": 0,
+          "posY:3": 0,
+          "posZ:3": 0,
+          "biome:8": "",
+          "name:8": "Compact Dimension",
+          "dimension:3": 144,
+          "taxiCabDist:1": 0,
+          "taskID:8": "bq_standard:location"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:choice",
+          "index:3": 0,
+          "choices:9": {
+            "0:10": {
+              "id:8": "compactmachines3:machine",
+              "Count:3": 1,
+              "Damage:2": 1,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "202:10": {
+      "questID:3": 203,
+      "preRequisites:11": [
+        199
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "chisel:futura",
+            "Count:3": 1,
+            "Damage:2": 5,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "reward ALPHA",
+          "desc:8": "You earned it"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "visible:1": 0,
+          "invert:1": 0,
+          "range:3": -1,
+          "index:3": 0,
+          "structure:8": "",
+          "hideInfo:1": 0,
+          "posX:3": 0,
+          "posY:3": 0,
+          "posZ:3": 0,
+          "biome:8": "",
+          "name:8": "Compact Dimension",
+          "dimension:3": 144,
+          "taxiCabDist:1": 0,
+          "taskID:8": "bq_standard:location"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:choice",
+          "index:3": 0,
+          "choices:9": {
+            "0:10": {
+              "id:8": "compactmachines3:machine",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "203:10": {
+      "questID:3": 204,
+      "preRequisites:11": [
+        186
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": 100,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "contenttweaker:homeportal",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Go home",
+          "desc:8": "Press me to go home prematurely"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "hideBlockIcon:1": 0,
+          "rewardID:8": "bq_standard:command",
+          "asScript:1": 1,
+          "description:8": "Go home!",
+          "viaPlayer:1": 1,
+          "index:3": 0,
+          "title:8": "bq_standard.reward.command",
+          "command:8": "/tpj 0"
+        }
+      }
+    },
+    "204:10": {
+      "questID:3": 205,
+      "preRequisites:11": [
+        17
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "exnihilocreatio:hammer_iron",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Hard Hammering",
+          "desc:8": "Some tools have the abilities to mine a lot of stuff at the same time, simply sneak while using these special tools. Powered by the fury of Ector! (See mod options -\u003e veinminer to see the entire list)"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "exnihilocreatio:hammer_iron",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "205:10": {
+      "questID:3": 206,
+      "preRequisites:11": [
+        155
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "minecraft:sapling",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": "treeSapling"
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Automated Wood",
+          "desc:8": "If you want to automate wood production you need a bit of redstone magic, clickers and fertilizer. I\u0027d recommend a selection of items like these. All you need is to supply power and keep a steady stream of items to plant, fertilize and harvest with. These 7 easy steps will teach you how to set it up!\n\nConstruction Guidelines:\n1. Place dirt in middle\n2. Place cobble on all 4 sides of dirt\n3. Place the 2 NOT gates facing the same direction in one axis on the cobble\n4. Place 2 clickers facing each other in the other axis on the cobble\n5. Set one clicker to right+sneak - put saplings here, the other to right - put phytogro here.\n6. In the direction the nor gates is facing place 4 clickers on the wall facing the center. All on left click. Place a spaxelhoe in each\n7. Place red alloy wire up the sides of these and connect to the nor gate.\n\nCongratulations! You should now have a working wood farm, thats very slow. Crank up the speed on those clickers. P.S. a good tip is for the lowest of the 4 clickers to be slower than the rest. Now for the real challenge of optimizing and automating!\n\n"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "clickmachine:auto_clicker",
+              "Count:3": 6,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "projectred-integration:gate",
+              "Count:3": 2,
+              "Damage:2": 2,
+              "OreDict:8": ""
+            },
+            "2:10": {
+              "id:8": "minecraft:sapling",
+              "Count:3": 12,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "3:10": {
+              "id:8": "thermalfoundation:fertilizer",
+              "Count:3": 64,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "4:10": {
+              "id:8": "projectred-transmission:wire",
+              "Count:3": 8,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "5:10": {
+              "id:8": "nuclearcraft:spaxelhoe_boron",
+              "Count:3": 4,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "6:10": {
+              "id:8": "minecraft:dirt",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "7:10": {
+              "id:8": "minecraft:cobblestone",
+              "Count:3": 4,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "206:10": {
+      "questID:3": 207,
+      "preRequisites:11": [
+        28
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "thermalexpansion:strongbox",
+            "Count:3": 1,
+            "tag:10": {
+              "Facing:1": 3,
+              "Level:1": 0
+            },
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Strong Independent Tin Box",
+          "desc:8": "None of that weak wood here, this box is stronger than any. And can become even stronger - and magical!"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 1,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "thermalexpansion:strongbox",
+              "Count:3": 1,
+              "tag:10": {
+                "Facing:1": 3,
+                "Level:1": 0
+              },
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "207:10": {
+      "questID:3": 208,
+      "preRequisites:11": [
+        209,
+        210
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "nuclearcraft:chemical_reactor_idle",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Ammonia - A popular taste in Scandinavia",
+          "desc:8": "For the start of our chemical journey we need amonia!"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 1,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "nuclearcraft:chemical_reactor_idle",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "208:10": {
+      "questID:3": 209,
+      "preRequisites:11": [
+        81
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "nuclearcraft:electrolyser_idle",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Powered Water",
+          "desc:8": "We need water, or at least a part of it. Give me some hydrogen!"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 1,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "nuclearcraft:electrolyser_idle",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "209:10": {
+      "questID:3": 210,
+      "preRequisites:11": [
+        81
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "nuclearcraft:nitrogen_collector",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Common gasses",
+          "desc:8": "Did you know that nitrogen makes up 78,1 % of our atmosphere? Now you do!"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 1,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "nuclearcraft:nitrogen_collector",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "210:10": {
+      "questID:3": 211,
+      "preRequisites:11": [
+        208,
+        214
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "nuclearcraft:chemical_reactor_idle",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "The solution!",
+          "desc:8": "Finally! Almost there. Boric acid and ammonia is an interesting combination"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 1,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "nuclearcraft:chemical_reactor_idle",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "211:10": {
+      "questID:3": 212,
+      "preRequisites:11": [
+        81
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "nuclearcraft:dust",
+            "Count:3": 1,
+            "Damage:2": 5,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Boron chemistry",
+          "desc:8": "We need some raw materials"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 1,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "nuclearcraft:dust",
+              "Count:3": 5,
+              "Damage:2": 5,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "nuclearcraft:melter_idle",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "212:10": {
+      "questID:3": 213,
+      "preRequisites:11": [
+        212,
+        209
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "nuclearcraft:chemical_reactor_idle",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Diborane",
+          "desc:8": "I\u0027m not even sure what this is anymore!"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 1,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "nuclearcraft:chemical_reactor_idle",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "213:10": {
+      "questID:3": 214,
+      "preRequisites:11": [
+        213
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "nuclearcraft:chemical_reactor_idle",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Acid trip",
+          "desc:8": "Diborane in water, could it get any more boric? eh"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 1,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "nuclearcraft:chemical_reactor_idle",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "214:10": {
+      "questID:3": 215,
+      "preRequisites:11": [
+        211
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "nuclearcraft:crystallizer_idle",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Taking form",
+          "desc:8": "With a crystalizer we can turn this liquid into a more useful form"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 1,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "nuclearcraft:crystallizer_idle",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "215:10": {
+      "questID:3": 216,
+      "preRequisites:11": [
+        215
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "nuclearcraft:pressurizer_idle",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Community Pressure",
+          "desc:8": "This dust is not very hard, time to give it a good squeeze!"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 1,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "nuclearcraft:pressurizer_idle",
+              "Count:3": 1,
+              "Damage:2": 0,
               "OreDict:8": ""
             }
           },
@@ -12361,7 +14065,7 @@
         },
         "8:10": {
           "sizeX:3": 24,
-          "x:3": -28,
+          "x:3": -44,
           "y:3": 140,
           "id:3": 16,
           "sizeY:3": 24
@@ -12431,7 +14135,7 @@
         },
         "18:10": {
           "sizeX:3": 24,
-          "x:3": -28,
+          "x:3": -44,
           "y:3": 76,
           "id:3": 26,
           "sizeY:3": 24
@@ -12494,7 +14198,7 @@
         },
         "27:10": {
           "sizeX:3": 24,
-          "x:3": -28,
+          "x:3": -44,
           "y:3": 108,
           "id:3": 49,
           "sizeY:3": 24
@@ -12599,86 +14303,107 @@
         },
         "42:10": {
           "sizeX:3": 24,
-          "x:3": -60,
-          "y:3": 108,
-          "id:3": 151,
+          "x:3": -44,
+          "y:3": -52,
+          "id:3": 149,
           "sizeY:3": 24
         },
         "43:10": {
           "sizeX:3": 24,
-          "x:3": -60,
+          "x:3": -76,
+          "y:3": 108,
+          "id:3": 151,
+          "sizeY:3": 24
+        },
+        "44:10": {
+          "sizeX:3": 24,
+          "x:3": -76,
           "y:3": 140,
           "id:3": 152,
           "sizeY:3": 24
         },
-        "44:10": {
+        "45:10": {
           "sizeX:3": 24,
           "x:3": 84,
           "y:3": 12,
           "id:3": 154,
           "sizeY:3": 24
         },
-        "45:10": {
+        "46:10": {
           "sizeX:3": 24,
           "x:3": 228,
           "y:3": 180,
           "id:3": 157,
           "sizeY:3": 24
         },
-        "46:10": {
+        "47:10": {
           "sizeX:3": 24,
-          "x:3": -28,
+          "x:3": -44,
           "y:3": 172,
           "id:3": 158,
           "sizeY:3": 24
         },
-        "47:10": {
+        "48:10": {
           "sizeX:3": 24,
           "x:3": 84,
           "y:3": -52,
           "id:3": 159,
           "sizeY:3": 24
         },
-        "48:10": {
+        "49:10": {
           "sizeX:3": 24,
           "x:3": 148,
           "y:3": 44,
           "id:3": 161,
           "sizeY:3": 24
         },
-        "49:10": {
+        "50:10": {
           "sizeX:3": 24,
           "x:3": 180,
           "y:3": 44,
           "id:3": 162,
           "sizeY:3": 24
         },
-        "50:10": {
+        "51:10": {
           "sizeX:3": 24,
           "x:3": -44,
           "y:3": 12,
           "id:3": 176,
           "sizeY:3": 24
         },
-        "51:10": {
+        "52:10": {
           "sizeX:3": 24,
           "x:3": -44,
           "y:3": 44,
           "id:3": 177,
           "sizeY:3": 24
         },
-        "52:10": {
+        "53:10": {
           "sizeX:3": 24,
           "x:3": 184,
           "y:3": 180,
           "id:3": 184,
           "sizeY:3": 24
         },
-        "53:10": {
+        "54:10": {
           "sizeX:3": 24,
           "x:3": 172,
           "y:3": 104,
           "id:3": 185,
+          "sizeY:3": 24
+        },
+        "55:10": {
+          "sizeX:3": 24,
+          "x:3": -16,
+          "y:3": 172,
+          "id:3": 205,
+          "sizeY:3": 24
+        },
+        "56:10": {
+          "sizeX:3": 24,
+          "x:3": -12,
+          "y:3": 76,
+          "id:3": 207,
           "sizeY:3": 24
         }
       },
@@ -12816,8 +14541,8 @@
         },
         "16:10": {
           "sizeX:3": 24,
-          "x:3": 64,
-          "y:3": 284,
+          "x:3": 104,
+          "y:3": 292,
           "id:3": 52,
           "sizeY:3": 24
         },
@@ -12858,8 +14583,8 @@
         },
         "22:10": {
           "sizeX:3": 24,
-          "x:3": 12,
-          "y:3": 228,
+          "x:3": 336,
+          "y:3": 104,
           "id:3": 58,
           "sizeY:3": 24
         },
@@ -12906,11 +14631,11 @@
           "sizeY:3": 24
         },
         "29:10": {
-          "sizeX:3": 24,
-          "x:3": 108,
+          "sizeX:3": 32,
+          "x:3": 104,
           "y:3": 212,
           "id:3": 65,
-          "sizeY:3": 24
+          "sizeY:3": 32
         },
         "30:10": {
           "sizeX:3": 32,
@@ -12957,7 +14682,7 @@
         "36:10": {
           "sizeX:3": 24,
           "x:3": 132,
-          "y:3": 244,
+          "y:3": 256,
           "id:3": 79,
           "sizeY:3": 24
         },
@@ -13011,11 +14736,11 @@
           "sizeY:3": 24
         },
         "44:10": {
-          "sizeX:3": 32,
-          "x:3": 40,
-          "y:3": 224,
+          "sizeX:3": 24,
+          "x:3": 368,
+          "y:3": 104,
           "id:3": 87,
-          "sizeY:3": 32
+          "sizeY:3": 24
         },
         "45:10": {
           "sizeX:3": 24,
@@ -13061,121 +14786,177 @@
         },
         "51:10": {
           "sizeX:3": 24,
-          "x:3": -24,
-          "y:3": 76,
-          "id:3": 149,
-          "sizeY:3": 24
-        },
-        "52:10": {
-          "sizeX:3": 24,
           "x:3": 108,
           "y:3": 116,
           "id:3": 150,
           "sizeY:3": 24
         },
-        "53:10": {
+        "52:10": {
           "sizeX:3": 24,
           "x:3": 276,
           "y:3": 204,
           "id:3": 153,
           "sizeY:3": 24
         },
-        "54:10": {
+        "53:10": {
           "sizeX:3": 32,
           "x:3": 264,
           "y:3": 104,
           "id:3": 155,
           "sizeY:3": 32
         },
-        "55:10": {
+        "54:10": {
           "sizeX:3": 24,
-          "x:3": 336,
-          "y:3": 160,
+          "x:3": 420,
+          "y:3": 236,
           "id:3": 156,
           "sizeY:3": 24
         },
-        "56:10": {
+        "55:10": {
           "sizeX:3": 24,
           "x:3": 140,
           "y:3": 80,
           "id:3": 163,
           "sizeY:3": 24
         },
-        "57:10": {
+        "56:10": {
           "sizeX:3": 24,
-          "x:3": 336,
-          "y:3": 132,
+          "x:3": 448,
+          "y:3": 236,
           "id:3": 164,
           "sizeY:3": 24
         },
-        "58:10": {
+        "57:10": {
           "sizeX:3": 24,
           "x:3": 336,
-          "y:3": 188,
+          "y:3": 220,
           "id:3": 165,
           "sizeY:3": 24
         },
-        "59:10": {
-          "sizeX:3": 24,
-          "x:3": 364,
-          "y:3": 160,
+        "58:10": {
+          "sizeX:3": 36,
+          "x:3": 376,
+          "y:3": 228,
           "id:3": 166,
-          "sizeY:3": 24
+          "sizeY:3": 36
         },
-        "60:10": {
+        "59:10": {
           "sizeX:3": 24,
           "x:3": 336,
           "y:3": 76,
           "id:3": 168,
           "sizeY:3": 24
         },
-        "61:10": {
+        "60:10": {
           "sizeX:3": 24,
           "x:3": 368,
           "y:3": 76,
           "id:3": 169,
           "sizeY:3": 24
         },
-        "62:10": {
+        "61:10": {
           "sizeX:3": 24,
           "x:3": 368,
           "y:3": 40,
           "id:3": 170,
           "sizeY:3": 24
         },
-        "63:10": {
+        "62:10": {
           "sizeX:3": 32,
           "x:3": 332,
           "y:3": 36,
           "id:3": 171,
           "sizeY:3": 32
         },
-        "64:10": {
-          "sizeX:3": 24,
-          "x:3": 236,
-          "y:3": 4,
-          "id:3": 175,
-          "sizeY:3": 24
-        },
-        "65:10": {
+        "63:10": {
           "sizeX:3": 24,
           "x:3": 268,
           "y:3": 4,
           "id:3": 178,
           "sizeY:3": 24
         },
-        "66:10": {
+        "64:10": {
           "sizeX:3": 24,
           "x:3": 12,
           "y:3": 132,
           "id:3": 179,
           "sizeY:3": 24
         },
-        "67:10": {
+        "65:10": {
           "sizeX:3": 24,
           "x:3": 304,
           "y:3": 40,
           "id:3": 180,
+          "sizeY:3": 24
+        },
+        "66:10": {
+          "sizeX:3": 24,
+          "x:3": 268,
+          "y:3": 144,
+          "id:3": 206,
+          "sizeY:3": 24
+        },
+        "67:10": {
+          "sizeX:3": 24,
+          "x:3": 408,
+          "y:3": 152,
+          "id:3": 208,
+          "sizeY:3": 24
+        },
+        "68:10": {
+          "sizeX:3": 24,
+          "x:3": 376,
+          "y:3": 160,
+          "id:3": 209,
+          "sizeY:3": 24
+        },
+        "69:10": {
+          "sizeX:3": 24,
+          "x:3": 376,
+          "y:3": 132,
+          "id:3": 210,
+          "sizeY:3": 24
+        },
+        "70:10": {
+          "sizeX:3": 24,
+          "x:3": 440,
+          "y:3": 152,
+          "id:3": 211,
+          "sizeY:3": 24
+        },
+        "71:10": {
+          "sizeX:3": 24,
+          "x:3": 376,
+          "y:3": 188,
+          "id:3": 212,
+          "sizeY:3": 24
+        },
+        "72:10": {
+          "sizeX:3": 24,
+          "x:3": 408,
+          "y:3": 188,
+          "id:3": 213,
+          "sizeY:3": 24
+        },
+        "73:10": {
+          "sizeX:3": 24,
+          "x:3": 440,
+          "y:3": 188,
+          "id:3": 214,
+          "sizeY:3": 24
+        },
+        "74:10": {
+          "sizeX:3": 24,
+          "x:3": 472,
+          "y:3": 168,
+          "id:3": 215,
+          "sizeY:3": 24
+        },
+        "75:10": {
+          "sizeX:3": 24,
+          "x:3": 472,
+          "y:3": 204,
+          "id:3": 216,
           "sizeY:3": 24
         }
       },
@@ -13590,6 +15371,139 @@
           "y:3": -16,
           "id:3": 147,
           "sizeY:3": 28
+        },
+        "5:10": {
+          "sizeX:3": 24,
+          "x:3": -148,
+          "y:3": -72,
+          "id:3": 186,
+          "sizeY:3": 24
+        },
+        "6:10": {
+          "sizeX:3": 20,
+          "x:3": -180,
+          "y:3": -44,
+          "id:3": 187,
+          "sizeY:3": 20
+        },
+        "7:10": {
+          "sizeX:3": 20,
+          "x:3": -180,
+          "y:3": -72,
+          "id:3": 188,
+          "sizeY:3": 20
+        },
+        "8:10": {
+          "sizeX:3": 20,
+          "x:3": -180,
+          "y:3": -100,
+          "id:3": 189,
+          "sizeY:3": 20
+        },
+        "9:10": {
+          "sizeX:3": 20,
+          "x:3": -224,
+          "y:3": -100,
+          "id:3": 190,
+          "sizeY:3": 20
+        },
+        "10:10": {
+          "sizeX:3": 20,
+          "x:3": -224,
+          "y:3": -72,
+          "id:3": 191,
+          "sizeY:3": 20
+        },
+        "11:10": {
+          "sizeX:3": 20,
+          "x:3": -224,
+          "y:3": -44,
+          "id:3": 192,
+          "sizeY:3": 20
+        },
+        "12:10": {
+          "sizeX:3": 20,
+          "x:3": -180,
+          "y:3": 12,
+          "id:3": 193,
+          "sizeY:3": 20
+        },
+        "13:10": {
+          "sizeX:3": 20,
+          "x:3": -224,
+          "y:3": -16,
+          "id:3": 194,
+          "sizeY:3": 20
+        },
+        "14:10": {
+          "sizeX:3": 20,
+          "x:3": -224,
+          "y:3": 12,
+          "id:3": 195,
+          "sizeY:3": 20
+        },
+        "15:10": {
+          "sizeX:3": 20,
+          "x:3": -180,
+          "y:3": -16,
+          "id:3": 196,
+          "sizeY:3": 20
+        },
+        "16:10": {
+          "sizeX:3": 24,
+          "x:3": -252,
+          "y:3": -136,
+          "id:3": 197,
+          "sizeY:3": 24
+        },
+        "17:10": {
+          "sizeX:3": 24,
+          "x:3": -276,
+          "y:3": -104,
+          "id:3": 198,
+          "sizeY:3": 24
+        },
+        "18:10": {
+          "sizeX:3": 24,
+          "x:3": -256,
+          "y:3": -72,
+          "id:3": 199,
+          "sizeY:3": 24
+        },
+        "19:10": {
+          "sizeX:3": 24,
+          "x:3": -252,
+          "y:3": -32,
+          "id:3": 200,
+          "sizeY:3": 24
+        },
+        "20:10": {
+          "sizeX:3": 32,
+          "x:3": -320,
+          "y:3": -108,
+          "id:3": 201,
+          "sizeY:3": 32
+        },
+        "21:10": {
+          "sizeX:3": 32,
+          "x:3": -292,
+          "y:3": -152,
+          "id:3": 202,
+          "sizeY:3": 32
+        },
+        "22:10": {
+          "sizeX:3": 32,
+          "x:3": -296,
+          "y:3": -64,
+          "id:3": 203,
+          "sizeY:3": 32
+        },
+        "23:10": {
+          "sizeX:3": 24,
+          "x:3": -148,
+          "y:3": -104,
+          "id:3": 204,
+          "sizeY:3": 24
         }
       },
       "lineID:3": 5,

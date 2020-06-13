@@ -3,6 +3,7 @@
 	[
 		{
 			"name": "TpSpawn",
+			"disableJEI": "true",
 			"type": {
 				"type": "block",
 				"name": "contenttweaker:homeportal"
@@ -25,6 +26,7 @@
         },
         {
 			"name": "Glitch0",
+			"disableJEI": "true",
 			"type": {
 				"type": "block",
 				"name": "contenttweaker:glitched0"
@@ -56,6 +58,7 @@
 		},
         {
 			"name": "Glitch1",
+			"disableJEI": "true",
 			"type": {
 				"type": "block",
 				"name": "contenttweaker:glitched1"

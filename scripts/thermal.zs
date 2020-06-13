@@ -17,6 +17,10 @@ RedstoneFurnace.removePyrolysisRecipe(<thermalfoundation:material:801>);
 
 // Pulverizer
 Pulverizer.addRecipe(<exnihilocreatio:block_dust>, <minecraft:sand>, 4000);
+Pulverizer.addRecipe(<exnihilocreatio:block_granite_crushed>, <minecraft:stone:1>, 4000);
+Pulverizer.addRecipe(<minecraft:sand:1>, <exnihilocreatio:block_granite_crushed>, 4000);
+Pulverizer.removeRecipe(<immersiveengineering:material:19>);
+Pulverizer.removeRecipe(<minecraft:magma>);
 
 // Factorizer
 Factorizer.removeRecipeCombine(<thermalfoundation:material:16>*9);
@@ -43,3 +47,5 @@ mods.thermalexpansion.EnervationDynamo.removeFuel(<galacticraftcore:battery>);
 mods.thermalexpansion.EnervationDynamo.addFuel(<minecraft:redstone>, 500);
 mods.thermalexpansion.EnervationDynamo.addFuel(<minecraft:redstone_block>, 5000);
 mods.thermalexpansion.EnervationDynamo.addFuel(<refinedstorage:pattern>, 25000);
+
+mods.thermalexpansion.Centrifuge.removeRecipe(<minecraft:magma_cream>);
