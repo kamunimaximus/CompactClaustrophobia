@@ -453,11 +453,11 @@
 				{
 					"name": "thermalfoundation:material",
 					"meta": "16",
-					"weight": 9
+					"weight": 15
 				},
 				{
 					"name": "bedrockminer:bedrock_chunk",
-					"weight": 1
+					"weight": 2
 				}
 			],
 			"messages":

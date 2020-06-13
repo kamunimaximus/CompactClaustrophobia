@@ -11,6 +11,7 @@ mods.exnihilocreatio.Hammer.addRecipe(<ore:crushedDiorite>, <exnihilocreatio:blo
 // Fluid To Item
 FluidToItem.transform(<thermalfoundation:material:772>*2, <liquid:sewagefluid>, [<exnihilocreatio:block_dust>]);
 FluidToItem.transform(<thermalfoundation:dye>, <liquid:water>, [<thermalfoundation:material:769>]);
+FluidToItem.transform(<thermalfoundation:dye:11>, <liquid:water>, [<thermalfoundation:material:771>]);
 FluidToItem.transform(<minecraft:chorus_flower>, <liquid:ender>, [<minecraft:melon_block>], true);
 FluidToItem.transform(<integrateddynamics:menril_sapling>, <liquid:ender>, [<minecraft:sapling>], true);
 FluidToItem.transform(<contenttweaker:prestoff>, <liquid:sewagefluid>, [<minecraft:paper>], true);

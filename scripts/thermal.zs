@@ -49,3 +49,6 @@ mods.thermalexpansion.EnervationDynamo.addFuel(<minecraft:redstone_block>, 5000)
 mods.thermalexpansion.EnervationDynamo.addFuel(<refinedstorage:pattern>, 25000);
 
 mods.thermalexpansion.Centrifuge.removeRecipe(<minecraft:magma_cream>);
+
+//Fluid Transposer
+mods.thermalexpansion.Transposer.addFillRecipe(<minecraft:clay>, <exnihilocreatio:block_dust>, <liquid:water> * 1000, 100);

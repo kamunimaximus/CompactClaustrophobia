@@ -31,7 +31,7 @@ pressurizer.removeRecipeWithOutput(<minecraft:diamond>);
 infuser.addRecipe(<thermalfoundation:material:2049>*2, <fluid:oxygen>*1000, <thermalfoundation:material:2048>);
 
 // Melter
-melter.addRecipe([<compactmachines3:machine:2>, <fluid:compactfluid> * 1000, 2, 100.0, 0.0005 ]);
+melter.addRecipe([<compactmachines3:machine:2>, <fluid:compactfluid> * 1000, 1, 10.0, 0.0005 ]);
 
 // Ingot Former
 ingot_former.addRecipe([<fluid:compactfluid>*1000, <contenttweaker:normalsmashedmachine>, 25.0, 100 as double, 0.0005 as double]);
