@@ -6,7 +6,6 @@
             "x": -1,
             "y": 0,
             "z": 1,
-            "nbt": {"casingColor":"5082769","ForgeCaps":{"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"id":"minecraft:tilecolorablemachinecomponent"},
             "elements": [
                 "modularmachinery:blockcasing@4"
             ]
@@ -15,9 +14,8 @@
             "x": -1,
             "y": 0,
             "z": 0,
-            "nbt": {"busSize":"0","casingColor":"5082769","ForgeCaps":{"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"id":"minecraft:tileitemoutputbus","inventory":{"inventoryArray":[{"holderEmpty":"1b","holderId":"0"}],"outSlots":,"miscSlots":,"inSlots":,"sides":}},
             "elements": [
-                "modularmachinery:blockoutputbus@0"
+                "modularmachinery:blockoutputbus"
             ]
         },
         {
@@ -25,7 +23,7 @@
             "y": 2,
             "z": 2,
             "elements": [
-                "thermalfoundation:glass@3"
+                "thermalfoundation:glass"
             ]
         },
         {
@@ -40,7 +38,6 @@
             "x": 0,
             "y": 0,
             "z": 1,
-            "nbt": {"casingColor":"5082769","ForgeCaps":{"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"id":"minecraft:tilecolorablemachinecomponent"},
             "elements": [
                 "modularmachinery:blockcasing@4"
             ]
@@ -49,16 +46,14 @@
             "x": 1,
             "y": 0,
             "z": 0,
-            "nbt": {"hatchSize":"1","casingColor":"5082769","ForgeCaps":{"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"id":"minecraft:tileenergyinputhatch","energy":"0L"},
             "elements": [
-                "modularmachinery:blockenergyinputhatch@1"
+                "modularmachinery:blockenergyinputhatch"
             ]
         },
         {
             "x": -1,
             "y": 0,
             "z": 2,
-            "nbt": {"casingColor":"5082769","ForgeCaps":{"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"id":"minecraft:tilecolorablemachinecomponent"},
             "elements": [
                 "modularmachinery:blockcasing@4"
             ]
@@ -67,7 +62,6 @@
             "x": 2,
             "y": 2,
             "z": 1,
-            "nbt": {"TransferCooldown":"0","ForgeCaps":{"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"Items":[],"id":"minecraft:tile.uppers.upper","Lock":""},
             "elements": [
                 "uppers:upper@4"
             ]
@@ -77,14 +71,13 @@
             "y": 2,
             "z": 2,
             "elements": [
-                "thermalfoundation:glass@3"
+                "thermalfoundation:glass"
             ]
         },
         {
             "x": 0,
             "y": 0,
             "z": 2,
-            "nbt": {"casingColor":"5082769","ForgeCaps":{"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"id":"minecraft:tilecolorablemachinecomponent"},
             "elements": [
                 "modularmachinery:blockcasing@4"
             ]
@@ -93,7 +86,6 @@
             "x": 1,
             "y": 0,
             "z": 1,
-            "nbt": {"casingColor":"5082769","ForgeCaps":{"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"id":"minecraft:tilecolorablemachinecomponent"},
             "elements": [
                 "modularmachinery:blockcasing@4"
             ]
@@ -102,7 +94,6 @@
             "x": 1,
             "y": 0,
             "z": 2,
-            "nbt": {"casingColor":"5082769","ForgeCaps":{"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"id":"minecraft:tilecolorablemachinecomponent"},
             "elements": [
                 "modularmachinery:blockcasing@4"
             ]
@@ -111,16 +102,14 @@
             "x": 2,
             "y": 0,
             "z": 1,
-            "nbt": {"busSize":"0","casingColor":"5082769","ForgeCaps":{"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"id":"minecraft:tileiteminputbus","inventory":{"inventoryArray":[{"holderEmpty":"1b","holderId":"0"}],"outSlots":,"miscSlots":,"inSlots":,"sides":}},
             "elements": [
-                "modularmachinery:blockinputbus@0"
+                "modularmachinery:blockinputbus"
             ]
         },
         {
             "x": -2,
             "y": 3,
             "z": 1,
-            "nbt": {"sideConfig":,"ForgeCaps":{"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"id":"immersiveengineering:fluidpipe","connections":"3b"},
             "elements": [
                 "immersiveengineering:metal_device1@6"
             ]
@@ -129,7 +118,6 @@
             "x": -1,
             "y": 3,
             "z": 0,
-            "nbt": {"ForgeCaps":{"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"id":"immersiveengineering:ieslab","slabType":"0"},
             "elements": [
                 "immersiveengineering:sheetmetal_slab@9"
             ]
@@ -138,7 +126,6 @@
             "x": -1,
             "y": 3,
             "z": 1,
-            "nbt": {"ForgeCaps":{"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"id":"immersiveengineering:ieslab","slabType":"0"},
             "elements": [
                 "immersiveengineering:sheetmetal_slab@9"
             ]
@@ -147,7 +134,6 @@
             "x": 0,
             "y": 3,
             "z": 0,
-            "nbt": {"ForgeCaps":{"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"id":"immersiveengineering:ieslab","slabType":"0"},
             "elements": [
                 "immersiveengineering:sheetmetal_slab@9"
             ]
@@ -156,7 +142,6 @@
             "x": -2,
             "y": 1,
             "z": 1,
-            "nbt": {"sideConfig":,"ForgeCaps":{"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"id":"immersiveengineering:fluidpipe","connections":"3b"},
             "elements": [
                 "immersiveengineering:metal_device1@6"
             ]
@@ -165,7 +150,6 @@
             "x": 0,
             "y": 3,
             "z": 1,
-            "nbt": {"sideConfig":,"ForgeCaps":{"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"id":"immersiveengineering:metalbarrel","tank":{"Empty":""}},
             "elements": [
                 "immersiveengineering:metal_device0@4"
             ]
@@ -174,7 +158,6 @@
             "x": 1,
             "y": 3,
             "z": 0,
-            "nbt": {"ForgeCaps":{"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"id":"immersiveengineering:ieslab","slabType":"0"},
             "elements": [
                 "immersiveengineering:sheetmetal_slab@9"
             ]
@@ -183,7 +166,6 @@
             "x": -1,
             "y": 3,
             "z": 2,
-            "nbt": {"ForgeCaps":{"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"id":"immersiveengineering:ieslab","slabType":"0"},
             "elements": [
                 "immersiveengineering:sheetmetal_slab@9"
             ]
@@ -200,7 +182,6 @@
             "x": 1,
             "y": 3,
             "z": 1,
-            "nbt": {"ForgeCaps":{"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"id":"immersiveengineering:ieslab","slabType":"0"},
             "elements": [
                 "immersiveengineering:sheetmetal_slab@9"
             ]
@@ -209,7 +190,6 @@
             "x": 0,
             "y": 3,
             "z": 2,
-            "nbt": {"ForgeCaps":{"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"id":"immersiveengineering:ieslab","slabType":"0"},
             "elements": [
                 "immersiveengineering:sheetmetal_slab@9"
             ]
@@ -234,7 +214,6 @@
             "x": 1,
             "y": 3,
             "z": 2,
-            "nbt": {"ForgeCaps":{"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"id":"immersiveengineering:ieslab","slabType":"0"},
             "elements": [
                 "immersiveengineering:sheetmetal_slab@9"
             ]
@@ -283,7 +262,6 @@
             "x": 2,
             "y": 1,
             "z": 1,
-            "nbt": {"TransferCooldown":"0","ForgeCaps":{"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"Items":[],"id":"minecraft:hopper","Lock":""},
             "elements": [
                 "minecraft:hopper@0"
             ]
@@ -300,7 +278,6 @@
             "x": -2,
             "y": 4,
             "z": 1,
-            "nbt": {"sideConfig":,"ForgeCaps":{"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"id":"immersiveengineering:fluidpipe","connections":"33b"},
             "elements": [
                 "immersiveengineering:metal_device1@6"
             ]
@@ -309,7 +286,6 @@
             "x": -1,
             "y": 4,
             "z": 1,
-            "nbt": {"sideConfig":,"ForgeCaps":{"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"id":"immersiveengineering:fluidpipe","connections":"48b"},
             "elements": [
                 "immersiveengineering:metal_device1@6"
             ]
@@ -318,7 +294,6 @@
             "x": -2,
             "y": 2,
             "z": 1,
-            "nbt": {"sideConfig":,"ForgeCaps":{"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"id":"immersiveengineering:fluidpipe","connections":"3b"},
             "elements": [
                 "immersiveengineering:metal_device1@6"
             ]
@@ -327,7 +302,6 @@
             "x": 0,
             "y": 4,
             "z": 1,
-            "nbt": {"sideConfig":,"ForgeCaps":{"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"id":"immersiveengineering:fluidpipe","connections":"17b"},
             "elements": [
                 "immersiveengineering:metal_device1@6"
             ]
@@ -337,7 +311,7 @@
             "y": 2,
             "z": 0,
             "elements": [
-                "thermalfoundation:glass@3"
+                "thermalfoundation:glass"
             ]
         },
         {
@@ -345,7 +319,7 @@
             "y": 2,
             "z": 1,
             "elements": [
-                "thermalfoundation:glass@3"
+                "thermalfoundation:glass"
             ]
         },
         {
@@ -353,16 +327,15 @@
             "y": 2,
             "z": 0,
             "elements": [
-                "thermalfoundation:glass@3"
+                "thermalfoundation:glass"
             ]
         },
         {
             "x": -2,
             "y": 0,
             "z": 1,
-            "nbt": {"input":"1b","size":"1","casingColor":"5082769","ForgeCaps":{"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"id":"minecraft:tilefluidinputhatch","tank":{"Empty":""}},
             "elements": [
-                "modularmachinery:blockfluidinputhatch@1"
+                "modularmachinery:blockfluidinputhatch"
             ]
         },
         {
@@ -370,7 +343,7 @@
             "y": 2,
             "z": 2,
             "elements": [
-                "thermalfoundation:glass@3"
+                "thermalfoundation:glass"
             ]
         },
         {
@@ -386,7 +359,7 @@
             "y": 2,
             "z": 0,
             "elements": [
-                "thermalfoundation:glass@3"
+                "thermalfoundation:glass"
             ]
         }
     ]}

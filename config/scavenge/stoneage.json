@@ -5,7 +5,7 @@
 			"disableJEI": "true",
 			"name": "StoneNDirt",
 			"type": {
-				"type": "block_list", "blocks": [ { "name": "chisel:marble"}, { "name": "chisel:marble2"}, { "name": "minecraft:stone"}, { "name": "minecraft:dirt"}, { "name": "minecraft:grass"}, { "name": "minecraft:sand" }, { "name": "minecraft:gravel" } ]
+				"type": "block_list", "blocks": [{ "name": "minecraft:farmland"}, { "name": "minecraft:cobblestone"}, { "name": "chisel:marble"}, { "name": "chisel:marble2"}, { "name": "minecraft:stone"}, { "name": "minecraft:dirt"}, { "name": "minecraft:grass"}, { "name": "minecraft:sand" }, { "name": "minecraft:gravel" } ]
 			},
 			"clicktype": "left",
 			"properties": [

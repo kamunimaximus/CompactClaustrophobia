@@ -278,7 +278,7 @@
           "snd_complete:8": "minecraft:entity.player.levelup",
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
-          "repeattime:3": -1,
+          "repeattime:3": 20,
           "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
@@ -290,7 +290,7 @@
           "globalshare:1": 0,
           "questlogic:8": "AND",
           "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 0,
+          "autoclaim:1": 1,
           "repeat_relative:1": 1,
           "ismain:1": 1,
           "name:8": "Bedrock Breaker",
@@ -325,7 +325,7 @@
           "viaPlayer:1": 1,
           "index:3": 0,
           "title:8": "bq_standard.reward.command",
-          "command:8": "/gamestage add @s freedom"
+          "command:8": "/tellraw @a [\"\",{\"text\":\"Thank you \"},{\"text\":\"name\",\"obfuscated\":true},{\"text\":\" for playing! If you enjoyed the journey and want share the love consider \"},{\"text\":\"buying me an icecream!\",\"bold\":true,\"underlined\":true,\"color\":\"aqua\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://www.buymeacoffee.com/hamster\"}},{\"text\":\"\\n\\nThere were a few items that would break the game earlier. But you deserve \"},{\"text\":\"freedom!\",\"bold\":true,\"underlined\":true,\"color\":\"green\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/gamestage add @s freedom\"}}]"
         }
       }
     },
@@ -1834,7 +1834,7 @@
           "partialMatch:1": 1,
           "autoConsume:1": 1,
           "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
+          "ignoreNBT:1": 1,
           "index:3": 0,
           "consume:1": 0,
           "requiredItems:9": {
@@ -1979,7 +1979,7 @@
           "repeat_relative:1": 1,
           "ismain:1": 0,
           "name:8": "Hard as Steel",
-          "desc:8": "Slightly hazzardous. Obtained by exploding iron ingots! Not always successful"
+          "desc:8": "Slightly hazzardous. Obtained by exploding iron blocks! Not always successful"
         }
       },
       "tasks:9": {
@@ -6348,7 +6348,7 @@
           "repeat_relative:1": 1,
           "ismain:1": 0,
           "name:8": "Ender Integrated Sapling",
-          "desc:8": "That\u0027s a funny looking plant"
+          "desc:8": "That\u0027s a funny looking plant. Also has enormous space requirements. I\u0027d recommend planting this picky sapling in a GIANT room"
         }
       },
       "tasks:9": {
@@ -6450,11 +6450,117 @@
           "repeat_relative:1": 1,
           "ismain:1": 0,
           "name:8": "High Impact Compactor",
-          "desc:8": "Squeezes pretty hard. All of the electromagnets needs to be powered continously for the multiblock to be valid. Each requires 100 rf/t"
+          "desc:8": "Squeezes pretty hard. All of the electromagnets needs to be powered continously for the multiblock to be valid. Each requires 1000 rf/t. The unpowered version can\u0027t craft anything - but this will surely help you build! Btw, the pipes don\u0027t show so make sure to check which should go where!"
         }
       },
-      "tasks:9": {},
-      "rewards:9": {}
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "modularmachinery:blockcontroller",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "nuclearcraft:accelerator_electromagnet_idle",
+              "Count:3": 56,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "2:10": {
+              "id:8": "compactmachines3:wallbreakable",
+              "Count:3": 20,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "3:10": {
+              "id:8": "nuclearcraft:reactor_casing_transparent",
+              "Count:3": 108,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "4:10": {
+              "id:8": "thermaldynamics:duct_0",
+              "Count:3": 13,
+              "Damage:2": 5,
+              "OreDict:8": ""
+            },
+            "5:10": {
+              "id:8": "thermaldynamics:duct_16",
+              "Count:3": 8,
+              "Damage:2": 6,
+              "OreDict:8": ""
+            },
+            "6:10": {
+              "id:8": "nuclearcraft:tritium_lamp",
+              "Count:3": 8,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "7:10": {
+              "id:8": "modularmachinery:blockenergyinputhatch",
+              "Count:3": 1,
+              "Damage:2": 7,
+              "OreDict:8": ""
+            },
+            "8:10": {
+              "id:8": "modularmachinery:blockfluidinputhatch",
+              "Count:3": 2,
+              "Damage:2": 7,
+              "OreDict:8": ""
+            },
+            "9:10": {
+              "id:8": "thermaldynamics:duct_32",
+              "Count:3": 8,
+              "Damage:2": 2,
+              "OreDict:8": ""
+            },
+            "10:10": {
+              "id:8": "modularmachinery:blockoutputbus",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "11:10": {
+              "id:8": "compactmachines3:machine",
+              "Count:3": 1,
+              "Damage:2": 5,
+              "OreDict:8": ""
+            },
+            "12:10": {
+              "id:8": "modularmachinery:blockinputbus",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "modularmachinery:itemblueprint",
+              "Count:3": 1,
+              "tag:10": {
+                "dynamicmachine:8": "modularmachinery:unpowered_high_impact_compactor"
+              },
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
     },
     "117:10": {
       "questID:3": 117,
@@ -8800,6 +8906,12 @@
             },
             "8:10": {
               "id:8": "thermalfoundation:tool.pickaxe_tin",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "9:10": {
+              "id:8": "thermalfoundation:tool.pickaxe_silver",
               "Count:3": 1,
               "Damage:2": 0,
               "OreDict:8": ""
@@ -11513,6 +11625,63 @@
       "rewards:9": {}
     },
     "175:10": {
+      "questID:3": 175,
+      "preRequisites:11": [
+        207
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "thermalfoundation:upgrade",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Appreciating Space",
+          "desc:8": "This hard box wasn\u0027t really that hardcore. Better upgrade it!"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 1,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "thermalfoundation:upgrade",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "thermalfoundation:upgrade",
+              "Count:3": 1,
+              "Damage:2": 1,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "176:10": {
       "questID:3": 176,
       "preRequisites:11": [
         29
@@ -11563,7 +11732,7 @@
       },
       "rewards:9": {}
     },
-    "176:10": {
+    "177:10": {
       "questID:3": 177,
       "preRequisites:11": [
         141
@@ -11614,7 +11783,7 @@
       },
       "rewards:9": {}
     },
-    "177:10": {
+    "178:10": {
       "questID:3": 178,
       "preRequisites:11": [
         56
@@ -11663,7 +11832,7 @@
         }
       }
     },
-    "178:10": {
+    "179:10": {
       "questID:3": 179,
       "preRequisites:11": [
         88
@@ -11714,7 +11883,7 @@
       },
       "rewards:9": {}
     },
-    "179:10": {
+    "180:10": {
       "questID:3": 180,
       "preRequisites:11": [
         171
@@ -11778,7 +11947,7 @@
         }
       }
     },
-    "180:10": {
+    "181:10": {
       "questID:3": 181,
       "preRequisites:11": [
         94,
@@ -11830,7 +11999,7 @@
       },
       "rewards:9": {}
     },
-    "181:10": {
+    "182:10": {
       "questID:3": 182,
       "preRequisites:11": [
         181
@@ -11881,7 +12050,7 @@
       },
       "rewards:9": {}
     },
-    "182:10": {
+    "183:10": {
       "questID:3": 183,
       "preRequisites:11": [
         182
@@ -11914,7 +12083,7 @@
       "tasks:9": {},
       "rewards:9": {}
     },
-    "183:10": {
+    "184:10": {
       "questID:3": 184,
       "preRequisites:11": [
         10
@@ -11952,7 +12121,7 @@
       },
       "rewards:9": {}
     },
-    "184:10": {
+    "185:10": {
       "questID:3": 185,
       "preRequisites:11": [
         23
@@ -11982,7 +12151,7 @@
           "repeat_relative:1": 1,
           "ismain:1": 0,
           "name:8": "But at what cost?!",
-          "desc:8": "These handy tools can be nice when you need to know the cost of mass production. Which you will need to know"
+          "desc:8": "These handy tools can be nice when you need to know the cost of mass production. Which you will need to know. If you have one equipped you can also just shift+right click to change mode"
         }
       },
       "tasks:9": {
@@ -12018,7 +12187,7 @@
       },
       "rewards:9": {}
     },
-    "185:10": {
+    "186:10": {
       "questID:3": 186,
       "preRequisites:11": [
         65
@@ -12068,7 +12237,7 @@
       },
       "rewards:9": {}
     },
-    "186:10": {
+    "187:10": {
       "questID:3": 187,
       "preRequisites:11": [
         188
@@ -12135,7 +12304,7 @@
       },
       "rewards:9": {}
     },
-    "187:10": {
+    "188:10": {
       "questID:3": 188,
       "preRequisites:11": [
         189
@@ -12202,7 +12371,7 @@
       },
       "rewards:9": {}
     },
-    "188:10": {
+    "189:10": {
       "questID:3": 189,
       "preRequisites:11": [
         186
@@ -12269,7 +12438,7 @@
       },
       "rewards:9": {}
     },
-    "189:10": {
+    "190:10": {
       "questID:3": 190,
       "preRequisites:11": [
         191
@@ -12336,7 +12505,7 @@
       },
       "rewards:9": {}
     },
-    "190:10": {
+    "191:10": {
       "questID:3": 191,
       "preRequisites:11": [
         192
@@ -12403,7 +12572,7 @@
       },
       "rewards:9": {}
     },
-    "191:10": {
+    "192:10": {
       "questID:3": 192,
       "preRequisites:11": [
         200
@@ -12475,7 +12644,7 @@
       },
       "rewards:9": {}
     },
-    "192:10": {
+    "193:10": {
       "questID:3": 193,
       "preRequisites:11": [
         196
@@ -12542,7 +12711,7 @@
       },
       "rewards:9": {}
     },
-    "193:10": {
+    "194:10": {
       "questID:3": 194,
       "preRequisites:11": [
         195
@@ -12609,7 +12778,7 @@
       },
       "rewards:9": {}
     },
-    "194:10": {
+    "195:10": {
       "questID:3": 195,
       "preRequisites:11": [
         193,
@@ -12682,7 +12851,7 @@
       },
       "rewards:9": {}
     },
-    "195:10": {
+    "196:10": {
       "questID:3": 196,
       "preRequisites:11": [
         187
@@ -12749,7 +12918,7 @@
       },
       "rewards:9": {}
     },
-    "196:10": {
+    "197:10": {
       "questID:3": 197,
       "preRequisites:11": [
         190
@@ -12816,7 +12985,7 @@
       },
       "rewards:9": {}
     },
-    "197:10": {
+    "198:10": {
       "questID:3": 198,
       "preRequisites:11": [
         190
@@ -12883,7 +13052,7 @@
       },
       "rewards:9": {}
     },
-    "198:10": {
+    "199:10": {
       "questID:3": 199,
       "preRequisites:11": [
         190
@@ -12950,7 +13119,7 @@
       },
       "rewards:9": {}
     },
-    "199:10": {
+    "200:10": {
       "questID:3": 200,
       "preRequisites:11": [
         194
@@ -13017,7 +13186,7 @@
       },
       "rewards:9": {}
     },
-    "200:10": {
+    "201:10": {
       "questID:3": 201,
       "preRequisites:11": [
         198
@@ -13080,7 +13249,7 @@
         }
       }
     },
-    "201:10": {
+    "202:10": {
       "questID:3": 202,
       "preRequisites:11": [
         197
@@ -13143,7 +13312,7 @@
         }
       }
     },
-    "202:10": {
+    "203:10": {
       "questID:3": 203,
       "preRequisites:11": [
         199
@@ -13206,7 +13375,7 @@
         }
       }
     },
-    "203:10": {
+    "204:10": {
       "questID:3": 204,
       "preRequisites:11": [
         186
@@ -13255,7 +13424,7 @@
         }
       }
     },
-    "204:10": {
+    "205:10": {
       "questID:3": 205,
       "preRequisites:11": [
         17
@@ -13306,7 +13475,7 @@
       },
       "rewards:9": {}
     },
-    "205:10": {
+    "206:10": {
       "questID:3": 206,
       "preRequisites:11": [
         155
@@ -13333,7 +13502,7 @@
           "repeat_relative:1": 1,
           "ismain:1": 0,
           "name:8": "Automated Wood",
-          "desc:8": "If you want to automate wood production you need a bit of redstone magic, clickers and fertilizer. I\u0027d recommend a selection of items like these. All you need is to supply power and keep a steady stream of items to plant, fertilize and harvest with. These 7 easy steps will teach you how to set it up!\n\nConstruction Guidelines:\n1. Place dirt in middle\n2. Place cobble on all 4 sides of dirt\n3. Place the 2 NOT gates facing the same direction in one axis on the cobble\n4. Place 2 clickers facing each other in the other axis on the cobble\n5. Set one clicker to right+sneak - put saplings here, the other to right - put phytogro here.\n6. In the direction the nor gates is facing place 4 clickers on the wall facing the center. All on left click. Place a spaxelhoe in each\n7. Place red alloy wire up the sides of these and connect to the nor gate.\n\nCongratulations! You should now have a working wood farm, thats very slow. Crank up the speed on those clickers. P.S. a good tip is for the lowest of the 4 clickers to be slower than the rest. Now for the real challenge of optimizing and automating!\n\n"
+          "desc:8": "If you want to automate wood production you need a bit of redstone magic, clickers and fertilizer. I\u0027d recommend a selection of items like these. All you need is to supply power and keep a steady stream of items to plant, fertilize and harvest with. These 7 easy steps will teach you how to set it up!\n\nConstruction Guidelines:\n1. Place dirt in middle\n2. Place cobble on all 4 sides of dirt\n3. Place the 2 NOT gates facing the same direction in one axis on the cobble\n4. Place 2 clickers facing each other in the other axis on the cobble\n5. Set one clicker to right+sneak - put saplings here, the other to right - put phytogro here.\n6. In the direction the NOT gates is facing place 4 clickers on the wall facing the center. All on left click. Place a spaxelhoe in each\n7. Place red alloy wire up the sides of these and connect to the NOT gate.\n\nCongratulations! You should now have a working wood farm, thats very slow. Crank up the speed on those clickers. P.S. a good tip is for the lowest of the 4 clickers to be slower than the rest. Now for the real challenge of optimizing and automating!\n\n"
         }
       },
       "tasks:9": {
@@ -13399,7 +13568,7 @@
       },
       "rewards:9": {}
     },
-    "206:10": {
+    "207:10": {
       "questID:3": 207,
       "preRequisites:11": [
         28
@@ -13458,7 +13627,7 @@
       },
       "rewards:9": {}
     },
-    "207:10": {
+    "208:10": {
       "questID:3": 208,
       "preRequisites:11": [
         209,
@@ -13510,7 +13679,7 @@
       },
       "rewards:9": {}
     },
-    "208:10": {
+    "209:10": {
       "questID:3": 209,
       "preRequisites:11": [
         81
@@ -13561,7 +13730,7 @@
       },
       "rewards:9": {}
     },
-    "209:10": {
+    "210:10": {
       "questID:3": 210,
       "preRequisites:11": [
         81
@@ -13612,7 +13781,7 @@
       },
       "rewards:9": {}
     },
-    "210:10": {
+    "211:10": {
       "questID:3": 211,
       "preRequisites:11": [
         208,
@@ -13664,7 +13833,7 @@
       },
       "rewards:9": {}
     },
-    "211:10": {
+    "212:10": {
       "questID:3": 212,
       "preRequisites:11": [
         81
@@ -13721,7 +13890,7 @@
       },
       "rewards:9": {}
     },
-    "212:10": {
+    "213:10": {
       "questID:3": 213,
       "preRequisites:11": [
         212,
@@ -13773,7 +13942,7 @@
       },
       "rewards:9": {}
     },
-    "213:10": {
+    "214:10": {
       "questID:3": 214,
       "preRequisites:11": [
         213
@@ -13824,7 +13993,7 @@
       },
       "rewards:9": {}
     },
-    "214:10": {
+    "215:10": {
       "questID:3": 215,
       "preRequisites:11": [
         211
@@ -13875,7 +14044,7 @@
       },
       "rewards:9": {}
     },
-    "215:10": {
+    "216:10": {
       "questID:3": 216,
       "preRequisites:11": [
         215
@@ -13918,6 +14087,108 @@
               "id:8": "nuclearcraft:pressurizer_idle",
               "Count:3": 1,
               "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "217:10": {
+      "questID:3": 217,
+      "preRequisites:11": [
+        63
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "immersiveengineering:axe_steel",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Steeling Logs",
+          "desc:8": "Axes made from steel or diamond can chop down entire trees in one swoop (veinminer)"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 1,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "immersiveengineering:axe_steel",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "218:10": {
+      "questID:3": 218,
+      "preRequisites:11": [
+        69
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "thermalfoundation:dye",
+            "Count:3": 1,
+            "Damage:2": 11,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Dyeing for Yellow",
+          "desc:8": "Usually yellow pigment can be derived from plants. But if you have a less than stellar position in the world, this might be the only place"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 1,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "thermalfoundation:dye",
+              "Count:3": 1,
+              "Damage:2": 11,
               "OreDict:8": ""
             }
           },
@@ -14066,7 +14337,7 @@
         "8:10": {
           "sizeX:3": 24,
           "x:3": -44,
-          "y:3": 140,
+          "y:3": 172,
           "id:3": 16,
           "sizeY:3": 24
         },
@@ -14136,7 +14407,7 @@
         "18:10": {
           "sizeX:3": 24,
           "x:3": -44,
-          "y:3": 76,
+          "y:3": 108,
           "id:3": 26,
           "sizeY:3": 24
         },
@@ -14199,7 +14470,7 @@
         "27:10": {
           "sizeX:3": 24,
           "x:3": -44,
-          "y:3": 108,
+          "y:3": 140,
           "id:3": 49,
           "sizeY:3": 24
         },
@@ -14311,14 +14582,14 @@
         "43:10": {
           "sizeX:3": 24,
           "x:3": -76,
-          "y:3": 108,
+          "y:3": 140,
           "id:3": 151,
           "sizeY:3": 24
         },
         "44:10": {
           "sizeX:3": 24,
           "x:3": -76,
-          "y:3": 140,
+          "y:3": 172,
           "id:3": 152,
           "sizeY:3": 24
         },
@@ -14339,7 +14610,7 @@
         "47:10": {
           "sizeX:3": 24,
           "x:3": -44,
-          "y:3": 172,
+          "y:3": 204,
           "id:3": 158,
           "sizeY:3": 24
         },
@@ -14367,43 +14638,57 @@
         "51:10": {
           "sizeX:3": 24,
           "x:3": -44,
+          "y:3": 76,
+          "id:3": 175,
+          "sizeY:3": 24
+        },
+        "52:10": {
+          "sizeX:3": 24,
+          "x:3": -44,
           "y:3": 12,
           "id:3": 176,
           "sizeY:3": 24
         },
-        "52:10": {
+        "53:10": {
           "sizeX:3": 24,
           "x:3": -44,
           "y:3": 44,
           "id:3": 177,
           "sizeY:3": 24
         },
-        "53:10": {
+        "54:10": {
           "sizeX:3": 24,
           "x:3": 184,
           "y:3": 180,
           "id:3": 184,
           "sizeY:3": 24
         },
-        "54:10": {
+        "55:10": {
           "sizeX:3": 24,
           "x:3": 172,
           "y:3": 104,
           "id:3": 185,
           "sizeY:3": 24
         },
-        "55:10": {
+        "56:10": {
           "sizeX:3": 24,
           "x:3": -16,
-          "y:3": 172,
+          "y:3": 204,
           "id:3": 205,
           "sizeY:3": 24
         },
-        "56:10": {
+        "57:10": {
           "sizeX:3": 24,
           "x:3": -12,
           "y:3": 76,
           "id:3": 207,
+          "sizeY:3": 24
+        },
+        "58:10": {
+          "sizeX:3": 24,
+          "x:3": 180,
+          "y:3": 12,
+          "id:3": 218,
           "sizeY:3": 24
         }
       },
@@ -14884,8 +15169,8 @@
         },
         "65:10": {
           "sizeX:3": 24,
-          "x:3": 304,
-          "y:3": 40,
+          "x:3": 336,
+          "y:3": 4,
           "id:3": 180,
           "sizeY:3": 24
         },
@@ -14957,6 +15242,13 @@
           "x:3": 472,
           "y:3": 204,
           "id:3": 216,
+          "sizeY:3": 24
+        },
+        "76:10": {
+          "sizeX:3": 24,
+          "x:3": 304,
+          "y:3": 40,
+          "id:3": 217,
           "sizeY:3": 24
         }
       },
@@ -15567,7 +15859,7 @@
       "home_anchor_y:5": 0.0,
       "livesmax:3": 10,
       "home_anchor_x:5": 0.0,
-      "editmode:1": 0,
+      "editmode:1": 1,
       "hardcore:1": 0,
       "home_image:8": "compact_claustrophobia:textures/gui/title_card.png",
       "party_enable:1": 1,

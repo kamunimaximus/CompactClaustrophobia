@@ -16,13 +16,8 @@ FluidToItem.transform(<minecraft:chorus_flower>, <liquid:ender>, [<minecraft:mel
 FluidToItem.transform(<integrateddynamics:menril_sapling>, <liquid:ender>, [<minecraft:sapling>], true);
 FluidToItem.transform(<contenttweaker:prestoff>, <liquid:sewagefluid>, [<minecraft:paper>], true);
 FluidToItem.transform(<contenttweaker:glitched0>, <liquid:sewagefluid>, [<compactmachines3:machine>], true);
-FluidToItem.transform(<contenttweaker:glitched1>, <liquid:sewagefluid>, [<compactmachines3:machine:1>], true);
-FluidToItem.transform(<contenttweaker:glitched2>, <liquid:sewagefluid>, [<compactmachines3:machine:2>], true);
-FluidToItem.transform(<contenttweaker:glitched3>, <liquid:sewagefluid>, [<compactmachines3:machine:3>], true);
-FluidToItem.transform(<contenttweaker:glitched4>, <liquid:sewagefluid>, [<compactmachines3:machine:4>], true);
-FluidToItem.transform(<contenttweaker:glitched5>, <liquid:sewagefluid>, [<compactmachines3:machine:5>], true);
 FluidToItem.transform(<contenttweaker:corruptpsd>, <liquid:sewagefluid>, [<compactmachines3:psd>], true);
-FluidToItem.transform(<cropdusting:poop>*2, <liquid:sewagefluid>, [<thermalfoundation:material:818>], true);
+FluidToItem.transform(<cropdusting:poop>*3, <liquid:sewagefluid>, [<thermalfoundation:material:818>], true);
 
 // Loop should do exactly this
 //FluidToItem.transform(<minecraft:sapling>, <liquid:water>, [<arcadialbonsaitrees:bonsai_oak_sapling>], true);
@@ -45,7 +40,7 @@ FluidToFluid.transform(<liquid:water>, <liquid:sewagefluid>, [<minecraft:paper>]
 // Explosion
 //FireCrafting.addRecipe(<minecraft:coal:1>, <minecraft:log>, 140);
 ExplosionCrafting.explodeItemRecipe(<thermalfoundation:material:16>, <immersiveengineering:material:19>, 15);
-ExplosionCrafting.explodeItemRecipe(<immersiveengineering:metal:17>, <minecraft:iron_ingot>, 50);
+ExplosionCrafting.explodeItemRecipe(<immersiveengineering:metal:17>*6, <minecraft:iron_block>, 75);
 
 
 // Fire

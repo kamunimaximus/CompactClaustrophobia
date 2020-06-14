@@ -11,19 +11,13 @@
         {
             "type": "modularmachinery:item",
             "io-type": "input",
-            "item": "compactmachines3:machine:2",
+            "item": "compactmachines3:machine@1",
             "amount": 1
-        },
-        {
-            "type": "modularmachinery:item",
-            "io-type": "input",
-            "item": "cropdusting:poop",
-            "amount": 4
         },
         {
             "type": "modularmachinery:fluid",
             "io-type": "input",
-            "fluid": "water",
+            "fluid": "liquidsewage",
             "amount": 4000
         },
         {
@@ -32,8 +26,5 @@
             "item": "contenttweaker:glitched1",
             "amount": 1
         }
-    ],
-    "processingCommands": [
-        "/time set day"
     ]
 }

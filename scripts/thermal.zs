@@ -52,3 +52,4 @@ mods.thermalexpansion.Centrifuge.removeRecipe(<minecraft:magma_cream>);
 
 //Fluid Transposer
 mods.thermalexpansion.Transposer.addFillRecipe(<minecraft:clay>, <exnihilocreatio:block_dust>, <liquid:water> * 1000, 100);
+mods.thermalexpansion.Transposer.addFillRecipe(<cropdusting:poop>, <thermalfoundation:material:818>, <liquid:sewagefluid> * 500, 1000);

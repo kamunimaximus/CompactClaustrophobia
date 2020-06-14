@@ -34,7 +34,8 @@
         "minecraft:gravel",
         "minecraft:sand",
         "minecraft:sand/1",
-        "minecraft:stone"
+        "minecraft:stone",
+        "minecraft:wool"
       ]
     },
     "hoe": {

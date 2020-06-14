@@ -1202,6 +1202,65 @@
 					"message": "Use a pickaxe"
 				}
 			]
+		},
+		{
+			"name": "Pick_silver",
+			"type":
+			{
+				"type": "block",
+				"name": "compactmachines3:wall"
+			},
+			"clicktype": "left",
+			"properties":
+			[
+				{
+					"type": "add_hunger",
+					"exhaustion": "true",
+					"amount": "0.1f"
+				},
+				{
+					"type": "require_left"
+				},
+				{
+					"type": "drop_items"
+				},
+				{
+					"type": "damage_item",
+					"amount": "1"
+				},
+				{
+					"type": "player_cooldown",
+					"time": "10"
+				},
+				{
+					"type": "swing_hand"
+				},
+				{
+					"type": "play_sound",
+					"name": "block.stone.hit"
+				},
+				{
+					"type": "require_item_list",
+					"items": [
+						{"name": "thermalfoundation:tool.pickaxe_silver"}
+					]
+				}
+			],
+			"drops":
+			[
+				{
+					"name": "immersiveengineering:metal",
+					"meta": "12",
+					"weight": 1
+				}
+			],
+			"messages":
+			[
+				{
+					"id": "require_tool",
+					"message": "Use a pickaxe"
+				}
+			]
 		}				
 	]
 }

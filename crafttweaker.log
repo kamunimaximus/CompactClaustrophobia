@@ -10,7 +10,7 @@
 [PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: recipes.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: stages.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: thermal.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][INFO] Completed script loading in: 2ms
+[PREINITIALIZATION][CLIENT][INFO] Completed script loading in: 3ms
 [PREINITIALIZATION][CLIENT][INFO] Current loaders after merging: [[preinit], [contenttweaker]]
 [PREINITIALIZATION][CLIENT][INFO] Loading scripts for loader with names [contenttweaker]
 [PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: bonsai.zs} as we are currently loading with a different loader
@@ -23,7 +23,7 @@
 [PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: recipes.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: stages.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: thermal.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][INFO] Completed script loading in: 268ms
+[PREINITIALIZATION][CLIENT][INFO] Completed script loading in: 203ms
 [INITIALIZATION][CLIENT][INFO] CraftTweaker: Building registry
 [INITIALIZATION][CLIENT][INFO] CraftTweaker: Successfully built item registry
 [INITIALIZATION][CLIENT][INFO] Current loaders after merging: [[preinit], [contenttweaker], [recipeevent | crafttweaker]]
@@ -71,7 +71,7 @@
 [INITIALIZATION][CLIENT][INFO] Adding to item stage freedom. Chorus Fruit - minecraft:chorus_fruit:0
 [INITIALIZATION][CLIENT][INFO] Adding to item stage freedom. Ender Pearl - minecraft:ender_pearl:0
 [INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: thermal.zs}
-[INITIALIZATION][CLIENT][INFO] Completed script loading in: 164ms
+[INITIALIZATION][CLIENT][INFO] Completed script loading in: 188ms
 [POSTINITIALIZATION][CLIENT][INFO] Removing recipes for various outputs
 [POSTINITIALIZATION][CLIENT][INFO] Removing Shaped recipes for <minecraft:planks>
 [POSTINITIALIZATION][CLIENT][INFO] 1 removed
@@ -97,6 +97,8 @@
 [POSTINITIALIZATION][CLIENT][INFO] Removing all occurences of ingredient: <ore:dustGlowstone> and replacing them with <ore:nuggetDiamond>
 [POSTINITIALIZATION][CLIENT][INFO] Removing all occurences of ingredient: <ore:plateLumium> and replacing them with <ore:plateSignalum>
 [POSTINITIALIZATION][CLIENT][INFO] Removing all occurences of ingredient: <ore:dustGlowstone> and replacing them with <ore:dustRedstone>
+[POSTINITIALIZATION][CLIENT][INFO] Removing Shaped recipes for <jecalculation:item_calculator>
+[POSTINITIALIZATION][CLIENT][INFO] 0 removed
 [POSTINITIALIZATION][CLIENT][INFO] Removing Shaped recipes for <exnihilocreatio:block_end_cake>
 [POSTINITIALIZATION][CLIENT][INFO] 1 removed
 [POSTINITIALIZATION][CLIENT][INFO] Removing Shaped recipes for <projectred-fabrication:ic_machine:1>
@@ -167,6 +169,7 @@
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Augment: Pyrolytic Conversion with name ct_shaped670052550
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Wooden Crucible with name ct_shaped-70327386
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for White Elevator with name ct_shaped-46051446
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Crafting Calculator with name ct_shaped-2094023690
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for End Cake with name ct_shaped-750952539
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Poop & Stick with name ct_shaped-743905427
 [POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for Clay with name ct_shapeless-644214082
@@ -237,10 +240,15 @@
 [POSTINITIALIZATION][CLIENT][INFO] Removing furnace recipes for: <minecraft:coal:1>
 [POSTINITIALIZATION][CLIENT][INFO] 1 recipes removed for: <minecraft:coal:1>
 [POSTINITIALIZATION][CLIENT][INFO] Adding furnace recipe for <contenttweaker:modulariumblend>
+[POSTINITIALIZATION][CLIENT][INFO] Adding furnace recipe for <compactmachines3:machine:5>
+[POSTINITIALIZATION][CLIENT][INFO] Adding furnace recipe for <compactmachines3:machine:4>
+[POSTINITIALIZATION][CLIENT][INFO] Adding furnace recipe for <compactmachines3:machine:3>
+[POSTINITIALIZATION][CLIENT][INFO] Adding furnace recipe for <compactmachines3:machine:1>
+[POSTINITIALIZATION][CLIENT][INFO] Adding furnace recipe for <compactmachines3:machine>
 [POSTINITIALIZATION][CLIENT][INFO] Adding furnace recipe for <compactmachines3:machine:2>
 [POSTINITIALIZATION][CLIENT][INFO] Setting the stages for recipes based on their output stack, 1 stages
-[POSTINITIALIZATION][CLIENT][INFO] Replacing recipe: 1xitem.steel_pickaxe@0 new recipe: RecipeStage{tier='stoneage', recipe=1xitem.steel_pickaxe@0:[net.minecraft.item.crafting.Ingredient@6c9cb946, net.minecraft.item.crafting.Ingredient@6a011421, net.minecraft.item.crafting.Ingredient@6099eba7, net.minecraft.item.crafting.Ingredient@41aa64c9, net.minecraft.item.crafting.Ingredient@48f5a333, net.minecraft.item.crafting.Ingredient@2a370610, net.minecraft.item.crafting.Ingredient$1@62075e3d, net.minecraft.item.crafting.Ingredient@55c0422, net.minecraft.item.crafting.Ingredient$1@62075e3d]}
-[POSTINITIALIZATION][CLIENT][INFO] Replacing recipe: 1xitem.steel_axe@0 new recipe: RecipeStage{tier='stoneage', recipe=1xitem.steel_axe@0:[net.minecraft.item.crafting.Ingredient@60defe43, net.minecraft.item.crafting.Ingredient@5468b6e, net.minecraft.item.crafting.Ingredient@7a52e6e, net.minecraft.item.crafting.Ingredient@2ecbf817]}
+[POSTINITIALIZATION][CLIENT][INFO] Replacing recipe: 1xitem.steel_pickaxe@0 new recipe: RecipeStage{tier='stoneage', recipe=1xitem.steel_pickaxe@0:[net.minecraft.item.crafting.Ingredient@1684296f, net.minecraft.item.crafting.Ingredient@59442303, net.minecraft.item.crafting.Ingredient@563c9dc0, net.minecraft.item.crafting.Ingredient@58eaa0fa, net.minecraft.item.crafting.Ingredient@6f9225d9, net.minecraft.item.crafting.Ingredient@17b64f13, net.minecraft.item.crafting.Ingredient$1@277dddcf, net.minecraft.item.crafting.Ingredient@25d602b8, net.minecraft.item.crafting.Ingredient$1@277dddcf]}
+[POSTINITIALIZATION][CLIENT][INFO] Replacing recipe: 1xitem.steel_axe@0 new recipe: RecipeStage{tier='stoneage', recipe=1xitem.steel_axe@0:[net.minecraft.item.crafting.Ingredient@739fdcb0, net.minecraft.item.crafting.Ingredient@6649d3b9, net.minecraft.item.crafting.Ingredient@7a3ffe33, net.minecraft.item.crafting.Ingredient@a466751]}
 [POSTINITIALIZATION][CLIENT][INFO] Adding Hammer recipe for [1xtile.block_diorite_crushed@0] with drop <exnihilocreatio:block_dust> at a chance of 1.0 with mining level 0
 [AVAILABLE][CLIENT][INFO] Fixed the RecipeBook
 [AVAILABLE][CLIENT][INFO] Altering RedstoneFurnace Recipe(s) for <minecraft:hay_block>
@@ -276,3 +284,5 @@
 [AVAILABLE][CLIENT][INFO] Altering EnervationDynamo Recipe(s) for <minecraft:redstone>
 [AVAILABLE][CLIENT][INFO] Altering EnervationDynamo Recipe(s) for <minecraft:redstone_block>
 [AVAILABLE][CLIENT][INFO] Altering EnervationDynamo Recipe(s) for <refinedstorage:pattern>
+[AVAILABLE][CLIENT][INFO] Altering Transposer Fill Recipe(s) for <liquid:water> * 1000
+[AVAILABLE][CLIENT][INFO] Altering Transposer Fill Recipe(s) for <liquid:sewagefluid> * 500

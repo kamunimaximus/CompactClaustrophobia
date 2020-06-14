@@ -1,6 +1,7 @@
 //This file was created via CT-GUI! Editing it is not advised!
 //Don't touch me!
 //#Remove
+recipes.removeShaped(<jecalculation:item_calculator>, [[<ore:stone>, <ore:dyeBlack>, <ore:stone>],[<ore:stone>, <minecraft:iron_ingot>, <ore:stone>], [<ore:stone>, <minecraft:redstone>, <ore:stone>]]);
 recipes.removeShaped(<exnihilocreatio:block_end_cake>, [[<minecraft:ender_eye>, <minecraft:end_crystal>, <minecraft:ender_eye>],[<minecraft:ender_eye>, <minecraft:cake>, <minecraft:ender_eye>], [<minecraft:ender_eye>, <minecraft:end_crystal>, <minecraft:ender_eye>]]);
 recipes.removeShaped(<projectred-fabrication:ic_machine:1>, [[<minecraft:stained_glass:3>, <minecraft:stained_glass:3>, <minecraft:stained_glass:3>],[<minecraft:obsidian>, <minecraft:diamond>, <minecraft:obsidian>], [<minecraft:iron_ingot>, <ore:plankWood>, <minecraft:iron_ingot>]]);
 recipes.removeShaped(<opencomputers:storage:4>, [[<opencomputers:material:9>, <opencomputers:material:12>, <minecraft:diamond>],[<opencomputers:material:4>, <ore:oc:materialDisk>, <ore:craftingPiston>], [<ore:oc:circuitChip3>, <opencomputers:material:12>, <ore:gemDiamond>]]);
@@ -22,6 +23,12 @@ recipes.removeShaped(<minecraft:enchanting_table>, [[null, <minecraft:book>, nul
 recipes.removeShapeless(<nuclearcraft:glowing_mushroom>, [<minecraft:brown_mushroom>, <minecraft:glowstone_dust>]);
 recipes.removeShapeless(<nuclearcraft:glowing_mushroom>, [<minecraft:brown_mushroom>, <minecraft:glowstone_dust>]);
 //#Add
+recipes.addShaped(<jecalculation:item_calculator>, [[<ore:stone>, <ore:dyeCyan>, <ore:stone>],[<ore:stone>, <minecraft:iron_ingot>, <ore:stone>], [<ore:stone>, <minecraft:redstone>, <ore:stone>]]);
+furnace.addRecipe(<compactmachines3:machine:5>, <compactmachines3:machine:5>, 0.0);
+furnace.addRecipe(<compactmachines3:machine:4>, <compactmachines3:machine:4>, 0.0);
+furnace.addRecipe(<compactmachines3:machine:3>, <compactmachines3:machine:3>, 0.0);
+furnace.addRecipe(<compactmachines3:machine:1>, <compactmachines3:machine:1>, 0.0);
+furnace.addRecipe(<compactmachines3:machine>, <compactmachines3:machine>, 0.0);
 recipes.addShaped(<exnihilocreatio:block_end_cake>, [[<minecraft:bedrock>, <minecraft:end_crystal>, <minecraft:bedrock>],[<minecraft:ender_eye>, <minecraft:cake>, <minecraft:ender_eye>], [<minecraft:bedrock>, <minecraft:end_crystal>, <minecraft:bedrock>]]);
 recipes.addShaped(<minecraft:writable_book>.withTag({RepairCost: 0, display: {Name: "Poop & Stick"}}), [[<minecraft:book>, <cropdusting:poop>, null],[<minecraft:stick>, null, null], [null, null, null]]);
 recipes.addShapeless(<minecraft:clay_ball> * 4, [<minecraft:clay>]);
