@@ -185,6 +185,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/red_sandstone": {
+    "criteria": {
+      "has_sand": "2020-06-17 12:46:02 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/tools/wooden_shovel": {
     "criteria": {
       "has_stick": "2020-05-30 12:15:31 +0200"
@@ -389,6 +395,12 @@
     },
     "done": true
   },
+  "integrateddynamics:root": {
+    "criteria": {
+      "criteria_0": "2020-06-17 13:01:20 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/slime_ball": {
     "criteria": {
       "has_slime": "2020-05-18 23:38:01 +0200"
@@ -424,6 +436,12 @@
       "has_sand": "2020-05-31 12:04:02 +0200"
     },
     "done": true
+  },
+  "enderioconduits:root": {
+    "criteria": {
+      "inv_changed-enderio:sand": "2020-06-17 12:45:58 +0200"
+    },
+    "done": false
   },
   "galacticraftcore:galacticraft/root": {
     "criteria": {

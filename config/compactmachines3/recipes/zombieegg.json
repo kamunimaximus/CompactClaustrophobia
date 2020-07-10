@@ -10,7 +10,7 @@
   "duration": 200,
   "symmetrical": true,
 
-  "catalyst": "minecraft:spider_eye",
+  "catalyst": "minecraft:redstone",
 
   "input-types": {
     "f": {

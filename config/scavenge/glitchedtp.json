@@ -36,7 +36,7 @@
 				{
 					"type": "use_command",
 					"name": "effect",
-					"arguments": "@p minecraft:nausea 10"
+					"arguments": "@p minecraft:nausea 5"
 				},
 				{
 					"type": "use_command",
@@ -68,12 +68,44 @@
 				{
 					"type": "use_command",
 					"name": "effect",
-					"arguments": "@p minecraft:nausea 10"
+					"arguments": "@p minecraft:nausea 5"
 				},
 				{
 					"type": "use_command",
 					"name": "tpj",
 					"arguments": "11"
+				},
+				{
+					"type": "play_sound",
+					"name": "item.bottle.fill_dragonbreath"
+				},
+				{
+					"type": "require_item",
+					"name": "contenttweaker:corruptpsd"
+				},
+				{
+					"type": "swing_hand"
+				}
+			]
+		},
+        {
+			"name": "Glitch2",
+			"disableJEI": "true",
+			"type": {
+				"type": "block",
+				"name": "contenttweaker:glitched2"
+			},
+			"clicktype": "right",
+			"properties": [
+				{
+					"type": "use_command",
+					"name": "effect",
+					"arguments": "@p minecraft:nausea 5"
+				},
+				{
+					"type": "use_command",
+					"name": "tpj",
+					"arguments": "12 301 160 374"
 				},
 				{
 					"type": "play_sound",

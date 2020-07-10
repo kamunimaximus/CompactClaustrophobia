@@ -394,7 +394,5098 @@
 					"type": "swing_hand"
 				}
 			]
+		},
+		{
+			"name": "zlogicfail",
+			"type": {
+				"type": "block",
+				"name": "thermalexpansion:strongbox"
+			},
+			"clicktype": "right",
+			"properties": [
+				{
+					"type": "use_command",
+					"name": "summon",
+					"arguments": "minecraft:llama_spit ~ ~+1 ~"
+				},
+				{
+					"type": "play_sound",
+					"name": "thermalfoundation:mob_blitz_attack"
+				},
+				{
+					"type": "item_has_FE",
+					"bigger": "false",
+					"amount": "1000000"
+				},
+				{
+					"type": "swing_hand"
+				}
+			]
+		},
+		{
+			"name": "zlogic",
+			"type": {
+				"type": "block",
+				"name": "thermalexpansion:strongbox"
+			},
+			"clicktype": "right",
+			"properties": [
+				{
+					"type": "use_command",
+					"name": "summon",
+					"arguments": "minecraft:lightning_bolt ~ ~ ~"
+				},
+				{
+					"type": "play_sound",
+					"name": "thermalfoundation:mob_blitz_attack"
+				},
+				{
+					"type": "consume_tile_items",
+					"items": [
+						{
+							"name": "minecraft:rotten_flesh",
+							"amount": 4
+						},
+						{
+							"name": "enderio:item_basic_item_filter"
+						}
+					]
+				},
+				{
+					"type": "require_tile_items",
+					"items": [
+						{
+							"name": "minecraft:rotten_flesh",
+							"amount": 4
+						},
+						{
+							"name": "enderio:item_basic_item_filter"
+						}
+					]
+				},
+				{
+					"type": "item_has_FE",
+					"bigger": "true",
+					"amount": "999999"
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "modify_Item_FE",
+					"consume": "true",
+					"amount": 5000
+				},
+				{
+					"type": "swing_hand"
+				}
+			],
+			"drops": [
+				{
+					"name": "enderio:item_advanced_item_filter",
+					"amount": "1"
+				}
+			],
+			"messages": [
+				{
+					"id": "item_has_FE",
+					"message": "Insufficient charge for ligthning craft! (4 rotten flesh + basic item filter)"
+				}
+			]
 		}
+		
 	]
 }
  

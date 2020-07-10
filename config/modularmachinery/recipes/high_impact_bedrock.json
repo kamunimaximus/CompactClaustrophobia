@@ -9,7 +9,7 @@
             "energyPerTick": 100000
         },
         {
-            "type": "modularaugment:deferred-item",
+            "type": "modularaugment:deferred",
             "io-type": "input",
             "item": "bedrockminer:bedrock_chunk",
             "amount": 9

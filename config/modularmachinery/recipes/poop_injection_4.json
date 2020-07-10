@@ -9,16 +9,16 @@
             "energyPerTick": 512
         },
         {
-            "type": "modularmachinery:item",
+            "type": "modularaugment:deferred",
             "io-type": "input",
             "item": "compactmachines3:machine@4",
             "amount": 1
         },
         {
-            "type": "modularmachinery:fluid",
+            "type": "modularaugment:deferred",
             "io-type": "input",
-            "fluid": "liquidsewage",
-            "amount": 128000
+            "fluid": "sewagefluid",
+            "amount": 64000
         },
         {
             "type": "modularmachinery:item",

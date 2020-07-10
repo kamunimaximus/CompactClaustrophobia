@@ -1,0 +1,20 @@
+{
+  "nuclearcraft:root": {
+    "criteria": {
+      "location": "2020-06-24 20:59:21 +0200"
+    },
+    "done": true
+  },
+  "galacticraftcore:galacticraft/root": {
+    "criteria": {
+      "tick": "2020-06-24 20:59:24 +0200"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "stone_beach": "2020-06-24 20:59:21 +0200"
+    },
+    "done": false
+  }
+}

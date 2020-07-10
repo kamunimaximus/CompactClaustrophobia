@@ -43,7 +43,7 @@
           "requiredItems:9": {
             "0:10": {
               "id:8": "nuclearcraft:foursmore",
-              "Count:3": 1,
+              "Count:3": 100,
               "Damage:2": 0,
               "OreDict:8": ""
             }
@@ -290,7 +290,7 @@
           "globalshare:1": 0,
           "questlogic:8": "AND",
           "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 1,
+          "autoclaim:1": 0,
           "repeat_relative:1": 1,
           "ismain:1": 1,
           "name:8": "Bedrock Breaker",
@@ -325,7 +325,7 @@
           "viaPlayer:1": 1,
           "index:3": 0,
           "title:8": "bq_standard.reward.command",
-          "command:8": "/tellraw @a [\"\",{\"text\":\"Thank you \"},{\"text\":\"name\",\"obfuscated\":true},{\"text\":\" for playing! If you enjoyed the journey and want share the love consider \"},{\"text\":\"buying me an icecream!\",\"bold\":true,\"underlined\":true,\"color\":\"aqua\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://www.buymeacoffee.com/hamster\"}},{\"text\":\"\\n\\nThere were a few items that would break the game earlier. But you deserve \"},{\"text\":\"freedom!\",\"bold\":true,\"underlined\":true,\"color\":\"green\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/gamestage add @s freedom\"}}]"
+          "command:8": "/tellraw @p [\"\",{\"text\":\"Thank you \"},{\"text\":\"name\",\"obfuscated\":true},{\"text\":\" for playing! If you enjoyed the journey and want share the love consider \"},{\"text\":\"buying me an icecream!\",\"bold\":true,\"underlined\":true,\"color\":\"aqua\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://www.buymeacoffee.com/hamster\"}},{\"text\":\"\\n\\nThere were a few items that would break the game earlier. But you deserve \"},{\"text\":\"freedom!\",\"bold\":true,\"underlined\":true,\"color\":\"green\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/gamestage add @s freedom\"}}]"
         }
       }
     },
@@ -1979,7 +1979,7 @@
           "repeat_relative:1": 1,
           "ismain:1": 0,
           "name:8": "Hard as Steel",
-          "desc:8": "Slightly hazzardous. Obtained by exploding iron ingots! Not always successful"
+          "desc:8": "Slightly hazzardous. Obtained by exploding iron blocks! Not always successful"
         }
       },
       "tasks:9": {
@@ -6450,7 +6450,7 @@
           "repeat_relative:1": 1,
           "ismain:1": 0,
           "name:8": "High Impact Compactor",
-          "desc:8": "Squeezes pretty hard. All of the electromagnets needs to be powered continously for the multiblock to be valid. Each requires 100 rf/t"
+          "desc:8": "Squeezes pretty hard. All of the electromagnets needs to be powered continously for the multiblock to be valid. Each requires 1000 rf/t. The unpowered version can\u0027t craft anything - but this will surely help you build! Btw, the pipes don\u0027t show so make sure to check which should go where!"
         }
       },
       "tasks:9": {
@@ -6544,7 +6544,23 @@
           "taskID:8": "bq_standard:retrieval"
         }
       },
-      "rewards:9": {}
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "modularmachinery:itemblueprint",
+              "Count:3": 1,
+              "tag:10": {
+                "dynamicmachine:8": "modularmachinery:unpowered_high_impact_compactor"
+              },
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
     },
     "117:10": {
       "questID:3": 117,
@@ -7507,14 +7523,14 @@
           "autoclaim:1": 0,
           "repeat_relative:1": 1,
           "ismain:1": 0,
-          "name:8": "A metric shit-ton",
+          "name:8": "One-hundred metric shit-tonnes",
           "desc:8": "That\u0027s a lot of poop. Yup."
         }
       },
       "tasks:9": {
         "0:10": {
           "partialMatch:1": 1,
-          "autoConsume:1": 1,
+          "autoConsume:1": 0,
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -7522,7 +7538,7 @@
           "requiredItems:9": {
             "0:10": {
               "id:8": "cropdusting:poop",
-              "Count:3": 1000,
+              "Count:3": 100000,
               "Damage:2": 0,
               "OreDict:8": ""
             }
@@ -8407,7 +8423,7 @@
           "repeat_relative:1": 1,
           "ismain:1": 0,
           "name:8": "Setting a spawn!",
-          "desc:8": "as you build in your compact machine, remember to reset your spawn point so you have a new place to land when you come back later. Shift + right click with the PSD inside a compact machine to set your spawn! Swear that you got it working before clicking the checkbox! I\u0027m watching you!"
+          "desc:8": "as you build in your compact machine, remember to reset your spawn point so you have a new place to land when you come back later. Shift + right click with the PSD inside a compact machine to set your spawn! Swear that you got it working before clicking the checkbox! I\u0027m watching you! If you are sloppy with this you might find yourself teleported into a pool of lava, the middle of a reactor or perhaps a grinder. If you want to be completely sure there\u0027s space for you to enter I suggest placing 2 signs where you have set your spawn to make sure there\u0027s space"
         }
       },
       "tasks:9": {
@@ -8893,6 +8909,12 @@
               "Count:3": 1,
               "Damage:2": 0,
               "OreDict:8": ""
+            },
+            "9:10": {
+              "id:8": "thermalfoundation:tool.pickaxe_silver",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -9297,7 +9319,6 @@
     "166:10": {
       "questID:3": 166,
       "preRequisites:11": [
-        156,
         55
       ],
       "properties:10": {
@@ -13053,7 +13074,7 @@
           "globalshare:1": 0,
           "questlogic:8": "AND",
           "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 1,
+          "autoclaim:1": 0,
           "repeat_relative:1": 1,
           "ismain:1": 0,
           "name:8": "Redstone",
@@ -14174,6 +14195,336 @@
         }
       },
       "rewards:9": {}
+    },
+    "219:10": {
+      "questID:3": 219,
+      "preRequisites:11": [
+        57
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "thermalexpansion:augment",
+            "Count:3": 1,
+            "Damage:2": 401,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Reconstructing with Flux",
+          "desc:8": "Did you just get a fancy new pick? Would be a shame if broke :)"
+        }
+      },
+      "tasks:9": {},
+      "rewards:9": {}
+    },
+    "220:10": {
+      "questID:3": 220,
+      "preRequisites:11": [
+        105
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "enderio:item_advanced_item_filter",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Advanced Filtering",
+          "desc:8": "By harnessing the power of ligthing you can create a more sophisticated filter, just follow these simple steps:\n\n1. Have an item with at least 1.000.000 RF charged\n2. Place down a strongbox\n3. Place a simple filter and 4 zombie flesh inside\n4. Right click with the charged item to harness the power of lightning! (I advise you to stay back)"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 1,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "enderio:item_advanced_item_filter",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "221:10": {
+      "questID:3": 221,
+      "preRequisites:11": [
+        65,
+        222
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "contenttweaker:glitched1",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Small Glitches",
+          "desc:8": "Some say glitches exist.. Nonsense I say!"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 1,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "contenttweaker:glitched1",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "222:10": {
+      "questID:3": 222,
+      "preRequisites:11": [
+        65
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "cropdusting:poop",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Putting the poop in power",
+          "desc:8": "More sophisticated machines, require more sophisticated solutions to mess up. This design is tried and tested"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "modularmachinery:itemblueprint",
+              "Count:3": 1,
+              "tag:10": {
+                "dynamicmachine:8": "modularmachinery:pressure_poop_injector"
+              },
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "223:10": {
+      "questID:3": 223,
+      "preRequisites:11": [
+        81
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "thermalexpansion:augment",
+            "Count:3": 1,
+            "Damage:2": 258,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Pyrolytic Conversions",
+          "desc:8": "Coal coke is pretty time consuming to make, I wonder if there\u0027s an alternative... Check out what graphite dust can do in a pressurizer"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 1,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "thermalexpansion:augment",
+              "Count:3": 1,
+              "Damage:2": 258,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "224:10": {
+      "questID:3": 224,
+      "preRequisites:11": [
+        65
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "ALWAYS",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "contenttweaker:padded10",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 1,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Padded Cell",
+          "desc:8": "Tired of hurting your hands on the walls and getting random drops all the time? Try padding the cell with some wool. If you dislike the decor you can always remove it again with some shears"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        }
+      },
+      "rewards:9": {}
+    },
+    "225:10": {
+      "questID:3": 225,
+      "preRequisites:11": [
+        26
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "morphtool:tool",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Morphing time!",
+          "desc:8": "This handy tool can hold a bunch of other tools! Simply craft them together and you\u0027re good to go"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 1,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "morphtool:tool",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
     }
   },
   "questLines:9": {
@@ -14668,6 +15019,13 @@
           "y:3": 12,
           "id:3": 218,
           "sizeY:3": 24
+        },
+        "59:10": {
+          "sizeX:3": 24,
+          "x:3": -76,
+          "y:3": 108,
+          "id:3": 225,
+          "sizeY:3": 24
         }
       },
       "lineID:3": 1,
@@ -14728,7 +15086,7 @@
         "5:10": {
           "sizeX:3": 24,
           "x:3": 76,
-          "y:3": 256,
+          "y:3": 264,
           "id:3": 39,
           "sizeY:3": 24
         },
@@ -14819,14 +15177,14 @@
         "18:10": {
           "sizeX:3": 24,
           "x:3": 304,
-          "y:3": 188,
+          "y:3": 204,
           "id:3": 54,
           "sizeY:3": 24
         },
         "19:10": {
           "sizeX:3": 24,
           "x:3": 304,
-          "y:3": 160,
+          "y:3": 176,
           "id:3": 55,
           "sizeY:3": 24
         },
@@ -14924,7 +15282,7 @@
         "33:10": {
           "sizeX:3": 24,
           "x:3": 304,
-          "y:3": 220,
+          "y:3": 236,
           "id:3": 74,
           "sizeY:3": 24
         },
@@ -14945,7 +15303,7 @@
         "36:10": {
           "sizeX:3": 24,
           "x:3": 132,
-          "y:3": 256,
+          "y:3": 264,
           "id:3": 79,
           "sizeY:3": 24
         },
@@ -14959,7 +15317,7 @@
         "38:10": {
           "sizeX:3": 24,
           "x:3": 304,
-          "y:3": 132,
+          "y:3": 148,
           "id:3": 81,
           "sizeY:3": 24
         },
@@ -15071,7 +15429,7 @@
         "54:10": {
           "sizeX:3": 24,
           "x:3": 420,
-          "y:3": 236,
+          "y:3": 252,
           "id:3": 156,
           "sizeY:3": 24
         },
@@ -15085,21 +15443,21 @@
         "56:10": {
           "sizeX:3": 24,
           "x:3": 448,
-          "y:3": 236,
+          "y:3": 252,
           "id:3": 164,
           "sizeY:3": 24
         },
         "57:10": {
           "sizeX:3": 24,
           "x:3": 336,
-          "y:3": 220,
+          "y:3": 236,
           "id:3": 165,
           "sizeY:3": 24
         },
         "58:10": {
           "sizeX:3": 36,
           "x:3": 376,
-          "y:3": 228,
+          "y:3": 244,
           "id:3": 166,
           "sizeY:3": 36
         },
@@ -15162,63 +15520,63 @@
         "67:10": {
           "sizeX:3": 24,
           "x:3": 408,
-          "y:3": 152,
+          "y:3": 168,
           "id:3": 208,
           "sizeY:3": 24
         },
         "68:10": {
           "sizeX:3": 24,
           "x:3": 376,
-          "y:3": 160,
+          "y:3": 176,
           "id:3": 209,
           "sizeY:3": 24
         },
         "69:10": {
           "sizeX:3": 24,
           "x:3": 376,
-          "y:3": 132,
+          "y:3": 148,
           "id:3": 210,
           "sizeY:3": 24
         },
         "70:10": {
           "sizeX:3": 24,
           "x:3": 440,
-          "y:3": 152,
+          "y:3": 168,
           "id:3": 211,
           "sizeY:3": 24
         },
         "71:10": {
           "sizeX:3": 24,
           "x:3": 376,
-          "y:3": 188,
+          "y:3": 204,
           "id:3": 212,
           "sizeY:3": 24
         },
         "72:10": {
           "sizeX:3": 24,
           "x:3": 408,
-          "y:3": 188,
+          "y:3": 204,
           "id:3": 213,
           "sizeY:3": 24
         },
         "73:10": {
           "sizeX:3": 24,
           "x:3": 440,
-          "y:3": 188,
+          "y:3": 204,
           "id:3": 214,
           "sizeY:3": 24
         },
         "74:10": {
           "sizeX:3": 24,
           "x:3": 472,
-          "y:3": 168,
+          "y:3": 184,
           "id:3": 215,
           "sizeY:3": 24
         },
         "75:10": {
           "sizeX:3": 24,
           "x:3": 472,
-          "y:3": 204,
+          "y:3": 220,
           "id:3": 216,
           "sizeY:3": 24
         },
@@ -15227,6 +15585,41 @@
           "x:3": 304,
           "y:3": 40,
           "id:3": 217,
+          "sizeY:3": 24
+        },
+        "77:10": {
+          "sizeX:3": 24,
+          "x:3": 204,
+          "y:3": 108,
+          "id:3": 219,
+          "sizeY:3": 24
+        },
+        "78:10": {
+          "sizeX:3": 24,
+          "x:3": 76,
+          "y:3": 216,
+          "id:3": 221,
+          "sizeY:3": 24
+        },
+        "79:10": {
+          "sizeX:3": 24,
+          "x:3": 76,
+          "y:3": 184,
+          "id:3": 222,
+          "sizeY:3": 24
+        },
+        "80:10": {
+          "sizeX:3": 24,
+          "x:3": 336,
+          "y:3": 132,
+          "id:3": 223,
+          "sizeY:3": 24
+        },
+        "81:10": {
+          "sizeX:3": 24,
+          "x:3": 152,
+          "y:3": 232,
+          "id:3": 224,
           "sizeY:3": 24
         }
       },
@@ -15585,6 +15978,13 @@
           "y:3": 172,
           "id:3": 183,
           "sizeY:3": 32
+        },
+        "39:10": {
+          "sizeX:3": 24,
+          "x:3": -12,
+          "y:3": 72,
+          "id:3": 220,
+          "sizeY:3": 24
         }
       },
       "lineID:3": 4,

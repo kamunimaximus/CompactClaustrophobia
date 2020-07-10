@@ -9,12 +9,11 @@
         "thermalfoundation:tool.axe_steel"
       ],
       "blocklist": [
-        "integrateddynamics:menril_leaves/0",
         "integrateddynamics:menril_log/0",
+        "integrateddynamics:menril_log/1",
         "integrateddynamics:menril_log_filled/0",
+        "integrateddynamics:menril_log_filled/1",
         "minecraft:fence",
-        "minecraft:leaves",
-        "minecraft:leaves2",
         "minecraft:log",
         "minecraft:log2"
       ]
@@ -151,10 +150,7 @@
         "thermalfoundation:tool.shears_wood"
       ],
       "blocklist": [
-        "integrateddynamics:menril_leaves/0",
         "minecraft:deadbush",
-        "minecraft:leaves",
-        "minecraft:leaves2",
         "minecraft:tallgrass",
         "minecraft:vine",
         "minecraft:web",

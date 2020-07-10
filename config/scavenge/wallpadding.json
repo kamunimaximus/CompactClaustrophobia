@@ -1,0 +1,689 @@
+{
+	"block_pools" :
+	[
+		{
+			"name": "PlacePadding0",
+			"disableJEI": "true",
+			"type": {
+				"type": "block_list", 
+				"blocks": [
+					{ "name": "compactmachines3:wall"}
+				]
+			},
+			"clicktype": "right",
+			"properties": [
+				{
+					"type": "play_sound",
+					"name": "block.snow.place"
+				},
+				{
+					"type": "require_sneak",
+					"sneak": "false"
+				},
+				{
+					"type": "consume_block",
+					"name": "contenttweaker:padded0"
+				},
+				{
+					"type": "swing_hand"
+				},
+				{
+					"type": "consume_item",
+					"amount": 1,
+					"name": "minecraft:wool", "meta": 0
+				},
+				{
+					"type": "require_item_list",
+					"items": [
+						{"name": "minecraft:wool", "meta": 0}
+					]
+				}
+			]
+		},
+		{
+			"name": "PlacePadding1",
+			"disableJEI": "true",
+			"type": {
+				"type": "block_list", 
+				"blocks": [
+					{ "name": "compactmachines3:wall"}
+				]
+			},
+			"clicktype": "right",
+			"properties": [
+				{
+					"type": "play_sound",
+					"name": "block.snow.place"
+				},
+				{
+					"type": "require_sneak",
+					"sneak": "false"
+				},
+				{
+					"type": "consume_block",
+					"name": "contenttweaker:padded1"
+				},
+				{
+					"type": "swing_hand"
+				},
+				{
+					"type": "consume_item",
+					"amount": 1,
+					"name": "minecraft:wool", "meta": 1
+				},
+				{
+					"type": "require_item_list",
+					"items": [
+						{"name": "minecraft:wool", "meta": 1}
+					]
+				}
+			]
+		},
+		{
+			"name": "PlacePadding2",
+			"disableJEI": "true",
+			"type": {
+				"type": "block_list", 
+				"blocks": [
+					{ "name": "compactmachines3:wall"}
+				]
+			},
+			"clicktype": "right",
+			"properties": [
+				{
+					"type": "play_sound",
+					"name": "block.snow.place"
+				},
+				{
+					"type": "require_sneak",
+					"sneak": "false"
+				},
+				{
+					"type": "consume_block",
+					"name": "contenttweaker:padded2"
+				},
+				{
+					"type": "swing_hand"
+				},
+				{
+					"type": "consume_item",
+					"amount": 1,
+					"name": "minecraft:wool", "meta": 2
+				},
+				{
+					"type": "require_item_list",
+					"items": [
+						{"name": "minecraft:wool", "meta": 2}
+					]
+				}
+			]
+		},
+		{
+			"name": "PlacePadding3",
+			"disableJEI": "true",
+			"type": {
+				"type": "block_list", 
+				"blocks": [
+					{ "name": "compactmachines3:wall"}
+				]
+			},
+			"clicktype": "right",
+			"properties": [
+				{
+					"type": "play_sound",
+					"name": "block.snow.place"
+				},
+				{
+					"type": "require_sneak",
+					"sneak": "false"
+				},
+				{
+					"type": "consume_block",
+					"name": "contenttweaker:padded3"
+				},
+				{
+					"type": "swing_hand"
+				},
+				{
+					"type": "consume_item",
+					"amount": 1,
+					"name": "minecraft:wool", "meta": 3
+				},
+				{
+					"type": "require_item_list",
+					"items": [
+						{"name": "minecraft:wool", "meta": 3}
+					]
+				}
+			]
+		},
+		{
+			"name": "PlacePadding4",
+			"disableJEI": "true",
+			"type": {
+				"type": "block_list", 
+				"blocks": [
+					{ "name": "compactmachines3:wall"}
+				]
+			},
+			"clicktype": "right",
+			"properties": [
+				{
+					"type": "play_sound",
+					"name": "block.snow.place"
+				},
+				{
+					"type": "require_sneak",
+					"sneak": "false"
+				},
+				{
+					"type": "consume_block",
+					"name": "contenttweaker:padded4"
+				},
+				{
+					"type": "swing_hand"
+				},
+				{
+					"type": "consume_item",
+					"amount": 1,
+					"name": "minecraft:wool", "meta": 4
+				},
+				{
+					"type": "require_item_list",
+					"items": [
+						{"name": "minecraft:wool", "meta": 4}
+					]
+				}
+			]
+		},
+		{
+			"name": "PlacePadding5",
+			"disableJEI": "true",
+			"type": {
+				"type": "block_list", 
+				"blocks": [
+					{ "name": "compactmachines3:wall"}
+				]
+			},
+			"clicktype": "right",
+			"properties": [
+				{
+					"type": "play_sound",
+					"name": "block.snow.place"
+				},
+				{
+					"type": "require_sneak",
+					"sneak": "false"
+				},
+				{
+					"type": "consume_block",
+					"name": "contenttweaker:padded5"
+				},
+				{
+					"type": "swing_hand"
+				},
+				{
+					"type": "consume_item",
+					"amount": 1,
+					"name": "minecraft:wool", "meta": 5
+				},
+				{
+					"type": "require_item_list",
+					"items": [
+						{"name": "minecraft:wool", "meta": 5}
+					]
+				}
+			]
+		},
+		{
+			"name": "PlacePadding6",
+			"disableJEI": "true",
+			"type": {
+				"type": "block_list", 
+				"blocks": [
+					{ "name": "compactmachines3:wall"}
+				]
+			},
+			"clicktype": "right",
+			"properties": [
+				{
+					"type": "play_sound",
+					"name": "block.snow.place"
+				},
+				{
+					"type": "require_sneak",
+					"sneak": "false"
+				},
+				{
+					"type": "consume_block",
+					"name": "contenttweaker:padded6"
+				},
+				{
+					"type": "swing_hand"
+				},
+				{
+					"type": "consume_item",
+					"amount": 1,
+					"name": "minecraft:wool", "meta": 6
+				},
+				{
+					"type": "require_item_list",
+					"items": [
+						{"name": "minecraft:wool", "meta": 6}
+					]
+				}
+			]
+		},
+		{
+			"name": "PlacePadding7",
+			"disableJEI": "true",
+			"type": {
+				"type": "block_list", 
+				"blocks": [
+					{ "name": "compactmachines3:wall"}
+				]
+			},
+			"clicktype": "right",
+			"properties": [
+				{
+					"type": "play_sound",
+					"name": "block.snow.place"
+				},
+				{
+					"type": "require_sneak",
+					"sneak": "false"
+				},
+				{
+					"type": "consume_block",
+					"name": "contenttweaker:padded7"
+				},
+				{
+					"type": "swing_hand"
+				},
+				{
+					"type": "consume_item",
+					"amount": 1,
+					"name": "minecraft:wool", "meta": 7
+				},
+				{
+					"type": "require_item_list",
+					"items": [
+						{"name": "minecraft:wool", "meta": 7}
+					]
+				}
+			]
+		},
+		{
+			"name": "PlacePadding8",
+			"disableJEI": "true",
+			"type": {
+				"type": "block_list", 
+				"blocks": [
+					{ "name": "compactmachines3:wall"}
+				]
+			},
+			"clicktype": "right",
+			"properties": [
+				{
+					"type": "play_sound",
+					"name": "block.snow.place"
+				},
+				{
+					"type": "require_sneak",
+					"sneak": "false"
+				},
+				{
+					"type": "consume_block",
+					"name": "contenttweaker:padded8"
+				},
+				{
+					"type": "swing_hand"
+				},
+				{
+					"type": "consume_item",
+					"amount": 1,
+					"name": "minecraft:wool", "meta": 8
+				},
+				{
+					"type": "require_item_list",
+					"items": [
+						{"name": "minecraft:wool", "meta": 8}
+					]
+				}
+			]
+		},
+		{
+			"name": "PlacePadding9",
+			"disableJEI": "true",
+			"type": {
+				"type": "block_list", 
+				"blocks": [
+					{ "name": "compactmachines3:wall"}
+				]
+			},
+			"clicktype": "right",
+			"properties": [
+				{
+					"type": "play_sound",
+					"name": "block.snow.place"
+				},
+				{
+					"type": "require_sneak",
+					"sneak": "false"
+				},
+				{
+					"type": "consume_block",
+					"name": "contenttweaker:padded9"
+				},
+				{
+					"type": "swing_hand"
+				},
+				{
+					"type": "consume_item",
+					"amount": 1,
+					"name": "minecraft:wool", "meta": 9
+				},
+				{
+					"type": "require_item_list",
+					"items": [
+						{"name": "minecraft:wool", "meta": 9}
+					]
+				}
+			]
+		},
+		{
+			"name": "PlacePadding10",
+			"disableJEI": "true",
+			"type": {
+				"type": "block_list", 
+				"blocks": [
+					{ "name": "compactmachines3:wall"}
+				]
+			},
+			"clicktype": "right",
+			"properties": [
+				{
+					"type": "play_sound",
+					"name": "block.snow.place"
+				},
+				{
+					"type": "require_sneak",
+					"sneak": "false"
+				},
+				{
+					"type": "consume_block",
+					"name": "contenttweaker:padded10"
+				},
+				{
+					"type": "swing_hand"
+				},
+				{
+					"type": "consume_item",
+					"amount": 1,
+					"name": "minecraft:wool", "meta": 10
+				},
+				{
+					"type": "require_item_list",
+					"items": [
+						{"name": "minecraft:wool", "meta": 10}
+					]
+				}
+			]
+		},
+		{
+			"name": "PlacePadding11",
+			"disableJEI": "true",
+			"type": {
+				"type": "block_list", 
+				"blocks": [
+					{ "name": "compactmachines3:wall"}
+				]
+			},
+			"clicktype": "right",
+			"properties": [
+				{
+					"type": "play_sound",
+					"name": "block.snow.place"
+				},
+				{
+					"type": "require_sneak",
+					"sneak": "false"
+				},
+				{
+					"type": "consume_block",
+					"name": "contenttweaker:padded11"
+				},
+				{
+					"type": "swing_hand"
+				},
+				{
+					"type": "consume_item",
+					"amount": 1,
+					"name": "minecraft:wool", "meta": 11
+				},
+				{
+					"type": "require_item_list",
+					"items": [
+						{"name": "minecraft:wool", "meta": 11}
+					]
+				}
+			]
+		},
+		{
+			"name": "PlacePadding12",
+			"disableJEI": "true",
+			"type": {
+				"type": "block_list", 
+				"blocks": [
+					{ "name": "compactmachines3:wall"}
+				]
+			},
+			"clicktype": "right",
+			"properties": [
+				{
+					"type": "play_sound",
+					"name": "block.snow.place"
+				},
+				{
+					"type": "require_sneak",
+					"sneak": "false"
+				},
+				{
+					"type": "consume_block",
+					"name": "contenttweaker:padded12"
+				},
+				{
+					"type": "swing_hand"
+				},
+				{
+					"type": "consume_item",
+					"amount": 1,
+					"name": "minecraft:wool", "meta": 12
+				},
+				{
+					"type": "require_item_list",
+					"items": [
+						{"name": "minecraft:wool", "meta": 12}
+					]
+				}
+			]
+		},
+		{
+			"name": "PlacePadding13",
+			"disableJEI": "true",
+			"type": {
+				"type": "block_list", 
+				"blocks": [
+					{ "name": "compactmachines3:wall"}
+				]
+			},
+			"clicktype": "right",
+			"properties": [
+				{
+					"type": "play_sound",
+					"name": "block.snow.place"
+				},
+				{
+					"type": "require_sneak",
+					"sneak": "false"
+				},
+				{
+					"type": "consume_block",
+					"name": "contenttweaker:padded13"
+				},
+				{
+					"type": "swing_hand"
+				},
+				{
+					"type": "consume_item",
+					"amount": 1,
+					"name": "minecraft:wool", "meta": 13
+				},
+				{
+					"type": "require_item_list",
+					"items": [
+						{"name": "minecraft:wool", "meta": 13}
+					]
+				}
+			]
+		},
+		{
+			"name": "PlacePadding14",
+			"disableJEI": "true",
+			"type": {
+				"type": "block_list", 
+				"blocks": [
+					{ "name": "compactmachines3:wall"}
+				]
+			},
+			"clicktype": "right",
+			"properties": [
+				{
+					"type": "play_sound",
+					"name": "block.snow.place"
+				},
+				{
+					"type": "require_sneak",
+					"sneak": "false"
+				},
+				{
+					"type": "consume_block",
+					"name": "contenttweaker:padded14"
+				},
+				{
+					"type": "swing_hand"
+				},
+				{
+					"type": "consume_item",
+					"amount": 1,
+					"name": "minecraft:wool", "meta": 14
+				},
+				{
+					"type": "require_item_list",
+					"items": [
+						{"name": "minecraft:wool", "meta": 14}
+					]
+				}
+			]
+		},
+		{
+			"name": "PlacePadding15",
+			"disableJEI": "true",
+			"type": {
+				"type": "block_list", 
+				"blocks": [
+					{ "name": "compactmachines3:wall"}
+				]
+			},
+			"clicktype": "right",
+			"properties": [
+				{
+					"type": "play_sound",
+					"name": "block.snow.place"
+				},
+				{
+					"type": "require_sneak",
+					"sneak": "false"
+				},
+				{
+					"type": "consume_block",
+					"name": "contenttweaker:padded15"
+				},
+				{
+					"type": "swing_hand"
+				},
+				{
+					"type": "consume_item",
+					"amount": 1,
+					"name": "minecraft:wool", "meta": 15
+				},
+				{
+					"type": "require_item_list",
+					"items": [
+						{"name": "minecraft:wool", "meta": 15}
+					]
+				}
+			]
+		},
+		{
+			"name": "RemovePadding",
+			"disableJEI": "true",
+			"type": {
+				"type": "block_list", 
+				"blocks": [
+					{ "name": "contenttweaker:padded0"},
+					{ "name": "contenttweaker:padded1"},
+					{ "name": "contenttweaker:padded2"},
+					{ "name": "contenttweaker:padded3"},
+					{ "name": "contenttweaker:padded4"},
+					{ "name": "contenttweaker:padded5"},
+					{ "name": "contenttweaker:padded6"},
+					{ "name": "contenttweaker:padded7"},
+					{ "name": "contenttweaker:padded8"},
+					{ "name": "contenttweaker:padded9"},
+					{ "name": "contenttweaker:padded10"},
+					{ "name": "contenttweaker:padded11"},
+					{ "name": "contenttweaker:padded12"},
+					{ "name": "contenttweaker:padded13"},
+					{ "name": "contenttweaker:padded14"},
+					{ "name": "contenttweaker:padded15"}
+				]
+			},
+			"clicktype": "right",
+			"properties": [
+				{
+					"type": "play_sound",
+					"name": "entity.sheep.shear"
+				},
+				{
+					"type": "consume_block",
+					"name": "compactmachines3:wall"
+				},
+				{
+					"type": "swing_hand"
+				},
+				{
+					"type": "damage_item",
+					"amount": "1"
+				},
+				{
+					"type": "drop_items"
+				},
+				{
+					"type": "require_item_list",
+					"items": [
+						{"name": "minecraft:shears"}
+					]
+				}
+			],
+			"drops":
+			[
+				{
+					"name": "minecraft:string",
+					"chance": 100,
+					"amount": 4
+				}
+			]
+        }
+	]
+}

@@ -39,8 +39,8 @@ FluidToFluid.transform(<liquid:water>, <liquid:sewagefluid>, [<minecraft:paper>]
 
 // Explosion
 //FireCrafting.addRecipe(<minecraft:coal:1>, <minecraft:log>, 140);
-ExplosionCrafting.explodeItemRecipe(<thermalfoundation:material:16>, <immersiveengineering:material:19>, 15);
-ExplosionCrafting.explodeItemRecipe(<immersiveengineering:metal:17>*6, <minecraft:iron_block>, 75);
+ExplosionCrafting.explodeItemRecipe(<thermalfoundation:material:16>, <immersiveengineering:material:19>, 20);
+ExplosionCrafting.explodeBlockRecipe(<immersiveengineering:metal:17>*6, <minecraft:iron_block>, 75);
 
 
 // Fire

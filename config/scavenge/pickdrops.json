@@ -253,7 +253,7 @@
 				},
 				{
 					"type": "player_cooldown",
-					"time": "9"
+					"time": "10"
 				},
 				{
 					"type": "swing_hand"
@@ -330,7 +330,7 @@
 				},
 				{
 					"type": "player_cooldown",
-					"time": "9"
+					"time": "10"
 				},
 				{
 					"type": "swing_hand"
@@ -418,7 +418,7 @@
 				},
 				{
 					"type": "player_cooldown",
-					"time": "9"
+					"time": "10"
 				},
 				{
 					"type": "swing_hand"
@@ -438,7 +438,7 @@
 			[
 				{
 					"name": "cttinycoal:tiny_coal",
-					"weight": 1500
+					"weight": 1200
 				},
 				{
 					"name": "thermalfoundation:material",
@@ -457,7 +457,7 @@
 				},
 				{
 					"name": "bedrockminer:bedrock_chunk",
-					"weight": 2
+					"weight": 1
 				}
 			],
 			"messages":

@@ -1,6 +1,9 @@
 //This file was created via CT-GUI! Editing it is not advised!
 //Don't touch me!
 //#Remove
+recipes.removeShaped(<immersiveengineering:metal_decoration2:4> * 3, [[null, <ore:plateIron>, null],[<ore:paneGlass>, <ore:glowstone>, <ore:paneGlass>], [null, <ore:plateIron>, null]]);
+recipes.removeShaped(<integratedterminals:part_terminal_storage_item>, [[<minecraft:glowstone_dust>, <integratedterminals:menril_glass>, <minecraft:glowstone_dust>],[<integrateddynamics:variable_transformer>, <integrateddynamics:part_display_panel_item>, <integrateddynamics:variable_transformer:1>], [<minecraft:glowstone_dust>, null, <minecraft:glowstone_dust>]]);
+recipes.removeShaped(<integratedterminals:part_terminal_crafting_job_item>, [[<minecraft:glowstone_dust>, <integratedterminals:menril_glass>, <minecraft:glowstone_dust>],[null, <integrateddynamics:part_display_panel_item>, null], [<minecraft:glowstone_dust>, <minecraft:crafting_table>, <minecraft:glowstone_dust>]]);
 recipes.removeShaped(<jecalculation:item_calculator>, [[<ore:stone>, <ore:dyeBlack>, <ore:stone>],[<ore:stone>, <minecraft:iron_ingot>, <ore:stone>], [<ore:stone>, <minecraft:redstone>, <ore:stone>]]);
 recipes.removeShaped(<exnihilocreatio:block_end_cake>, [[<minecraft:ender_eye>, <minecraft:end_crystal>, <minecraft:ender_eye>],[<minecraft:ender_eye>, <minecraft:cake>, <minecraft:ender_eye>], [<minecraft:ender_eye>, <minecraft:end_crystal>, <minecraft:ender_eye>]]);
 recipes.removeShaped(<projectred-fabrication:ic_machine:1>, [[<minecraft:stained_glass:3>, <minecraft:stained_glass:3>, <minecraft:stained_glass:3>],[<minecraft:obsidian>, <minecraft:diamond>, <minecraft:obsidian>], [<minecraft:iron_ingot>, <ore:plankWood>, <minecraft:iron_ingot>]]);
@@ -23,6 +26,9 @@ recipes.removeShaped(<minecraft:enchanting_table>, [[null, <minecraft:book>, nul
 recipes.removeShapeless(<nuclearcraft:glowing_mushroom>, [<minecraft:brown_mushroom>, <minecraft:glowstone_dust>]);
 recipes.removeShapeless(<nuclearcraft:glowing_mushroom>, [<minecraft:brown_mushroom>, <minecraft:glowstone_dust>]);
 //#Add
+recipes.addShaped(<immersiveengineering:metal_decoration2:4>, [[null, <ore:plateIron>, null],[<ore:paneGlass>, <minecraft:redstone_torch>, <ore:paneGlass>], [null, <ore:plateIron>, null]]);
+recipes.addShaped(<integratedterminals:part_terminal_storage_item>, [[<minecraft:redstone>, <integratedterminals:menril_glass>, <minecraft:redstone>],[<integrateddynamics:variable_transformer>, <integrateddynamics:part_display_panel_item>, <integrateddynamics:variable_transformer:1>], [<minecraft:redstone>, null, <minecraft:redstone>]]);
+recipes.addShaped(<integratedterminals:part_terminal_crafting_job_item>, [[<minecraft:redstone>, <integratedterminals:menril_glass>, <minecraft:redstone>],[null, <integrateddynamics:part_display_panel_item>, null], [<minecraft:redstone>, <minecraft:crafting_table>, <minecraft:redstone>]]);
 recipes.addShaped(<jecalculation:item_calculator>, [[<ore:stone>, <ore:dyeCyan>, <ore:stone>],[<ore:stone>, <minecraft:iron_ingot>, <ore:stone>], [<ore:stone>, <minecraft:redstone>, <ore:stone>]]);
 furnace.addRecipe(<compactmachines3:machine:5>, <compactmachines3:machine:5>, 0.0);
 furnace.addRecipe(<compactmachines3:machine:4>, <compactmachines3:machine:4>, 0.0);
