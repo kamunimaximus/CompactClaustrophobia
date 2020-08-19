@@ -26,6 +26,7 @@ recipes.removeShaped(<minecraft:enchanting_table>, [[null, <minecraft:book>, nul
 recipes.removeShapeless(<nuclearcraft:glowing_mushroom>, [<minecraft:brown_mushroom>, <minecraft:glowstone_dust>]);
 recipes.removeShapeless(<nuclearcraft:glowing_mushroom>, [<minecraft:brown_mushroom>, <minecraft:glowstone_dust>]);
 //#Add
+recipes.addShaped(<thermalexpansion:augment:416>, [[null, <thermalfoundation:material:290>, null],[<nuclearcraft:sword_boron_nitride>, <thermalfoundation:material:512>, <nuclearcraft:sword_boron_nitride>], [null, <minecraft:piston>, null]]);
 recipes.addShaped(<immersiveengineering:metal_decoration2:4>, [[null, <ore:plateIron>, null],[<ore:paneGlass>, <minecraft:redstone_torch>, <ore:paneGlass>], [null, <ore:plateIron>, null]]);
 recipes.addShaped(<integratedterminals:part_terminal_storage_item>, [[<minecraft:redstone>, <integratedterminals:menril_glass>, <minecraft:redstone>],[<integrateddynamics:variable_transformer>, <integrateddynamics:part_display_panel_item>, <integrateddynamics:variable_transformer:1>], [<minecraft:redstone>, null, <minecraft:redstone>]]);
 recipes.addShaped(<integratedterminals:part_terminal_crafting_job_item>, [[<minecraft:redstone>, <integratedterminals:menril_glass>, <minecraft:redstone>],[null, <integrateddynamics:part_display_panel_item>, null], [<minecraft:redstone>, <minecraft:crafting_table>, <minecraft:redstone>]]);

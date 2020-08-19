@@ -8,23 +8,23 @@ import mods.contenttweaker.BlockState;
 import mods.contenttweaker.Color;
 
 // Items
-VanillaFactory.createItem("ModulariumBlend").register();
-VanillaFactory.createItem("TinySmashedMachine").register();
-VanillaFactory.createItem("SmallSmashedMachine").register();
-VanillaFactory.createItem("NormalSmashedMachine").register();
-VanillaFactory.createItem("LargeSmashedMachine").register();
-VanillaFactory.createItem("GiantSmashedMachine").register();
-VanillaFactory.createItem("MaximumSmashedMachine").register();
-VanillaFactory.createItem("PoopFuel").register();
-VanillaFactory.createItem("Prestoff").register();
-VanillaFactory.createItem("DirtDust").register();
-VanillaFactory.createItem("GravelDust").register();
-VanillaFactory.createItem("CorruptPsd").register();
+VanillaFactory.createItem("modulariumblend").register();
+VanillaFactory.createItem("tinysmashedmachine").register();
+VanillaFactory.createItem("smallsmashedmachine").register();
+VanillaFactory.createItem("normalsmashedmachine").register();
+VanillaFactory.createItem("largesmashedmachine").register();
+VanillaFactory.createItem("giantsmashedmachine").register();
+VanillaFactory.createItem("maximumsmashedmachine").register();
+VanillaFactory.createItem("poopfuel").register();
+VanillaFactory.createItem("prestoff").register();
+VanillaFactory.createItem("dirtdust").register();
+VanillaFactory.createItem("graveldust").register();
+VanillaFactory.createItem("corruptpsd").register();
 VanillaFactory.createItem("hopstitutecarbonfiber").register();
 
 
 // Blocks
-VanillaFactory.createBlock("HomePortal", <blockmaterial:iron>).register();
+VanillaFactory.createBlock("homeportal", <blockmaterial:iron>).register();
 VanillaFactory.createBlock("glitched0", <blockmaterial:iron>).register();
 VanillaFactory.createBlock("glitched1", <blockmaterial:iron>).register();
 VanillaFactory.createBlock("glitched2", <blockmaterial:iron>).register();
@@ -97,7 +97,7 @@ paddedWall14.register();
 paddedWall15.register();
 
 // Hard Glass
-var hardGlass = VanillaFactory.createBlock("HardGlass", <blockmaterial:glass>);
+var hardGlass = VanillaFactory.createBlock("hardglass", <blockmaterial:glass>);
 hardGlass.setLightOpacity(3);
 hardGlass.setLightValue(0);
 hardGlass.setBlockHardness(-1);
@@ -116,8 +116,8 @@ hardGlass.register();
 
 
 // Fluids
-var compactFluid = VanillaFactory.createFluid("CompactFluid", Color.fromHex("D6C02D"));
+var compactFluid = VanillaFactory.createFluid("compactfluid", Color.fromHex("D6C02D"));
 compactFluid.register();
 
-var sewageFluid = VanillaFactory.createFluid("SewageFluid", Color.fromHex("876A18"));
+var sewageFluid = VanillaFactory.createFluid("sewagefluid", Color.fromHex("876A18"));
 sewageFluid.register();

@@ -113,7 +113,7 @@
 				},
 				{
 					"type": "require_item",
-					"name": "contenttweaker:corruptpsd"
+					"name": "galacticraftcore:dungeonfinder"
 				},
 				{
 					"type": "swing_hand"

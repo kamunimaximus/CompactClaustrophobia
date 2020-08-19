@@ -5485,6 +5485,57 @@
 				}
 			]
 		}
+		// ,
+		// {
+		// 	"name": "ZombieEatCow",
+		// 	"type": {
+		// 		"type": "block",
+		// 		"name": "minecraft:mossy_cobblestone"
+		// 	},
+		// 	"clicktype": "right",
+		// 	"properties": [
+		// 		{
+		// 			"type": "require_entity",
+		// 			"name": "minecraft:zombie",
+		// 			"radius": "1"
+		// 		},
+		// 		{
+		// 			"type": "play_sound",
+		// 			"name": "item.bottle.fill_dragonbreath"
+		// 		},
+		// 		{
+		// 			"type": "consume_block",
+		// 			"name": "minecraft:air"
+		// 		},
+		// 		{
+		// 			"type": "require_item",
+		// 			"name": "minecraft:cooked_beef"
+		// 		},
+		// 		{
+		// 			"type": "consume_item",
+		// 			"amount": 1,
+		// 			"name": "minecraft:cooked_beef"
+		// 		},
+		// 		{
+		// 			"type": "swing_hand"
+		// 		}
+		// 	],
+		// 	"drops": [
+		// 		{
+		// 			"name": "set_nbtData",
+		// 			"tags": [{
+		// 				"key": "EntityTag",
+		// 				"value_type": "id",
+		// 				"value": "minecraft:zombie"
+		// 			}]
+					
+		// 		},
+		// 		{
+		// 			"name": "minecraft:spawn_egg",
+		// 			"amount": "1"
+		// 		}
+		// 	]
+		// }
 		
 	]
 }

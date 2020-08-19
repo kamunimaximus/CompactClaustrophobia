@@ -550,7 +550,9 @@
 				{
 					"type": "require_item_list",
 					"items": [
-						{"name": "galacticraftcore:steel_pickaxe"}
+						{"name": "galacticraftcore:steel_pickaxe"},
+						{"name": "minecraft:iron_pickaxe"},
+						{"name": "minecraft:stone_pickaxe"}
 					]
 				}
 			],

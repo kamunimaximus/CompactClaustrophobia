@@ -723,12 +723,8 @@
           "consume:1": 0,
           "requiredItems:9": {
             "0:10": {
-              "id:8": "betterquesting:placeholder",
+              "id:8": "contenttweaker:dirtdust",
               "Count:3": 4,
-              "tag:10": {
-                "orig_meta:3": 0,
-                "orig_id:8": "contenttweaker:dirtdust"
-              },
               "Damage:2": 0,
               "OreDict:8": ""
             }
@@ -1716,12 +1712,8 @@
           "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
-            "id:8": "betterquesting:placeholder",
+            "id:8": "contenttweaker:poopfuel",
             "Count:3": 1,
-            "tag:10": {
-              "orig_meta:3": 0,
-              "orig_id:8": "contenttweaker:poopfuel"
-            },
             "Damage:2": 0,
             "OreDict:8": ""
           },
@@ -1745,12 +1737,8 @@
           "consume:1": 0,
           "requiredItems:9": {
             "0:10": {
-              "id:8": "betterquesting:placeholder",
+              "id:8": "contenttweaker:poopfuel",
               "Count:3": 1,
-              "tag:10": {
-                "orig_meta:3": 0,
-                "orig_id:8": "contenttweaker:poopfuel"
-              },
               "Damage:2": 0,
               "OreDict:8": ""
             }
@@ -2416,12 +2404,8 @@
           "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
-            "id:8": "betterquesting:placeholder",
+            "id:8": "contenttweaker:prestoff",
             "Count:3": 1,
-            "tag:10": {
-              "orig_meta:3": 0,
-              "orig_id:8": "contenttweaker:prestoff"
-            },
             "Damage:2": 0,
             "OreDict:8": ""
           },
@@ -2445,12 +2429,8 @@
           "consume:1": 0,
           "requiredItems:9": {
             "0:10": {
-              "id:8": "betterquesting:placeholder",
+              "id:8": "contenttweaker:prestoff",
               "Count:3": 1,
-              "tag:10": {
-                "orig_meta:3": 0,
-                "orig_id:8": "contenttweaker:prestoff"
-              },
               "Damage:2": 0,
               "OreDict:8": ""
             }
@@ -2475,12 +2455,8 @@
           "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
-            "id:8": "betterquesting:placeholder",
+            "id:8": "contenttweaker:normalsmashedmachine",
             "Count:3": 1,
-            "tag:10": {
-              "orig_meta:3": 0,
-              "orig_id:8": "contenttweaker:normalsmashedmachine"
-            },
             "Damage:2": 0,
             "OreDict:8": ""
           },
@@ -2504,12 +2480,8 @@
           "consume:1": 0,
           "requiredItems:9": {
             "0:10": {
-              "id:8": "betterquesting:placeholder",
+              "id:8": "contenttweaker:normalsmashedmachine",
               "Count:3": 1,
-              "tag:10": {
-                "orig_meta:3": 0,
-                "orig_id:8": "contenttweaker:normalsmashedmachine"
-              },
               "Damage:2": 0,
               "OreDict:8": ""
             }
@@ -2595,12 +2567,8 @@
           "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
-            "id:8": "betterquesting:placeholder",
+            "id:8": "contenttweaker:smallsmashedmachine",
             "Count:3": 1,
-            "tag:10": {
-              "orig_meta:3": 0,
-              "orig_id:8": "contenttweaker:smallsmashedmachine"
-            },
             "Damage:2": 0,
             "OreDict:8": ""
           },
@@ -2624,12 +2592,8 @@
           "consume:1": 0,
           "requiredItems:9": {
             "0:10": {
-              "id:8": "betterquesting:placeholder",
+              "id:8": "contenttweaker:smallsmashedmachine",
               "Count:3": 1,
-              "tag:10": {
-                "orig_meta:3": 0,
-                "orig_id:8": "contenttweaker:smallsmashedmachine"
-              },
               "Damage:2": 0,
               "OreDict:8": ""
             }
@@ -4199,12 +4163,8 @@
           "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
-            "id:8": "betterquesting:placeholder",
+            "id:8": "contenttweaker:tinysmashedmachine",
             "Count:3": 1,
-            "tag:10": {
-              "orig_meta:3": 0,
-              "orig_id:8": "contenttweaker:tinysmashedmachine"
-            },
             "Damage:2": 0,
             "OreDict:8": ""
           },
@@ -4228,12 +4188,8 @@
           "consume:1": 0,
           "requiredItems:9": {
             "0:10": {
-              "id:8": "betterquesting:placeholder",
+              "id:8": "contenttweaker:tinysmashedmachine",
               "Count:3": 4,
-              "tag:10": {
-                "orig_meta:3": 0,
-                "orig_id:8": "contenttweaker:tinysmashedmachine"
-              },
               "Damage:2": 0,
               "OreDict:8": ""
             }
@@ -5163,12 +5119,8 @@
           "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
-            "id:8": "betterquesting:placeholder",
+            "id:8": "contenttweaker:glitched0",
             "Count:3": 1,
-            "tag:10": {
-              "orig_meta:3": 0,
-              "orig_id:8": "contenttweaker:glitched0"
-            },
             "Damage:2": 0,
             "OreDict:8": ""
           },
@@ -5192,12 +5144,8 @@
           "consume:1": 0,
           "requiredItems:9": {
             "0:10": {
-              "id:8": "betterquesting:placeholder",
+              "id:8": "contenttweaker:glitched0",
               "Count:3": 1,
-              "tag:10": {
-                "orig_meta:3": 0,
-                "orig_id:8": "contenttweaker:glitched0"
-              },
               "Damage:2": 0,
               "OreDict:8": ""
             }
@@ -7655,12 +7603,8 @@
           "index:3": 0,
           "rewards:9": {
             "0:10": {
-              "id:8": "betterquesting:placeholder",
+              "id:8": "contenttweaker:tinysmashedmachine",
               "Count:3": 1,
-              "tag:10": {
-                "orig_meta:3": 0,
-                "orig_id:8": "contenttweaker:tinysmashedmachine"
-              },
               "Damage:2": 0,
               "OreDict:8": ""
             }
@@ -7908,12 +7852,8 @@
           "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
-            "id:8": "betterquesting:placeholder",
+            "id:8": "contenttweaker:corruptpsd",
             "Count:3": 1,
-            "tag:10": {
-              "orig_meta:3": 0,
-              "orig_id:8": "contenttweaker:corruptpsd"
-            },
             "Damage:2": 0,
             "OreDict:8": ""
           },
@@ -7937,12 +7877,8 @@
           "consume:1": 0,
           "requiredItems:9": {
             "0:10": {
-              "id:8": "betterquesting:placeholder",
+              "id:8": "contenttweaker:corruptpsd",
               "Count:3": 1,
-              "tag:10": {
-                "orig_meta:3": 0,
-                "orig_id:8": "contenttweaker:corruptpsd"
-              },
               "Damage:2": 0,
               "OreDict:8": ""
             }
@@ -8085,12 +8021,8 @@
           "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
-            "id:8": "betterquesting:placeholder",
+            "id:8": "contenttweaker:glitched0",
             "Count:3": 1,
-            "tag:10": {
-              "orig_meta:3": 0,
-              "orig_id:8": "contenttweaker:glitched0"
-            },
             "Damage:2": 0,
             "OreDict:8": ""
           },
@@ -8352,12 +8284,8 @@
           "visibility:8": "UNLOCKED",
           "simultaneous:1": 0,
           "icon:10": {
-            "id:8": "betterquesting:placeholder",
+            "id:8": "contenttweaker:homeportal",
             "Count:3": 1,
-            "tag:10": {
-              "orig_meta:3": 0,
-              "orig_id:8": "contenttweaker:homeportal"
-            },
             "Damage:2": 0,
             "OreDict:8": ""
           },
@@ -8395,12 +8323,8 @@
           "index:3": 0,
           "choices:9": {
             "0:10": {
-              "id:8": "betterquesting:placeholder",
+              "id:8": "contenttweaker:poopfuel",
               "Count:3": 16,
-              "tag:10": {
-                "orig_meta:3": 0,
-                "orig_id:8": "contenttweaker:poopfuel"
-              },
               "Damage:2": 0,
               "OreDict:8": ""
             },
@@ -12277,12 +12201,8 @@
           "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
-            "id:8": "betterquesting:placeholder",
+            "id:8": "contenttweaker:glitched1",
             "Count:3": 1,
-            "tag:10": {
-              "orig_meta:3": 0,
-              "orig_id:8": "contenttweaker:glitched1"
-            },
             "Damage:2": 0,
             "OreDict:8": ""
           },
@@ -13154,7 +13074,7 @@
           "globalshare:1": 0,
           "questlogic:8": "AND",
           "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 1,
+          "autoclaim:1": 0,
           "repeat_relative:1": 1,
           "ismain:1": 0,
           "name:8": "Redstone",
@@ -13469,12 +13389,8 @@
           "visibility:8": "NORMAL",
           "simultaneous:1": 0,
           "icon:10": {
-            "id:8": "betterquesting:placeholder",
+            "id:8": "contenttweaker:homeportal",
             "Count:3": 1,
-            "tag:10": {
-              "orig_meta:3": 0,
-              "orig_id:8": "contenttweaker:homeportal"
-            },
             "Damage:2": 0,
             "OreDict:8": ""
           },
@@ -14380,12 +14296,8 @@
           "visibility:8": "NORMAL",
           "simultaneous:1": 0,
           "icon:10": {
-            "id:8": "betterquesting:placeholder",
+            "id:8": "contenttweaker:glitched1",
             "Count:3": 1,
-            "tag:10": {
-              "orig_meta:3": 0,
-              "orig_id:8": "contenttweaker:glitched1"
-            },
             "Damage:2": 0,
             "OreDict:8": ""
           },
@@ -14409,12 +14321,8 @@
           "consume:1": 0,
           "requiredItems:9": {
             "0:10": {
-              "id:8": "betterquesting:placeholder",
+              "id:8": "contenttweaker:glitched1",
               "Count:3": 1,
-              "tag:10": {
-                "orig_meta:3": 0,
-                "orig_id:8": "contenttweaker:glitched1"
-              },
               "Damage:2": 0,
               "OreDict:8": ""
             }
@@ -14544,12 +14452,8 @@
           "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
-            "id:8": "betterquesting:placeholder",
+            "id:8": "contenttweaker:padded10",
             "Count:3": 1,
-            "tag:10": {
-              "orig_meta:3": 0,
-              "orig_id:8": "contenttweaker:padded10"
-            },
             "Damage:2": 0,
             "OreDict:8": ""
           },
@@ -14612,6 +14516,57 @@
           "requiredItems:9": {
             "0:10": {
               "id:8": "morphtool:tool",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "226:10": {
+      "questID:3": 226,
+      "preRequisites:11": [
+        61
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "energymeters:meter",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Meassuring Energy",
+          "desc:8": "I\u0027d say this here generator makes about 20rf/t. If you don\u0027t trust me meassure it for yourself!"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "energymeters:meter",
               "Count:3": 1,
               "Damage:2": 0,
               "OreDict:8": ""
@@ -15717,6 +15672,13 @@
           "y:3": 232,
           "id:3": 224,
           "sizeY:3": 24
+        },
+        "82:10": {
+          "sizeX:3": 24,
+          "x:3": 76,
+          "y:3": 148,
+          "id:3": 226,
+          "sizeY:3": 24
         }
       },
       "lineID:3": 2,
@@ -16278,12 +16240,8 @@
           "visibility:8": "ALWAYS",
           "name:8": "Glitched Adventures",
           "icon:10": {
-            "id:8": "betterquesting:placeholder",
+            "id:8": "contenttweaker:corruptpsd",
             "Count:3": 1,
-            "tag:10": {
-              "orig_meta:3": 0,
-              "orig_id:8": "contenttweaker:corruptpsd"
-            },
             "Damage:2": 0,
             "OreDict:8": ""
           },
